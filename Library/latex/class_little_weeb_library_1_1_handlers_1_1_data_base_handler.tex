@@ -1,0 +1,804 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_af3623e6075f8aaf6f5082994cd1448df}{Data\+Base\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae04312874502a18b241c1123ef963b90}{Get\+Collection}} (string collection)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68}{Get\+J\+Object}} (string collection, string id)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a4d7ed521cd4bedc0d650bc01afc67587}{Get\+J\+Object}} (string collection, string property, string value)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7821535a003c7675c09ba846bd9502ca}{Remove\+J\+Object}} (string collection, string id)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ac9938b8d47b353d15c8e77e94849896e}{Remove\+J\+Object}} (string collection, string property, string value)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}{Store\+J\+Object}} (string collection, J\+Object to\+Store, string id=\char`\"{}\char`\"{})
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a9b2223ff71f688234f95d247ea3b5739}{Update\+J\+Object}} (string collection, J\+Object to\+Update, string id, bool overwrite=false)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae1bd1078fc9253555322dc0609c49863}{Update\+J\+Object}} (string collection, J\+Object to\+Update, string property, string value, bool overwrite=false)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{Data\+Base\+Path}} = \char`\"{}\char`\"{}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{Debug\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file Data\+Base\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_af3623e6075f8aaf6f5082994cd1448df}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_af3623e6075f8aaf6f5082994cd1448df}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Data\+Base\+Handler@{Data\+Base\+Handler}}
+\index{Data\+Base\+Handler@{Data\+Base\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Data\+Base\+Handler()}{DataBaseHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Data\+Base\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Base\+Path(), Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+31         \{
+32             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+33             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}} = debugHandler;
+34 
+35             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}} = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9fe4cf5d219f0453436fe9c85ad261bf}{BasePath}}(), \textcolor{stringliteral}{"DataBase"});
+36 
+37             \textcolor{keywordflow}{try}
+38             \{
+39                 \textcolor{keywordflow}{if} (!Directory.Exists(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}))
+40                 \{
+41                     Directory.CreateDirectory(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}});
+42                 \}
+43             \}
+44             \textcolor{keywordflow}{catch} (Exception e)
+45             \{
+46                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED OPENING OR CREATING DATABASE!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+47                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+48             \}
+49         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_af3623e6075f8aaf6f5082994cd1448df_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae04312874502a18b241c1123ef963b90}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae04312874502a18b241c1123ef963b90}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Get\+Collection@{Get\+Collection}}
+\index{Get\+Collection@{Get\+Collection}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Collection()}{GetCollection()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+Collection (\begin{DoxyParamCaption}\item[{string}]{collection }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a33ee83202d229f44d3839af7c1b65df0}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 51 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Read\+Binary\+File(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Unzip().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Get\+Collection(), and Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Get\+Current\+File\+History().
+
+
+\begin{DoxyCode}
+52         \{
+53             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetCollection called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+54             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+55 
+56             \textcolor{keywordtype}{string} collectionPath = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}, collection);
+57             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path: "} + collectionPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+58 
+59             \textcolor{keywordflow}{if} (!Directory.Exists(collectionPath)) \{
+60                 Directory.CreateDirectory(collectionPath);          
+61             \}
+62 
+63             \textcolor{keywordtype}{string}[] jsonFiles = Directory.GetFiles(collectionPath);
+64 
+65             JArray collectionlist = \textcolor{keyword}{new} JArray();
+66 
+67             \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} path \textcolor{keywordflow}{in} jsonFiles)
+68             \{
+69                 \textcolor{keywordflow}{if} (Path.GetExtension(path) == \textcolor{stringliteral}{".jzip"}) \{
+70                     byte[] data = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}{ReadBinaryFile}}(path);
+71                     \textcolor{keywordtype}{string} content = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}{Unzip}}(data);
+72                     JObject jObject = JObject.Parse(content);
+73                     collectionlist.Add(jObject);
+74                 \}
+75             \}
+76 
+77             \textcolor{keywordflow}{return} collectionlist;            
+78         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae04312874502a18b241c1123ef963b90_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae04312874502a18b241c1123ef963b90_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Get\+J\+Object@{Get\+J\+Object}}
+\index{Get\+J\+Object@{Get\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+J\+Object()}{GetJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 80 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Read\+Binary\+File(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Unzip().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Add\+File\+To\+File\+History(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Add\+Rules(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Filter\+Anime\+Rules(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Categories(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Genres(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Bot\+List(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing(), Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Get\+Document(), and Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Remove\+File\+From\+File\+History().
+
+
+\begin{DoxyCode}
+81         \{
+82 
+83             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+84             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+85             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Id: "} + \textcolor{keywordtype}{id}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+86 
+87             JObject toReturn = \textcolor{keyword}{new} JObject();
+88 
+89 
+90             \textcolor{keywordtype}{string} collectionPath = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}, collection);
+91             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path: "} + collectionPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+92             \textcolor{keywordtype}{string} path = PortablePath.Combine(collectionPath, \textcolor{keywordtype}{id} + \textcolor{stringliteral}{".jzip"});
+93             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path + File: "} + path, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+94             \textcolor{keywordflow}{try}
+95             \{
+96                 \textcolor{keywordflow}{if} (!Directory.Exists(collectionPath))
+97                 \{
+98                     Directory.CreateDirectory(collectionPath);
+99                 \}
+100                 \textcolor{keywordflow}{else}
+101                 \{
+102 
+103                     \textcolor{keywordflow}{if} (File.Exists(path))
+104                     \{
+105                         byte[] data = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}{ReadBinaryFile}}(path);
+106                         \textcolor{keywordtype}{string} content = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}{Unzip}}(data);
+107                         JObject jObject = JObject.Parse(content);
+108                         toReturn = jObject;
+109                     \}
+110                     \textcolor{keywordflow}{else}
+111                     \{
+112                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to open file: "} + path + \textcolor{stringliteral}{
+      ", file not found!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+113                     \}                   
+114                     
+115                 \}
+116 
+117                 
+118             \}
+119             \textcolor{keywordflow}{catch} (IOException ioe)
+120             \{
+121                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to open file: "} + path + \textcolor{stringliteral}{",
+       error: "} + ioe.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+122             \}
+123             \textcolor{keywordflow}{catch} (Exception e)
+124             \{
+125                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to open file: "} + path + \textcolor{stringliteral}{",
+       error: "} + e.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+126             \}
+127 
+128 
+129             
+130 
+131             \textcolor{keywordflow}{return} toReturn;
+132         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a4d7ed521cd4bedc0d650bc01afc67587}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a4d7ed521cd4bedc0d650bc01afc67587}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Get\+J\+Object@{Get\+J\+Object}}
+\index{Get\+J\+Object@{Get\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+J\+Object()}{GetJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{property,  }\item[{string}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a9d9a8fc06ab8431daa5363becf79cf65}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 134 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Read\+Binary\+File(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Unzip().
+
+
+\begin{DoxyCode}
+135         \{
+136 
+137             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+138             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+139             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Property: "} + property, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+140             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Value: "} + value, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+141 
+142             JObject toReturn = \textcolor{keyword}{new} JObject();
+143 
+144             \textcolor{keywordtype}{string} collectionPath = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}, collection);
+145             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path: "} + collectionPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+146             \textcolor{keywordtype}{string} pathparsing = \textcolor{stringliteral}{""};
+147             \textcolor{keywordflow}{try}
+148             \{
+149                 \textcolor{keywordflow}{if} (!Directory.Exists(collectionPath))
+150                 \{
+151                     Directory.CreateDirectory(collectionPath);
+152                 \}
+153 
+154                 \textcolor{keywordtype}{string}[] jsonFiles = Directory.GetFiles(collectionPath);
+155 
+156                 \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} path \textcolor{keywordflow}{in} jsonFiles)
+157                 \{
+158                     pathparsing = path;
+159                     \textcolor{keywordflow}{if} (Path.GetExtension(path) == \textcolor{stringliteral}{".jzip"})
+160                     \{
+161                         byte[] data = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}{ReadBinaryFile}}(path);
+162                         \textcolor{keywordtype}{string} content = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}{Unzip}}(data);
+163                         JObject jObject = JObject.Parse(content);
+164 
+165                         \textcolor{keywordflow}{if} (jObject.Value<\textcolor{keywordtype}{string}>(property) == value)
+166                         \{
+167                             toReturn = jObject;
+168                             \textcolor{keywordflow}{break};
+169                         \}
+170                     \}
+171                 \}
+172             \}
+173             \textcolor{keywordflow}{catch} (IOException ioe)
+174             \{
+175                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to open file: "} + pathparsing + \textcolor{stringliteral}{"
+      , error: "} + ioe.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+176             \}
+177             \textcolor{keywordflow}{catch} (Exception e)
+178             \{
+179                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to open file: "} + pathparsing + \textcolor{stringliteral}{"
+      , error: "} + e.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+180             \}
+181 
+182 
+183             
+184 
+185             \textcolor{keywordflow}{return} toReturn;
+186         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a4d7ed521cd4bedc0d650bc01afc67587_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7821535a003c7675c09ba846bd9502ca}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7821535a003c7675c09ba846bd9502ca}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Remove\+J\+Object@{Remove\+J\+Object}}
+\index{Remove\+J\+Object@{Remove\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Remove\+J\+Object()}{RemoveJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Remove\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a4d78b21102490d85906d0eb3f4693227}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 188 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Delete\+Document(), and Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Remove\+File\+From\+File\+History().
+
+
+\begin{DoxyCode}
+189         \{
+190 
+191             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"RemoveJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+192             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+193             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ID: "} + \textcolor{keywordtype}{id}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+194 
+195             \textcolor{keywordtype}{string} collectionPath = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}, collection);
+196             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path: "} + collectionPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+197 
+198             \textcolor{keywordtype}{bool} toReturn = \textcolor{keyword}{false};
+199 
+200             await Task.Run(() =>
+201             \{
+202                 \textcolor{keywordflow}{if} (Directory.Exists(collectionPath))
+203                 \{
+204 
+205                     \textcolor{keywordtype}{string} toRemove = PortablePath.Combine(collectionPath, \textcolor{keywordtype}{id} + \textcolor{stringliteral}{".jzip"});
+206                     \textcolor{keywordflow}{try}
+207                     \{
+208 
+209                         \textcolor{keywordflow}{if} (File.Exists(toRemove))
+210                         \{
+211                             File.Delete(toRemove);
+212                             toReturn = \textcolor{keyword}{true};
+213                         \}
+214                         \textcolor{keywordflow}{else}
+215                         \{
+216                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to remove file: "} + 
+      toRemove + \textcolor{stringliteral}{", error: File not found!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+217                         \}
+218                     \}
+219                     \textcolor{keywordflow}{catch} (IOException ioe)
+220                     \{
+221                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to remove file: "} + 
+      toRemove + \textcolor{stringliteral}{", error: "} + ioe.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+222                     \}
+223                     \textcolor{keywordflow}{catch} (Exception e)
+224                     \{
+225                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to remove file: "} + 
+      toRemove + \textcolor{stringliteral}{", error: "} + e.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+226                     \}
+227                 \}
+228             \});
+229            
+230             
+231 
+232             \textcolor{keywordflow}{return} toReturn;
+233         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7821535a003c7675c09ba846bd9502ca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7821535a003c7675c09ba846bd9502ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ac9938b8d47b353d15c8e77e94849896e}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ac9938b8d47b353d15c8e77e94849896e}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Remove\+J\+Object@{Remove\+J\+Object}}
+\index{Remove\+J\+Object@{Remove\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Remove\+J\+Object()}{RemoveJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Remove\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{property,  }\item[{string}]{value }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a76b8da1f75749b16e095dc3d635cebdf}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 235 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Read\+Binary\+File(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Unzip().
+
+
+\begin{DoxyCode}
+236         \{
+237 
+238             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"RemoveJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+239             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+240             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Property: "} + property, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+241             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Value: "} + value, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+242 
+243             \textcolor{keywordtype}{string} collectionPath = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}, collection);
+244             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path: "} + collectionPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+245 
+246             \textcolor{keywordtype}{bool} toReturn = \textcolor{keyword}{false};
+247 
+248             \textcolor{keywordflow}{if} (Directory.Exists(collectionPath))
+249             \{
+250                
+251                 \textcolor{keywordtype}{string} toRemove = \textcolor{stringliteral}{""};
+252                 \textcolor{keywordflow}{try}
+253                 \{
+254                     \textcolor{keywordtype}{string}[] jsonFiles = Directory.GetFiles(collectionPath);
+255 
+256                     \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} path \textcolor{keywordflow}{in} jsonFiles)
+257                     \{
+258                         \textcolor{keywordflow}{if} (Path.GetExtension(path) == \textcolor{stringliteral}{".jzip"})
+259                         \{
+260                             byte[] data = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}{ReadBinaryFile}}(path);
+261                             \textcolor{keywordtype}{string} content = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}{Unzip}}(data);
+262                             JObject jObject = JObject.Parse(content);
+263 
+264                             \textcolor{keywordflow}{if} (jObject.Value<\textcolor{keywordtype}{string}>(property) == value)
+265                             \{
+266                                 toReturn = \textcolor{keyword}{true};
+267                                 toRemove = path;
+268                                 \textcolor{keywordflow}{break};
+269                             \}
+270                         \}
+271                     \}
+272                     File.Delete(toRemove);
+273                 \}
+274                 \textcolor{keywordflow}{catch} (IOException ioe)
+275                 \{
+276                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to remove file: "} + toRemove 
+      + \textcolor{stringliteral}{", error: "} + ioe.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+277                 \}
+278                 \textcolor{keywordflow}{catch} (Exception e)
+279                 \{
+280                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to remove file: "} + toRemove 
+      + \textcolor{stringliteral}{", error: "} + e.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+281                 \}
+282             \}
+283 
+284             \textcolor{keywordflow}{return} toReturn;
+285         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ac9938b8d47b353d15c8e77e94849896e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Store\+J\+Object@{Store\+J\+Object}}
+\index{Store\+J\+Object@{Store\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Store\+J\+Object()}{StoreJObject()}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Store\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{J\+Object}]{to\+Store,  }\item[{string}]{id = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 287 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Write\+Binary\+File(), and Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Zip().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Add\+File\+To\+File\+History(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Categories(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Genres(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Bot\+List(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing(), and Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Store\+Document().
+
+
+\begin{DoxyCode}
+288         \{
+289 
+290             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StoreJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+291             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+292 
+293 
+294              \textcolor{keywordtype}{bool} toReturn = \textcolor{keyword}{false};
+295 
+296             \textcolor{keywordtype}{string} collectionPath = PortablePath.Combine(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}{DataBasePath}}, collection);
+297 
+298             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{id} == \textcolor{keywordtype}{string}.Empty)
+299             \{
+300                 \textcolor{keywordtype}{id} = Guid.NewGuid().ToString(\textcolor{stringliteral}{"N"});
+301             \}
+302 
+303             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection Path: "} + collectionPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+304             \textcolor{keywordtype}{string} pathparsing = PortablePath.Combine(collectionPath, \textcolor{keywordtype}{id} + \textcolor{stringliteral}{".jzip"});
+305             \textcolor{keywordflow}{try}
+306             \{
+307                 \textcolor{keywordflow}{if} (!Directory.Exists(collectionPath))
+308                 \{
+309                     Directory.CreateDirectory(collectionPath);
+310                 \}
+311 
+312                 toStore[\textcolor{stringliteral}{"\_id"}] = id;
+313 
+314                 byte[] zipped = await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a16933213071d531063b29979e7b55fe8}{Zip}}(toStore.ToString());
+315                 await \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a6542a3a6ea0aed6b4d78bb44a4a7d9d7}{WriteBinaryFile}}(pathparsing, zipped);
+316 
+317                 toReturn = \textcolor{keyword}{true};
+318             \}
+319             \textcolor{keywordflow}{catch} (IOException ioe)
+320             \{
+321                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to write file: "} + pathparsing + \textcolor{stringliteral}{
+      ", error: "} + ioe.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+322             \}
+323             \textcolor{keywordflow}{catch} (Exception e)
+324             \{
+325                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to write file: "} + pathparsing + \textcolor{stringliteral}{
+      ", error: "} + e.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+326             \}          
+327             
+328 
+329             \textcolor{keywordflow}{return} toReturn;
+330         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a9b2223ff71f688234f95d247ea3b5739}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a9b2223ff71f688234f95d247ea3b5739}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Update\+J\+Object@{Update\+J\+Object}}
+\index{Update\+J\+Object@{Update\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Update\+J\+Object()}{UpdateJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{J\+Object}]{to\+Update,  }\item[{string}]{id,  }\item[{bool}]{overwrite = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a30fbd69419ce902612a3c323b451f3fa}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 332 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Add\+Rules(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Episodes(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing(), Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Remove\+File\+From\+File\+History(), and Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Update\+Document().
+
+
+\begin{DoxyCode}
+333         \{
+334             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"UpdateJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+335             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+336             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Id: "} + \textcolor{keywordtype}{id}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+337 
+338             \textcolor{keywordtype}{bool} toReturn = \textcolor{keyword}{false};
+339 
+340             JObject old = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68}{GetJObject}}(collection, \textcolor{keywordtype}{id});
+341 
+342             \textcolor{keywordflow}{if} (old.Count > 0)
+343             \{
+344                 \textcolor{keywordflow}{if} (!overwrite)
+345                 \{
+346 
+347                     JsonMergeSettings mergeSettings = \textcolor{keyword}{new} JsonMergeSettings()
+348                     \{
+349                         MergeArrayHandling = MergeArrayHandling.Union
+350                     \};
+351                     old.Merge(toUpdate, mergeSettings);
+352 
+353                 \}
+354                 \textcolor{keywordflow}{else}
+355                 \{
+356                     old = toUpdate;
+357                 \}
+358                 toReturn = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}{StoreJObject}}(collection, old, \textcolor{keywordtype}{id});
+359             \}
+360             \textcolor{keywordflow}{else}
+361             \{
+362                 toReturn = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}{StoreJObject}}(collection, toUpdate, \textcolor{keywordtype}{id});
+363             \}
+364 
+365             \textcolor{keywordflow}{return} toReturn;
+366         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a9b2223ff71f688234f95d247ea3b5739_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a9b2223ff71f688234f95d247ea3b5739_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae1bd1078fc9253555322dc0609c49863}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae1bd1078fc9253555322dc0609c49863}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Update\+J\+Object@{Update\+J\+Object}}
+\index{Update\+J\+Object@{Update\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Update\+J\+Object()}{UpdateJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{J\+Object}]{to\+Update,  }\item[{string}]{property,  }\item[{string}]{value,  }\item[{bool}]{overwrite = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}.
+
+
+
+Definition at line 368 of file Data\+Base\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+369         \{
+370             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"UpdateJObject called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+371             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Collection: "} + collection, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+372             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Property: "} + property, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+373             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Value: "} + value, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+374 
+375             \textcolor{keywordtype}{bool} toReturn = \textcolor{keyword}{false};
+376 
+377             JObject old = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68}{GetJObject}}(collection, property, value);
+378 
+379             \textcolor{keywordflow}{if} (old.Count > 0)
+380             \{
+381                 \textcolor{keywordflow}{if} (!overwrite)
+382                 \{
+383 
+384                     JsonMergeSettings mergeSettings = \textcolor{keyword}{new} JsonMergeSettings()
+385                     \{
+386                         MergeArrayHandling = MergeArrayHandling.Union
+387                     \};
+388                     old.Merge(toUpdate, mergeSettings);
+389 
+390                 \}
+391                 \textcolor{keywordflow}{else}
+392                 \{
+393                     old = toUpdate;
+394                 \}
+395                 toReturn = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}{StoreJObject}}(collection, old, old.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"\_id"}));
+396             \}
+397             \textcolor{keywordflow}{else}
+398             \{
+399                 toReturn = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}{StoreJObject}}(collection, toUpdate);
+400             \}
+401 
+402             \textcolor{keywordflow}{return} toReturn;
+403         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae1bd1078fc9253555322dc0609c49863_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aa474a1f934032623ffb3ae5eb156148b}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 27 of file Data\+Base\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}\label{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_aeea801d75a8294727c8b8e2805b43abb}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}!Data\+Base\+Path@{Data\+Base\+Path}}
+\index{Data\+Base\+Path@{Data\+Base\+Path}!Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Data\+Base\+Path}{DataBasePath}}
+{\footnotesize\ttfamily readonly string Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Data\+Base\+Path = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file Data\+Base\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_data_base_handler_8cs}{Data\+Base\+Handler.\+cs}}\end{DoxyCompactItemize}

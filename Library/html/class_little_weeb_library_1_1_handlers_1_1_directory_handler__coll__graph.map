@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.DirectoryHandler" name="LittleWeebLibrary.Handlers.DirectoryHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler.html" title="{IDirectoryHandler\n||+ CreateDirectory()\l+ DeleteDirectory()\l+ GetDirectories()\l+ GetDrives()\l+ GetFreeSpace()\l+ OpenDirectory()\l}" alt="" coords="5,5,137,156"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="161,20,344,141"/>
+</map>

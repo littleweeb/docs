@@ -1,0 +1,422 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler}\index{Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler@{Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_ab8aa730a5d9db1b2624723394bd06191}{File\+History\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} data\+Base\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a615bf14eae35f656b211f0500abe4d29}{Add\+File\+To\+File\+History}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info}{Json\+Downloaded\+Info}} download\+Info)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list}{Json\+Downloaded\+List}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a7e5a72e2cfdc3dfe97066cc7504b4445}{Get\+Current\+File\+History}} ()
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a3b3f0cdedee405d607feff81c2de085d}{Remove\+File\+From\+File\+History}} (string anime\+\_\+id, string id=null, string filepath=null)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{Data\+Base\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{Debug\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 18 of file File\+History\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_ab8aa730a5d9db1b2624723394bd06191}\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_ab8aa730a5d9db1b2624723394bd06191}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}!File\+History\+Handler@{File\+History\+Handler}}
+\index{File\+History\+Handler@{File\+History\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}}
+\subsubsection{\texorpdfstring{File\+History\+Handler()}{FileHistoryHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+File\+History\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}}}]{data\+Base\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 25 of file File\+History\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+26         \{
+27             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+28             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}} = debugHandler;
+29             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}} = dataBaseHandler;
+30         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_ab8aa730a5d9db1b2624723394bd06191_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a615bf14eae35f656b211f0500abe4d29}\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a615bf14eae35f656b211f0500abe4d29}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}!Add\+File\+To\+File\+History@{Add\+File\+To\+File\+History}}
+\index{Add\+File\+To\+File\+History@{Add\+File\+To\+File\+History}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}}
+\subsubsection{\texorpdfstring{Add\+File\+To\+File\+History()}{AddFileToFileHistory()}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Add\+File\+To\+File\+History (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info}{Json\+Downloaded\+Info}}}]{download\+Info }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_a61ccff04c662692b2ad3f67773c73918}{Little\+Weeb\+Library.\+Handlers.\+I\+File\+History\+Handler}}.
+
+
+
+Definition at line 32 of file File\+History\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+Info.\+anime\+\_\+id, Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+Info.\+anime\+\_\+name, Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+List.\+download\+Historylist, Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+Info.\+id, Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Store\+J\+Object(), Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+List.\+To\+J\+Object(), Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+Info.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+33         \{
+34 
+35             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"AddFileToFileHistory Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+36             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(downloadInfo.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a1ffa120527f102b7bf96a4c0a2d9e298}{ToString}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+37 
+38             JObject current\_anime = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"anime"}, \textcolor{stringliteral}{"anime\_id"}, downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a400a0cb7bf87a5c5a03c099ebd95fc07}{anime\_id}});
+39             JObject current\_anime\_download\_list = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"downloads"}, \textcolor{stringliteral}{"anime\_id"}, downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a400a0cb7bf87a5c5a03c099ebd95fc07}{anime\_id}});
+40 
+41             \textcolor{keywordtype}{bool} toreturn = \textcolor{keyword}{false};
+42 
+43             \textcolor{keywordflow}{if} (current\_anime.Count > 0)
+44             \{
+45                 JArray currentlydownloaded = current\_anime.Value<JArray>(\textcolor{stringliteral}{"anime\_episodes\_downloads"});
+46 
+47                 \textcolor{keywordflow}{foreach} (JObject downloaded \textcolor{keywordflow}{in} currentlydownloaded) \{
+48                     \textcolor{keywordflow}{if} (downloaded.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"}) == downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_aeb59734113f03f4435a5a2d51c1d6f5c}{id}})
+49                     \{
+50                         toreturn = \textcolor{keyword}{false};
+51                         \textcolor{keywordflow}{break};
+52                     \}
+53                     \textcolor{keywordflow}{else}
+54                     \{
+55                         toreturn = \textcolor{keyword}{true};
+56                     \}
+57                 \}
+58 
+59                 \textcolor{keywordflow}{if} (toreturn)
+60                 \{
+61                     currentlydownloaded.Add(downloadInfo);
+62                     current\_anime[\textcolor{stringliteral}{"anime\_episodes\_downloads"}] = currentlydownloaded;
+63 
+64                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{StoreJObject}}(\textcolor{stringliteral}{"anime"}, current\_anime, 
+      downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a400a0cb7bf87a5c5a03c099ebd95fc07}{anime\_id}});
+65 
+66                     \textcolor{keywordflow}{if} (current\_anime\_download\_list.Count > 0)
+67                     \{
+68                         JArray currentDownloaded = current\_anime\_download\_list.Value<JArray>(\textcolor{stringliteral}{"
+      downloadHistorylist"});
+69 
+70                         \textcolor{keywordflow}{foreach} (JObject download \textcolor{keywordflow}{in} currentDownloaded)
+71                         \{
+72                             \textcolor{keywordflow}{if} (download.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"}) == downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_aeb59734113f03f4435a5a2d51c1d6f5c}{id}})
+73                             \{
+74                                 toreturn = \textcolor{keyword}{false};
+75                                 \textcolor{keywordflow}{break};
+76                             \}
+77                             \textcolor{keywordflow}{else}
+78                             \{
+79                                 toreturn = \textcolor{keyword}{true};
+80                             \}
+81                         \}
+82 
+83                         \textcolor{keywordflow}{if} (toreturn)
+84                         \{
+85                             currentDownloaded.Add(downloadInfo);
+86                             current\_anime\_download\_list[\textcolor{stringliteral}{"downloadHistorylist"}] = currentDownloaded;
+87                             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{StoreJObject}}(\textcolor{stringliteral}{"downloads"}, 
+      current\_anime\_download\_list, downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a400a0cb7bf87a5c5a03c099ebd95fc07}{anime\_id}});
+88                         \}
+89                     \}
+90                     \textcolor{keywordflow}{else}
+91                     \{
+92                         \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list}{JsonDownloadedList}} downloadedList = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list}{JsonDownloadedList}}()
+93                         \{
+94                             anime\_id = downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a400a0cb7bf87a5c5a03c099ebd95fc07}{anime\_id}},
+95                             anime\_cover = current\_anime.Value<JObject>(\textcolor{stringliteral}{"anime\_info"}).Value<JArray>(\textcolor{stringliteral}{"data"})[
+      0][\textcolor{stringliteral}{"attributes"}].Value<JObject>(\textcolor{stringliteral}{"coverImage"}),
+96                             anime\_title = downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a48cda1035291586df653b956a5075a24}{anime\_name}}
+97                         \};
+98 
+99                         downloadedList.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list_a703b2878786376f7a1ad264118a70d75}{downloadHistorylist}}.Add(downloadInfo);
+100 
+101                         await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{StoreJObject}}(\textcolor{stringliteral}{"downloads"}, 
+      downloadedList.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list_a97de2493e2a60e3d98bd480c311a08b9}{ToJObject}}(), downloadInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_info_a400a0cb7bf87a5c5a03c099ebd95fc07}{anime\_id}});
+102                         toreturn = \textcolor{keyword}{true};
+103                     \}
+104                 \}
+105               
+106             \}
+107                     
+108 
+109             \textcolor{keywordflow}{return} toreturn;
+110            
+111         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a615bf14eae35f656b211f0500abe4d29_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a615bf14eae35f656b211f0500abe4d29_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a3b3f0cdedee405d607feff81c2de085d}\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a3b3f0cdedee405d607feff81c2de085d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}!Remove\+File\+From\+File\+History@{Remove\+File\+From\+File\+History}}
+\index{Remove\+File\+From\+File\+History@{Remove\+File\+From\+File\+History}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}}
+\subsubsection{\texorpdfstring{Remove\+File\+From\+File\+History()}{RemoveFileFromFileHistory()}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Remove\+File\+From\+File\+History (\begin{DoxyParamCaption}\item[{string}]{anime\+\_\+id,  }\item[{string}]{id = {\ttfamily null},  }\item[{string}]{filepath = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_afcfb45f7f8a2161350d0b78c25a3d0d3}{Little\+Weeb\+Library.\+Handlers.\+I\+File\+History\+Handler}}.
+
+
+
+Definition at line 113 of file File\+History\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Remove\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Delete\+File().
+
+
+\begin{DoxyCode}
+114         \{
+115 
+116             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"RemoveFileFromFileHistory Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+117             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{id} != null)
+118             \{
+119                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ID: "} + \textcolor{keywordtype}{id}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+120             \}
+121             \textcolor{keywordflow}{if} (filepath != null)
+122             \{
+123                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Filepath: "} + filepath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+124             \}
+125 
+126             JObject current\_anime = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"anime"}, \textcolor{stringliteral}{"anime\_id"}, anime\_id);
+127             JObject current\_anime\_download\_list = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"downloads"}, \textcolor{stringliteral}{"anime\_id"}, anime\_id);
+128 
+129             \textcolor{keywordtype}{bool} found = \textcolor{keyword}{false};
+130             \textcolor{keywordflow}{if} (current\_anime.Count > 0)
+131             \{
+132                 JArray currentlydownloaded = current\_anime.Value<JArray>(\textcolor{stringliteral}{"anime\_episodes\_downloads"});
+133 
+134                 \textcolor{keywordtype}{int} indexToDelete = 0;
+135                 \textcolor{keywordflow}{foreach} (JObject downloaded \textcolor{keywordflow}{in} currentlydownloaded)
+136                 \{
+137                     \textcolor{keywordflow}{if} (downloaded.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"}) == id)
+138                     \{
+139                         found = \textcolor{keyword}{true};
+140                         \textcolor{keywordflow}{break};
+141                     \}
+142 
+143                     \textcolor{keywordflow}{if} (downloaded.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"filepath"}) == id)
+144                     \{
+145                         found = \textcolor{keyword}{true};
+146                         \textcolor{keywordflow}{break};
+147                     \}
+148                     indexToDelete++;
+149                 \}
+150 
+151                 \textcolor{keywordflow}{if} (found)
+152                 \{
+153                     currentlydownloaded.RemoveAt(indexToDelete);
+154                     current\_anime[\textcolor{stringliteral}{"anime\_episodes\_downloads"}] = currentlydownloaded;
+155                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{UpdateJObject}}(\textcolor{stringliteral}{"anime"}, current\_anime,
+       \textcolor{stringliteral}{"anime\_id"}, anime\_id);
+156 
+157 
+158                     \textcolor{keywordflow}{if} (current\_anime\_download\_list.Count > 0)
+159                     \{
+160                         JArray currentDownloaded = current\_anime\_download\_list.Value<JArray>(\textcolor{stringliteral}{"
+      downloadHistorylist"});
+161                         found = \textcolor{keyword}{false};
+162                         \textcolor{keywordtype}{int} index = 0;
+163                         \textcolor{keywordflow}{foreach} (JObject downloaded \textcolor{keywordflow}{in} currentDownloaded)
+164                         \{
+165                             \textcolor{keywordflow}{if} (downloaded.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"}) == id)
+166                             \{
+167                                 found = \textcolor{keyword}{true};
+168                                 \textcolor{keywordflow}{break};
+169                             \}
+170 
+171                             \textcolor{keywordflow}{if} (downloaded.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"filepath"}) == id)
+172                             \{
+173                                 found = \textcolor{keyword}{true};
+174                                 \textcolor{keywordflow}{break};
+175                             \}
+176                             index++;
+177                         \}
+178 
+179                         currentDownloaded.RemoveAt(index);
+180 
+181                         \textcolor{keywordflow}{if} (currentDownloaded.Count > 0)
+182                         \{
+183                             current\_anime\_download\_list[\textcolor{stringliteral}{"downloadHistorylist"}] = currentDownloaded;
+184                             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{UpdateJObject}}(\textcolor{stringliteral}{"downloads"}, 
+      current\_anime\_download\_list, anime\_id);
+185                         \}
+186                         \textcolor{keywordflow}{else}
+187                         \{
+188                             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a76b8da1f75749b16e095dc3d635cebdf}{RemoveJObject}}(\textcolor{stringliteral}{"downloads"}, 
+      anime\_id);
+189                         \}
+190 
+191                     \}
+192                 \}
+193             \}
+194 
+195             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+196         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a3b3f0cdedee405d607feff81c2de085d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a3b3f0cdedee405d607feff81c2de085d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a7e5a72e2cfdc3dfe97066cc7504b4445}\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a7e5a72e2cfdc3dfe97066cc7504b4445}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}!Get\+Current\+File\+History@{Get\+Current\+File\+History}}
+\index{Get\+Current\+File\+History@{Get\+Current\+File\+History}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Current\+File\+History()}{GetCurrentFileHistory()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list}{Json\+Downloaded\+List}}$>$ Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Get\+Current\+File\+History (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_a4c21e166d6be24e3378cdbbf938c4671}{Little\+Weeb\+Library.\+Handlers.\+I\+File\+History\+Handler}}.
+
+
+
+Definition at line 199 of file File\+History\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+Collection(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Get\+Current\+File\+History().
+
+
+\begin{DoxyCode}
+200         \{
+201 
+202             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetCurrentFileHistory Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+203 
+204             JArray listWithDownloads = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}{DataBaseHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a33ee83202d229f44d3839af7c1b65df0}{GetCollection}}(\textcolor{stringliteral}{"downloads"});
+205 
+206             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list}{JsonDownloadedList}} list = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_downloaded_list}{JsonDownloadedList}}()
+207             \{
+208                 downloadHistorylist = listWithDownloads
+209             \};
+210 
+211             \textcolor{keywordflow}{return} list;
+212         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a7e5a72e2cfdc3dfe97066cc7504b4445_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a7e5a72e2cfdc3dfe97066cc7504b4445_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afeb86d3ea5c145f7dd6937f061679395}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 22 of file File\+History\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}\label{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_afe186c8ea770ecb9253a07f82f23c471}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}!Data\+Base\+Handler@{Data\+Base\+Handler}}
+\index{Data\+Base\+Handler@{Data\+Base\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}}
+\subsubsection{\texorpdfstring{Data\+Base\+Handler}{DataBaseHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Data\+Base\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 23 of file File\+History\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_file_history_handler_8cs}{File\+History\+Handler.\+cs}}\end{DoxyCompactItemize}

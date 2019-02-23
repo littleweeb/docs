@@ -1,0 +1,1061 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a01745667c95f2c3d5c461f708aa13bb8}{Irc\+Client\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} settings\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa15fe2f3c1bd99a513400b0880298edd}{Current\+Settings}} ()
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2cc2c26c57a1c94f209ca8641c9e25ef}{Is\+Connected}} ()
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a093409b2b1397a6a061e00802546c87b}{Is\+Downloading}} ()
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae28984176dff0eda63604b8e5c25abb4}{Send\+Message}} (string message)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aafe7e3669d3fdd8a0a3c37a240b3c574}{Setfullfilepath}} (string path)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a510c909225e51c66b65f7114ebd356d3}{Set\+Irc\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} settings)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae0b7e9fc2b6c7874a6be2a938f88fc1a}{Set\+Little\+Weeb\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} settings)
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae463832b8e9aea73f26ed6188a14d92e}{Start\+Connection}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} settings=null)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afa3e3e60cc12d3867d3c6e2a188dca14}{Start\+Download}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} download)
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a97a617b50a161906a91ce1ea483a1770}{Stop\+Connection}} ()
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a265ca021f5086addf758e87f59a0aa11}{Stop\+Download}} ()
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{Irc\+Client\+Connection\+Status\+Args}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa8ef070963f103cc627e781c39b90c64}{On\+Irc\+Client\+Connection\+Status\+Event}}
+\item 
+Event\+Handler$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args}{Irc\+Client\+Download\+Event\+Args}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a43ee49f8e97d65bf318e5f663587d7a6}{On\+Irc\+Client\+Download\+Event}}
+\item 
+Event\+Handler$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args}{Irc\+Client\+Message\+Event\+Args}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a60906730beb3dae974b2bdc77a51bb8d}{On\+Irc\+Client\+Message\+Event}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afef5cc2f76989366cb52ffa7d5a78752}{On\+Download\+Update}} (object sender, D\+C\+C\+Event\+Args args)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_abdc8785a2452e7a1d496c44a424d1812}{On\+Download\+Update\+Debug}} (object sender, D\+C\+C\+Debug\+Message\+Args args)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ad97947bcce5bebd851bef6e29fecb467}{On\+Message}} (object sender, Irc\+Received\+Event\+Args args)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2b48c617972be0b3079a262ffc8141f6}{On\+Message\+Debug}} (object sender, Irc\+Debug\+Message\+Event\+Args args)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a8ffa9ba31b96d32a4c1fdafc04afaf5e}{On\+User\+List\+Update}} (object sender, Irc\+User\+List\+Received\+Event\+Args args)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{Debug\+Handler}}
+\item 
+Simple\+I\+RC \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{Irc\+Client}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a5a8c1eee913ec3c9afad8acd1bfbc37c}{Irc\+Settings}}
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}{Is\+Connected\+Bool}} = false
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a03a557318cb10111d7871fb229a86a86}{Little\+Weeb\+Settings}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ac52cdf245955073d59f8193e167c149d}{Settings\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 30 of file Irc\+Client\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a01745667c95f2c3d5c461f708aa13bb8}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a01745667c95f2c3d5c461f708aa13bb8}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Irc\+Client\+Handler@{Irc\+Client\+Handler}}
+\index{Irc\+Client\+Handler@{Irc\+Client\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Irc\+Client\+Handler()}{IrcClientHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Irc\+Client\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}}}]{settings\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 48 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+fullfilepath, Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Get\+Irc\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Get\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+49         \{
+50 
+51             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+52 
+53             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ac52cdf245955073d59f8193e167c149d}{SettingsHandler}} = settingsHandler;
+54             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}} = debugHandler;
+55 
+56             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}} = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ac52cdf245955073d59f8193e167c149d}{SettingsHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_a8ee9be789e628c80fae0db96d890569b}{GetIrcSettings}}();
+57             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ac52cdf245955073d59f8193e167c149d}{SettingsHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_a493bc8df18211fa8c3874371b809e006}{GetLittleWeebSettings}}();
+58 
+59             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}} = \textcolor{keyword}{new} SimpleIRC();
+60             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.SetCustomDownloadDir( \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}{fullfilepath}});
+61             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.IrcClient.OnUserListReceived += \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a8ffa9ba31b96d32a4c1fdafc04afaf5e}{OnUserListUpdate}};
+62             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.IrcClient.OnMessageReceived += \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ad97947bcce5bebd851bef6e29fecb467}{OnMessage}};
+63             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.IrcClient.OnDebugMessage += \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2b48c617972be0b3079a262ffc8141f6}{OnMessageDebug}};
+64             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.DccClient.OnDccEvent += \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afef5cc2f76989366cb52ffa7d5a78752}{OnDownloadUpdate}};
+65             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.DccClient.OnDccDebugMessage += 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_abdc8785a2452e7a1d496c44a424d1812}{OnDownloadUpdateDebug}};            
+66 
+67         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a01745667c95f2c3d5c461f708aa13bb8_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a510c909225e51c66b65f7114ebd356d3}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a510c909225e51c66b65f7114ebd356d3}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Set\+Irc\+Settings@{Set\+Irc\+Settings}}
+\index{Set\+Irc\+Settings@{Set\+Irc\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Set\+Irc\+Settings()}{SetIrcSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Set\+Irc\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a9ddf06e247a96d757482b37ddb070e3d}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 69 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+70         \{
+71             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SetIrcSettings Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+72             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+73             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}} = settings;
+74         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a510c909225e51c66b65f7114ebd356d3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae0b7e9fc2b6c7874a6be2a938f88fc1a}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae0b7e9fc2b6c7874a6be2a938f88fc1a}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}}
+\index{Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Set\+Little\+Weeb\+Settings()}{SetLittleWeebSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Set\+Little\+Weeb\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a5c53e44105f1f4c7f8c3e546d29939d7}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 76 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+77         \{
+78             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SetLittleWeebSettings Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+79             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+80             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = settings;
+81         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae0b7e9fc2b6c7874a6be2a938f88fc1a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aafe7e3669d3fdd8a0a3c37a240b3c574}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aafe7e3669d3fdd8a0a3c37a240b3c574}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Setfullfilepath@{Setfullfilepath}}
+\index{Setfullfilepath@{Setfullfilepath}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Setfullfilepath()}{Setfullfilepath()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Setfullfilepath (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_a060949c5d049dd8a06c0ef672b4d4fad}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 83 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+fullfilepath, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+84         \{
+85             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Setfullfilepath Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+86             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(path, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+87             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.SetCustomDownloadDir(path);
+88             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}{fullfilepath}}= path;
+89         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aafe7e3669d3fdd8a0a3c37a240b3c574_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae28984176dff0eda63604b8e5c25abb4}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae28984176dff0eda63604b8e5c25abb4}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Send\+Message@{Send\+Message}}
+\index{Send\+Message@{Send\+Message}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Send\+Message()}{SendMessage()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Send\+Message (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_aa9da8681f056b8122ad56c586a78fed0}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 91 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Send\+Message().
+
+
+\begin{DoxyCode}
+92         \{
+93             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SendMessage Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+94             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(message, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+95 
+96             \textcolor{keywordflow}{try}
+97             \{
+98                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}} != null)
+99                 \{
+100                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.IsClientRunning())
+101                     \{
+102                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.SendMessageToAll(message);
+103                     \}
+104                     \textcolor{keywordflow}{else}
+105                     \{
+106                        \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Irc client is not connected!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+107                     \}
+108                 \}
+109                 \textcolor{keywordflow}{else}
+110                 \{
+111                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Irc client is not set!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+112                 \}
+113             \}
+114             \textcolor{keywordflow}{catch} (Exception e)
+115             \{
+116                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+117             \}
+118         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae28984176dff0eda63604b8e5c25abb4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae28984176dff0eda63604b8e5c25abb4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afa3e3e60cc12d3867d3c6e2a188dca14}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afa3e3e60cc12d3867d3c6e2a188dca14}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Start\+Download@{Start\+Download}}
+\index{Start\+Download@{Start\+Download}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Start\+Download()}{StartDownload()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Download (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}}}]{download }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_af14486a1ffa0b1d4ab3058f442ee9d6a}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 120 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info.\+bot, Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info.\+download\+Directory, Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info.\+pack, Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Download\+Queue\+Handler().
+
+
+\begin{DoxyCode}
+121         \{
+122             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StartDownload Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+123             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(download.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info_af36cbb3251b0efcd80a45f1fef89f5c9}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+124 
+125             \textcolor{keywordflow}{try}
+126             \{
+127                 \textcolor{keywordtype}{string} xdccMessage = \textcolor{stringliteral}{"/msg "} + download.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info_a0c8281bcd1f8766ddc86d89f0dc1b23c}{bot}} + \textcolor{stringliteral}{" xdcc send #"} + download.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info_a22ff0d4dde2f90e7ee5048a9cf01393f}{pack}};
+128                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.SetCustomDownloadDir(download.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info_af04b1b815de21ea578f039ecc0e2957b}{downloadDirectory}});
+129                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae28984176dff0eda63604b8e5c25abb4}{SendMessage}}(xdccMessage);
+130             \}
+131             \textcolor{keywordflow}{catch} (Exception e)
+132             \{
+133                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+134             \}
+135         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afa3e3e60cc12d3867d3c6e2a188dca14_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afa3e3e60cc12d3867d3c6e2a188dca14_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae463832b8e9aea73f26ed6188a14d92e}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae463832b8e9aea73f26ed6188a14d92e}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Start\+Connection@{Start\+Connection}}
+\index{Start\+Connection@{Start\+Connection}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Start\+Connection()}{StartConnection()}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Connection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}}]{settings = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_a0a814a058f665efda8c88eb5306658f5}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 137 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Channels, Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Port, Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Secure, Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Server\+Address, Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+User\+Name.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect().
+
+
+\begin{DoxyCode}
+138         \{
+139             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StartConnection Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+140             \textcolor{keywordflow}{try}
+141             \{
+142                 \textcolor{keywordflow}{if} (settings != null)
+143                 \{
+144 
+145                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(settings.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}{ToString}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+146                     \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}} = settings;
+147                 \}
+148                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.SetupIrc(\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a99953f00fc76a98af0bd06129876d5ef}{ServerAddress}}, 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a1a400295f11e155e37002041410e47f1}{UserName}}, \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a395d5d33ff9f9699551a38b4ab6866e4}{Channels}}, 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a13491703ff0e9a96c87743e70002f6fe}{Port}}, \textcolor{stringliteral}{""}, 3000, \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_aea7952c2d3db87eb5609feae15c5475c}{Secure}});
+149 
+150                 Thread.Sleep(500);
+151 
+152                 \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.StartClient())
+153                 \{
+154                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa8ef070963f103cc627e781c39b90c64}{OnIrcClientConnectionStatusEvent}}?.Invoke(\textcolor{keyword}{this}, \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{IrcClientConnectionStatusArgs}}()
+155                     \{
+156                         Connected = \textcolor{keyword}{false},
+157                         ChannelsAndUsers = null
+158                     \});
+159 
+160                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Irc client is could not connect!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+161                     \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+162                 \}
+163                 \textcolor{keywordflow}{else}
+164                 \{
+165                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Irc client is succesfully connected!
+      "}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+166                     \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+167                 \}
+168             \}
+169             \textcolor{keywordflow}{catch} (Exception e)
+170             \{
+171                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+172                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+173             \}
+174         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae463832b8e9aea73f26ed6188a14d92e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ae463832b8e9aea73f26ed6188a14d92e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a97a617b50a161906a91ce1ea483a1770}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a97a617b50a161906a91ce1ea483a1770}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Stop\+Connection@{Stop\+Connection}}
+\index{Stop\+Connection@{Stop\+Connection}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Stop\+Connection()}{StopConnection()}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Stop\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_a2b673db5262a09a26d72ee57e34e5b60}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 176 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disconnect(), and Little\+Weeb\+Library.\+Start\+Up.\+Stop().
+
+
+\begin{DoxyCode}
+177         \{
+178 
+179             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StopConnection Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+180 
+181             \textcolor{keywordflow}{try}
+182             \{
+183                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.IsClientRunning())
+184                 \{
+185                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.StopClient())
+186                     \{
+187                         \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.StopXDCCDownload())
+188                         \{
+189 
+190                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully stopped download
+       before stopping IRC Client!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+191                         \}
+192 
+193                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa8ef070963f103cc627e781c39b90c64}{OnIrcClientConnectionStatusEvent}}?.Invoke(\textcolor{keyword}{this}, \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{IrcClientConnectionStatusArgs}}()
+194                         \{
+195                             Connected = \textcolor{keyword}{false},
+196                             CurrentIrcSettings = \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}
+197                         \});
+198 
+199 
+200                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully stopped IRC Client!"}
+      , \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+201 
+202                         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+203                     \}
+204                     \textcolor{keywordflow}{else}
+205                     \{
+206                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not stop connection with
+       IRC server!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+207                         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+208                     \}
+209                 \}
+210                 \textcolor{keywordflow}{else}
+211                 \{
+212                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Irc client is is not connected!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+213                     \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+214                 \}
+215             \}
+216             \textcolor{keywordflow}{catch} (Exception e)
+217             \{
+218                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+219                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+220             \}
+221 
+222         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a97a617b50a161906a91ce1ea483a1770_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a97a617b50a161906a91ce1ea483a1770_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a265ca021f5086addf758e87f59a0aa11}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a265ca021f5086addf758e87f59a0aa11}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Stop\+Download@{Stop\+Download}}
+\index{Stop\+Download@{Stop\+Download}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Stop\+Download()}{StopDownload()}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Stop\+Download (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_af1da0e6ed40f306b92dc0952c05cd1fe}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 224 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Abort\+Download(), and Little\+Weeb\+Library.\+Start\+Up.\+Stop().
+
+
+\begin{DoxyCode}
+225         \{
+226             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StopDownload Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+227             \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.StopXDCCDownload())
+228             \{
+229                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not stop download!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+230                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+231             \}
+232             \textcolor{keywordflow}{else}
+233             \{
+234                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully stopped download!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+235                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+236             \}
+237         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a265ca021f5086addf758e87f59a0aa11_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a265ca021f5086addf758e87f59a0aa11_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a093409b2b1397a6a061e00802546c87b}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a093409b2b1397a6a061e00802546c87b}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Is\+Downloading@{Is\+Downloading}}
+\index{Is\+Downloading@{Is\+Downloading}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Is\+Downloading()}{IsDownloading()}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Is\+Downloading (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_abb1d62bc52436a68712fd1b80d9f911e}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 239 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Abort\+Download().
+
+
+\begin{DoxyCode}
+240         \{
+241             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"IsDownloading Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+242             \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.CheckIfDownload();
+243         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a093409b2b1397a6a061e00802546c87b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a093409b2b1397a6a061e00802546c87b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2cc2c26c57a1c94f209ca8641c9e25ef}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2cc2c26c57a1c94f209ca8641c9e25ef}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Is\+Connected@{Is\+Connected}}
+\index{Is\+Connected@{Is\+Connected}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Is\+Connected()}{IsConnected()}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_ae2c21ca5104d4aaceeccd1268e0d52b2}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 245 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+246         \{
+247             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"IsConnected Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+248 
+249             \textcolor{keywordflow}{try}
+250             \{
+251                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}{IrcClient}}.IsClientRunning())
+252                 \{
+253                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}{IsConnectedBool}} = \textcolor{keyword}{true};
+254                     \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+255                 \}
+256                 \textcolor{keywordflow}{else}
+257                 \{
+258                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}{IsConnectedBool}} = \textcolor{keyword}{false};
+259                     \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+260                 \}
+261             \}
+262             \textcolor{keywordflow}{catch} (Exception e)
+263             \{
+264                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+265                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}{IsConnectedBool}} = \textcolor{keyword}{false};
+266                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+267             \}
+268         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2cc2c26c57a1c94f209ca8641c9e25ef_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa15fe2f3c1bd99a513400b0880298edd}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa15fe2f3c1bd99a513400b0880298edd}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Current\+Settings@{Current\+Settings}}
+\index{Current\+Settings@{Current\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Current\+Settings()}{CurrentSettings()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Current\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_af27269f6df01227345fc51030e702b51}{Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}}.
+
+
+
+Definition at line 270 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+271         \{
+272             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"CurrentSettings Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+273             \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a5a8c1eee913ec3c9afad8acd1bfbc37c}{IrcSettings}};
+274         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa15fe2f3c1bd99a513400b0880298edd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ad97947bcce5bebd851bef6e29fecb467}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ad97947bcce5bebd851bef6e29fecb467}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Message@{On\+Message}}
+\index{On\+Message@{On\+Message}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Message()}{OnMessage()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Message (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Irc\+Received\+Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 276 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args.\+Channel, Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+277         \{
+278             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OnMessage Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+279 
+280             \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args}{IrcClientMessageEventArgs}} eventArgs = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args}{IrcClientMessageEventArgs}}()
+281             \{
+282                 Channel = args.\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a89968e57254aa26cf1d41fa7a967ec61}{Channel}},
+283                 User = args.User,
+284                 Message = args.Message
+285             \};
+286 
+287             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(eventArgs.\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a0b8df2a044d27dec2dd963e978311be4}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+288 
+289             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a60906730beb3dae974b2bdc77a51bb8d}{OnIrcClientMessageEvent}}?.Invoke(\textcolor{keyword}{this}, eventArgs);
+290         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ad97947bcce5bebd851bef6e29fecb467_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2b48c617972be0b3079a262ffc8141f6}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2b48c617972be0b3079a262ffc8141f6}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Message\+Debug@{On\+Message\+Debug}}
+\index{On\+Message\+Debug@{On\+Message\+Debug}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Message\+Debug()}{OnMessageDebug()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Message\+Debug (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Irc\+Debug\+Message\+Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 292 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+293         \{
+294             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OnMessageDebug Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+295             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(args.Type + \textcolor{stringliteral}{" || "} + args.Message, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+296         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a2b48c617972be0b3079a262ffc8141f6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a8ffa9ba31b96d32a4c1fdafc04afaf5e}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a8ffa9ba31b96d32a4c1fdafc04afaf5e}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+User\+List\+Update@{On\+User\+List\+Update}}
+\index{On\+User\+List\+Update@{On\+User\+List\+Update}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+User\+List\+Update()}{OnUserListUpdate()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+User\+List\+Update (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Irc\+User\+List\+Received\+Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 298 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+299         \{
+300 
+301             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OnUserListUpdate Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+302 
+303             \textcolor{keywordflow}{try}
+304             \{
+305                 \textcolor{keywordflow}{if} (args.UsersPerChannel.Count > 0)
+306                 \{
+307 
+308                     \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{IrcClientConnectionStatusArgs}} eventArgs = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{IrcClientConnectionStatusArgs}}()
+309                     \{
+310                         ChannelsAndUsers = args.UsersPerChannel,
+311                         Connected = \textcolor{keyword}{true},
+312                         CurrentIrcSettings = \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}
+313                     \};
+314 
+315                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(eventArgs.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a71fdd09abcc607734be01125338fa928}{ToString}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+316                    
+317                     \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}{IsConnectedBool}})
+318                     \{
+319                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa8ef070963f103cc627e781c39b90c64}{OnIrcClientConnectionStatusEvent}}?.Invoke(\textcolor{keyword}{this}, 
+      eventArgs);
+320                     \}
+321                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}{IsConnectedBool}} = \textcolor{keyword}{true};
+322                 \}
+323             \}
+324             \textcolor{keywordflow}{catch} (Exception e)
+325             \{
+326                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+327             \}
+328            
+329         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a8ffa9ba31b96d32a4c1fdafc04afaf5e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afef5cc2f76989366cb52ffa7d5a78752}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afef5cc2f76989366cb52ffa7d5a78752}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Download\+Update@{On\+Download\+Update}}
+\index{On\+Download\+Update@{On\+Download\+Update}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Download\+Update()}{OnDownloadUpdate()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Download\+Update (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{D\+C\+C\+Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 331 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+File\+Name, Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+332         \{
+333             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OnDownloadUpdate Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+334 
+335             \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args}{IrcClientDownloadEventArgs}} eventArgs = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args}{IrcClientDownloadEventArgs}}()
+336             \{
+337                 FileName = args.\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_ae708a4da9c599b02372c55dd08294cd5}{FileName}},
+338                 FileLocation = args.FilePath,
+339                 DownloadSpeed = args.KBytesPerSecond.ToString(),
+340                 FileSize = (args.FileSize / 1048576),
+341                 DownloadProgress = args.Progress,
+342                 DownloadStatus = args.Status
+343             \};
+344 
+345             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(eventArgs.\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a08055fe777a1585dafab7fbeec58b891}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+346 
+347             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a43ee49f8e97d65bf318e5f663587d7a6}{OnIrcClientDownloadEvent}}?.Invoke(\textcolor{keyword}{this}, eventArgs);
+348         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_afef5cc2f76989366cb52ffa7d5a78752_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_abdc8785a2452e7a1d496c44a424d1812}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_abdc8785a2452e7a1d496c44a424d1812}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Download\+Update\+Debug@{On\+Download\+Update\+Debug}}
+\index{On\+Download\+Update\+Debug@{On\+Download\+Update\+Debug}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Download\+Update\+Debug()}{OnDownloadUpdateDebug()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Download\+Update\+Debug (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{D\+C\+C\+Debug\+Message\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 350 of file Irc\+Client\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+351         \{
+352 
+353             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OnDownloadUpdateDebug Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+354             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(args.Type + \textcolor{stringliteral}{" || "} + args.Message, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);         
+355         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_abdc8785a2452e7a1d496c44a424d1812_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ac52cdf245955073d59f8193e167c149d}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ac52cdf245955073d59f8193e167c149d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Settings\+Handler@{Settings\+Handler}}
+\index{Settings\+Handler@{Settings\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Settings\+Handler}{SettingsHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Settings\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 39 of file Irc\+Client\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_ab50ece494948d25db1839f4d6eab038f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 40 of file Irc\+Client\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a1c78638ea8025b27bb3e604f432ce325}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Irc\+Client@{Irc\+Client}}
+\index{Irc\+Client@{Irc\+Client}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Irc\+Client}{IrcClient}}
+{\footnotesize\ttfamily Simple\+I\+RC Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Irc\+Client\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 42 of file Irc\+Client\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a5a8c1eee913ec3c9afad8acd1bfbc37c}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a5a8c1eee913ec3c9afad8acd1bfbc37c}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Irc\+Settings@{Irc\+Settings}}
+\index{Irc\+Settings@{Irc\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Irc\+Settings}{IrcSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Irc\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 43 of file Irc\+Client\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a03a557318cb10111d7871fb229a86a86}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a03a557318cb10111d7871fb229a86a86}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Little\+Weeb\+Settings@{Little\+Weeb\+Settings}}
+\index{Little\+Weeb\+Settings@{Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Little\+Weeb\+Settings}{LittleWeebSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Little\+Weeb\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 44 of file Irc\+Client\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a10457d1436c29ce92878e74579717dc0}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!Is\+Connected\+Bool@{Is\+Connected\+Bool}}
+\index{Is\+Connected\+Bool@{Is\+Connected\+Bool}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{Is\+Connected\+Bool}{IsConnectedBool}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Is\+Connected\+Bool = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 46 of file Irc\+Client\+Handler.\+cs.
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a60906730beb3dae974b2bdc77a51bb8d}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a60906730beb3dae974b2bdc77a51bb8d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Irc\+Client\+Message\+Event@{On\+Irc\+Client\+Message\+Event}}
+\index{On\+Irc\+Client\+Message\+Event@{On\+Irc\+Client\+Message\+Event}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Irc\+Client\+Message\+Event}{OnIrcClientMessageEvent}}
+{\footnotesize\ttfamily Event\+Handler$<$\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args}{Irc\+Client\+Message\+Event\+Args}}$>$ Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Irc\+Client\+Message\+Event}
+
+
+
+Definition at line 34 of file Irc\+Client\+Handler.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Irc\+Web\+Socket\+Service().
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a43ee49f8e97d65bf318e5f663587d7a6}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_a43ee49f8e97d65bf318e5f663587d7a6}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Irc\+Client\+Download\+Event@{On\+Irc\+Client\+Download\+Event}}
+\index{On\+Irc\+Client\+Download\+Event@{On\+Irc\+Client\+Download\+Event}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Irc\+Client\+Download\+Event}{OnIrcClientDownloadEvent}}
+{\footnotesize\ttfamily Event\+Handler$<$\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args}{Irc\+Client\+Download\+Event\+Args}}$>$ Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Irc\+Client\+Download\+Event}
+
+
+
+Definition at line 35 of file Irc\+Client\+Handler.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Download\+Handler().
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa8ef070963f103cc627e781c39b90c64}\label{class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_aa8ef070963f103cc627e781c39b90c64}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}!On\+Irc\+Client\+Connection\+Status\+Event@{On\+Irc\+Client\+Connection\+Status\+Event}}
+\index{On\+Irc\+Client\+Connection\+Status\+Event@{On\+Irc\+Client\+Connection\+Status\+Event}!Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}}
+\subsubsection{\texorpdfstring{On\+Irc\+Client\+Connection\+Status\+Event}{OnIrcClientConnectionStatusEvent}}
+{\footnotesize\ttfamily Event\+Handler$<$\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{Irc\+Client\+Connection\+Status\+Args}}$>$ Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Irc\+Client\+Connection\+Status\+Event}
+
+
+
+Definition at line 36 of file Irc\+Client\+Handler.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Irc\+Web\+Socket\+Service().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_irc_client_handler_8cs}{Irc\+Client\+Handler.\+cs}}\end{DoxyCompactItemize}

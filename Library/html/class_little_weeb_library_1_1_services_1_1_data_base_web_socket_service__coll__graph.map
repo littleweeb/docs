@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Services.DataBaseWebSocketService" name="LittleWeebLibrary.Services.DataBaseWebSocketService">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service.html" title="{IDataBaseWebSocketService\n||+ DeleteDocument()\l+ GetCollection()\l+ GetDocument()\l+ StoreDocument()\l+ UpdateDocument()\l}" alt="" coords="5,35,197,171"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="222,42,405,163"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler.html" title="{LittleWeebLibrary.Handlers.\lIWebSocketHandler\n||+ SendMessage()\l+ StartServer()\l+ StopServer()\l}" alt="" coords="429,42,611,163"/>
+<area shape="rect" id="node5" href="$interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler.html" title="{LittleWeebLibrary.Handlers.\lIDataBaseHandler\n||+ GetCollection()\l+ GetJObject()\l+ GetJObject()\l+ RemoveJObject()\l+ RemoveJObject()\l+ StoreJObject()\l+ UpdateJObject()\l+ UpdateJObject()\l}" alt="" coords="635,5,818,200"/>
+</map>

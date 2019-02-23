@@ -1,0 +1,427 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+File\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_file_handler}\index{Little\+Weeb\+Library.\+Handlers.\+File\+Handler@{Little\+Weeb\+Library.\+Handlers.\+File\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+File\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+File\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a2cc256d20ab33e0838e50279ee9f6fc0}{File\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_ae1b342c4d821543a0a3400e4e0c95903}{Delete\+File}} (string file\+Path, string file\+Name=null)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a08cbef4974d973035a7ddeedb9f8ff4a}{Open\+File}} (string file\+Path, string file\+Name=null)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a4ccfd9a9698ca0dc9e228aabe27ac756}{Set\+Irc\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} settings)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a81ebb3e28e77c5fc30acaf7d769ba8df}{Set\+Little\+Weeb\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} settings)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{Debug\+Handler}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_aba666088c6ab88513663dfc7bbb45bf1}{Little\+Weeb\+Settings}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file File\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_a2cc256d20ab33e0838e50279ee9f6fc0}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_a2cc256d20ab33e0838e50279ee9f6fc0}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!File\+Handler@{File\+Handler}}
+\index{File\+Handler@{File\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{File\+Handler()}{FileHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+File\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file File\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+31         \{
+32             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+33             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}} = debugHandler;
+34         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler_a2cc256d20ab33e0838e50279ee9f6fc0_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_a08cbef4974d973035a7ddeedb9f8ff4a}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_a08cbef4974d973035a7ddeedb9f8ff4a}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!Open\+File@{Open\+File}}
+\index{Open\+File@{Open\+File}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{Open\+File()}{OpenFile()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Open\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Path,  }\item[{string}]{file\+Name = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_a135124a2374dc64f5c64fdc4ff9eb049}{Little\+Weeb\+Library.\+Handlers.\+I\+File\+Handler}}.
+
+
+
+Definition at line 36 of file File\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Check\+Operating\+Systems(), Little\+Weeb\+Library.\+Models.\+Json\+Success.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Open\+File().
+
+
+\begin{DoxyCode}
+37         \{
+38 
+39             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OpenFile called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+40             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FilePath: "} + filePath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+41 
+42             \textcolor{keywordtype}{string} fullFilePath = filePath;
+43 
+44             \textcolor{keywordflow}{if} (fileName != null)
+45             \{
+46 
+47 
+48 
+49                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FileName: "} + fileName, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+50 
+51                 fullFilePath = Path.Combine(filePath, fileName);
+52 
+53                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Full Filepath: "} + fullFilePath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+54             \}
+55 
+56             \textcolor{keywordflow}{try}
+57             \{                
+58                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 20; i++)
+59                 \{
+60                     \textcolor{keywordflow}{if} (File.Exists(fullFilePath))
+61                     \{
+62 \textcolor{preprocessor}{#if \_\_ANDROID\_\_}
+63                         Android.Net.Uri uri = Android.Net.Uri.Parse(fullFilePath);
+64                         Intent intent = \textcolor{keyword}{new} Intent(Intent.ActionView);
+65                         intent.SetDataAndType(uri, \textcolor{stringliteral}{"video/*"});
+66                         intent.SetFlags(ActivityFlags.ClearWhenTaskReset | ActivityFlags.NewTask);
+67                         Android.App.Application.Context.StartActivity(intent);
+68 \textcolor{preprocessor}{#else}
+69 
+70                         \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}{CheckOperatingSystems}}() == 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.OsX)
+71                         \{
+72                             Process.Start(\textcolor{stringliteral}{"open"}, fullFilePath);
+73                         \}
+74                         \textcolor{keywordflow}{else}
+75                         \{
+76                             var p = \textcolor{keyword}{new} Process
+77                             \{
+78                                 StartInfo = \textcolor{keyword}{new} ProcessStartInfo(fullFilePath)
+79                                 \{
+80                                     UseShellExecute = \textcolor{keyword}{true}
+81                                 \}
+82                             \};
+83                             p.Start();
+84                         \}                       
+85 \textcolor{preprocessor}{#endif}
+86                         \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+87                         \{
+88                             message = \textcolor{stringliteral}{"Succesfully opened file with path: "} + fullFilePath
+89                         \};
+90                         \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+91                     \}
+92                     Thread.Sleep(200);
+93                 \}
+94 
+95                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+96                 \{
+97                     type = \textcolor{stringliteral}{"open\_file\_failed"},
+98                     errormessage = \textcolor{stringliteral}{"Could not open file but didn't throw exception."},
+99                     errortype = \textcolor{stringliteral}{"warning"},
+100                     exception = \textcolor{stringliteral}{"none"}
+101                 \};
+102 
+103                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not open file but didn't throw
+       exception, file: "} + fullFilePath, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+104 
+105                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+106 
+107             \}
+108             \textcolor{keywordflow}{catch} (Exception e)
+109             \{
+110                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not open file. "} + fullFilePath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+111                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+112 
+113 
+114                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+115                 \{
+116                     type = \textcolor{stringliteral}{"open\_file\_failed"},
+117                     errormessage = \textcolor{stringliteral}{"Could not open file."},
+118                     errortype = \textcolor{stringliteral}{"exception"},
+119                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+120                 \};
+121                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+122             \}
+123         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler_a08cbef4974d973035a7ddeedb9f8ff4a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler_a08cbef4974d973035a7ddeedb9f8ff4a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_ae1b342c4d821543a0a3400e4e0c95903}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_ae1b342c4d821543a0a3400e4e0c95903}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!Delete\+File@{Delete\+File}}
+\index{Delete\+File@{Delete\+File}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{Delete\+File()}{DeleteFile()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Delete\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Path,  }\item[{string}]{file\+Name = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_aff6a35f857564900ae27586121a8bb41}{Little\+Weeb\+Library.\+Handlers.\+I\+File\+Handler}}.
+
+
+
+Definition at line 126 of file File\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Success.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Delete\+File().
+
+
+\begin{DoxyCode}
+127         \{
+128 
+129             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"DeleteFile called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+130             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FilePath: "} + filePath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+131 
+132             \textcolor{keywordtype}{string} fullFilePath = filePath;
+133 
+134             \textcolor{keywordflow}{if} (fileName != null)
+135             \{
+136 
+137 
+138                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FileName: "} + fileName, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+139                 fullFilePath = Path.Combine(filePath, fileName);
+140 
+141                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Full File Path: "} + fullFilePath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+142             \}
+143 
+144             \textcolor{keywordflow}{try}
+145             \{
+146                 \textcolor{keywordflow}{if} (File.Exists(fullFilePath))
+147                 \{
+148                     File.Delete(fullFilePath);
+149 
+150                     \textcolor{keywordtype}{string}[] filePaths = Directory.GetFiles(Path.GetDirectoryName(filePath));
+151                     \textcolor{keywordflow}{if} (filePaths.Length == 0)
+152                     \{
+153                         Directory.Delete(filePath);
+154 
+155                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully deleted file: "} + 
+      fullFilePath + \textcolor{stringliteral}{" & empty directory: "} + filePath, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+156 
+157                         \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+158                         \{
+159                             message = \textcolor{stringliteral}{"Succesfully deleted file with path: "} + fullFilePath + \textcolor{stringliteral}{" and
+       directory: "} + filePath
+160                         \};
+161 
+162                         \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+163                     \}
+164                     \textcolor{keywordflow}{else}
+165                     \{
+166                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully deleted file: "} + 
+      fullFilePath , \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+167 
+168                         \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+169                         \{
+170                             message = \textcolor{stringliteral}{"Succesfully deleted file with path: "} + fullFilePath
+171                         \};
+172 
+173                         \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+174                     \}
+175                 \}
+176                 \textcolor{keywordflow}{else}
+177                 \{
+178                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"File: "} + fullFilePath + \textcolor{stringliteral}{" does not
+       exist, possibly already deleted."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+179                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+180                     \{
+181                         message = \textcolor{stringliteral}{"File with filepath: "} + fullFilePath + \textcolor{stringliteral}{" already removed."}
+182                     \};
+183 
+184                     \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+185                 \}
+186 
+187             \}
+188             \textcolor{keywordflow}{catch} (Exception e)
+189             \{
+190 
+191 
+192                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to delete file: "} + fullFilePath,
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+193                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+194 
+195                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+196                 \{
+197                     type = \textcolor{stringliteral}{"delete\_file\_failed"},
+198                     errormessage = \textcolor{stringliteral}{"Could not delete file."},
+199                     errortype = \textcolor{stringliteral}{"exception"},
+200                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+201                 \};
+202 
+203                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+204             \}
+205         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler_ae1b342c4d821543a0a3400e4e0c95903_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler_ae1b342c4d821543a0a3400e4e0c95903_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_a4ccfd9a9698ca0dc9e228aabe27ac756}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_a4ccfd9a9698ca0dc9e228aabe27ac756}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!Set\+Irc\+Settings@{Set\+Irc\+Settings}}
+\index{Set\+Irc\+Settings@{Set\+Irc\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{Set\+Irc\+Settings()}{SetIrcSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Set\+Irc\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a9ddf06e247a96d757482b37ddb070e3d}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 207 of file File\+Handler.\+cs.
+
+
+\begin{DoxyCode}
+208         \{
+209         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_a81ebb3e28e77c5fc30acaf7d769ba8df}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_a81ebb3e28e77c5fc30acaf7d769ba8df}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}}
+\index{Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{Set\+Little\+Weeb\+Settings()}{SetLittleWeebSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Set\+Little\+Weeb\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a5c53e44105f1f4c7f8c3e546d29939d7}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 211 of file File\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+212         \{
+213             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SetLittleWeebSettings called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+214             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+215             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = settings;
+216         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_file_handler_a81ebb3e28e77c5fc30acaf7d769ba8df_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_a131760e1828cd7ae1df2e90e9f300426}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 27 of file File\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_file_handler_aba666088c6ab88513663dfc7bbb45bf1}\label{class_little_weeb_library_1_1_handlers_1_1_file_handler_aba666088c6ab88513663dfc7bbb45bf1}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}!Little\+Weeb\+Settings@{Little\+Weeb\+Settings}}
+\index{Little\+Weeb\+Settings@{Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}}
+\subsubsection{\texorpdfstring{Little\+Weeb\+Settings}{LittleWeebSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Little\+Weeb\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file File\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_file_handler_8cs}{File\+Handler.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::EventArguments::DownloadUpdateEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_1a6f920facf63fcef57167ccf645ed42bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_little_weeb_library_1_1_models_1_1_json_download_info" kindref="compound">JsonDownloadInfo</ref></type>
+        <definition>JsonDownloadInfo LittleWeebLibrary.EventArguments.DownloadUpdateEventArgs.downloadInfo</definition>
+        <argsstring></argsstring>
+        <name>downloadInfo</name>
+        <initializer>= new <ref refid="class_little_weeb_library_1_1_models_1_1_json_download_info" kindref="compound">JsonDownloadInfo</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DownloadUpdateEventArgs.cs" line="8" column="1" bodyfile="EventArguments/DownloadUpdateEventArgs.cs" bodystart="8" bodyend="8"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3111908b7f7a133a80ab6ec3e81cdcbf" compoundref="_download_web_socket_service_8cs" startline="179" endline="197">LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_1ac81037572c354a14f1d35b654ac24b5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.EventArguments.DownloadUpdateEventArgs.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DownloadUpdateEventArgs.cs" line="10" column="1" bodyfile="EventArguments/DownloadUpdateEventArgs.cs" bodystart="10" bodyend="13"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3111908b7f7a133a80ab6ec3e81cdcbf" compoundref="_download_web_socket_service_8cs" startline="179" endline="197">LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="80">
+        <label>LittleWeebLibrary.EventArguments.DownloadUpdateEventArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args"/>
+      </node>
+    </collaborationgraph>
+    <location file="EventArguments/DownloadUpdateEventArgs.cs" line="7" column="1" bodyfile="EventArguments/DownloadUpdateEventArgs.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_1a6f920facf63fcef57167ccf645ed42bf" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::DownloadUpdateEventArgs</scope><name>downloadInfo</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_1ac81037572c354a14f1d35b654ac24b5a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::DownloadUpdateEventArgs</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

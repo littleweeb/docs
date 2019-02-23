@@ -1,0 +1,73 @@
+This is makeindex, version 2.15 [MiKTeX 2.9.6630 64-bit] (kpathsea + Thai support).
+Scanning input file refman.idx....
+!! Input index error (file = refman.idx, line = 9):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 10):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 11):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 12):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 13):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 14):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 15):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 16):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 17):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 18):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 19):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 20):
+   -- First argument too long (max 1024).
+
+!! Input index error (file = refman.idx, line = 23):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 24):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 25):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 26):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 27):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 28):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 29):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 30):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 31):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 32):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 33):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 34):
+   -- First argument too long (max 1024).
+.
+!! Input index error (file = refman.idx, line = 1635):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1636):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1637):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1638):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1639):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1640):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1641):
+   -- First argument too long (max 1024).
+!! Input index error (file = refman.idx, line = 1642):
+   -- First argument too long (max 1024).
+done (1733 entries accepted, 32 rejected).
+Sorting entries.................done (19616 comparisons).
+Generating output file refman.ind.....done (3036 lines written, 0 warnings).
+Output written in refman.ind.
+Transcript written in refman.ilg.

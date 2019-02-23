@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library_1_1_settings" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary::Settings</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" prot="public">LittleWeebLibrary::Settings::IrcSettings</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" prot="public">LittleWeebLibrary::Settings::LittleWeebSettings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Settings/IrcSettings.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_settings_1_1_irc_settings" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Settings::IrcSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a395d5d33ff9f9699551a38b4ab6866e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Settings.IrcSettings.Channels</definition>
+        <argsstring></argsstring>
+        <name>Channels</name>
+        <initializer>= &quot;#nibl,#horriblesubs,#news&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="11" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" compoundref="_irc_web_socket_service_8cs" startline="153" endline="167">LittleWeebLibrary.Services.IrcWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" compoundref="_irc_client_handler_8cs" startline="137" endline="174">LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1ad1f67b09e16ba2b5fed2dcdefeac8e1a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Settings.IrcSettings.fullfilepath</definition>
+        <argsstring></argsstring>
+        <name>fullfilepath</name>
+        <initializer>= Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), &quot;LittleWeeb&quot;), &quot;Downloads&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="17" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="17" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" compoundref="_irc_web_socket_service_8cs" startline="153" endline="167">LittleWeebLibrary.Services.IrcWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" compoundref="_directory_web_socket_service_8cs" startline="156" endline="161">LittleWeebLibrary.Services.DirectoryWebSocketService.GetFreeSpace</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a01745667c95f2c3d5c461f708aa13bb8" compoundref="_irc_client_handler_8cs" startline="48" endline="67">LittleWeebLibrary.Handlers.IrcClientHandler.IrcClientHandler</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a6f2201dd7b86f142c2e901262ea53fbe" compoundref="_download_web_socket_service_8cs" startline="172" endline="177">LittleWeebLibrary.Services.DownloadWebSocketService.Openfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aafe7e3669d3fdd8a0a3c37a240b3c574" compoundref="_irc_client_handler_8cs" startline="83" endline="89">LittleWeebLibrary.Handlers.IrcClientHandler.Setfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" compoundref="_settings_web_socket_service_8cs" startline="206" endline="235">LittleWeebLibrary.Services.SettingsWebSocketService.Setfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a13491703ff0e9a96c87743e70002f6fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.Settings.IrcSettings.Port</definition>
+        <argsstring></argsstring>
+        <name>Port</name>
+        <initializer>= 6697</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="9" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" compoundref="_irc_client_handler_8cs" startline="137" endline="174">LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1aea7952c2d3db87eb5609feae15c5475c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Settings.IrcSettings.Secure</definition>
+        <argsstring></argsstring>
+        <name>Secure</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="10" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" compoundref="_irc_client_handler_8cs" startline="137" endline="174">LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a99953f00fc76a98af0bd06129876d5ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Settings.IrcSettings.ServerAddress</definition>
+        <argsstring></argsstring>
+        <name>ServerAddress</name>
+        <initializer>= &quot;irc.rizon.net&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="8" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="8" bodyend="8"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" compoundref="_irc_web_socket_service_8cs" startline="153" endline="167">LittleWeebLibrary.Services.IrcWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" compoundref="_irc_client_handler_8cs" startline="137" endline="174">LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a1a400295f11e155e37002041410e47f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Settings.IrcSettings.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="12" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" compoundref="_irc_web_socket_service_8cs" startline="153" endline="167">LittleWeebLibrary.Services.IrcWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" compoundref="_irc_client_handler_8cs" startline="137" endline="174">LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a2e1d7f26d7d3083d19c3a9e6c6c2d0b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Settings.IrcSettings.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Settings/IrcSettings.cs" line="20" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="20" bodyend="30"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a6eba1d3b176e627d3dae57070e1c3beb" compoundref="_settings_web_socket_service_8cs" startline="248" endline="257">LittleWeebLibrary.Services.SettingsWebSocketService.SetAllIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a510c909225e51c66b65f7114ebd356d3" compoundref="_irc_client_handler_8cs" startline="69" endline="74">LittleWeebLibrary.Handlers.IrcClientHandler.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a223c62acb36e1ac602552fa1ecf67057" compoundref="_directory_web_socket_service_8cs" startline="163" endline="168">LittleWeebLibrary.Services.DirectoryWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ac692e2804ac253cc2ceac79d88a2e191" compoundref="_download_web_socket_service_8cs" startline="199" endline="204">LittleWeebLibrary.Services.DownloadWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a6476ee44ddf292f916b20085c03af5eb" compoundref="_irc_web_socket_service_8cs" startline="342" endline="347">LittleWeebLibrary.Services.IrcWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a6edcb9be7543c9fb587df06c994f50fb" compoundref="_download_handler_8cs" startline="362" endline="367">LittleWeebLibrary.Handlers.DownloadHandler.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1ad42462e9e851301c5f5b91663dc3fe24" compoundref="_settings_handler_8cs" startline="67" endline="105">LittleWeebLibrary.Handlers.SettingsHandler.WriteIrcSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="432">
+        <label>LittleWeebLibrary.Settings.IrcSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_irc_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="Settings/IrcSettings.cs" line="7" column="1" bodyfile="Settings/IrcSettings.cs" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a395d5d33ff9f9699551a38b4ab6866e4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>Channels</name></member>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1ad1f67b09e16ba2b5fed2dcdefeac8e1a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>fullfilepath</name></member>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a13491703ff0e9a96c87743e70002f6fe" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>Port</name></member>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1aea7952c2d3db87eb5609feae15c5475c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>Secure</name></member>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a99953f00fc76a98af0bd06129876d5ef" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>ServerAddress</name></member>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a2e1d7f26d7d3083d19c3a9e6c6c2d0b2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a1a400295f11e155e37002041410e47f1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Settings::IrcSettings</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

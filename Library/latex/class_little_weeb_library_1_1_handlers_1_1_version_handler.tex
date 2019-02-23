@@ -1,0 +1,444 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_version_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Version\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_version_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Version\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Version\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Version\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Version\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a51b31c85fe764e675c800d75b668f5d4}{Version\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{Json\+Version\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891}{Get\+Latest\+Version\+Android}} (bool release)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{Json\+Version\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff}{Get\+Latest\+Version\+Desktop}} (bool release)
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{Json\+Version\+Info}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_ac2510dcad764a9c925d8da152740f095}{Get\+Local\+Version}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{Debug\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 22 of file Version\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_version_handler_a51b31c85fe764e675c800d75b668f5d4}\label{class_little_weeb_library_1_1_handlers_1_1_version_handler_a51b31c85fe764e675c800d75b668f5d4}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}!Version\+Handler@{Version\+Handler}}
+\index{Version\+Handler@{Version\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}}
+\subsubsection{\texorpdfstring{Version\+Handler()}{VersionHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Version\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 28 of file Version\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+29         \{
+30             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+31             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}} = debugHandler;
+32         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_a51b31c85fe764e675c800d75b668f5d4_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff}\label{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}!Get\+Latest\+Version\+Desktop@{Get\+Latest\+Version\+Desktop}}
+\index{Get\+Latest\+Version\+Desktop@{Get\+Latest\+Version\+Desktop}!Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Latest\+Version\+Desktop()}{GetLatestVersionDesktop()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{Json\+Version\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Latest\+Version\+Desktop (\begin{DoxyParamCaption}\item[{bool}]{release }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_a0d72fd0650a8bd465bcf22fab766e111}{Little\+Weeb\+Library.\+Handlers.\+I\+Version\+Handler}}.
+
+
+
+Definition at line 34 of file Version\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Check\+Operating\+Systems(), Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+date, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+direct\+\_\+download\+\_\+url, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+file\+\_\+name, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+newbuild, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+newversion, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+release\+\_\+url, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+release\+\_\+version, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Check\+Version().
+
+
+\begin{DoxyCode}
+35         \{
+36             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetLatestVersionDesktop Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+37             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Is release mode: "} + release.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+38 
+39 
+40             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}} versionInfo = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}}();
+41             \textcolor{keywordflow}{try}
+42             \{
+43                 HttpClient client = \textcolor{keyword}{new} HttpClient();
+44 
+45                 var request = \textcolor{keyword}{new} HttpRequestMessage(HttpMethod.Get, \textcolor{stringliteral}{"
+      https://api.github.com/repos/littleweeb/Desktop/releases?access\_token=018003ade567151524c10210f0bd97b05b6ec96b"});
+46                 request.Headers.Add(\textcolor{stringliteral}{"Accept"}, \textcolor{stringliteral}{"application/vnd.github.v3+json"});
+47                 request.Headers.Add(\textcolor{stringliteral}{"User-Agent"}, \textcolor{stringliteral}{"LittleWeeb"});
+48 
+49                 var response = await client.SendAsync(request);
+50 
+51 
+52                 \textcolor{keywordflow}{if} (response.IsSuccessStatusCode)
+53                 \{
+54                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully retrieved releases!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+55 
+56                     \textcolor{keywordtype}{string} json = await response.Content.ReadAsStringAsync(); 
+57 
+58                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Releases: "} + json, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+59                     JArray jsonResult = JArray.Parse(json);
+60 
+61                     \textcolor{keywordflow}{foreach} (JObject latestRelease \textcolor{keywordflow}{in} jsonResult.Children<JObject>())
+62                     \{
+63                         \textcolor{keywordtype}{string} mode = \textcolor{stringliteral}{"develop"};
+64                         \textcolor{keywordflow}{if} (release)
+65                         \{
+66                             mode = \textcolor{stringliteral}{"master"};
+67                         \}
+68                         \textcolor{keywordflow}{if} (latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"target\_commitish"}) == mode)
+69                         \{
+70 
+71                             \textcolor{keywordtype}{string} latestTag = latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"tag\_name"});
+72 
+73                             \textcolor{keywordtype}{string} tagShouldContain = \textcolor{stringliteral}{"win"};
+74                             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}{CheckOperatingSystems}}() == \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.Linux)
+75                             \{
+76                                 tagShouldContain = \textcolor{stringliteral}{"linux"};
+77                             \}
+78                             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}{CheckOperatingSystems}}() == \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.OsX)
+79                             \{
+80                                 tagShouldContain = \textcolor{stringliteral}{"mac"};
+81                             \}
+82 
+83                             \textcolor{keywordflow}{if} (latestTag.Contains(tagShouldContain))
+84                             \{
+85                                 \textcolor{keywordtype}{string} latestVersion = latestTag.Split(\textcolor{charliteral}{'\_'})[0];
+86                                 \textcolor{keywordtype}{string} releaseUrl = latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"html\_url"});
+87                                 \textcolor{keywordtype}{string} date = latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"published\_at"});
+88 
+89                                 JArray assets = latestRelease.Value<JArray>(\textcolor{stringliteral}{"assets"});
+90 
+91                                 JObject latestAsset = assets.Last.ToObject<JObject>();
+92 
+93                                 \textcolor{keywordtype}{string} latestDownload = latestAsset.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"browser\_download\_url"});
+94                                 \textcolor{keywordtype}{string} latestFileName = latestAsset.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"});
+95 
+96                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_abb2527c1c41e946dd71fe862a48a5f0f}{newbuild}} = latestFileName.Split(\textcolor{charliteral}{'.'})[latestFileName.
+      Split(\textcolor{charliteral}{'.'}).Length - 2];
+97                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a08d3b36c375a460b440678f84bdb64ee}{newversion}} = latestVersion;
+98                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a6ef07d4fd20affb8de244417395e791d}{release\_url}} = releaseUrl;
+99                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a758349b498e2f9d827d229bfaff9414d}{direct\_download\_url}} = latestDownload;
+100                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a71865be74ad7d0a178a81b708ea85d25}{file\_name}} = latestFileName;
+101                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a836f97d258ddad4ab351b8cd06730914}{date}} = date;
+102                                 versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_aeb4d9fe589655ec2dacff95ffcae154b}{release\_version}} = mode;
+103                                 \textcolor{keywordflow}{return} versionInfo;
+104                             \}                           
+105                           
+106                         \}
+107                     \}
+108 
+109                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"No matching releases found!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+110                     \textcolor{keywordflow}{return} versionInfo;
+111                 \}
+112                 \textcolor{keywordflow}{else}
+113                 \{
+114                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed retreiving releases!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+115                     \textcolor{keywordflow}{return} versionInfo;
+116                 \}
+117             \}
+118             \textcolor{keywordflow}{catch} (Exception e)
+119             \{
+120                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+121 
+122                 \textcolor{keywordflow}{return} versionInfo;
+123             \}
+124         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891}\label{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}!Get\+Latest\+Version\+Android@{Get\+Latest\+Version\+Android}}
+\index{Get\+Latest\+Version\+Android@{Get\+Latest\+Version\+Android}!Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Latest\+Version\+Android()}{GetLatestVersionAndroid()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{Json\+Version\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Latest\+Version\+Android (\begin{DoxyParamCaption}\item[{bool}]{release }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_a812c819dce905da83c29a48e3aabba2e}{Little\+Weeb\+Library.\+Handlers.\+I\+Version\+Handler}}.
+
+
+
+Definition at line 127 of file Version\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+date, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+direct\+\_\+download\+\_\+url, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+file\+\_\+name, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+newbuild, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+newversion, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+release\+\_\+url, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+release\+\_\+version, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Check\+Version().
+
+
+\begin{DoxyCode}
+128         \{
+129 
+130             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetLatestVersionAndroid Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+131             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Is release mode: "} + release.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+132 
+133 
+134             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}} versionInfo = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}}();
+135             \textcolor{keywordflow}{try}
+136             \{
+137                 HttpClient client = \textcolor{keyword}{new} HttpClient();
+138 
+139                 var request = \textcolor{keyword}{new} HttpRequestMessage(HttpMethod.Get, \textcolor{stringliteral}{"
+      https://api.github.com/repos/littleweeb/Android/releases?access\_token=018003ade567151524c10210f0bd97b05b6ec96b"});
+140                 request.Headers.Add(\textcolor{stringliteral}{"Accept"}, \textcolor{stringliteral}{"application/vnd.github.v3+json"});
+141                 request.Headers.Add(\textcolor{stringliteral}{"User-Agent"}, \textcolor{stringliteral}{"LittleWeeb"});
+142 
+143 
+144                 var response = await client.SendAsync(request);
+145 
+146 
+147                 \textcolor{keywordflow}{if} (response.IsSuccessStatusCode)
+148                 \{
+149                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully retrieved releases!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+150 
+151                     \textcolor{keywordtype}{string} json = await response.Content.ReadAsStringAsync();
+152 
+153 
+154 
+155                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Release: "} + json, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+156                     JArray jsonResult = JArray.Parse(json);
+157 
+158 
+159 
+160                     \textcolor{keywordflow}{foreach} (JObject latestRelease \textcolor{keywordflow}{in} jsonResult.Children<JObject>())
+161                     \{
+162                         \textcolor{keywordtype}{string} mode = \textcolor{stringliteral}{"develop"};
+163                         \textcolor{keywordflow}{if} (release)
+164                         \{
+165                             mode = \textcolor{stringliteral}{"master"};
+166                         \}
+167                         \textcolor{keywordflow}{if} (latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"target\_commitish"}) == mode)
+168                         \{
+169                             \textcolor{keywordtype}{string} latestTag = latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"tag\_name"});
+170                             \textcolor{keywordtype}{string} latestVersion = latestTag.Split(\textcolor{charliteral}{'\_'})[0];
+171                             \textcolor{keywordtype}{string} releaseUrl = latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"html\_url"});
+172                             \textcolor{keywordtype}{string} date = latestRelease.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"published\_at"});
+173 
+174                             JArray assets = latestRelease.Value<JArray>(\textcolor{stringliteral}{"assets"});
+175 
+176                             JObject latestAsset = assets.Last.ToObject<JObject>();
+177 
+178                             \textcolor{keywordtype}{string} latestDownload = latestAsset.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"browser\_download\_url"});
+179                             \textcolor{keywordtype}{string} latestFileName = latestAsset.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"});
+180 
+181                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_abb2527c1c41e946dd71fe862a48a5f0f}{newbuild}} = latestFileName.Split(\textcolor{charliteral}{'.'})[latestFileName.Split(\textcolor{charliteral}{
+      '.'}).Length - 2];
+182                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a08d3b36c375a460b440678f84bdb64ee}{newversion}} = latestVersion;
+183                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a6ef07d4fd20affb8de244417395e791d}{release\_url}} = releaseUrl;
+184                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a758349b498e2f9d827d229bfaff9414d}{direct\_download\_url}} = latestDownload;
+185                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a71865be74ad7d0a178a81b708ea85d25}{file\_name}} = latestFileName;
+186                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a836f97d258ddad4ab351b8cd06730914}{date}} = date;
+187                             versionInfo.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_aeb4d9fe589655ec2dacff95ffcae154b}{release\_version}} = mode;
+188                             \textcolor{keywordflow}{return} versionInfo;
+189                         \}
+190                     \}
+191 
+192 
+193                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"No matching releases found!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+194                     \textcolor{keywordflow}{return} versionInfo;
+195                 \}
+196                 \textcolor{keywordflow}{else}
+197                 \{
+198                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed retreiving releases!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+199                     \textcolor{keywordflow}{return} versionInfo;
+200                 \}
+201             \}
+202             \textcolor{keywordflow}{catch} (Exception e)
+203             \{
+204 
+205                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+206 
+207                 \textcolor{keywordflow}{return} versionInfo;
+208             \}
+209         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_version_handler_ac2510dcad764a9c925d8da152740f095}\label{class_little_weeb_library_1_1_handlers_1_1_version_handler_ac2510dcad764a9c925d8da152740f095}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}!Get\+Local\+Version@{Get\+Local\+Version}}
+\index{Get\+Local\+Version@{Get\+Local\+Version}!Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Local\+Version()}{GetLocalVersion()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{Json\+Version\+Info}} Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Local\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_a0358d04d17b2333448008eb793add5ae}{Little\+Weeb\+Library.\+Handlers.\+I\+Version\+Handler}}.
+
+
+
+Definition at line 211 of file Version\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+currentbuild, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+currentversion, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Check\+Version().
+
+
+\begin{DoxyCode}
+212         \{
+213             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetLocalVersion Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+214             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}} info = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}}();
+215 
+216             \textcolor{keywordflow}{try}
+217             \{
+218 
+219 
+220                 \textcolor{keywordtype}{string} contents = \textcolor{stringliteral}{""};
+221 \textcolor{preprocessor}{#if \_\_ANDROID\_\_               }
+222                 var stream = Android.App.Application.Context.Assets.Open(\textcolor{stringliteral}{"version.json"});
+223 
+224                 StreamReader sr = \textcolor{keyword}{new} StreamReader(stream);
+225                 contents = sr.ReadToEnd();
+226                 sr.Close();
+227 \textcolor{preprocessor}{#else}
+228                 \textcolor{keywordtype}{string} versionPath = Path.Combine(Path.GetDirectoryName(\mbox{\hyperlink{namespace_system}{System}}.Reflection.Assembly.
+      GetExecutingAssembly().Location), \textcolor{stringliteral}{"version.json"});
+229                 contents = File.ReadAllText(versionPath);
+230 \textcolor{preprocessor}{#endif}
+231 
+232 
+233                 JObject currentVersionJson = JObject.Parse(contents);
+234 
+235                 info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}} = currentVersionJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"build"});
+236                 info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} = currentVersionJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"version"});
+237             \}
+238             \textcolor{keywordflow}{catch} (Exception e)
+239             \{
+240 
+241                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+242             \}
+243            
+244             \textcolor{keywordflow}{return} info;
+245         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_ac2510dcad764a9c925d8da152740f095_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_version_handler_ac2510dcad764a9c925d8da152740f095_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}\label{class_little_weeb_library_1_1_handlers_1_1_version_handler_a9d4e181ca6b1efff96f530dd7981d6e3}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 26 of file Version\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_version_handler_8cs}{Version\+Handler.\+cs}}\end{DoxyCompactItemize}

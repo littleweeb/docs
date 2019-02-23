@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent" name="LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_web_socket_handler.html#a1de289d54d665a32c93478c68d3e6ad0" title="LittleWeebLibrary.Handlers.\lWebSocketHandler.SendMessage" alt="" coords="323,5,545,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="597,35,789,76"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_models_1_1_json_download_info.html#a3fd450e7e2de8b9a936ba3b2cbeeaccb" title="LittleWeebLibrary.Models.\lJsonDownloadInfo.ToJson" alt="" coords="347,123,521,164"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args.html#ac81037572c354a14f1d35b654ac24b5a" title="LittleWeebLibrary.EventArguments.\lDownloadUpdateEventArgs.ToString" alt="" coords="319,188,549,229"/>
+</map>

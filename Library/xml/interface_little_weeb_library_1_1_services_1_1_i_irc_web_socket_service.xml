@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::IIrcWebSocketService</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.IrcWebSocketService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a1d34ec7c04db6779c41ee6a78d602760" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IIrcWebSocketService.Connect</definition>
+        <argsstring>(JObject ircJson=null)</argsstring>
+        <name>Connect</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5">Connect</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>ircJson</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/IrcWebSocketService.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a68ae0e96a4de9e8ad3c43f4dd89546b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IIrcWebSocketService.DisableSendMessage</definition>
+        <argsstring>()</argsstring>
+        <name>DisableSendMessage</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a71f89c2a8e9b0a86972d192bc3e55318">DisableSendMessage</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/IrcWebSocketService.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1ac3bedeb941873ec5211357841a1e6e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IIrcWebSocketService.Disconnect</definition>
+        <argsstring>()</argsstring>
+        <name>Disconnect</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972">Disconnect</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/IrcWebSocketService.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1ad873d87b345c52b09672423c707862ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IIrcWebSocketService.EnableSendMessage</definition>
+        <argsstring>()</argsstring>
+        <name>EnableSendMessage</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1acd9aa44a2389caa8e997db49a646c448">EnableSendMessage</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/IrcWebSocketService.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1abcd6f0217a73e1533c3b3fc8160b54fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IIrcWebSocketService.GetCurrentIrcSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentIrcSettings</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd">GetCurrentIrcSettings</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/IrcWebSocketService.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a79d2a4282565f178600ba77fac451e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IIrcWebSocketService.SendMessage</definition>
+        <argsstring>(JObject ircMessageJson)</argsstring>
+        <name>SendMessage</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1aa9fcd18dc123e1356049b4b95bbaf2ff">SendMessage</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>ircMessageJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/IrcWebSocketService.cs" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="377">
+        <label>LittleWeebLibrary.Services.IIrcWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service"/>
+      </node>
+      <node id="378">
+        <label>LittleWeebLibrary.Services.IrcWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="379">
+        <label>LittleWeebLibrary.Services.IIrcWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/IrcWebSocketService.cs" line="14" column="1" bodyfile="Services/IrcWebSocketService.cs" bodystart="13" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a1d34ec7c04db6779c41ee6a78d602760" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IIrcWebSocketService</scope><name>Connect</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a68ae0e96a4de9e8ad3c43f4dd89546b8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IIrcWebSocketService</scope><name>DisableSendMessage</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1ac3bedeb941873ec5211357841a1e6e92" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IIrcWebSocketService</scope><name>Disconnect</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1ad873d87b345c52b09672423c707862ac" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IIrcWebSocketService</scope><name>EnableSendMessage</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1abcd6f0217a73e1533c3b3fc8160b54fa" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IIrcWebSocketService</scope><name>GetCurrentIrcSettings</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a79d2a4282565f178600ba77fac451e9f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IIrcWebSocketService</scope><name>SendMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

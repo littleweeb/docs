@@ -1,0 +1,74 @@
+\hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler Interface Reference}
+\label{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler}\index{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ac23c001a51abb10a3d013738000dafec}{Get\+Anime\+Episodes}} (string id, int amount\+Per\+Page=26, bool no\+Cache=false, bool cached=false)
+\item 
+Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad0fbcf84372d9d564e8d84d3291fa136}{Get\+Anime\+Profile}} (string id, int amount\+Per\+Page=26, bool no\+Cache=false)
+\item 
+Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{Json\+Currently\+Airing}} $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad59273ddfe35a2560f3e07879b334c25}{Get\+Currently\+Airing}} (bool non\+Found\+Animes=false, int bot\+Id=21, bool no\+Cache=false, bool cached=false)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad0fbcf84372d9d564e8d84d3291fa136}\label{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad0fbcf84372d9d564e8d84d3291fa136}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}!Get\+Anime\+Profile@{Get\+Anime\+Profile}}
+\index{Get\+Anime\+Profile@{Get\+Anime\+Profile}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Anime\+Profile()}{GetAnimeProfile()}}
+{\footnotesize\ttfamily Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{int}]{amount\+Per\+Page = {\ttfamily 26},  }\item[{bool}]{no\+Cache = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061}{Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ac23c001a51abb10a3d013738000dafec}\label{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ac23c001a51abb10a3d013738000dafec}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}!Get\+Anime\+Episodes@{Get\+Anime\+Episodes}}
+\index{Get\+Anime\+Episodes@{Get\+Anime\+Episodes}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Anime\+Episodes()}{GetAnimeEpisodes()}}
+{\footnotesize\ttfamily Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler.\+Get\+Anime\+Episodes (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{int}]{amount\+Per\+Page = {\ttfamily 26},  }\item[{bool}]{no\+Cache = {\ttfamily false},  }\item[{bool}]{cached = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a5b163eb7e68b1e40904fa55454d8ba54}{Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad59273ddfe35a2560f3e07879b334c25}\label{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad59273ddfe35a2560f3e07879b334c25}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}!Get\+Currently\+Airing@{Get\+Currently\+Airing}}
+\index{Get\+Currently\+Airing@{Get\+Currently\+Airing}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Currently\+Airing()}{GetCurrentlyAiring()}}
+{\footnotesize\ttfamily Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{Json\+Currently\+Airing}}$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing (\begin{DoxyParamCaption}\item[{bool}]{non\+Found\+Animes = {\ttfamily false},  }\item[{int}]{bot\+Id = {\ttfamily 21},  }\item[{bool}]{no\+Cache = {\ttfamily false},  }\item[{bool}]{cached = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7469a40799e1067d871ba87679f54c37}{Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_anime_profile_handler_8cs}{Anime\+Profile\+Handler.\+cs}}\end{DoxyCompactItemize}

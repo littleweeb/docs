@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonDownloadedList</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1ae9c0af7921d00044b0d8f3979a568674" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDownloadedList.anime_cover</definition>
+        <argsstring></argsstring>
+        <name>anime_cover</name>
+        <initializer>= new JObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="13" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a11d6f5b4211280127583ee5311386f15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadedList.anime_id</definition>
+        <argsstring></argsstring>
+        <name>anime_id</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="11" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1acee14c943bef27ef60807f308c375d41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadedList.anime_title</definition>
+        <argsstring></argsstring>
+        <name>anime_title</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="12" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a703b2878786376f7a1ad264118a70d75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JArray</type>
+        <definition>JArray LittleWeebLibrary.Models.JsonDownloadedList.downloadHistorylist</definition>
+        <argsstring></argsstring>
+        <name>downloadHistorylist</name>
+        <initializer>= new JArray()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="14" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="14" bodyend="14"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" compoundref="_file_history_handler_8cs" startline="32" endline="111">LittleWeebLibrary.Handlers.FileHistoryHandler.AddFileToFileHistory</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a0a9823bb8700fb7c7c095112f0198ec1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadedList.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;download_history_list&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="10" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a3b07c23e2d9771cd069857ff761d20e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadedList.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a85d819ca67ad513254f77d395eef4816" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="15" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a97de2493e2a60e3d98bd480c311a08b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDownloadedList.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="34" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="34" bodyend="39"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" compoundref="_file_history_handler_8cs" startline="32" endline="111">LittleWeebLibrary.Handlers.FileHistoryHandler.AddFileToFileHistory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a3c84d87443d03e22ba63bbbd4f81b8b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadedList.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="18" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a85d819ca67ad513254f77d395eef4816" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonDownloadedList.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadedList.cs" line="23" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="23" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="281">
+        <label>LittleWeebLibrary.Models.JsonDownloadedList</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonDownloadedList.cs" line="8" column="1" bodyfile="Models/JsonDownloadedList.cs" bodystart="7" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1ae9c0af7921d00044b0d8f3979a568674" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>anime_cover</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a11d6f5b4211280127583ee5311386f15" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>anime_id</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1acee14c943bef27ef60807f308c375d41" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>anime_title</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a703b2878786376f7a1ad264118a70d75" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>downloadHistorylist</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a97de2493e2a60e3d98bd480c311a08b9" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a3c84d87443d03e22ba63bbbd4f81b8b2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a85d819ca67ad513254f77d395eef4816" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a0a9823bb8700fb7c7c095112f0198ec1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a3b07c23e2d9771cd069857ff761d20e2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadedList</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

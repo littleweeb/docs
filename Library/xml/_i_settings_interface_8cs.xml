@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_i_settings_interface_8cs" kind="file" language="C#">
+    <compoundname>ISettingsInterface.cs</compoundname>
+    <innerclass refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" prot="public">LittleWeebLibrary::GlobalInterfaces::ISettingsInterface</innerclass>
+    <innernamespace refid="namespace_little_weeb_library_1_1_global_interfaces">LittleWeebLibrary::GlobalInterfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_little_weeb_library" kindref="compound">LittleWeebLibrary</ref>.<ref refid="namespace_little_weeb_library_1_1_settings" kindref="compound">Settings</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_little_weeb_library" kindref="compound">LittleWeebLibrary</ref>.GlobalInterfaces</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" kindref="compound">ISettingsInterface</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetIrcSettings(<ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref><sp/>settings);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetLittleWeebSettings(<ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref><sp/>settings);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="GlobalInterfaces/ISettingsInterface.cs"/>
+  </compounddef>
+</doxygen>

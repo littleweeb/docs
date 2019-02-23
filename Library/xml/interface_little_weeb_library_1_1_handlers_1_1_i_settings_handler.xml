@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::ISettingsHandler</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.SettingsHandler</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a8ee9be789e628c80fae0db96d890569b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+        <definition>IrcSettings LittleWeebLibrary.Handlers.ISettingsHandler.GetIrcSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetIrcSettings</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a22195b5d1df129295e0e30298611bdba">GetIrcSettings</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/SettingsHandler.cs" line="15" column="1"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1af799e00c29f6eec4ca8874cda559c225" compoundref="_settings_web_socket_service_8cs" startline="63" endline="98">LittleWeebLibrary.Services.SettingsWebSocketService.SetSettingsClasses</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a493bc8df18211fa8c3874371b809e006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+        <definition>LittleWeebSettings LittleWeebLibrary.Handlers.ISettingsHandler.GetLittleWeebSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetLittleWeebSettings</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a53a5c5206eb6d2c58fa9d970c9b97463">GetLittleWeebSettings</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/SettingsHandler.cs" line="16" column="1"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac253016968e2d0141b49ab227a715242" compoundref="_debug_handler_8cs" startline="71" endline="75">LittleWeebLibrary.Handlers.DebugHandler.SetSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1af799e00c29f6eec4ca8874cda559c225" compoundref="_settings_web_socket_service_8cs" startline="63" endline="98">LittleWeebLibrary.Services.SettingsWebSocketService.SetSettingsClasses</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1aa420f7ed35d16df6ef6f18bd0ab8fa3a" compoundref="_web_socket_handler_8cs" startline="36" endline="41">LittleWeebLibrary.Handlers.WebSocketHandler.WebSocketHandler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a0c2480bc0a0ff28ed1dc68d32817efc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.ISettingsHandler.WriteIrcSettings</definition>
+        <argsstring>(IrcSettings ircSettings)</argsstring>
+        <name>WriteIrcSettings</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1ad42462e9e851301c5f5b91663dc3fe24">WriteIrcSettings</reimplementedby>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+          <declname>ircSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/SettingsHandler.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a6b2cfe838785ae84db9608fb041c5fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.ISettingsHandler.WriteLittleWeebSettings</definition>
+        <argsstring>(LittleWeebSettings littleWeebSettings)</argsstring>
+        <name>WriteLittleWeebSettings</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1af5a1ea4a3605d938b363e83268774d6f">WriteLittleWeebSettings</reimplementedby>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+          <declname>littleWeebSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/SettingsHandler.cs" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="204">
+        <label>LittleWeebLibrary.Handlers.ISettingsHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler"/>
+      </node>
+      <node id="205">
+        <label>LittleWeebLibrary.Handlers.SettingsHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="206">
+        <label>LittleWeebLibrary.Handlers.ISettingsHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/SettingsHandler.cs" line="14" column="1" bodyfile="Handlers/SettingsHandler.cs" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a8ee9be789e628c80fae0db96d890569b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::ISettingsHandler</scope><name>GetIrcSettings</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a493bc8df18211fa8c3874371b809e006" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::ISettingsHandler</scope><name>GetLittleWeebSettings</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a0c2480bc0a0ff28ed1dc68d32817efc6" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::ISettingsHandler</scope><name>WriteIrcSettings</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a6b2cfe838785ae84db9608fb041c5fb5" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::ISettingsHandler</scope><name>WriteLittleWeebSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

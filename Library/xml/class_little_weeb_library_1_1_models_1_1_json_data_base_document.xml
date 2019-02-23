@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_data_base_document" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonDataBaseDocument</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1afa1d795f001099e7b20b68598a64aa6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDataBaseDocument.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= new JObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDataBaseDocument.cs" line="11" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a5d2a9fcc303c5b63fb119d8d1fac84de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDataBaseDocument.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;database_document&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDataBaseDocument.cs" line="10" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a42925c25aecabb526e6dbb3172d94efb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDataBaseDocument.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a0a84a997c39ac76d99382cdabf9227bf" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDataBaseDocument.cs" line="12" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1ae582e7c7033e71722913fe3b620ac80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDataBaseDocument.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDataBaseDocument.cs" line="30" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a9b07f0f62d6352441b62b26dff058acb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDataBaseDocument.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDataBaseDocument.cs" line="14" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a0a84a997c39ac76d99382cdabf9227bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonDataBaseDocument.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDataBaseDocument.cs" line="19" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="19" bodyend="28"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aa51350396b2aa1634a680c94bebdc64c" compoundref="_data_base_web_socket_service_8cs" startline="121" endline="166">LittleWeebLibrary.Services.DataBaseWebSocketService.GetDocument</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="273">
+        <label>LittleWeebLibrary.Models.JsonDataBaseDocument</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonDataBaseDocument.cs" line="9" column="1" bodyfile="Models/JsonDataBaseDocument.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1afa1d795f001099e7b20b68598a64aa6e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDataBaseDocument</scope><name>result</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1ae582e7c7033e71722913fe3b620ac80c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDataBaseDocument</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a9b07f0f62d6352441b62b26dff058acb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDataBaseDocument</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a0a84a997c39ac76d99382cdabf9227bf" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDataBaseDocument</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a5d2a9fcc303c5b63fb119d8d1fac84de" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDataBaseDocument</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a42925c25aecabb526e6dbb3172d94efb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDataBaseDocument</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

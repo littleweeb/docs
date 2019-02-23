@@ -1,0 +1,192 @@
+\hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings}{}\section{Little\+Weeb\+Library.\+Settings.\+Irc\+Settings Class Reference}
+\label{class_little_weeb_library_1_1_settings_1_1_irc_settings}\index{Little\+Weeb\+Library.\+Settings.\+Irc\+Settings@{Little\+Weeb\+Library.\+Settings.\+Irc\+Settings}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Settings.\+Irc\+Settings\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_little_weeb_library_1_1_settings_1_1_irc_settings__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a395d5d33ff9f9699551a38b4ab6866e4}{Channels}} = \char`\"{}\#nibl,\#horriblesubs,\#news\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}{fullfilepath}} = Path.\+Combine(Path.\+Combine(Environment.\+Get\+Folder\+Path(Environment.\+Special\+Folder.\+My\+Documents), \char`\"{}Little\+Weeb\char`\"{}), \char`\"{}Downloads\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a13491703ff0e9a96c87743e70002f6fe}{Port}} = 6697\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_aea7952c2d3db87eb5609feae15c5475c}{Secure}} = true\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a99953f00fc76a98af0bd06129876d5ef}{Server\+Address}} = \char`\"{}irc.\+rizon.\+net\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a1a400295f11e155e37002041410e47f1}{User\+Name}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Irc\+Settings.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+All\+Irc\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Set\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Set\+Irc\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Write\+Irc\+Settings().
+
+
+\begin{DoxyCode}
+21         \{
+22             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+23             toReturn += \textcolor{stringliteral}{"ServerAddress: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a99953f00fc76a98af0bd06129876d5ef}{ServerAddress}} + Environment.NewLine;
+24             toReturn += \textcolor{stringliteral}{"Port: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a13491703ff0e9a96c87743e70002f6fe}{Port}}.ToString() + Environment.NewLine;
+25             toReturn += \textcolor{stringliteral}{"Secure: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_aea7952c2d3db87eb5609feae15c5475c}{Secure}}.ToString() + Environment.NewLine;
+26             toReturn += \textcolor{stringliteral}{"Channels: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a395d5d33ff9f9699551a38b4ab6866e4}{Channels}}.ToString() + Environment.NewLine;
+27             toReturn += \textcolor{stringliteral}{"UserName: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a1a400295f11e155e37002041410e47f1}{UserName}} + Environment.NewLine;
+28             toReturn += \textcolor{stringliteral}{"fullfilepath: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}{fullfilepath}}+ Environment.NewLine;
+29             \textcolor{keywordflow}{return} toReturn;
+30         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_a99953f00fc76a98af0bd06129876d5ef}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_a99953f00fc76a98af0bd06129876d5ef}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!Server\+Address@{Server\+Address}}
+\index{Server\+Address@{Server\+Address}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{Server\+Address}{ServerAddress}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Server\+Address = \char`\"{}irc.\+rizon.\+net\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 8 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disconnect(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Connection().
+
+
+\begin{DoxyCode}
+8 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"irc.rizon.net"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_a13491703ff0e9a96c87743e70002f6fe}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_a13491703ff0e9a96c87743e70002f6fe}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!Port@{Port}}
+\index{Port@{Port}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{Port}{Port}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Port = 6697\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Connection().
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = 6697;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_aea7952c2d3db87eb5609feae15c5475c}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_aea7952c2d3db87eb5609feae15c5475c}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!Secure@{Secure}}
+\index{Secure@{Secure}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{Secure}{Secure}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Secure = true\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Connection().
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{true};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_a395d5d33ff9f9699551a38b4ab6866e4}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_a395d5d33ff9f9699551a38b4ab6866e4}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!Channels@{Channels}}
+\index{Channels@{Channels}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{Channels}{Channels}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+Channels = \char`\"{}\#nibl,\#horriblesubs,\#news\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disconnect(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Connection().
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"#nibl,#horriblesubs,#news"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_a1a400295f11e155e37002041410e47f1}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_a1a400295f11e155e37002041410e47f1}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!User\+Name@{User\+Name}}
+\index{User\+Name@{User\+Name}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{User\+Name}{UserName}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+User\+Name = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disconnect(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Start\+Connection().
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}\label{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}!fullfilepath@{fullfilepath}}
+\index{fullfilepath@{fullfilepath}!Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}}
+\subsubsection{\texorpdfstring{fullfilepath}{fullfilepath}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+fullfilepath = Path.\+Combine(Path.\+Combine(Environment.\+Get\+Folder\+Path(Environment.\+Special\+Folder.\+My\+Documents), \char`\"{}Little\+Weeb\char`\"{}), \char`\"{}Downloads\char`\"{})\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 17 of file Irc\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Download(), Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Downloads(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disconnect(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Free\+Space(), Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Irc\+Client\+Handler(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Openfullfilepath(), Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Setfullfilepath(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Setfullfilepath(), and Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings().
+
+
+\begin{DoxyCode}
+17 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+       \textcolor{stringliteral}{"LittleWeeb"}), \textcolor{stringliteral}{"Downloads"});
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Settings/\mbox{\hyperlink{_irc_settings_8cs}{Irc\+Settings.\+cs}}\end{DoxyCompactItemize}

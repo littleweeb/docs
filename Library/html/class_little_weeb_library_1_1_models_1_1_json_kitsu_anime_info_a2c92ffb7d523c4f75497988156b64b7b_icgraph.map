@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Models.JsonKitsuAnimeInfo.ToJObject" name="LittleWeebLibrary.Models.JsonKitsuAnimeInfo.ToJObject">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler.html#a5b163eb7e68b1e40904fa55454d8ba54" title="LittleWeebLibrary.Handlers.\lAnimeProfileHandler.GetAnimeEpisodes" alt="" coords="252,17,507,58"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler.html#aaa89fba506cfcdad18a5aa3f9b860061" title="LittleWeebLibrary.Handlers.\lAnimeProfileHandler.GetAnimeProfile" alt="" coords="261,86,498,127"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a754f738fba586cc927d64251329c736a" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetAnime\lEpisodes" alt="" coords="555,5,788,61"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="836,45,1113,101"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a12f4d83332b28988ce0e2bc5ff3ed369" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetAnime\lProfile" alt="" coords="555,85,788,141"/>
+</map>

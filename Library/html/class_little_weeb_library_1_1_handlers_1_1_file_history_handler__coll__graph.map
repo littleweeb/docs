@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.FileHistoryHandler" name="LittleWeebLibrary.Handlers.FileHistoryHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler.html" title="{IFileHistoryHandler\n||+ AddFileToFileHistory()\l+ GetCurrentFileHistory()\l+ RemoveFileFromFileHistory()\l}" alt="" coords="5,49,207,156"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="231,42,413,163"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler.html" title="{LittleWeebLibrary.Handlers.\lIDataBaseHandler\n||+ GetCollection()\l+ GetJObject()\l+ GetJObject()\l+ RemoveJObject()\l+ RemoveJObject()\l+ StoreJObject()\l+ UpdateJObject()\l+ UpdateJObject()\l}" alt="" coords="437,5,620,200"/>
+</map>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::IDataBaseWebSocketService</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.DataBaseWebSocketService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a4411fbc1801df45d63aa3a0624891ef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDataBaseWebSocketService.DeleteDocument</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>DeleteDocument</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a5d9baf510f46f6a3fac9fe84325bb017">DeleteDocument</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DataBaseWebSocketService.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1aeeeecbdfb73e0242a2d36f8d1d88b6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDataBaseWebSocketService.GetCollection</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetCollection</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aef8bdd650778c72d639f1e89c1d6dcad">GetCollection</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DataBaseWebSocketService.cs" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1abe25bfca603db07eb94658e65d0627dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDataBaseWebSocketService.GetDocument</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetDocument</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aa51350396b2aa1634a680c94bebdc64c">GetDocument</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DataBaseWebSocketService.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a94ab5dc454950814a3e6346e14219a87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDataBaseWebSocketService.StoreDocument</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>StoreDocument</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1af85671a494e85f8418f60606566521f0">StoreDocument</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DataBaseWebSocketService.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a8b70c95afacce9abbd2d70c77b22c51a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDataBaseWebSocketService.UpdateDocument</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>UpdateDocument</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a3771a51f4d0aab2cd4f65676427d0902">UpdateDocument</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DataBaseWebSocketService.cs" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="362">
+        <label>LittleWeebLibrary.Services.IDataBaseWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service"/>
+      </node>
+      <node id="363">
+        <label>LittleWeebLibrary.Services.DataBaseWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="364">
+        <label>LittleWeebLibrary.Services.IDataBaseWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/DataBaseWebSocketService.cs" line="17" column="1" bodyfile="Services/DataBaseWebSocketService.cs" bodystart="16" bodyend="23"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a4411fbc1801df45d63aa3a0624891ef6" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDataBaseWebSocketService</scope><name>DeleteDocument</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1aeeeecbdfb73e0242a2d36f8d1d88b6ee" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDataBaseWebSocketService</scope><name>GetCollection</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1abe25bfca603db07eb94658e65d0627dc" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDataBaseWebSocketService</scope><name>GetDocument</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a94ab5dc454950814a3e6346e14219a87" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDataBaseWebSocketService</scope><name>StoreDocument</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a8b70c95afacce9abbd2d70c77b22c51a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDataBaseWebSocketService</scope><name>UpdateDocument</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

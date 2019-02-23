@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_cac2beceb4c1969ca10da3f52b25b201" kind="dir">
+    <compoundname>obj/Debug Android</compoundname>
+    <innerdir refid="dir_fa51791b7f4c4bad850cc4c8d20f8b02">obj/Debug Android/netstandard2.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug Android/"/>
+  </compounddef>
+</doxygen>

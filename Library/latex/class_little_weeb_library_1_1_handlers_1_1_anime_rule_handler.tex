@@ -1,0 +1,415 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a71cb7aa9d7e5df35ae28ac4fcb11a51f}{Anime\+Rule\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} data\+Base\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a469232c6b73d0ceff935c4ef2d78d039}{Add\+Rules}} (J\+Object custom\+Rules, string anime\+\_\+id)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a503fb2839489e1df8b80c9a461c0fd2b}{Filter\+Anime\+Rules}} (J\+Object nibl\+Data, string anime\+Id)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ string $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a721f5c5ac798ca7e81286b3f401921fb}{Get}} (string url)
+\item 
+async void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a719277ca087cc0e4b46708179d62b07f}{Init}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}{Data\+Base\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{Debug\+Handler}}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_aff5df38f10696987486267a30095ad49}{Global\+Rules}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 16 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a71cb7aa9d7e5df35ae28ac4fcb11a51f}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a71cb7aa9d7e5df35ae28ac4fcb11a51f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Anime\+Rule\+Handler@{Anime\+Rule\+Handler}}
+\index{Anime\+Rule\+Handler@{Anime\+Rule\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Anime\+Rule\+Handler()}{AnimeRuleHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Anime\+Rule\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}}}]{data\+Base\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 22 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+23         \{
+24             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+25             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}} = debugHandler;
+26             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}{DataBaseHandler}} = dataBaseHandler;
+27             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a719277ca087cc0e4b46708179d62b07f}{Init}}();
+28 
+29         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a71cb7aa9d7e5df35ae28ac4fcb11a51f_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a469232c6b73d0ceff935c4ef2d78d039}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a469232c6b73d0ceff935c4ef2d78d039}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Add\+Rules@{Add\+Rules}}
+\index{Add\+Rules@{Add\+Rules}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Add\+Rules()}{AddRules()}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Add\+Rules (\begin{DoxyParamCaption}\item[{J\+Object}]{custom\+Rules,  }\item[{string}]{anime\+\_\+id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_ae8bcf661c81733b24b52ce3e180aeac1}{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Rule\+Handler}}.
+
+
+
+Definition at line 31 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Add\+Rule().
+
+
+\begin{DoxyCode}
+32         \{
+33             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"AddRules Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+34             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"For anime: "} + anime\_id, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+35 
+36             JObject anime = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"anime"}, anime\_id);
+37 
+38             JObject currentRules = anime.Value<JObject>(\textcolor{stringliteral}{"anime\_rules"});
+39 
+40             currentRules.Merge(customRules);
+41 
+42             anime[\textcolor{stringliteral}{"anime\_rules"}] = currentRules;
+43 
+44             \textcolor{keywordflow}{return} await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{UpdateJObject}}(\textcolor{stringliteral}{"anime"}, anime, anime\_id
+      );
+45 
+46         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a469232c6b73d0ceff935c4ef2d78d039_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a469232c6b73d0ceff935c4ef2d78d039_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a503fb2839489e1df8b80c9a461c0fd2b}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a503fb2839489e1df8b80c9a461c0fd2b}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Filter\+Anime\+Rules@{Filter\+Anime\+Rules}}
+\index{Filter\+Anime\+Rules@{Filter\+Anime\+Rules}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Filter\+Anime\+Rules()}{FilterAnimeRules()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Filter\+Anime\+Rules (\begin{DoxyParamCaption}\item[{J\+Object}]{nibl\+Data,  }\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_ad82316c84b3b1a7870ff94107b420cc6}{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Rule\+Handler}}.
+
+
+
+Definition at line 48 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Episodes().
+
+
+\begin{DoxyCode}
+49         \{
+50             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FilterAnimeRules Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+51             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"For anime: "} + animeId, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+52 
+53             JObject anime = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"anime"}, animeId);
+54 
+55             JObject localRules = anime.Value<JObject>(\textcolor{stringliteral}{"anime\_rules"});
+56 
+57             JArray must\_contain = \textcolor{keyword}{new} JArray();
+58             JArray cannot\_contain = \textcolor{keyword}{new} JArray();
+59 
+60             \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_aff5df38f10696987486267a30095ad49}{GlobalRules}}.ContainsKey(animeId))\{
+61                 JObject globalRules = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_aff5df38f10696987486267a30095ad49}{GlobalRules}}.Value<JObject>(animeId);
+62                 must\_contain.Merge(globalRules.Value<JArray>(\textcolor{stringliteral}{"must\_contain"}));
+63                 cannot\_contain.Merge(globalRules.Value<JArray>(\textcolor{stringliteral}{"cannot\_contain"}));
+64 
+65 
+66                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Found global rules for anime : "} + 
+      animeId, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+67                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Must contain : "} + must\_contain.ToString
+      (), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+68                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Cannot contain : "} + cannot\_contain.
+      ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+69             \}
+70 
+71             \textcolor{keywordflow}{if} (localRules.Count > 0)
+72             \{
+73                 must\_contain.Merge(localRules.Value<JArray>(\textcolor{stringliteral}{"must\_contain"}));
+74                 cannot\_contain.Merge(localRules.Value<JArray>(\textcolor{stringliteral}{"cannot\_contain"}));
+75 
+76                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Found local rules for anime : "} + 
+      animeId, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+77                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Must contain : "} + must\_contain.ToString
+      (), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+78                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Cannot contain : "} + cannot\_contain.
+      ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+79             \}
+80 
+81             \textcolor{keywordflow}{if} (must\_contain.Count > 0 || cannot\_contain.Count > 0)
+82             \{
+83                 JArray listWithPacks = niblData.Value<JArray>(\textcolor{stringliteral}{"packs"});
+84 
+85 
+86                 \textcolor{comment}{//DebugHandler.TraceMessage("Start iterating files from nibl with rules: " +
+       listWithPacks.Count.ToString(), DebugSource.TASK, DebugType.INFO);}
+87 
+88                 JArray newListWithPacks = \textcolor{keyword}{new} JArray();
+89 
+90                 \textcolor{keywordflow}{foreach} (JObject pack \textcolor{keywordflow}{in} listWithPacks)
+91                 \{
+92                     \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"FullFileName"}))
+93                     \{
+94                         \textcolor{keywordtype}{string} episodeFileName = pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"FullFileName"});
+95 
+96                         \textcolor{keywordtype}{bool} must\_contain\_check = \textcolor{keyword}{true};
+97                         \textcolor{keywordtype}{bool} cannot\_contain\_check = \textcolor{keyword}{true};
+98 
+99 
+100                         \textcolor{keywordflow}{if} (must\_contain.Count > 0)
+101                         \{
+102                             \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} mustcontain \textcolor{keywordflow}{in} must\_contain)
+103                             \{
+104                                 \textcolor{keywordflow}{if} (mustcontain != \textcolor{keywordtype}{string}.Empty)
+105                                 \{
+106                                     \textcolor{keywordflow}{if} (episodeFileName.ToLower().Contains(mustcontain.ToLower()))
+107                                     \{
+108                                         must\_contain\_check = \textcolor{keyword}{true};
+109                                         \textcolor{keywordflow}{break};
+110                                     \}
+111                                     \textcolor{keywordflow}{else}
+112                                     \{
+113                                         must\_contain\_check = \textcolor{keyword}{false};
+114                                     \}
+115                                 \}
+116                             \}
+117                         \}
+118                         \textcolor{keywordflow}{if} (cannot\_contain.Count > 0)
+119                         \{
+120                             \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} cannotcontain \textcolor{keywordflow}{in} cannot\_contain)
+121                             \{
+122                                 \textcolor{keywordflow}{if} (cannotcontain != \textcolor{keywordtype}{string}.Empty)
+123                                 \{
+124                                     \textcolor{keywordflow}{if} (episodeFileName.ToLower().Contains(cannotcontain.ToLower()))
+125                                     \{
+126                                         cannot\_contain\_check = \textcolor{keyword}{false};
+127                                         \textcolor{keywordflow}{break};
+128                                     \}
+129                                 \}
+130                             \}
+131                         \}
+132 
+133                         \textcolor{keywordflow}{if} (must\_contain\_check && cannot\_contain\_check)
+134                         \{
+135                            \textcolor{comment}{// DebugHandler.TraceMessage("File with filename " + episodeFileName + " passes
+       rule check!", DebugSource.TASK, DebugType.INFO);}
+136                             newListWithPacks.Add(pack);
+137                         \}
+138                     \}
+139                 \}
+140                 niblData[\textcolor{stringliteral}{"packs"}] = newListWithPacks;
+141 
+142                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Finished parsing rules, new list with
+       files size: "} + newListWithPacks.Count.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+143                 \textcolor{keywordflow}{return} niblData;
+144             \}
+145             \textcolor{keywordflow}{else}
+146             \{
+147                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"No rules found for anime with id: "} + 
+      animeId + \textcolor{stringliteral}{", returning unparsed list."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+148                 \textcolor{keywordflow}{return} niblData;
+149             \}
+150         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a503fb2839489e1df8b80c9a461c0fd2b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a503fb2839489e1df8b80c9a461c0fd2b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a719277ca087cc0e4b46708179d62b07f}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a719277ca087cc0e4b46708179d62b07f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Init@{Init}}
+\index{Init@{Init}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily async void Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 152 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+153         \{
+154             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Init called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+155             \textcolor{keywordtype}{string} currentRules = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a721f5c5ac798ca7e81286b3f401921fb}{Get}}(\textcolor{stringliteral}{"littleweebrules.json"});
+156             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Result: "} + currentRules, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+157             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_aff5df38f10696987486267a30095ad49}{GlobalRules}} = JObject.Parse(currentRules);
+158         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a719277ca087cc0e4b46708179d62b07f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a721f5c5ac798ca7e81286b3f401921fb}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a721f5c5ac798ca7e81286b3f401921fb}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Get@{Get}}
+\index{Get@{Get}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily async Task$<$string$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Get (\begin{DoxyParamCaption}\item[{string}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 160 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+161         \{
+162             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Get called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+163             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"URL: "} + url, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+164             \textcolor{keyword}{using} (HttpClient client = \textcolor{keyword}{new} HttpClient())
+165             \{
+166                 HttpResponseMessage response = await client.GetAsync(\textcolor{stringliteral}{"
+      https://raw.githubusercontent.com/littleweeb/LittleWeebRules/master/"} + url);
+167 
+168                 \textcolor{keywordflow}{if} (response.IsSuccessStatusCode)
+169                 \{
+170                     \textcolor{keywordflow}{return} await response.Content.ReadAsStringAsync();
+171                 \}
+172                 \textcolor{keywordflow}{else}
+173                 \{
+174                     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"failed: "} + response.StatusCode.ToString();
+175                 \}
+176             \}
+177         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a721f5c5ac798ca7e81286b3f401921fb_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a31322132913e3f4b669e14a3e621a326}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Data\+Base\+Handler@{Data\+Base\+Handler}}
+\index{Data\+Base\+Handler@{Data\+Base\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Data\+Base\+Handler}{DataBaseHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Data\+Base\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 18 of file Anime\+Rule\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_a6ad89134d97d818f3b2deebb7e2cf361}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 19 of file Anime\+Rule\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_aff5df38f10696987486267a30095ad49}\label{class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_aff5df38f10696987486267a30095ad49}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}!Global\+Rules@{Global\+Rules}}
+\index{Global\+Rules@{Global\+Rules}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}}
+\subsubsection{\texorpdfstring{Global\+Rules}{GlobalRules}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Global\+Rules\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 20 of file Anime\+Rule\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_anime_rule_handler_8cs}{Anime\+Rule\+Handler.\+cs}}\end{DoxyCompactItemize}

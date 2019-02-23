@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Controllers.FileWebSocketController" name="LittleWeebLibrary.Controllers.FileWebSocketController">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller.html" title="{ISubWebSocketController\n||+ OnWebSocketEvent()\l}" alt="" coords="5,27,176,105"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="201,5,383,127"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service.html" title="{LittleWeebLibrary.Services.\lIFileWebSocketService\n||+ DeleteFile()\l+ OpenFile()\l}" alt="" coords="407,13,587,119"/>
+<area shape="rect" id="node5" href="$interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler.html" title="{LittleWeebLibrary.Handlers.\lIWebSocketHandler\n||+ SendMessage()\l+ StartServer()\l+ StopServer()\l}" alt="" coords="611,5,794,127"/>
+</map>

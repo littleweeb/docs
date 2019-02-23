@@ -1,0 +1,180 @@
+\hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory}{}\section{Little\+Weeb\+Library.\+Models.\+Json\+Directory Class Reference}
+\label{class_little_weeb_library_1_1_models_1_1_json_directory}\index{Little\+Weeb\+Library.\+Models.\+Json\+Directory@{Little\+Weeb\+Library.\+Models.\+Json\+Directory}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Models.\+Json\+Directory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_little_weeb_library_1_1_models_1_1_json_directory__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_ab50f54381142e811a8a1289d4b5e83e7}{To\+J\+Object}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a3527cf5cff598f63b5f95cf7d6158b55}{To\+Json}} ()
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a8fb3f3abbc3d89fa3a3fc6f7966fc4f9}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a85ca592b7c664bc94b3d1619e6c6beef}{dirname}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a7bd33103cb444da0436a3369edcffa19}{path}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_ac6178c963cbe9e15834066ed048fc1d9}{type}} = \char`\"{}directory\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_aa6ff9e2e4fabee594670b7cd93fa2c69}{updated}} = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a8fb3f3abbc3d89fa3a3fc6f7966fc4f9}{To\+String}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Json\+Directory.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_a3527cf5cff598f63b5f95cf7d6158b55}\label{class_little_weeb_library_1_1_models_1_1_json_directory_a3527cf5cff598f63b5f95cf7d6158b55}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!To\+Json@{To\+Json}}
+\index{To\+Json@{To\+Json}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{To\+Json()}{ToJson()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+To\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 15 of file Json\+Directory.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Directories(), and Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Drives().
+
+
+\begin{DoxyCode}
+16         \{
+17             \textcolor{keywordflow}{return} JsonConvert.SerializeObject(\textcolor{keyword}{this});
+18         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_models_1_1_json_directory_a3527cf5cff598f63b5f95cf7d6158b55_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_a8fb3f3abbc3d89fa3a3fc6f7966fc4f9}\label{class_little_weeb_library_1_1_models_1_1_json_directory_a8fb3f3abbc3d89fa3a3fc6f7966fc4f9}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Json\+Directory.\+cs.
+
+
+\begin{DoxyCode}
+21         \{
+22             JObject jobject = \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_ab50f54381142e811a8a1289d4b5e83e7}{ToJObject}}();
+23             \textcolor{keywordtype}{string} properties = \textcolor{keywordtype}{string}.Empty;
+24             \textcolor{keywordflow}{foreach} (var x \textcolor{keywordflow}{in} jobject)
+25             \{
+26                 properties += x.Key + \textcolor{stringliteral}{": "} + x.Value.ToString();
+27             \}
+28             \textcolor{keywordflow}{return} properties;
+29         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_ab50f54381142e811a8a1289d4b5e83e7}\label{class_little_weeb_library_1_1_models_1_1_json_directory_ab50f54381142e811a8a1289d4b5e83e7}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!To\+J\+Object@{To\+J\+Object}}
+\index{To\+J\+Object@{To\+J\+Object}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{To\+J\+Object()}{ToJObject()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+To\+J\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 31 of file Json\+Directory.\+cs.
+
+
+\begin{DoxyCode}
+32         \{
+33 
+34             JObject jobject = JObject.FromObject(\textcolor{keyword}{this});
+35             \textcolor{keywordflow}{return} jobject;
+36         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_ac6178c963cbe9e15834066ed048fc1d9}\label{class_little_weeb_library_1_1_models_1_1_json_directory_ac6178c963cbe9e15834066ed048fc1d9}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!type@{type}}
+\index{type@{type}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+type = \char`\"{}directory\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Json\+Directory.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"directory"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_a85ca592b7c664bc94b3d1619e6c6beef}\label{class_little_weeb_library_1_1_models_1_1_json_directory_a85ca592b7c664bc94b3d1619e6c6beef}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!dirname@{dirname}}
+\index{dirname@{dirname}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{dirname}{dirname}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+dirname = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Json\+Directory.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Drives().
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_a7bd33103cb444da0436a3369edcffa19}\label{class_little_weeb_library_1_1_models_1_1_json_directory_a7bd33103cb444da0436a3369edcffa19}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!path@{path}}
+\index{path@{path}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+path = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Json\+Directory.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Drives().
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_directory_aa6ff9e2e4fabee594670b7cd93fa2c69}\label{class_little_weeb_library_1_1_models_1_1_json_directory_aa6ff9e2e4fabee594670b7cd93fa2c69}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}!updated@{updated}}
+\index{updated@{updated}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}}
+\subsubsection{\texorpdfstring{updated}{updated}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+updated = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a8fb3f3abbc3d89fa3a3fc6f7966fc4f9}{To\+String}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 13 of file Json\+Directory.\+cs.
+
+
+\begin{DoxyCode}
+13 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = StaticClasses.UtilityMethods.GetEpoch().ToString();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\mbox{\hyperlink{_json_directory_8cs}{Json\+Directory.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,218 @@
+\hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{}\section{Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings Class Reference}
+\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}\index{Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings@{Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22bedc101a7007c6cdce341f22c833d6}{Currently\+Airing\+Bot}} = 21\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22ae8b2dc7e6bb5e0b3b0220484c4c86}{Debug\+Level}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a3e498a95757f135bc082566afbfa8877}{Debug\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a01ccf2dfb1b01854f23b34f1eb7ac39c}{Local}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_aed66354aaf455ab77c7360074cb05a2d}{Max\+Debug\+Log\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_ab37db9696fb199dbdad39ea6c7eda76c}{Port}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a0826aad7341af901477ce991359129d4}{Random\+Username\+Length}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 16 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+All\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Set\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Write\+Little\+Weeb\+Settings().
+
+
+\begin{DoxyCode}
+17         \{
+18             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+19             toReturn += \textcolor{stringliteral}{"Port: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_ab37db9696fb199dbdad39ea6c7eda76c}{Port}}.ToString() + Environment.NewLine;
+20             toReturn += \textcolor{stringliteral}{"Local: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a01ccf2dfb1b01854f23b34f1eb7ac39c}{Local}}.ToString() + Environment.NewLine;
+21             toReturn += \textcolor{stringliteral}{"RandomUserNameLength:: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a0826aad7341af901477ce991359129d4}{RandomUsernameLength}}.ToString() + 
+      Environment.NewLine;
+22             toReturn += \textcolor{stringliteral}{"DebugLevel: "};
+23             \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{int} debugLevel \textcolor{keywordflow}{in} \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22ae8b2dc7e6bb5e0b3b0220484c4c86}{DebugLevel}}) \{
+24                 toReturn += debugLevel.ToString() + \textcolor{stringliteral}{","};
+25             \}
+26             toReturn += \textcolor{stringliteral}{"DebugLevel: "};
+27             \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{int} debugType \textcolor{keywordflow}{in} \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a3e498a95757f135bc082566afbfa8877}{DebugType}})
+28             \{
+29                 toReturn += debugType.ToString() + \textcolor{stringliteral}{","};
+30             \}
+31             toReturn += Environment.NewLine;
+32             toReturn += \textcolor{stringliteral}{"MaxDebugLogSize: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_aed66354aaf455ab77c7360074cb05a2d}{MaxDebugLogSize}}.ToString() + Environment.
+      NewLine;
+33 
+34             \textcolor{keywordflow}{return} toReturn;
+35         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_ab37db9696fb199dbdad39ea6c7eda76c}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_ab37db9696fb199dbdad39ea6c7eda76c}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Port@{Port}}
+\index{Port@{Port}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Port}{Port}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Port\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 8 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Start\+Server().
+
+
+\begin{DoxyCode}
+8 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} 
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a01ccf2dfb1b01854f23b34f1eb7ac39c}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a01ccf2dfb1b01854f23b34f1eb7ac39c}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Local@{Local}}
+\index{Local@{Local}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Local}{Local}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Local\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+On\+Web\+Socket\+Server\+Event().
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} 
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a0826aad7341af901477ce991359129d4}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a0826aad7341af901477ce991359129d4}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Random\+Username\+Length@{Random\+Username\+Length}}
+\index{Random\+Username\+Length@{Random\+Username\+Length}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Random\+Username\+Length}{RandomUsernameLength}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Random\+Username\+Length\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings().
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22ae8b2dc7e6bb5e0b3b0220484c4c86}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22ae8b2dc7e6bb5e0b3b0220484c4c86}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Debug\+Level@{Debug\+Level}}
+\index{Debug\+Level@{Debug\+Level}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Debug\+Level}{DebugLevel}}
+{\footnotesize\ttfamily List$<$int$>$ Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Debug\+Level\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Debug\+Handler(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a3e498a95757f135bc082566afbfa8877}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a3e498a95757f135bc082566afbfa8877}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Debug\+Type@{Debug\+Type}}
+\index{Debug\+Type@{Debug\+Type}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Debug\+Type}{DebugType}}
+{\footnotesize\ttfamily List$<$int$>$ Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Debug\+Type\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_aed66354aaf455ab77c7360074cb05a2d}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_aed66354aaf455ab77c7360074cb05a2d}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Max\+Debug\+Log\+Size@{Max\+Debug\+Log\+Size}}
+\index{Max\+Debug\+Log\+Size@{Max\+Debug\+Log\+Size}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Max\+Debug\+Log\+Size}{MaxDebugLogSize}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Max\+Debug\+Log\+Size\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 13 of file Little\+Weeb\+Settings.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Debug\+File\+Writer(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings().
+
+
+\begin{DoxyCode}
+13 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22bedc101a7007c6cdce341f22c833d6}\label{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a22bedc101a7007c6cdce341f22c833d6}} 
+\index{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}!Currently\+Airing\+Bot@{Currently\+Airing\+Bot}}
+\index{Currently\+Airing\+Bot@{Currently\+Airing\+Bot}!Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings@{Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}}
+\subsubsection{\texorpdfstring{Currently\+Airing\+Bot}{CurrentlyAiringBot}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Currently\+Airing\+Bot = 21\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 14 of file Little\+Weeb\+Settings.\+cs.
+
+
+\begin{DoxyCode}
+14 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = 21; \textcolor{comment}{//Ginpachi-Sensei on Nibl.}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Settings/\mbox{\hyperlink{_little_weeb_settings_8cs}{Little\+Weeb\+Settings.\+cs}}\end{DoxyCompactItemize}

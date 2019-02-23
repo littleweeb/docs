@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Controllers::ISubWebSocketController</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.DownloadWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.FileWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.IrcWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController</derivedcompoundref>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller_1adcb26b7b397d6a67ccbf114008c29985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Controllers.ISubWebSocketController.OnWebSocketEvent</definition>
+        <argsstring>(WebSocketEventArgs args)</argsstring>
+        <name>OnWebSocketEvent</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08">OnWebSocketEvent</reimplementedby>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53">OnWebSocketEvent</reimplementedby>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" kindref="compound">WebSocketEventArgs</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/Interfaces/ISubWebSocketController.cs" line="7" column="1"/>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a5344934da2b25a2ec1599b2ec86dd06e" compoundref="_base_web_socket_controller_8cs" startline="38" endline="52">LittleWeebLibrary.Controllers.BaseWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>LittleWeebLibrary.Controllers.DownloadWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>LittleWeebLibrary.Controllers.ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+      <node id="34">
+        <label>LittleWeebLibrary.Controllers.IrcWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>LittleWeebLibrary.Controllers.FileWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>LittleWeebLibrary.Controllers.ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/Interfaces/ISubWebSocketController.cs" line="6" column="1" bodyfile="Controllers/Interfaces/ISubWebSocketController.cs" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller_1adcb26b7b397d6a67ccbf114008c29985" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::ISubWebSocketController</scope><name>OnWebSocketEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

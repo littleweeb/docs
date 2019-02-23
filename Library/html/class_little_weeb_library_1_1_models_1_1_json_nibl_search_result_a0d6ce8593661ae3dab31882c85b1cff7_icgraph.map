@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Models.JsonNiblSearchResult.ToJson" name="LittleWeebLibrary.Models.JsonNiblSearchResult.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a299be5b400f1368ab169599395a3e56d" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetFiles\lForAnime" alt="" coords="248,5,472,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="520,5,797,61"/>
+</map>

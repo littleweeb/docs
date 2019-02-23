@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_free_space" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonFreeSpace</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1a22620db3979c7d52ee764555c29a940c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonFreeSpace.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;free_space&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="9" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1a411fcb0402a7b696adfee7cb2a3efad0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long LittleWeebLibrary.Models.JsonFreeSpace.freespacebytes</definition>
+        <argsstring></argsstring>
+        <name>freespacebytes</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="10" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1a835bd50126595d47780104725423d991" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long LittleWeebLibrary.Models.JsonFreeSpace.freespacekbytes</definition>
+        <argsstring></argsstring>
+        <name>freespacekbytes</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="11" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1ac331b31dba1337829ebc86ef88164e57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long LittleWeebLibrary.Models.JsonFreeSpace.freespacembytes</definition>
+        <argsstring></argsstring>
+        <name>freespacembytes</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="12" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1a9c3ae588d489e377de5bd608b69a5e75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonFreeSpace.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1ab23fb33c2e1990fc09fb171193bee852" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="13" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1a5deaf058a148e647128b1fca6f9fc722" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonFreeSpace.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="31" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1a3ab3c947402838a29e33684edaf16a54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonFreeSpace.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="15" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="15" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_free_space_1ab23fb33c2e1990fc09fb171193bee852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonFreeSpace.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonFreeSpace.cs" line="20" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="289">
+        <label>LittleWeebLibrary.Models.JsonFreeSpace</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_free_space"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonFreeSpace.cs" line="8" column="1" bodyfile="Models/JsonFreeSpace.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a411fcb0402a7b696adfee7cb2a3efad0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>freespacebytes</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a835bd50126595d47780104725423d991" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>freespacekbytes</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1ac331b31dba1337829ebc86ef88164e57" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>freespacembytes</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a5deaf058a148e647128b1fca6f9fc722" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a3ab3c947402838a29e33684edaf16a54" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1ab23fb33c2e1990fc09fb171193bee852" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a22620db3979c7d52ee764555c29a940c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a9c3ae588d489e377de5bd608b69a5e75" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonFreeSpace</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

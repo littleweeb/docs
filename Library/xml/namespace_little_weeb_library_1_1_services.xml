@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library_1_1_services" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary::Services</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service" prot="public">LittleWeebLibrary::Services::DataBaseWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service" prot="public">LittleWeebLibrary::Services::DirectoryWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service" prot="public">LittleWeebLibrary::Services::DownloadWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service" prot="public">LittleWeebLibrary::Services::FileWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service" prot="public">LittleWeebLibrary::Services::IDataBaseWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service" prot="public">LittleWeebLibrary::Services::IDirectoryWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service" prot="public">LittleWeebLibrary::Services::IDownloadWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service" prot="public">LittleWeebLibrary::Services::IFileWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service" prot="public">LittleWeebLibrary::Services::IInfoApiWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service" prot="public">LittleWeebLibrary::Services::IIrcWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service" prot="public">LittleWeebLibrary::Services::InfoApiWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service" prot="public">LittleWeebLibrary::Services::IrcWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service" prot="public">LittleWeebLibrary::Services::ISettingsWebSocketService</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service" prot="public">LittleWeebLibrary::Services::IVersionWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service" prot="public">LittleWeebLibrary::Services::SettingsWebSocketService</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service" prot="public">LittleWeebLibrary::Services::VersionWebSocketService</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Services/DataBaseWebSocketService.cs" line="15" column="1"/>
+  </compounddef>
+</doxygen>

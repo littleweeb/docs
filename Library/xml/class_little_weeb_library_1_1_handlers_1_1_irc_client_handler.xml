@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::IrcClientHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IIrcClientHandler</basecompoundref>
+    <basecompoundref refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" prot="public" virt="non-virtual">LittleWeebLibrary.GlobalInterfaces.ISettingsInterface</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa8ef070963f103cc627e781c39b90c64" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args" kindref="compound">IrcClientConnectionStatusArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;IrcClientConnectionStatusArgs&gt; LittleWeebLibrary.Handlers.IrcClientHandler.OnIrcClientConnectionStatusEvent</definition>
+        <argsstring></argsstring>
+        <name>OnIrcClientConnectionStatusEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="36" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a3265383962fc71a18b9a6fa0c4c84797" compoundref="_irc_web_socket_service_8cs" startline="38" endline="54">LittleWeebLibrary.Services.IrcWebSocketService.IrcWebSocketService</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a43ee49f8e97d65bf318e5f663587d7a6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args" kindref="compound">IrcClientDownloadEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;IrcClientDownloadEventArgs&gt; LittleWeebLibrary.Handlers.IrcClientHandler.OnIrcClientDownloadEvent</definition>
+        <argsstring></argsstring>
+        <name>OnIrcClientDownloadEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="35" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ae98f5b136d09bb9f619bfad68f8d8bf7" compoundref="_download_handler_8cs" startline="41" endline="65">LittleWeebLibrary.Handlers.DownloadHandler.DownloadHandler</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a60906730beb3dae974b2bdc77a51bb8d" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" kindref="compound">IrcClientMessageEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;IrcClientMessageEventArgs&gt; LittleWeebLibrary.Handlers.IrcClientHandler.OnIrcClientMessageEvent</definition>
+        <argsstring></argsstring>
+        <name>OnIrcClientMessageEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="34" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a3265383962fc71a18b9a6fa0c4c84797" compoundref="_irc_web_socket_service_8cs" startline="38" endline="54">LittleWeebLibrary.Services.IrcWebSocketService.IrcWebSocketService</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ab50ece494948d25db1839f4d6eab038f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.IrcClientHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="40" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a1c78638ea8025b27bb3e604f432ce325" prot="private" static="no" mutable="no">
+        <type>SimpleIRC</type>
+        <definition>SimpleIRC LittleWeebLibrary.Handlers.IrcClientHandler.IrcClient</definition>
+        <argsstring></argsstring>
+        <name>IrcClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="42" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a5a8c1eee913ec3c9afad8acd1bfbc37c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+        <definition>IrcSettings LittleWeebLibrary.Handlers.IrcClientHandler.IrcSettings</definition>
+        <argsstring></argsstring>
+        <name>IrcSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="43" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a10457d1436c29ce92878e74579717dc0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.IrcClientHandler.IsConnectedBool</definition>
+        <argsstring></argsstring>
+        <name>IsConnectedBool</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="46" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a03a557318cb10111d7871fb229a86a86" prot="private" static="no" mutable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+        <definition>LittleWeebSettings LittleWeebLibrary.Handlers.IrcClientHandler.LittleWeebSettings</definition>
+        <argsstring></argsstring>
+        <name>LittleWeebSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="44" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ac52cdf245955073d59f8193e167c149d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler" kindref="compound">ISettingsHandler</ref></type>
+        <definition>readonly ISettingsHandler LittleWeebLibrary.Handlers.IrcClientHandler.SettingsHandler</definition>
+        <argsstring></argsstring>
+        <name>SettingsHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="39" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a01745667c95f2c3d5c461f708aa13bb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.IrcClientHandler.IrcClientHandler</definition>
+        <argsstring>(ISettingsHandler settingsHandler, IDebugHandler debugHandler)</argsstring>
+        <name>IrcClientHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler" kindref="compound">ISettingsHandler</ref></type>
+          <declname>settingsHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="48" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="48" bodyend="67"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1ad1f67b09e16ba2b5fed2dcdefeac8e1a" compoundref="_irc_settings_8cs" startline="17" endline="17">LittleWeebLibrary.Settings.IrcSettings.fullfilepath</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a22195b5d1df129295e0e30298611bdba" compoundref="_settings_handler_8cs" startline="188" endline="222">LittleWeebLibrary.Handlers.SettingsHandler.GetIrcSettings</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a53a5c5206eb6d2c58fa9d970c9b97463" compoundref="_settings_handler_8cs" startline="146" endline="186">LittleWeebLibrary.Handlers.SettingsHandler.GetLittleWeebSettings</references>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa15fe2f3c1bd99a513400b0880298edd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+        <definition>IrcSettings LittleWeebLibrary.Handlers.IrcClientHandler.CurrentSettings</definition>
+        <argsstring>()</argsstring>
+        <name>CurrentSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1af27269f6df01227345fc51030e702b51">CurrentSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="270" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="270" bodyend="274"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2cc2c26c57a1c94f209ca8641c9e25ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.IrcClientHandler.IsConnected</definition>
+        <argsstring>()</argsstring>
+        <name>IsConnected</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1ae2c21ca5104d4aaceeccd1268e0d52b2">IsConnected</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="245" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="245" bodyend="268"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a093409b2b1397a6a061e00802546c87b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.IrcClientHandler.IsDownloading</definition>
+        <argsstring>()</argsstring>
+        <name>IsDownloading</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1abb1d62bc52436a68712fd1b80d9f911e">IsDownloading</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="239" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="239" bodyend="243"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" compoundref="_download_handler_8cs" startline="375" endline="420">LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae28984176dff0eda63604b8e5c25abb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.SendMessage</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SendMessage</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1aa9da8681f056b8122ad56c586a78fed0">SendMessage</reimplements>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="91" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="91" bodyend="118"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1aa9fcd18dc123e1356049b4b95bbaf2ff" compoundref="_irc_web_socket_service_8cs" startline="242" endline="266">LittleWeebLibrary.Services.IrcWebSocketService.SendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aafe7e3669d3fdd8a0a3c37a240b3c574" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.Setfullfilepath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>Setfullfilepath</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a060949c5d049dd8a06c0ef672b4d4fad">Setfullfilepath</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="83" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="83" bodyend="89"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1ad1f67b09e16ba2b5fed2dcdefeac8e1a" compoundref="_irc_settings_8cs" startline="17" endline="17">LittleWeebLibrary.Settings.IrcSettings.fullfilepath</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a510c909225e51c66b65f7114ebd356d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.SetIrcSettings</definition>
+        <argsstring>(IrcSettings settings)</argsstring>
+        <name>SetIrcSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a9ddf06e247a96d757482b37ddb070e3d">SetIrcSettings</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="69" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="69" bodyend="74"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a2e1d7f26d7d3083d19c3a9e6c6c2d0b2" compoundref="_irc_settings_8cs" startline="20" endline="30">LittleWeebLibrary.Settings.IrcSettings.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae0b7e9fc2b6c7874a6be2a938f88fc1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.SetLittleWeebSettings</definition>
+        <argsstring>(LittleWeebSettings settings)</argsstring>
+        <name>SetLittleWeebSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a5c53e44105f1f4c7f8c3e546d29939d7">SetLittleWeebSettings</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="76" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="76" bodyend="81"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a5a5b722dd8e117be810022882795b6ae" compoundref="_little_weeb_settings_8cs" startline="16" endline="35">LittleWeebLibrary.Settings.LittleWeebSettings.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</definition>
+        <argsstring>(IrcSettings settings=null)</argsstring>
+        <name>StartConnection</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a0a814a058f665efda8c88eb5306658f5">StartConnection</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="137" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="137" bodyend="174"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a395d5d33ff9f9699551a38b4ab6866e4" compoundref="_irc_settings_8cs" startline="11" endline="11">LittleWeebLibrary.Settings.IrcSettings.Channels</references>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a13491703ff0e9a96c87743e70002f6fe" compoundref="_irc_settings_8cs" startline="9" endline="9">LittleWeebLibrary.Settings.IrcSettings.Port</references>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1aea7952c2d3db87eb5609feae15c5475c" compoundref="_irc_settings_8cs" startline="10" endline="10">LittleWeebLibrary.Settings.IrcSettings.Secure</references>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a99953f00fc76a98af0bd06129876d5ef" compoundref="_irc_settings_8cs" startline="8" endline="8">LittleWeebLibrary.Settings.IrcSettings.ServerAddress</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a1a400295f11e155e37002041410e47f1" compoundref="_irc_settings_8cs" startline="12" endline="12">LittleWeebLibrary.Settings.IrcSettings.UserName</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload</definition>
+        <argsstring>(JsonDownloadInfo download)</argsstring>
+        <name>StartDownload</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1af14486a1ffa0b1d4ab3058f442ee9d6a">StartDownload</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_models_1_1_json_download_info" kindref="compound">JsonDownloadInfo</ref></type>
+          <declname>download</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="120" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="120" bodyend="135"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a0c8281bcd1f8766ddc86d89f0dc1b23c" compoundref="_json_download_info_8cs" startline="15" endline="15">LittleWeebLibrary.Models.JsonDownloadInfo.bot</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af04b1b815de21ea578f039ecc0e2957b" compoundref="_json_download_info_8cs" startline="24" endline="24">LittleWeebLibrary.Models.JsonDownloadInfo.downloadDirectory</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a22ff0d4dde2f90e7ee5048a9cf01393f" compoundref="_json_download_info_8cs" startline="16" endline="16">LittleWeebLibrary.Models.JsonDownloadInfo.pack</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af36cbb3251b0efcd80a45f1fef89f5c9" compoundref="_json_download_info_8cs" startline="32" endline="41">LittleWeebLibrary.Models.JsonDownloadInfo.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a2f646f8d28235a8953b67207ee6131d9" compoundref="_download_handler_8cs" startline="340" endline="360">LittleWeebLibrary.Handlers.DownloadHandler.DownloadQueueHandler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a97a617b50a161906a91ce1ea483a1770" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.IrcClientHandler.StopConnection</definition>
+        <argsstring>()</argsstring>
+        <name>StopConnection</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a2b673db5262a09a26d72ee57e34e5b60">StopConnection</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="176" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="176" bodyend="222"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_start_up_1aaa6147f0dd162c1962e575689dcb22c5" compoundref="_start_up_8cs" startline="128" endline="134">LittleWeebLibrary.StartUp.Stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a265ca021f5086addf758e87f59a0aa11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.IrcClientHandler.StopDownload</definition>
+        <argsstring>()</argsstring>
+        <name>StopDownload</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1af1da0e6ed40f306b92dc0952c05cd1fe">StopDownload</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="224" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="224" bodyend="237"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" compoundref="_download_handler_8cs" startline="375" endline="420">LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_start_up_1aaa6147f0dd162c1962e575689dcb22c5" compoundref="_start_up_8cs" startline="128" endline="134">LittleWeebLibrary.StartUp.Stop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afef5cc2f76989366cb52ffa7d5a78752" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.OnDownloadUpdate</definition>
+        <argsstring>(object sender, DCCEventArgs args)</argsstring>
+        <name>OnDownloadUpdate</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DCCEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="331" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="331" bodyend="348"/>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1ae708a4da9c599b02372c55dd08294cd5" compoundref="_irc_client_download_args_8cs" startline="7" endline="7">LittleWeebLibrary.EventArguments.IrcClientDownloadEventArgs.FileName</references>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1a08055fe777a1585dafab7fbeec58b891" compoundref="_irc_client_download_args_8cs" startline="13" endline="23">LittleWeebLibrary.EventArguments.IrcClientDownloadEventArgs.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1abdc8785a2452e7a1d496c44a424d1812" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.OnDownloadUpdateDebug</definition>
+        <argsstring>(object sender, DCCDebugMessageArgs args)</argsstring>
+        <name>OnDownloadUpdateDebug</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DCCDebugMessageArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="350" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="350" bodyend="355"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ad97947bcce5bebd851bef6e29fecb467" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.OnMessage</definition>
+        <argsstring>(object sender, IrcReceivedEventArgs args)</argsstring>
+        <name>OnMessage</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>IrcReceivedEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="276" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="276" bodyend="290"/>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a89968e57254aa26cf1d41fa7a967ec61" compoundref="_irc_client_message_event_args_8cs" startline="9" endline="9">LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs.Channel</references>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a0b8df2a044d27dec2dd963e978311be4" compoundref="_irc_client_message_event_args_8cs" startline="10" endline="17">LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2b48c617972be0b3079a262ffc8141f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.OnMessageDebug</definition>
+        <argsstring>(object sender, IrcDebugMessageEventArgs args)</argsstring>
+        <name>OnMessageDebug</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>IrcDebugMessageEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="292" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="292" bodyend="296"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a8ffa9ba31b96d32a4c1fdafc04afaf5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IrcClientHandler.OnUserListUpdate</definition>
+        <argsstring>(object sender, IrcUserListReceivedEventArgs args)</argsstring>
+        <name>OnUserListUpdate</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>IrcUserListReceivedEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/IrcClientHandler.cs" line="298" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="298" bodyend="329"/>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a71fdd09abcc607734be01125338fa928" compoundref="_irc_client_connection_status_args_8cs" startline="13" endline="30">LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="196">
+        <label>ISettingsInterface</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface"/>
+      </node>
+      <node id="194">
+        <label>LittleWeebLibrary.Handlers.IrcClientHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>IIrcClientHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="199">
+        <label>ISettingsInterface</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface"/>
+      </node>
+      <node id="202">
+        <label>LittleWeebLibrary.Handlers.ISettingsHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler"/>
+      </node>
+      <node id="197">
+        <label>LittleWeebLibrary.Handlers.IrcClientHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+        <childnode refid="200" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="201" relation="usage">
+          <edgelabel>-LittleWeebSettings</edgelabel>
+        </childnode>
+        <childnode refid="202" relation="usage">
+          <edgelabel>-SettingsHandler</edgelabel>
+        </childnode>
+        <childnode refid="203" relation="usage">
+          <edgelabel>-IrcSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="200">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="201">
+        <label>LittleWeebLibrary.Settings.LittleWeebSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings"/>
+      </node>
+      <node id="198">
+        <label>IIrcClientHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler"/>
+      </node>
+      <node id="203">
+        <label>LittleWeebLibrary.Settings.IrcSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_irc_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/IrcClientHandler.cs" line="31" column="1" bodyfile="Handlers/IrcClientHandler.cs" bodystart="30" bodyend="356"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa15fe2f3c1bd99a513400b0880298edd" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>CurrentSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ab50ece494948d25db1839f4d6eab038f" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a1c78638ea8025b27bb3e604f432ce325" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>IrcClient</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a01745667c95f2c3d5c461f708aa13bb8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>IrcClientHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a5a8c1eee913ec3c9afad8acd1bfbc37c" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>IrcSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2cc2c26c57a1c94f209ca8641c9e25ef" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>IsConnected</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a10457d1436c29ce92878e74579717dc0" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>IsConnectedBool</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a093409b2b1397a6a061e00802546c87b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>IsDownloading</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a03a557318cb10111d7871fb229a86a86" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>LittleWeebSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afef5cc2f76989366cb52ffa7d5a78752" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnDownloadUpdate</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1abdc8785a2452e7a1d496c44a424d1812" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnDownloadUpdateDebug</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa8ef070963f103cc627e781c39b90c64" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnIrcClientConnectionStatusEvent</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a43ee49f8e97d65bf318e5f663587d7a6" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnIrcClientDownloadEvent</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a60906730beb3dae974b2bdc77a51bb8d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnIrcClientMessageEvent</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ad97947bcce5bebd851bef6e29fecb467" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnMessage</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2b48c617972be0b3079a262ffc8141f6" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnMessageDebug</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a8ffa9ba31b96d32a4c1fdafc04afaf5e" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>OnUserListUpdate</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae28984176dff0eda63604b8e5c25abb4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>SendMessage</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aafe7e3669d3fdd8a0a3c37a240b3c574" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>Setfullfilepath</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a510c909225e51c66b65f7114ebd356d3" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>SetIrcSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae0b7e9fc2b6c7874a6be2a938f88fc1a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>SetLittleWeebSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ac52cdf245955073d59f8193e167c149d" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>SettingsHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>StartConnection</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>StartDownload</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a97a617b50a161906a91ce1ea483a1770" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>StopConnection</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a265ca021f5086addf758e87f59a0aa11" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IrcClientHandler</scope><name>StopDownload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

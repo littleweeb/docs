@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.AnimeRuleHandler.FilterAnimeRules" name="LittleWeebLibrary.Handlers.AnimeRuleHandler.FilterAnimeRules">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler.html#a5b163eb7e68b1e40904fa55454d8ba54" title="LittleWeebLibrary.Handlers.\lAnimeProfileHandler.GetAnimeEpisodes" alt="" coords="285,13,540,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a754f738fba586cc927d64251329c736a" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetAnime\lEpisodes" alt="" coords="588,5,821,61"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="869,5,1147,61"/>
+</map>

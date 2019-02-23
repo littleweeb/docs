@@ -1,0 +1,510 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa420f7ed35d16df6ef6f18bd0ab8fa3a}{Web\+Socket\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} settings\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{Send\+Message}} (string message)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a9c13ff9ec9ed3dfc07235f47332276d1}{Set\+Irc\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} settings)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a7ca1faf86f9796afd4c9981a7c961f3b}{Set\+Little\+Weeb\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} settings)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a23d4ffbabdb67c97ea843d4e7dc5cbdd}{Start\+Server}} ()
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_abcd87ac26780369b500299fc12aa0039}{Stop\+Server}} ()
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args}{Web\+Socket\+Event\+Args}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a77ea6ec1d9b66676ebb1491cb42b3ec9}{On\+Web\+Socket\+Event}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async void \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a527c7515f2e19938e9ff23ce2d993fda}{On\+Web\+Socket\+Server\+Event}} (object sender, Web\+Socket\+Event\+Arg args)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ string $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}{Client\+Ids}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{Debug\+Handler}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_ace78703e1e323bb96f1f6941b7483a88}{Little\+Weeb\+Settings}}
+\item 
+Simple\+Web\+Socket\+Server \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file Web\+Socket\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa420f7ed35d16df6ef6f18bd0ab8fa3a}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa420f7ed35d16df6ef6f18bd0ab8fa3a}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Web\+Socket\+Handler@{Web\+Socket\+Handler}}
+\index{Web\+Socket\+Handler@{Web\+Socket\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Web\+Socket\+Handler()}{WebSocketHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Web\+Socket\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}}}]{settings\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 36 of file Web\+Socket\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Settings\+Handler.\+Get\+Little\+Weeb\+Settings(), and Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+37         \{
+38             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+39             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = settingsHandler.GetLittleWeebSettings();
+40             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}} = debugHandler;
+41         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa420f7ed35d16df6ef6f18bd0ab8fa3a_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a7ca1faf86f9796afd4c9981a7c961f3b}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a7ca1faf86f9796afd4c9981a7c961f3b}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}}
+\index{Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Set\+Little\+Weeb\+Settings()}{SetLittleWeebSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Set\+Little\+Weeb\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a5c53e44105f1f4c7f8c3e546d29939d7}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 43 of file Web\+Socket\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+44         \{
+45             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SetLittleWeebSettings Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+46             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+47             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = settings;
+48         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a7ca1faf86f9796afd4c9981a7c961f3b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a23d4ffbabdb67c97ea843d4e7dc5cbdd}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a23d4ffbabdb67c97ea843d4e7dc5cbdd}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Start\+Server@{Start\+Server}}
+\index{Start\+Server@{Start\+Server}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Start\+Server()}{StartServer()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Start\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_a14d51d50fb03c21d6f47f4250e49f288}{Little\+Weeb\+Library.\+Handlers.\+I\+Web\+Socket\+Handler}}.
+
+
+
+Definition at line 50 of file Web\+Socket\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Port, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Start\+Up.\+Start().
+
+
+\begin{DoxyCode}
+51         \{
+52             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StartServer Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+53 
+54             \textcolor{keywordflow}{try}
+55             \{
+56                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}{ClientIds}} = \textcolor{keyword}{new} List<string>();
+57                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}} = \textcolor{keyword}{new} SimpleWebSocketServer(\textcolor{keyword}{new} SimpleWebSocketServerSettings()
+58                 \{
+59                     port = \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_ab37db9696fb199dbdad39ea6c7eda76c}{Port}},
+60                     bufferSize = 65535
+61                 \});
+62                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}.WebsocketServerEvent += \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a527c7515f2e19938e9ff23ce2d993fda}{OnWebSocketServerEvent}};
+63                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}.StartServer();
+64 
+65                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Web Socket Server Started!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+66             \}
+67             \textcolor{keywordflow}{catch} (Exception e)
+68             \{
+69                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+70             \}
+71         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a23d4ffbabdb67c97ea843d4e7dc5cbdd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a23d4ffbabdb67c97ea843d4e7dc5cbdd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Send\+Message@{Send\+Message}}
+\index{Send\+Message@{Send\+Message}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Send\+Message()}{SendMessage()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_a1e512d10e0dd5f5b15abc2b46659142a}{Little\+Weeb\+Library.\+Handlers.\+I\+Web\+Socket\+Handler}}.
+
+
+
+Definition at line 73 of file Web\+Socket\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Abort\+Download(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Add\+Download(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Add\+Downloads(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Add\+Rule(), Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Check\+Version(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Create\+Directory(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Delete\+Directory(), Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Delete\+Document(), Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Delete\+File(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disable\+Send\+Message(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Disconnect(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Enable\+Send\+Message(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Categories(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Genres(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Anime\+Episodes(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Anime\+Profile(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Bot\+List(), Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Get\+Collection(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Get\+Current\+File\+History(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Get\+Current\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Get\+Current\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Currently\+Airing(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Directories(), Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Get\+Document(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Drives(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Files\+For\+Anime(), Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Free\+Space(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+On\+Download\+Update\+Event(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Message\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Data\+Base\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Irc\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Info\+Api\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Settings\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+File\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Version\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Open\+File(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Openfullfilepath(), Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Remove\+Download(), Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Search\+Kitsu(), Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Send\+Message(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Setfullfilepath(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Irc\+Settings(), Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Store\+Document(), and Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service.\+Update\+Document().
+
+
+\begin{DoxyCode}
+74         \{
+75             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SendMessage Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+76             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(message, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+77 
+78             \textcolor{keywordflow}{try}
+79             \{
+80 
+81                 \textcolor{keywordflow}{if} (await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}.SendTextMessageAsync(message))
+82                 \{
+83 
+84                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully send message to
+       WebSocket Client."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+85                 \}
+86                 \textcolor{keywordflow}{else}
+87                 \{
+88 
+89                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not send message to WebSocket
+       Client."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+90                 \}
+91             \}
+92             \textcolor{keywordflow}{catch} (Exception e)
+93             \{
+94                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+95             \}
+96         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_abcd87ac26780369b500299fc12aa0039}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_abcd87ac26780369b500299fc12aa0039}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Stop\+Server@{Stop\+Server}}
+\index{Stop\+Server@{Stop\+Server}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Stop\+Server()}{StopServer()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Stop\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_a69aca27030b0df701d7ce57ba2545cb1}{Little\+Weeb\+Library.\+Handlers.\+I\+Web\+Socket\+Handler}}.
+
+
+
+Definition at line 98 of file Web\+Socket\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Start\+Up.\+Stop().
+
+
+\begin{DoxyCode}
+99         \{
+100             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"StopServer Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+101             \textcolor{keywordflow}{try}
+102             \{
+103                 \textcolor{keywordflow}{if} (await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}.StopAllAsync())
+104                 \{
+105                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Succesfully closed websocket
+       connection to client(s), stopped websocket server."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+106                 \}
+107                 \textcolor{keywordflow}{else}
+108                 \{
+109                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not stop WebSocket connection
+       with client, websocket server still running."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+110                 \}
+111             \}
+112             \textcolor{keywordflow}{catch} (Exception e)
+113             \{
+114                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+115             \}
+116         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_abcd87ac26780369b500299fc12aa0039_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_abcd87ac26780369b500299fc12aa0039_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a527c7515f2e19938e9ff23ce2d993fda}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a527c7515f2e19938e9ff23ce2d993fda}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!On\+Web\+Socket\+Server\+Event@{On\+Web\+Socket\+Server\+Event}}
+\index{On\+Web\+Socket\+Server\+Event@{On\+Web\+Socket\+Server\+Event}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{On\+Web\+Socket\+Server\+Event()}{OnWebSocketServerEvent()}}
+{\footnotesize\ttfamily async void Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+On\+Web\+Socket\+Server\+Event (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Web\+Socket\+Event\+Arg}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 118 of file Web\+Socket\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+Local, Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+To\+Json(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+119         \{
+120 
+121             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OnWebSocketServerEvent Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+122 
+123             \textcolor{keywordflow}{try}
+124             \{
+125 
+126                 \textcolor{keywordflow}{if} (args.isOpen)
+127                 \{
+128                     \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}{ClientIds}}.Contains(args.clientId))
+129                     \{
+130 
+131                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Client with id "} + args.clientId
+       + \textcolor{stringliteral}{" from "} + args.clientBaseUrl + \textcolor{stringliteral}{" connected!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+132 
+133                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}{ClientIds}}.Add(args.clientId);
+134                         await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(\textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome}{JsonWelcome}}()
+135                         \{
+136                             local = \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a01ccf2dfb1b01854f23b34f1eb7ac39c}{Local}}
+137                         \}.ToJson());
+138                     \}
+139                 \}
+140 
+141                 \textcolor{keywordflow}{if} (args.isClosed)
+142                 \{
+143                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}{ClientIds}}.Contains(args.clientId))
+144                     \{
+145                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Client with id "} + args.clientId
+       + \textcolor{stringliteral}{" from "} + args.clientBaseUrl + \textcolor{stringliteral}{" disconnected!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+146                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}{ClientIds}}.Remove(args.clientId);
+147                     \}
+148                 \}
+149 
+150                 \textcolor{keywordflow}{if} (args.data != null && args.isText)
+151                 \{
+152 
+153                     \textcolor{keywordtype}{string} received = Encoding.ASCII.GetString(args.data);
+154 
+155 
+156                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(received, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+157 
+158                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a77ea6ec1d9b66676ebb1491cb42b3ec9}{OnWebSocketEvent}}?.Invoke(\textcolor{keyword}{this}, \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args}{WebSocketEventArgs}}() \{ Message = received \});
+159 
+160                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(\textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response}{JsonReceivedResponse}}()
+161                     \{
+162                         received = received
+163                     \}.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_abed77a236608efb9bf777a44e6d2361b}{ToJson}}());
+164                 \}
+165 
+166                 \textcolor{keywordflow}{if} (args.isPing)
+167                 \{
+168                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"IsPing: "} + args.isPing.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+169                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}.SendPongMessageAsync();
+170                 \}
+171 
+172                 \textcolor{keywordflow}{if} (args.isPong)
+173                 \{
+174                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"IsPong: "} + args.isPing.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+175                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}{Server}}.SendPingMessageAsync();
+176                 \}
+177             \}
+178             \textcolor{keywordflow}{catch} (Exception e)
+179             \{
+180                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+181             \}
+182 
+183         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a527c7515f2e19938e9ff23ce2d993fda_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a9c13ff9ec9ed3dfc07235f47332276d1}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a9c13ff9ec9ed3dfc07235f47332276d1}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Set\+Irc\+Settings@{Set\+Irc\+Settings}}
+\index{Set\+Irc\+Settings@{Set\+Irc\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Set\+Irc\+Settings()}{SetIrcSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Set\+Irc\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a9ddf06e247a96d757482b37ddb070e3d}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 185 of file Web\+Socket\+Handler.\+cs.
+
+
+\begin{DoxyCode}
+186         \{
+187         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_aa1474285fe938f284633c31403bf9edf}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file Web\+Socket\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_ace78703e1e323bb96f1f6941b7483a88}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_ace78703e1e323bb96f1f6941b7483a88}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Little\+Weeb\+Settings@{Little\+Weeb\+Settings}}
+\index{Little\+Weeb\+Settings@{Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Little\+Weeb\+Settings}{LittleWeebSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Little\+Weeb\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 30 of file Web\+Socket\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a20ab6e2afd31971c72722e2680dc50ca}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Server@{Server}}
+\index{Server@{Server}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Server}{Server}}
+{\footnotesize\ttfamily Simple\+Web\+Socket\+Server Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Server\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 32 of file Web\+Socket\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a019d083f8ea9b7ad625222d2311c5b26}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!Client\+Ids@{Client\+Ids}}
+\index{Client\+Ids@{Client\+Ids}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{Client\+Ids}{ClientIds}}
+{\footnotesize\ttfamily List$<$string$>$ Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Client\+Ids\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 34 of file Web\+Socket\+Handler.\+cs.
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a77ea6ec1d9b66676ebb1491cb42b3ec9}\label{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a77ea6ec1d9b66676ebb1491cb42b3ec9}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}!On\+Web\+Socket\+Event@{On\+Web\+Socket\+Event}}
+\index{On\+Web\+Socket\+Event@{On\+Web\+Socket\+Event}!Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}}
+\subsubsection{\texorpdfstring{On\+Web\+Socket\+Event}{OnWebSocketEvent}}
+{\footnotesize\ttfamily Event\+Handler$<$\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args}{Web\+Socket\+Event\+Args}}$>$ Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+On\+Web\+Socket\+Event}
+
+
+
+Definition at line 25 of file Web\+Socket\+Handler.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Base\+Web\+Socket\+Controller.\+Base\+Web\+Socket\+Controller().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_web_socket_handler_8cs}{Web\+Socket\+Handler.\+cs}}\end{DoxyCompactItemize}

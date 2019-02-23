@@ -1,0 +1,132 @@
+\hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args}{}\section{Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args Class Reference}
+\label{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args}\index{Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args@{Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_abd45b6cc151692d7c3878ea3c2c61d88}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_ab2d00faa48751515043b173742b84857}{Debug\+Message}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a13caf826c18316458f6cc474853dc774}{Debug\+Source}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a95613b85e457ccb3bc214489b5cdcb01}{Debug\+Source\+Type}} = 99\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_aa2822d085deabfeb175824f22a114f1f}{Debug\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file Base\+Debug\+Args.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_abd45b6cc151692d7c3878ea3c2c61d88}\label{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_abd45b6cc151692d7c3878ea3c2c61d88}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 16 of file Base\+Debug\+Args.\+cs.
+
+
+\begin{DoxyCode}
+17         \{
+18             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+19             toReturn += \textcolor{stringliteral}{"DebugMessage: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_ab2d00faa48751515043b173742b84857}{DebugMessage}} + Environment.NewLine;
+20             toReturn += \textcolor{stringliteral}{"DebugSource: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a13caf826c18316458f6cc474853dc774}{DebugSource}} + Environment.NewLine;
+21             toReturn += \textcolor{stringliteral}{"DebugType: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_aa2822d085deabfeb175824f22a114f1f}{DebugType}} + Environment.NewLine;
+22             \textcolor{keywordflow}{return} toReturn;
+23         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_ab2d00faa48751515043b173742b84857}\label{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_ab2d00faa48751515043b173742b84857}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}!Debug\+Message@{Debug\+Message}}
+\index{Debug\+Message@{Debug\+Message}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}}
+\subsubsection{\texorpdfstring{Debug\+Message}{DebugMessage}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args.\+Debug\+Message\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 7 of file Base\+Debug\+Args.\+cs.
+
+
+\begin{DoxyCode}
+7 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a13caf826c18316458f6cc474853dc774}\label{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a13caf826c18316458f6cc474853dc774}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}!Debug\+Source@{Debug\+Source}}
+\index{Debug\+Source@{Debug\+Source}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}}
+\subsubsection{\texorpdfstring{Debug\+Source}{DebugSource}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args.\+Debug\+Source\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 8 of file Base\+Debug\+Args.\+cs.
+
+
+\begin{DoxyCode}
+8 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a95613b85e457ccb3bc214489b5cdcb01}\label{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_a95613b85e457ccb3bc214489b5cdcb01}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}!Debug\+Source\+Type@{Debug\+Source\+Type}}
+\index{Debug\+Source\+Type@{Debug\+Source\+Type}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}}
+\subsubsection{\texorpdfstring{Debug\+Source\+Type}{DebugSourceType}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args.\+Debug\+Source\+Type = 99\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Base\+Debug\+Args.\+cs.
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = 99;\textcolor{comment}{// 0 = constructor, 1 = method, 2 = event, 3 = task, 4 = external(library), 99 =
+       undefined.}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_aa2822d085deabfeb175824f22a114f1f}\label{class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_aa2822d085deabfeb175824f22a114f1f}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}!Debug\+Type@{Debug\+Type}}
+\index{Debug\+Type@{Debug\+Type}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}}
+\subsubsection{\texorpdfstring{Debug\+Type}{DebugType}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args.\+Debug\+Type\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 14 of file Base\+Debug\+Args.\+cs.
+
+
+\begin{DoxyCode}
+14 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} \textcolor{comment}{// empty || null = none, 0 = entry/exit, 1 = parameters, 2 = info, 3 = warning, 4 = error, 5
+       = servere, > 5 = none}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Arguments/\+Debug\+Arguments/\mbox{\hyperlink{_base_debug_args_8cs}{Base\+Debug\+Args.\+cs}}\end{DoxyCompactItemize}

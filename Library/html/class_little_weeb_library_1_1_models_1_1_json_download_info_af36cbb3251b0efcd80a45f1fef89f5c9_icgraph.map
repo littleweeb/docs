@@ -1,0 +1,9 @@
+<map id="LittleWeebLibrary.Models.JsonDownloadInfo.ToString" name="LittleWeebLibrary.Models.JsonDownloadInfo.ToString">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#ad28cb47c19cac5e761ceff86ea021a02" title="LittleWeebLibrary.Handlers.\lDownloadHandler.AddDownload" alt="" coords="234,5,439,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#ac03f2dc024c0884bb7bd1c68ee03142e" title="LittleWeebLibrary.Handlers.\lDownloadHandler.AddDownloads" alt="" coords="231,71,443,112"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_handlers_1_1_irc_client_handler.html#afa3e3e60cc12d3867d3c6e2a188dca14" title="LittleWeebLibrary.Handlers.\lIrcClientHandler.StartDownload" alt="" coords="236,136,437,177"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#a7aaa1db63ee81a2e5246e45ef8643087" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.AddDownload" alt="" coords="495,5,765,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html#a9e5e421ed57b8b2a294e17d93d027c53" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController.OnWeb\lSocketEvent" alt="" coords="817,31,1067,87"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#ad6afd5ee42650d16c67790c6d2ac80c1" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.AddDownloads" alt="" coords="491,71,769,112"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#a2f646f8d28235a8953b67207ee6131d9" title="LittleWeebLibrary.Handlers.\lDownloadHandler.DownloadQueueHandler" alt="" coords="498,136,762,177"/>
+</map>

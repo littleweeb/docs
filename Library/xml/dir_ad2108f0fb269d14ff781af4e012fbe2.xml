@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_ad2108f0fb269d14ff781af4e012fbe2" kind="dir">
+    <compoundname>obj/Release/netstandard2.0</compoundname>
+    <innerfile refid="_release_2netstandard2_80_2_little_weeb_library_8_assembly_info_8cs">LittleWeebLibrary.AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Release/netstandard2.0/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,707 @@
+\hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{}\section{Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods Class Reference}
+\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}\index{Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods@{Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{Operating\+Systems}} \{ \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1aaea23489ce3aa9b6406ebb28e0cda430}{Operating\+Systems.\+Windows}}, 
+\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1af0db3bf534c8f5fb180a104e63d8088c}{Operating\+Systems.\+OsX}}, 
+\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1aedc9f0a5a5d57797bf68e37364743831}{Operating\+Systems.\+Linux}}, 
+\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1a88183b946cc5f0e8c96b2e66e1c74a7e}{Operating\+Systems.\+Unknown}}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9fe4cf5d219f0453436fe9c85ad261bf}{Base\+Path}} ()
+\item 
+static double \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a376120497e647e8c20d6a68c288db292}{Calculate\+Similarity}} (string source, string target)
+\begin{DoxyCompactList}\small\item\em Calculate percentage similarity of two strings 
+\begin{DoxyParams}{Parameters}
+{\em source} & Source String to Compare with\\
+\hline
+{\em target} & Targeted String to Compare\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return Similarity between two strings from 0 to 1.\+0
+\end{DoxyReturn}
+\end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{Operating\+Systems}} \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}{Check\+Operating\+Systems}} ()
+\item 
+static void \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a4a514b7e55cf2285f4f16d778164695d}{Copy\+To}} (Stream src, Stream dest)
+\item 
+static string \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9304b6462a585dd9afa13818452638a7}{Generate\+Username}} (int requested\+Length)
+\item 
+static long \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Get\+Epoch}} ()
+\item 
+static long \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a76fa2aea99ce4b1ad4130cc18b1d5969}{Get\+Free\+Space\+Kbits}} (string path)
+\item 
+static string \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{Int\+To\+Roman}} (int num)
+\item 
+static async Task$<$ byte\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}{Read\+Binary\+File}} (string path)
+\item 
+static string \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{Remove\+Special\+Characters}} (string str)
+\item 
+static async Task$<$ string $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}{Unzip}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\item 
+static async Task$<$ bool $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a6542a3a6ea0aed6b4d78bb44a4a7d9d7}{Write\+Binary\+File}} (string path, byte\mbox{[}$\,$\mbox{]} value)
+\item 
+static async Task$<$ byte\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a16933213071d531063b29979e7b55fe8}{Zip}} (string str)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aaa6b7e7b9ba5429a7c91ef95bb408653}{Levenshtein\+Distance}} (string source, string target)
+\begin{DoxyCompactList}\small\item\em \href{https://stackoverflow.com/a/40775015/4564466}{\tt https\+://stackoverflow.\+com/a/40775015/4564466} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Utility\+Methods.\+cs.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Operating\+Systems@{Operating\+Systems}}
+\index{Operating\+Systems@{Operating\+Systems}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Operating\+Systems}{OperatingSystems}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Operating\+Systems}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Windows@{Windows}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Windows@{Windows}}}\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1aaea23489ce3aa9b6406ebb28e0cda430}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1aaea23489ce3aa9b6406ebb28e0cda430}} 
+Windows&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OsX@{OsX}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!OsX@{OsX}}}\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1af0db3bf534c8f5fb180a104e63d8088c}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1af0db3bf534c8f5fb180a104e63d8088c}} 
+OsX&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Linux@{Linux}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Linux@{Linux}}}\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1aedc9f0a5a5d57797bf68e37364743831}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1aedc9f0a5a5d57797bf68e37364743831}} 
+Linux&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Unknown@{Unknown}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Unknown@{Unknown}}}\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1a88183b946cc5f0e8c96b2e66e1c74a7e}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1a88183b946cc5f0e8c96b2e66e1c74a7e}} 
+Unknown&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 15 of file Utility\+Methods.\+cs.
+
+
+\begin{DoxyCode}
+16         \{
+17             Windows,
+18             OsX,
+19             Linux,
+20             Unknown
+21         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Remove\+Special\+Characters@{Remove\+Special\+Characters}}
+\index{Remove\+Special\+Characters@{Remove\+Special\+Characters}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Remove\+Special\+Characters()}{RemoveSpecialCharacters()}}
+{\footnotesize\ttfamily static string Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Remove\+Special\+Characters (\begin{DoxyParamCaption}\item[{string}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 23 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Parse\+Titles().
+
+
+\begin{DoxyCode}
+24         \{           
+25             \textcolor{keywordflow}{return} Regex.Replace(str, \textcolor{stringliteral}{"[^0-9A-Za-z ,]"}, \textcolor{stringliteral}{" "});
+26         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Get\+Epoch@{Get\+Epoch}}
+\index{Get\+Epoch@{Get\+Epoch}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Get\+Epoch()}{GetEpoch()}}
+{\footnotesize\ttfamily static long Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Get\+Epoch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 29 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Episodes(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile(), and Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing().
+
+
+\begin{DoxyCode}
+30         \{
+31             DateTime epoch = \textcolor{keyword}{new} DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+32             TimeSpan mili = DateTime.Now - epoch;
+33             \textcolor{keywordflow}{return} (\textcolor{keywordtype}{long})mili.TotalMilliseconds;
+34         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Int\+To\+Roman@{Int\+To\+Roman}}
+\index{Int\+To\+Roman@{Int\+To\+Roman}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Int\+To\+Roman()}{IntToRoman()}}
+{\footnotesize\ttfamily static string Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Int\+To\+Roman (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 36 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Parse\+Titles().
+
+
+\begin{DoxyCode}
+37         \{
+38             \textcolor{keywordtype}{string}[] thou = \{ \textcolor{stringliteral}{""}, \textcolor{stringliteral}{"M"}, \textcolor{stringliteral}{"MM"}, \textcolor{stringliteral}{"MMM"} \};
+39             \textcolor{keywordtype}{string}[] hun = \{ \textcolor{stringliteral}{""}, \textcolor{stringliteral}{"C"}, \textcolor{stringliteral}{"CC"}, \textcolor{stringliteral}{"CCC"}, \textcolor{stringliteral}{"CD"}, \textcolor{stringliteral}{"D"}, \textcolor{stringliteral}{"DC"}, \textcolor{stringliteral}{"DCC"}, \textcolor{stringliteral}{"DCCC"}, \textcolor{stringliteral}{"CM"} \};
+40             \textcolor{keywordtype}{string}[] ten = \{ \textcolor{stringliteral}{""}, \textcolor{stringliteral}{"X"}, \textcolor{stringliteral}{"XX"}, \textcolor{stringliteral}{"XXX"}, \textcolor{stringliteral}{"XL"}, \textcolor{stringliteral}{"L"}, \textcolor{stringliteral}{"LX"}, \textcolor{stringliteral}{"LXX"}, \textcolor{stringliteral}{"LXXX"}, \textcolor{stringliteral}{"XC"} \};
+41             \textcolor{keywordtype}{string}[] ones = \{ \textcolor{stringliteral}{""}, \textcolor{stringliteral}{"I"}, \textcolor{stringliteral}{"II"}, \textcolor{stringliteral}{"III"}, \textcolor{stringliteral}{"IV"}, \textcolor{stringliteral}{"V"}, \textcolor{stringliteral}{"VI"}, \textcolor{stringliteral}{"VII"}, \textcolor{stringliteral}{"VIII"}, \textcolor{stringliteral}{"IX"} \};
+42             \textcolor{keywordtype}{string} roman = \textcolor{stringliteral}{""};
+43             roman += thou[(int)(num / 1000) % 10];
+44             roman += hun[(int)(num / 100) % 10];
+45             roman += ten[(int)(num / 10) % 10];
+46             roman += ones[num % 10];
+47 
+48             \textcolor{keywordflow}{return} roman;
+49         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9304b6462a585dd9afa13818452638a7}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9304b6462a585dd9afa13818452638a7}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Generate\+Username@{Generate\+Username}}
+\index{Generate\+Username@{Generate\+Username}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Generate\+Username()}{GenerateUsername()}}
+{\footnotesize\ttfamily static string Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Generate\+Username (\begin{DoxyParamCaption}\item[{int}]{requested\+Length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 51 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+Connect().
+
+
+\begin{DoxyCode}
+52         \{
+53             
+54             Random rnd = \textcolor{keyword}{new} Random();
+55             \textcolor{keywordtype}{string}[] consonants = \{ \textcolor{stringliteral}{"b"}, \textcolor{stringliteral}{"c"}, \textcolor{stringliteral}{"d"}, \textcolor{stringliteral}{"f"}, \textcolor{stringliteral}{"g"}, \textcolor{stringliteral}{"h"}, \textcolor{stringliteral}{"j"}, \textcolor{stringliteral}{"k"}, \textcolor{stringliteral}{"l"}, \textcolor{stringliteral}{"m"}, \textcolor{stringliteral}{"n"}, \textcolor{stringliteral}{"p"}, \textcolor{stringliteral}{"q"}, \textcolor{stringliteral}{"r"}, \textcolor{stringliteral}{"
+      s"}, \textcolor{stringliteral}{"t"}, \textcolor{stringliteral}{"v"}, \textcolor{stringliteral}{"w"}, \textcolor{stringliteral}{"x"}, \textcolor{stringliteral}{"y"}, \textcolor{stringliteral}{"z"} \};
+56             \textcolor{keywordtype}{string}[] vowels = \{ \textcolor{stringliteral}{"a"}, \textcolor{stringliteral}{"e"}, \textcolor{stringliteral}{"i"}, \textcolor{stringliteral}{"o"}, \textcolor{stringliteral}{"u"} \};
+57 
+58             \textcolor{keywordtype}{string} word = \textcolor{stringliteral}{""};
+59 
+60             \textcolor{keywordflow}{if} (requestedLength == 1)
+61             \{
+62                 word = vowels[rnd.Next(0, vowels.Length - 1)];
+63             \}
+64             \textcolor{keywordflow}{else}
+65             \{
+66                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < requestedLength; i += 2)
+67                 \{
+68                     word += consonants[rnd.Next(0, consonants.Length - 1)] + vowels[rnd.Next(0, vowels.
+      Length - 1)];
+69                 \}
+70 
+71                 word = word.Replace(\textcolor{stringliteral}{"q"}, \textcolor{stringliteral}{"qu"}).Substring(0, requestedLength); \textcolor{comment}{// We may generate a string
+       longer than requested length, but it doesn't matter if cut off the excess.}
+72             \}
+73 
+74             \textcolor{keywordflow}{return} word;
+75 
+76         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9304b6462a585dd9afa13818452638a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a76fa2aea99ce4b1ad4130cc18b1d5969}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a76fa2aea99ce4b1ad4130cc18b1d5969}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Get\+Free\+Space\+Kbits@{Get\+Free\+Space\+Kbits}}
+\index{Get\+Free\+Space\+Kbits@{Get\+Free\+Space\+Kbits}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Get\+Free\+Space\+Kbits()}{GetFreeSpaceKbits()}}
+{\footnotesize\ttfamily static long Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Get\+Free\+Space\+Kbits (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 78 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Download(), Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Downloads(), and Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Free\+Space().
+
+
+\begin{DoxyCode}
+79         \{
+80             DriveInfo[] systemDrives = DriveInfo.GetDrives();
+81             \textcolor{keywordflow}{foreach} (DriveInfo i \textcolor{keywordflow}{in} systemDrives)
+82             \{
+83                 \textcolor{keywordflow}{if} (path.IndexOf(i.Name) > -1)
+84                 \{
+85                     \textcolor{keywordflow}{return} (i.TotalFreeSpace / 128); \textcolor{comment}{//bytes -> kbits}
+86                 \}
+87             \}
+88 
+89             \textcolor{keywordflow}{return} 0;
+90 
+91         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a76fa2aea99ce4b1ad4130cc18b1d5969_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a4a514b7e55cf2285f4f16d778164695d}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a4a514b7e55cf2285f4f16d778164695d}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Copy\+To@{Copy\+To}}
+\index{Copy\+To@{Copy\+To}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Copy\+To()}{CopyTo()}}
+{\footnotesize\ttfamily static void Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Copy\+To (\begin{DoxyParamCaption}\item[{Stream}]{src,  }\item[{Stream}]{dest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 93 of file Utility\+Methods.\+cs.
+
+
+\begin{DoxyCode}
+94         \{
+95             byte[] bytes = \textcolor{keyword}{new} byte[4096];
+96 
+97             \textcolor{keywordtype}{int} cnt;
+98 
+99             \textcolor{keywordflow}{while} ((cnt = src.Read(bytes, 0, bytes.Length)) != 0)
+100             \{
+101                 dest.Write(bytes, 0, cnt);
+102             \}
+103         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a16933213071d531063b29979e7b55fe8}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a16933213071d531063b29979e7b55fe8}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Zip@{Zip}}
+\index{Zip@{Zip}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Zip()}{Zip()}}
+{\footnotesize\ttfamily static async Task$<$byte\mbox{[}$\,$\mbox{]}$>$ Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Zip (\begin{DoxyParamCaption}\item[{string}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 105 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Store\+J\+Object().
+
+
+\begin{DoxyCode}
+106         \{
+107             byte[] bytes = Encoding.UTF8.GetBytes(str);
+108 
+109             await Task.Run(() => \{
+110                 \textcolor{keyword}{using} (var msi = \textcolor{keyword}{new} MemoryStream(bytes))
+111                 \textcolor{keyword}{using} (var mso = \textcolor{keyword}{new} MemoryStream())
+112                 \{
+113                     \textcolor{keyword}{using} (var gs = \textcolor{keyword}{new} GZipStream(mso, CompressionMode.Compress))
+114                     \{
+115                         \textcolor{comment}{//msi.CopyTo(gs);}
+116                         \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a4a514b7e55cf2285f4f16d778164695d}{CopyTo}}(msi, gs);
+117                     \}
+118 
+119                     bytes = mso.ToArray();
+120                 \}
+121 
+122             \});
+123           
+124             \textcolor{keywordflow}{return} bytes;
+125         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a16933213071d531063b29979e7b55fe8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Unzip@{Unzip}}
+\index{Unzip@{Unzip}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Unzip()}{Unzip()}}
+{\footnotesize\ttfamily static async Task$<$string$>$ Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Unzip (\begin{DoxyParamCaption}\item[{byte \mbox{[}$\,$\mbox{]}}]{bytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 127 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+Collection(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Remove\+J\+Object().
+
+
+\begin{DoxyCode}
+128         \{
+129             \textcolor{keywordtype}{string} toreturn = \textcolor{keywordtype}{string}.Empty;
+130             await Task.Run(() =>
+131             \{
+132                 \textcolor{keyword}{using} (var msi = \textcolor{keyword}{new} MemoryStream(bytes))
+133                 \textcolor{keyword}{using} (var mso = \textcolor{keyword}{new} MemoryStream())
+134                 \{
+135                     \textcolor{keyword}{using} (var gs = \textcolor{keyword}{new} GZipStream(msi, CompressionMode.Decompress))
+136                     \{
+137                         \textcolor{comment}{//gs.CopyTo(mso);}
+138                         \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a4a514b7e55cf2285f4f16d778164695d}{CopyTo}}(gs, mso);
+139                     \}
+140 
+141                     toreturn = Encoding.UTF8.GetString(mso.ToArray());
+142                 \}
+143             \});
+144 
+145             \textcolor{keywordflow}{return} toreturn;
+146         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a0a86ee01a3bf201bd9cc9b2552e54976_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a6542a3a6ea0aed6b4d78bb44a4a7d9d7}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a6542a3a6ea0aed6b4d78bb44a4a7d9d7}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Write\+Binary\+File@{Write\+Binary\+File}}
+\index{Write\+Binary\+File@{Write\+Binary\+File}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Write\+Binary\+File()}{WriteBinaryFile()}}
+{\footnotesize\ttfamily static async Task$<$bool$>$ Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Write\+Binary\+File (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{byte \mbox{[}$\,$\mbox{]}}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 149 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Store\+J\+Object().
+
+
+\begin{DoxyCode}
+150         \{
+151             \textcolor{keywordtype}{bool} toreturn = \textcolor{keyword}{false};
+152             await Task.Run(() =>
+153             \{
+154                 \textcolor{keywordflow}{try}
+155                 \{
+156                     \textcolor{keyword}{using} (BinaryWriter writer = \textcolor{keyword}{new} BinaryWriter(File.Open(path, FileMode.OpenOrCreate, 
+      \mbox{\hyperlink{namespace_system}{System}}.IO.FileAccess.ReadWrite)))
+157                     \{
+158                         writer.Write(value);
+159                     \}
+160                     toreturn = \textcolor{keyword}{true};
+161                 \}
+162                 \textcolor{keywordflow}{catch}
+163                 \{
+164                     toreturn = \textcolor{keyword}{false};
+165                 \}
+166             \});
+167             \textcolor{keywordflow}{return} toreturn;
+168         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a6542a3a6ea0aed6b4d78bb44a4a7d9d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Read\+Binary\+File@{Read\+Binary\+File}}
+\index{Read\+Binary\+File@{Read\+Binary\+File}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Read\+Binary\+File()}{ReadBinaryFile()}}
+{\footnotesize\ttfamily static async Task$<$byte\mbox{[}$\,$\mbox{]}$>$ Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Read\+Binary\+File (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 170 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+Collection(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Remove\+J\+Object().
+
+
+\begin{DoxyCode}
+171         \{
+172             byte[] value = \textcolor{keyword}{new} byte[0];
+173             await Task.Run(() =>
+174             \{
+175                 \textcolor{keyword}{using} (BinaryReader reader = \textcolor{keyword}{new} BinaryReader(File.Open(path, FileMode.OpenOrCreate, 
+      \mbox{\hyperlink{namespace_system}{System}}.IO.FileAccess.ReadWrite)))
+176                 \{
+177                     \textcolor{keyword}{const} \textcolor{keywordtype}{int} bufferSize = 4096;
+178                     \textcolor{keyword}{using} (var ms = \textcolor{keyword}{new} MemoryStream())
+179                     \{
+180                         byte[] buffer = \textcolor{keyword}{new} byte[bufferSize];
+181                         \textcolor{keywordtype}{int} count;
+182                         \textcolor{keywordflow}{while} ((count = reader.Read(buffer, 0, buffer.Length)) != 0)
+183                             ms.Write(buffer, 0, count);
+184                         value = ms.ToArray();
+185                     \}
+186                 \}
+187             \});
+188             \textcolor{keywordflow}{return} value;
+189         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a7b5de7a3ecc749b655fc3ed2af55360b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Check\+Operating\+Systems@{Check\+Operating\+Systems}}
+\index{Check\+Operating\+Systems@{Check\+Operating\+Systems}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Check\+Operating\+Systems()}{CheckOperatingSystems()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{Operating\+Systems}} Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Check\+Operating\+Systems (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 192 of file Utility\+Methods.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Base\+Path(), Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Latest\+Version\+Desktop(), Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Open\+Directory(), and Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Open\+File().
+
+
+\begin{DoxyCode}
+193         \{
+194 
+195             \textcolor{keywordflow}{if} (RuntimeInformation.IsOSPlatform(OSPlatform.Linux)) \{
+196                 \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.Linux;
+197             \}
+198 
+199             \textcolor{keywordflow}{if} (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+200             \{
+201                 \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.OsX;
+202             \}
+203 
+204             \textcolor{keywordflow}{if} (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+205             \{
+206                 \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.Windows;
+207             \}
+208 
+209             \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.Unknown;
+210 
+211         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9fe4cf5d219f0453436fe9c85ad261bf}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9fe4cf5d219f0453436fe9c85ad261bf}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Base\+Path@{Base\+Path}}
+\index{Base\+Path@{Base\+Path}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Base\+Path()}{BasePath()}}
+{\footnotesize\ttfamily static string Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Base\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 214 of file Utility\+Methods.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Check\+Operating\+Systems().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Data\+Base\+Handler(), and Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Settings\+Handler().
+
+
+\begin{DoxyCode}
+215         \{
+216             \textcolor{keywordtype}{string} path = \textcolor{stringliteral}{""};
+217 \textcolor{preprocessor}{#if \_\_ANDROID\_\_}
+218              path = PortablePath.Combine(PortablePath.Combine(Android.OS.Environment.
+      ExternalStorageDirectory.AbsolutePath, \textcolor{stringliteral}{"LittleWeeb"}), \textcolor{stringliteral}{"DataBase"});
+219 \textcolor{preprocessor}{#else}
+220             \textcolor{keywordflow}{switch} (UtilityMethods.CheckOperatingSystems())
+221             \{
+222                 \textcolor{keywordflow}{case} UtilityMethods.OperatingSystems.Linux:
+223                     path = PortablePath.Combine(Environment.GetFolderPath(Environment.SpecialFolder.
+      Personal), \textcolor{stringliteral}{".LittleWeeb"});
+224                     \textcolor{keywordflow}{break};
+225                 \textcolor{keywordflow}{case} UtilityMethods.OperatingSystems.Windows:
+226                     path = PortablePath.Combine(Environment.GetFolderPath(Environment.SpecialFolder.
+      MyDocuments), \textcolor{stringliteral}{"LittleWeeb"});
+227                     \textcolor{keywordflow}{break};
+228                 \textcolor{keywordflow}{case} UtilityMethods.OperatingSystems.OsX:
+229                     path = PortablePath.Combine(PortablePath.Combine(Environment.GetFolderPath(Environment.
+      SpecialFolder.MyDocuments), \textcolor{stringliteral}{"Library"}), \textcolor{stringliteral}{".LittleWeeb"});
+230                     \textcolor{keywordflow}{break};
+231             \}
+232 \textcolor{preprocessor}{#endif}
+233 
+234             \textcolor{keywordflow}{if} (!Directory.Exists(path))
+235             \{
+236                 Directory.CreateDirectory(path);
+237             \}
+238 
+239             \textcolor{keywordflow}{return} path;
+240         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9fe4cf5d219f0453436fe9c85ad261bf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a9fe4cf5d219f0453436fe9c85ad261bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aaa6b7e7b9ba5429a7c91ef95bb408653}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aaa6b7e7b9ba5429a7c91ef95bb408653}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Levenshtein\+Distance@{Levenshtein\+Distance}}
+\index{Levenshtein\+Distance@{Levenshtein\+Distance}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Levenshtein\+Distance()}{LevenshteinDistance()}}
+{\footnotesize\ttfamily static int Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Levenshtein\+Distance (\begin{DoxyParamCaption}\item[{string}]{source,  }\item[{string}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\href{https://stackoverflow.com/a/40775015/4564466}{\tt https\+://stackoverflow.\+com/a/40775015/4564466} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+{\em target} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 248 of file Utility\+Methods.\+cs.
+
+
+\begin{DoxyCode}
+249         \{
+250             \textcolor{comment}{// degenerate cases}
+251             \textcolor{keywordflow}{if} (source == target) \textcolor{keywordflow}{return} 0;
+252             \textcolor{keywordflow}{if} (source.Length == 0) \textcolor{keywordflow}{return} target.Length;
+253             \textcolor{keywordflow}{if} (target.Length == 0) \textcolor{keywordflow}{return} source.Length;
+254 
+255             \textcolor{comment}{// create two work vectors of integer distances}
+256             \textcolor{keywordtype}{int}[] v0 = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[target.Length + 1];
+257             \textcolor{keywordtype}{int}[] v1 = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[target.Length + 1];
+258 
+259             \textcolor{comment}{// initialize v0 (the previous row of distances)}
+260             \textcolor{comment}{// this row is A[0][i]: edit distance for an empty s}
+261             \textcolor{comment}{// the distance is just the number of characters to delete from t}
+262             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < v0.Length; i++)
+263                 v0[i] = i;
+264 
+265             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < source.Length; i++)
+266             \{
+267                 \textcolor{comment}{// calculate v1 (current row distances) from the previous row v0}
+268 
+269                 \textcolor{comment}{// first element of v1 is A[i+1][0]}
+270                 \textcolor{comment}{//   edit distance is delete (i+1) chars from s to match empty t}
+271                 v1[0] = i + 1;
+272 
+273                 \textcolor{comment}{// use formula to fill in the rest of the row}
+274                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < target.Length; j++)
+275                 \{
+276                     var cost = (source[i] == target[j]) ? 0 : 1;
+277                     v1[j + 1] = Math.Min(v1[j] + 1, Math.Min(v0[j + 1] + 1, v0[j] + cost));
+278                 \}
+279 
+280                 \textcolor{comment}{// copy v1 (current row) to v0 (previous row) for next iteration}
+281                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < v0.Length; j++)
+282                     v0[j] = v1[j];
+283             \}
+284 
+285             \textcolor{keywordflow}{return} v1[target.Length];
+286         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a376120497e647e8c20d6a68c288db292}\label{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a376120497e647e8c20d6a68c288db292}} 
+\index{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}!Calculate\+Similarity@{Calculate\+Similarity}}
+\index{Calculate\+Similarity@{Calculate\+Similarity}!Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods@{Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}}
+\subsubsection{\texorpdfstring{Calculate\+Similarity()}{CalculateSimilarity()}}
+{\footnotesize\ttfamily static double Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Calculate\+Similarity (\begin{DoxyParamCaption}\item[{string}]{source,  }\item[{string}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calculate percentage similarity of two strings 
+\begin{DoxyParams}{Parameters}
+{\em source} & Source String to Compare with\\
+\hline
+{\em target} & Targeted String to Compare\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return Similarity between two strings from 0 to 1.\+0
+\end{DoxyReturn}
+
+
+
+
+Definition at line 294 of file Utility\+Methods.\+cs.
+
+
+\begin{DoxyCode}
+295         \{
+296             \textcolor{keywordflow}{if} ((source == null) || (target == null)) \textcolor{keywordflow}{return} 0.0;
+297             \textcolor{keywordflow}{if} ((source.Length == 0) || (target.Length == 0)) \textcolor{keywordflow}{return} 0.0;
+298             \textcolor{keywordflow}{if} (source == target) \textcolor{keywordflow}{return} 1.0;
+299 
+300             \textcolor{keywordtype}{int} stepsToSame = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aaa6b7e7b9ba5429a7c91ef95bb408653}{LevenshteinDistance}}(source, target);
+301             \textcolor{keywordflow}{return} (1.0 - ((\textcolor{keywordtype}{double})stepsToSame / (\textcolor{keywordtype}{double})Math.Max(source.Length, target.Length)));
+302         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Static\+Classes/\mbox{\hyperlink{_utility_methods_8cs}{Utility\+Methods.\+cs}}\end{DoxyCompactItemize}

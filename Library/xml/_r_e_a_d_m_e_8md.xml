@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Introduction<sp/></highlight></codeline>
+<codeline><highlight class="normal">&lt;&lt;&lt;&lt;&lt;&lt;&lt;<sp/>HEAD</highlight></codeline>
+<codeline><highlight class="normal">Develop<sp/>branch<sp/>for<sp/>LittleWeebLibrary.<sp/>There<sp/>will<sp/>be<sp/>no<sp/>releases<sp/>here<sp/>for<sp/>this<sp/>library,<sp/>you<sp/>can<sp/>however<sp/>compile<sp/>it<sp/>yourself.</highlight></codeline>
+<codeline><highlight class="normal">=======</highlight></codeline>
+<codeline><highlight class="normal">Master<sp/>branch<sp/>for<sp/>LittleWeebLibrary.<sp/>There<sp/>will<sp/>be<sp/>no<sp/>releases<sp/>here<sp/>for<sp/>this<sp/>library,<sp/>you<sp/>can<sp/>however<sp/>compile<sp/>it<sp/>yourself.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">That<sp/>said,<sp/>every<sp/>client<sp/>(desktop<sp/>or<sp/>android)<sp/>uses<sp/>this<sp/>library!</highlight></codeline>
+<codeline><highlight class="normal">&gt;&gt;&gt;&gt;&gt;&gt;&gt;<sp/>master</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">That<sp/>said,<sp/>every<sp/>client<sp/>(desktop<sp/>or<sp/>android)<sp/>uses<sp/>this<sp/>library!</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,158 @@
+\hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response}{}\section{Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response Class Reference}
+\label{class_little_weeb_library_1_1_models_1_1_json_received_response}\index{Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response@{Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_little_weeb_library_1_1_models_1_1_json_received_response__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_a415c10f87514185eebe1d911be1f32d2}{To\+J\+Object}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_abed77a236608efb9bf777a44e6d2361b}{To\+Json}} ()
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_a396aa50a773bcd751e23cc7d61db34be}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_af28532db4b071f09d3f5c332d98ac470}{type}} = \char`\"{}received\+\_\+websocket\+\_\+message\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_a91b2c3461ca7bf54c108e0942ef48c25}{received}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_aab698f610c341ad6a13f891262331683}{updated}} = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_a396aa50a773bcd751e23cc7d61db34be}{To\+String}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Json\+Received\+Response.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response_abed77a236608efb9bf777a44e6d2361b}\label{class_little_weeb_library_1_1_models_1_1_json_received_response_abed77a236608efb9bf777a44e6d2361b}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}!To\+Json@{To\+Json}}
+\index{To\+Json@{To\+Json}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}}
+\subsubsection{\texorpdfstring{To\+Json()}{ToJson()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+To\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file Json\+Received\+Response.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+On\+Web\+Socket\+Server\+Event().
+
+
+\begin{DoxyCode}
+14         \{
+15             \textcolor{keywordflow}{return} JsonConvert.SerializeObject(\textcolor{keyword}{this});
+16         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_models_1_1_json_received_response_abed77a236608efb9bf777a44e6d2361b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response_a396aa50a773bcd751e23cc7d61db34be}\label{class_little_weeb_library_1_1_models_1_1_json_received_response_a396aa50a773bcd751e23cc7d61db34be}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 18 of file Json\+Received\+Response.\+cs.
+
+
+\begin{DoxyCode}
+19         \{
+20             JObject jobject = \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_a415c10f87514185eebe1d911be1f32d2}{ToJObject}}();
+21             \textcolor{keywordtype}{string} properties = \textcolor{keywordtype}{string}.Empty;
+22             \textcolor{keywordflow}{foreach} (var x \textcolor{keywordflow}{in} jobject)
+23             \{
+24                 properties += x.Key + \textcolor{stringliteral}{": "} + x.Value.ToString();
+25             \}
+26             \textcolor{keywordflow}{return} properties;
+27         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response_a415c10f87514185eebe1d911be1f32d2}\label{class_little_weeb_library_1_1_models_1_1_json_received_response_a415c10f87514185eebe1d911be1f32d2}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}!To\+J\+Object@{To\+J\+Object}}
+\index{To\+J\+Object@{To\+J\+Object}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}}
+\subsubsection{\texorpdfstring{To\+J\+Object()}{ToJObject()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+To\+J\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file Json\+Received\+Response.\+cs.
+
+
+\begin{DoxyCode}
+30         \{
+31 
+32             JObject jobject = JObject.FromObject(\textcolor{keyword}{this});
+33             \textcolor{keywordflow}{return} jobject;
+34         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response_af28532db4b071f09d3f5c332d98ac470}\label{class_little_weeb_library_1_1_models_1_1_json_received_response_af28532db4b071f09d3f5c332d98ac470}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}!type@{type}}
+\index{type@{type}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+type = \char`\"{}received\+\_\+websocket\+\_\+message\char`\"{}}
+
+
+
+Definition at line 9 of file Json\+Received\+Response.\+cs.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response_a91b2c3461ca7bf54c108e0942ef48c25}\label{class_little_weeb_library_1_1_models_1_1_json_received_response_a91b2c3461ca7bf54c108e0942ef48c25}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}!received@{received}}
+\index{received@{received}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}}
+\subsubsection{\texorpdfstring{received}{received}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+received = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Json\+Received\+Response.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_received_response_aab698f610c341ad6a13f891262331683}\label{class_little_weeb_library_1_1_models_1_1_json_received_response_aab698f610c341ad6a13f891262331683}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}!updated@{updated}}
+\index{updated@{updated}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}}
+\subsubsection{\texorpdfstring{updated}{updated}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response.\+updated = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_received_response_a396aa50a773bcd751e23cc7d61db34be}{To\+String}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Json\+Received\+Response.\+cs.
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = StaticClasses.UtilityMethods.GetEpoch().ToString();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\mbox{\hyperlink{_json_received_response_8cs}{Json\+Received\+Response.\+cs}}\end{DoxyCompactItemize}

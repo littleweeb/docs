@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.WebSocketHandler.OnWebSocketServerEvent" name="LittleWeebLibrary.Handlers.WebSocketHandler.OnWebSocketServerEvent">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_models_1_1_json_received_response.html#abed77a236608efb9bf777a44e6d2361b" title="LittleWeebLibrary.Models.\lJsonReceivedResponse.ToJson" alt="" coords="344,5,548,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="350,71,542,112"/>
+</map>

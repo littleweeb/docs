@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.KitsuHandler.GetAllGenres" name="LittleWeebLibrary.Handlers.KitsuHandler.GetAllGenres">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a2882975741be27c69b461509d48e2636" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetAllGenres" alt="" coords="236,13,489,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="537,5,815,61"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory" name="LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_file_web_socket_service.html#ab1375e8e82a50dfa06d91bebe988d133" title="LittleWeebLibrary.Services.\lFileWebSocketService.DeleteFile" alt="" coords="283,13,497,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller.html#a9ecdec41f15ac23a56c402ff2c554a08" title="LittleWeebLibrary.Controllers.\lFileWebSocketController.OnWebSocketEvent" alt="" coords="545,13,832,54"/>
+</map>

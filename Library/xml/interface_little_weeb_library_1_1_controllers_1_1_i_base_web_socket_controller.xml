@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Controllers::IBaseWebSocketController</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.BaseWebSocketController</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller_1a80d53e08202c06f729b0aa90d36c152f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Controllers.IBaseWebSocketController.SetSubControllers</definition>
+        <argsstring>(List&lt; ISubWebSocketController &gt; subControllers)</argsstring>
+        <name>SetSubControllers</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1ae799e6c0e4c3ed0200b18a0360968ac8">SetSubControllers</reimplementedby>
+        <param>
+          <type>List&lt; <ref refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller" kindref="compound">ISubWebSocketController</ref> &gt;</type>
+          <declname>subControllers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/BaseWebSocketController.cs" line="11" column="1"/>
+        <referencedby refid="class_little_weeb_library_1_1_start_up_1a7f35b9dfb45fb003a9653d1f531044c9" compoundref="_start_up_8cs" startline="51" endline="121">LittleWeebLibrary.StartUp.StartUp</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>LittleWeebLibrary.Controllers.BaseWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>LittleWeebLibrary.Controllers.IBaseWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>LittleWeebLibrary.Controllers.IBaseWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/BaseWebSocketController.cs" line="10" column="1" bodyfile="Controllers/BaseWebSocketController.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller_1a80d53e08202c06f729b0aa90d36c152f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::IBaseWebSocketController</scope><name>SetSubControllers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

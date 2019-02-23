@@ -1,0 +1,8 @@
+<map id="LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory" name="LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_data_base_handler.html#a7f61583807f99b7838a33d2db0f7ca68" title="LittleWeebLibrary.Handlers.\lDataBaseHandler.GetJObject" alt="" coords="295,57,487,99"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="576,161,768,203"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_handlers_1_1_data_base_handler.html#a7821535a003c7675c09ba846bd9502ca" title="LittleWeebLibrary.Handlers.\lDataBaseHandler.RemoveJObject" alt="" coords="283,175,500,216"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_handlers_1_1_data_base_handler.html#a9b2223ff71f688234f95d247ea3b5739" title="LittleWeebLibrary.Handlers.\lDataBaseHandler.UpdateJObject" alt="" coords="285,240,497,281"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a7b5de7a3ecc749b655fc3ed2af55360b" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.ReadBinaryFile" alt="" coords="548,5,796,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a0a86ee01a3bf201bd9cc9b2552e54976" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.Unzip" alt="" coords="575,71,769,112"/>
+</map>

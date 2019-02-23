@@ -1,0 +1,161 @@
+\hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome}{}\section{Little\+Weeb\+Library.\+Models.\+Json\+Welcome Class Reference}
+\label{class_little_weeb_library_1_1_models_1_1_json_welcome}\index{Little\+Weeb\+Library.\+Models.\+Json\+Welcome@{Little\+Weeb\+Library.\+Models.\+Json\+Welcome}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Models.\+Json\+Welcome\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_little_weeb_library_1_1_models_1_1_json_welcome__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a964f2548a650181c962a0cf9027ba119}{To\+J\+Object}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a5b3e7dadb2a342808c714b6277a9150d}{To\+Json}} ()
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a762f38491c69ca0d0c2c17e4582a145c}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_ad8a5e8ff3eb2ced1a8fea61ce161aff6}{local}} = true\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_aa19331f4dd36ccf8f06ee8f72116643b}{type}} = \char`\"{}welcome\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_ad3fc6cf68f64e870ffd7cfabf1930e87}{updated}} = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a762f38491c69ca0d0c2c17e4582a145c}{To\+String}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a4ef0527a64420ba1f47304a0a3f02627}{welcome}} = \char`\"{}Succesfully made connection with \mbox{\hyperlink{class_little_weeb_library_1_1_little_weeb}{Little\+Weeb}} Back-\/end!\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Json\+Welcome.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_a5b3e7dadb2a342808c714b6277a9150d}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_a5b3e7dadb2a342808c714b6277a9150d}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!To\+Json@{To\+Json}}
+\index{To\+Json@{To\+Json}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{To\+Json()}{ToJson()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+To\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 14 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+15         \{
+16             \textcolor{keywordflow}{return} JsonConvert.SerializeObject(\textcolor{keyword}{this});
+17         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_a762f38491c69ca0d0c2c17e4582a145c}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_a762f38491c69ca0d0c2c17e4582a145c}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 19 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+20         \{
+21             JObject jobject = \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a964f2548a650181c962a0cf9027ba119}{ToJObject}}();
+22             \textcolor{keywordtype}{string} properties = \textcolor{keywordtype}{string}.Empty;
+23             \textcolor{keywordflow}{foreach} (var x \textcolor{keywordflow}{in} jobject)
+24             \{
+25                 properties += x.Key + \textcolor{stringliteral}{": "} + x.Value.ToString();
+26             \}
+27             \textcolor{keywordflow}{return} properties;
+28         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_a964f2548a650181c962a0cf9027ba119}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_a964f2548a650181c962a0cf9027ba119}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!To\+J\+Object@{To\+J\+Object}}
+\index{To\+J\+Object@{To\+J\+Object}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{To\+J\+Object()}{ToJObject()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+To\+J\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+31         \{
+32 
+33             JObject jobject = JObject.FromObject(\textcolor{keyword}{this});
+34             \textcolor{keywordflow}{return} jobject;
+35         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_aa19331f4dd36ccf8f06ee8f72116643b}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_aa19331f4dd36ccf8f06ee8f72116643b}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!type@{type}}
+\index{type@{type}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+type = \char`\"{}welcome\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"welcome"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_a4ef0527a64420ba1f47304a0a3f02627}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_a4ef0527a64420ba1f47304a0a3f02627}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!welcome@{welcome}}
+\index{welcome@{welcome}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{welcome}{welcome}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+welcome = \char`\"{}Succesfully made connection with \mbox{\hyperlink{class_little_weeb_library_1_1_little_weeb}{Little\+Weeb}} Back-\/end!\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"Succesfully made connection with LittleWeeb Back-end!"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_ad8a5e8ff3eb2ced1a8fea61ce161aff6}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_ad8a5e8ff3eb2ced1a8fea61ce161aff6}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!local@{local}}
+\index{local@{local}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{local}{local}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+local = true\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{true};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_welcome_ad3fc6cf68f64e870ffd7cfabf1930e87}\label{class_little_weeb_library_1_1_models_1_1_json_welcome_ad3fc6cf68f64e870ffd7cfabf1930e87}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}!updated@{updated}}
+\index{updated@{updated}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}}
+\subsubsection{\texorpdfstring{updated}{updated}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Welcome.\+updated = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_welcome_a762f38491c69ca0d0c2c17e4582a145c}{To\+String}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Json\+Welcome.\+cs.
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = StaticClasses.UtilityMethods.GetEpoch().ToString();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\mbox{\hyperlink{_json_welcome_8cs}{Json\+Welcome.\+cs}}\end{DoxyCompactItemize}

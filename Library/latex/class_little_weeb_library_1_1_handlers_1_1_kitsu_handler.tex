@@ -1,0 +1,1029 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f980060f9277a512dfda67768a7428}{Kitsu\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ae329f7e735a6abee2734bbbd13d121b2}{Get\+All\+Categories}} ()
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a528491d8d97584b2ba2c3bfcc4b5772e}{Get\+All\+Genres}} ()
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a4c88ed25befe2904416b4d90673a8f82}{Get\+Anime}} (string anime\+Id)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8d6a49dd26f66dd33ea2e2b4e9b330cb}{Get\+Categories}} (string anime\+Id)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_af733f442659b7789588da55b00c065c4}{Get\+Currently\+Airing}} ()
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a3129d77267b0fb879e3f8f1a8e83494a}{Get\+Episode}} (string anime\+Id, int episode\+Number)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a615caf4bea96465d35eb36434bc71bea}{Get\+Episodes}} (string anime\+Id, int page=0, int pages=-\/1, int results=20, string order=\char`\"{}A\+SC\char`\"{})
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a5f655ed8b3e26f6d6767e090eea9e3bb}{Get\+Full\+Anime}} (string anime\+Id, int amount\+Episodes\+Per\+Page=26)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_aabd039f9220f03f5c9dcf83e104531b1}{Get\+Genres}} (string anime\+Id)
+\item 
+async Task$<$ J\+Array $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ad1ba51037e72c80804018f4c1df37581}{Get\+Relations}} (string anime\+Id)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{Json\+Kistu\+Search\+Result}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f121e8fec8cce5ffe0454d3a17c156}{Search\+Anime}} (string search, Dictionary$<$ string, string $>$ query\+List, int page=0, int pages=1)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ string $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}} (string url)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a27b4c1e9d11ba03420fbd13166e0f95b}{Get\+Episodes\+From\+Kitsu}} (string anime\+Id, int page, int offset)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{Debug\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file Kitsu\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f980060f9277a512dfda67768a7428}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f980060f9277a512dfda67768a7428}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Kitsu\+Handler@{Kitsu\+Handler}}
+\index{Kitsu\+Handler@{Kitsu\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Kitsu\+Handler()}{KitsuHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Kitsu\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 36 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+37         \{
+38             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+39             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}} = debugHandler;
+40         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f980060f9277a512dfda67768a7428_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f121e8fec8cce5ffe0454d3a17c156}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f121e8fec8cce5ffe0454d3a17c156}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Search\+Anime@{Search\+Anime}}
+\index{Search\+Anime@{Search\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Search\+Anime()}{SearchAnime()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{Json\+Kistu\+Search\+Result}}$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Search\+Anime (\begin{DoxyParamCaption}\item[{string}]{search,  }\item[{Dictionary$<$ string, string $>$}]{query\+List,  }\item[{int}]{page = {\ttfamily 0},  }\item[{int}]{pages = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a4afb4a1718099f9e4e39ebc237ae45a0}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 42 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Currently\+Airing\+Async(), and Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Search\+Kitsu().
+
+
+\begin{DoxyCode}
+42                                                                                                            
+                                         \{
+43 
+44             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SearchAnime Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+45             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search: "} + search + \textcolor{stringliteral}{", page: "} + page.
+      ToString() + \textcolor{stringliteral}{", pages: "} + pages.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+46             JArray array = \textcolor{keyword}{new} JArray();
+47             
+48 
+49             \textcolor{keywordtype}{string} query = \textcolor{stringliteral}{""};
+50 
+51             \textcolor{keywordflow}{foreach} (KeyValuePair<string, string> attributeValue \textcolor{keywordflow}{in} queryList)
+52             \{
+53                 query += \textcolor{stringliteral}{"&filter["} + attributeValue.Key + \textcolor{stringliteral}{"]="} + attributeValue.Value;
+54             \}
+55 
+56             \textcolor{keywordflow}{if} (search != \textcolor{keywordtype}{string}.Empty)
+57             \{
+58                 query = \textcolor{stringliteral}{"&filter[text]="} + search + query;
+59             \}
+60 
+61 
+62             \textcolor{keywordtype}{string} searchresult = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"anime?"} + query.Substring(1) + \textcolor{stringliteral}{"
+      &fields[anime]=canonicalTitle,averageRating,subtype,status,coverImage,posterImage,abbreviatedTitles,titles&page[limit]=20&page[offset]=
+      "} + (page * 20).ToString());
+63 
+64             \textcolor{keywordflow}{if} (searchresult.Contains(\textcolor{stringliteral}{"failed:"}))
+65             \{
+66                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{JsonKistuSearchResult}} resultfail = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{JsonKistuSearchResult}}()
+67                 \{
+68                     result = array
+69                 \};
+70 
+71                 \textcolor{keywordflow}{return} resultfail;
+72             \}
+73 
+74             JObject searchresultjobject = JObject.Parse(searchresult);
+75 
+76             \textcolor{keywordtype}{int} totalPages = (int)Math.Ceiling(((\textcolor{keywordtype}{double})((searchresultjobject[\textcolor{stringliteral}{"meta"}].Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"count"})) 
+      / (\textcolor{keywordtype}{double})20) + 0.5));
+77 
+78             \textcolor{keywordflow}{if} (pages == -1)
+79             \{
+80                 pages = totalPages;
+81             \}
+82 
+83             array.Merge(searchresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+84             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < pages; i++) \{
+85 
+86                 searchresult = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"anime?"} + query.Substring(1) + \textcolor{stringliteral}{"
+      &fields[anime]=canonicalTitle,averageRating,subtype,status,coverImage,posterImage,abbreviatedTitles,titles&page[limit]=20&page[offset]="} +
+       ((page + i - 1) * 20).ToString());
+87 
+88                 \textcolor{keywordflow}{if} (searchresult.Contains(\textcolor{stringliteral}{"failed:"}))
+89                 \{
+90                     \textcolor{keywordflow}{break};
+91                 \}
+92 
+93                 searchresultjobject = JObject.Parse(searchresult);
+94 
+95                 array.Merge(searchresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+96 
+97                 \textcolor{keywordflow}{if} ((i + page) >= totalPages)
+98                 \{
+99                     \textcolor{keywordflow}{break};
+100                 \}
+101             \}
+102             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{JsonKistuSearchResult}} result = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{JsonKistuSearchResult}}()
+103             \{
+104                 result = array
+105             \};
+106             \textcolor{keywordflow}{return} result;
+107         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f121e8fec8cce5ffe0454d3a17c156_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f121e8fec8cce5ffe0454d3a17c156_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a4c88ed25befe2904416b4d90673a8f82}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a4c88ed25befe2904416b4d90673a8f82}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Anime@{Get\+Anime}}
+\index{Get\+Anime@{Get\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Anime()}{GetAnime()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Anime (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a85c4f22da758a475c55327fa6393935c}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 109 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+110         \{
+111 
+112             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetAnime Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+113             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + animeId, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+114 
+115             \textcolor{keywordtype}{string} anime = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"anime?filter[id]="} + animeId);
+116 
+117             \textcolor{keywordflow}{if} (anime.Contains(\textcolor{stringliteral}{"failed:"}))
+118             \{
+119                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JObject();
+120             \}
+121             \textcolor{keywordflow}{else}
+122             \{
+123                 \textcolor{keywordflow}{return} JObject.Parse(anime);
+124             \}
+125         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a4c88ed25befe2904416b4d90673a8f82_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a615caf4bea96465d35eb36434bc71bea}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a615caf4bea96465d35eb36434bc71bea}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Episodes@{Get\+Episodes}}
+\index{Get\+Episodes@{Get\+Episodes}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Episodes()}{GetEpisodes()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Episodes (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{page = {\ttfamily 0},  }\item[{int}]{pages = {\ttfamily -\/1},  }\item[{int}]{results = {\ttfamily 20},  }\item[{string}]{order = {\ttfamily \char`\"{}ASC\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_adc4f3c45aec996b1f94894368f818de4}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 127 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+128         \{
+129             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetEpisodes Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+130             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"AnimeID: "} + animeId + \textcolor{stringliteral}{", page: "} + page.
+      ToString() + \textcolor{stringliteral}{", pages: "} + pages.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+131 
+132             \textcolor{keywordtype}{string} orderquery= \textcolor{stringliteral}{""};
+133 
+134             \textcolor{keywordflow}{if} (order == \textcolor{stringliteral}{"DESC"})
+135             \{
+136                 orderquery = \textcolor{stringliteral}{"-"};
+137             \}
+138 
+139             \textcolor{keywordtype}{string} episodes = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"episodes?filter[mediaType]=Anime&filter[media\_id]="} + animeId +
+       \textcolor{stringliteral}{"&page[limit]=20&page[offset]="} + ((page) * results).ToString() + \textcolor{stringliteral}{"&sort="} + orderquery + \textcolor{stringliteral}{"number"});
+140 
+141             JObject searchresultjobject = JObject.Parse(episodes);
+142 
+143             JArray array = \textcolor{keyword}{new} JArray();
+144 
+145             \textcolor{keywordtype}{int} totalPages = 1;
+146 
+147             \textcolor{keywordflow}{if} (pages == -1)
+148             \{
+149                 totalPages = (int)Math.Ceiling(((\textcolor{keywordtype}{double})((searchresultjobject[\textcolor{stringliteral}{"meta"}].Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"count"})) 
+      / (\textcolor{keywordtype}{double})20) + 0.5));
+150                 pages = totalPages;
+151             \}
+152 
+153             List<Task<JObject>> tasks = \textcolor{keyword}{new} List<Task<JObject>>();   
+154 
+155             array.Merge(searchresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+156 
+157             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Amount of pages to interate: "} + totalPages,
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+158 
+159             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < totalPages; i++)
+160             \{
+161                 \textcolor{keywordflow}{if} (episodes.Contains(\textcolor{stringliteral}{"failed:"}))
+162                 \{
+163                     \textcolor{keywordflow}{break};
+164                 \}
+165 
+166                 
+167                 tasks.Add(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a27b4c1e9d11ba03420fbd13166e0f95b}{GetEpisodesFromKitsu}}(animeId, page, i));
+168                               
+169 
+170                 \textcolor{keywordflow}{if} ((i + page) >= totalPages)
+171                 \{
+172                     \textcolor{keywordflow}{break};
+173                 \}
+174             \}
+175 
+176 
+177             Task.WaitAll(tasks.ToArray());
+178 
+179             \textcolor{keywordflow}{foreach} (Task<JObject> task \textcolor{keywordflow}{in} tasks)
+180             \{
+181                 array.Merge(task.Result.Value<JArray>(\textcolor{stringliteral}{"data"}));
+182                 task.Dispose();
+183             \}
+184 
+185             \textcolor{keywordflow}{return} array;           
+186 
+187         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a615caf4bea96465d35eb36434bc71bea_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a5f655ed8b3e26f6d6767e090eea9e3bb}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a5f655ed8b3e26f6d6767e090eea9e3bb}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Full\+Anime@{Get\+Full\+Anime}}
+\index{Get\+Full\+Anime@{Get\+Full\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Full\+Anime()}{GetFullAnime()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Full\+Anime (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{amount\+Episodes\+Per\+Page = {\ttfamily 26} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a6ea08bc341bbaa01174a451acd3d9b08}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 189 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile().
+
+
+\begin{DoxyCode}
+190         \{
+191             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetFullAnime Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+192             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + animeId, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+193 
+194             \textcolor{keywordtype}{string} anime = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"anime/"} + animeId + \textcolor{stringliteral}{"?include=episodes,genres,categories"});
+195 
+196             JObject result = JObject.Parse(anime);
+197             JArray included = result.Value<JArray>(\textcolor{stringliteral}{"included"});
+198 
+199             JArray genres = \textcolor{keyword}{new} JArray();
+200             JArray categories = \textcolor{keyword}{new} JArray();
+201             JArray episodes = \textcolor{keyword}{new} JArray();
+202             JArray mediaRelationships = \textcolor{keyword}{new} JArray();
+203 
+204             \textcolor{keywordflow}{foreach} (JObject include \textcolor{keywordflow}{in} included)
+205             \{
+206                 \textcolor{keywordflow}{switch}(include.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"type"}))
+207                 \{
+208                     \textcolor{keywordflow}{case} \textcolor{stringliteral}{"genres"}:
+209                         genres.Add(include);
+210                         \textcolor{keywordflow}{break};
+211                     \textcolor{keywordflow}{case} \textcolor{stringliteral}{"categories"}:
+212                         categories.Add(include);
+213                         \textcolor{keywordflow}{break};
+214                     \textcolor{keywordflow}{case} \textcolor{stringliteral}{"episodes"}:
+215                         episodes.Add(include);
+216                         \textcolor{keywordflow}{break};
+217                 \}
+218             \}
+219 
+220             mediaRelationships = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ad1ba51037e72c80804018f4c1df37581}{GetRelations}}(animeId);
+221 
+222             JArray episodePages = \textcolor{keyword}{new} JArray();
+223 
+224             JArray page = \textcolor{keyword}{new} JArray();
+225 
+226             \textcolor{keywordtype}{int} count = 0;
+227 
+228             \textcolor{keywordflow}{foreach} (JObject episode \textcolor{keywordflow}{in} episodes)
+229             \{
+230                 \textcolor{keywordflow}{if} (count >= amountEpisodesPerPage)
+231                 \{
+232                     episodePages.Add(page);
+233                     page = \textcolor{keyword}{new} JArray();
+234                     count = 0;
+235                 \}
+236                 count++;
+237                 page.Add(episode);
+238             \}
+239 
+240             \textcolor{keywordflow}{if} (episodes.Count <= amountEpisodesPerPage)
+241             \{
+242                 episodePages.Add(page);
+243             \}
+244 
+245             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{JsonKitsuAnimeInfo}} jsonKitsuAnimeInfo = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{JsonKitsuAnimeInfo}}
+246             \{
+247                 anime\_id = animeId,
+248                 anime\_episodes\_per\_page = amountEpisodesPerPage,
+249                 anime\_total\_episode\_pages = episodePages.Count,
+250                 anime\_info = result.Value<JObject>(\textcolor{stringliteral}{"data"}),
+251                 anime\_relations = mediaRelationships,
+252                 anime\_categories = categories,
+253                 anime\_genres = genres,
+254                 anime\_episodes = episodePages
+255             \};
+256             
+257            \textcolor{comment}{//DebugHandler.TraceMessage("Finished getting anime profile, making values 'episodeCount' &
+       'total episode pages global': " +
+       jsonKitsuAnimeInfo.anime\_info["data"][0]["attributes"].Value<int>("episodeCount"), DebugSource.TASK, DebugType.PARAMETERS);            }
+258 
+259             \textcolor{keywordflow}{return} jsonKitsuAnimeInfo;
+260 
+261         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a5f655ed8b3e26f6d6767e090eea9e3bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a5f655ed8b3e26f6d6767e090eea9e3bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ad1ba51037e72c80804018f4c1df37581}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ad1ba51037e72c80804018f4c1df37581}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Relations@{Get\+Relations}}
+\index{Get\+Relations@{Get\+Relations}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Relations()}{GetRelations()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Relations (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aa82bf536086211de6b458610b83ed43f}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 263 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+264         \{
+265             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetRelations Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+266             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + animeId, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+267             
+268             \textcolor{keywordtype}{string} relations = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"media-relationships?filter[source\_id]="} + animeId + \textcolor{stringliteral}{"
+      &filter[so
+      urce\_type]=Anime&fields[anime]=episodeCount,canonicalTitle,averageRating,subtype,status,coverImage,posterImage,abbreviatedTitles,titles&include=destination&sort=role"});
+269 
+270             \textcolor{keywordflow}{if} (relations.Contains(\textcolor{stringliteral}{"failed:"}))
+271             \{
+272                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JArray();
+273             \}
+274             \textcolor{keywordflow}{else}
+275             \{
+276                 JObject result = JObject.Parse(relations);
+277                 JArray data = result.Value<JArray>(\textcolor{stringliteral}{"data"});
+278                 JArray included = result.Value<JArray>(\textcolor{stringliteral}{"included"});
+279 
+280                 \textcolor{keywordtype}{int} i = 0;
+281                 \textcolor{keywordflow}{foreach} (JObject roles \textcolor{keywordflow}{in} data)
+282                 \{
+283                     JObject anime = included[i].Value<JObject>();
+284 
+285                     anime.Add(\textcolor{keyword}{new} JProperty(\textcolor{stringliteral}{"role"}, roles[\textcolor{stringliteral}{"attributes"}].Value<string>(\textcolor{stringliteral}{"role"})));
+286 
+287                     included[i] = anime;
+288 
+289                     i++;
+290 
+291                 \}
+292 
+293                 \textcolor{keywordflow}{return} included;
+294             \}
+295 
+296         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ad1ba51037e72c80804018f4c1df37581_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_af733f442659b7789588da55b00c065c4}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_af733f442659b7789588da55b00c065c4}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Currently\+Airing@{Get\+Currently\+Airing}}
+\index{Get\+Currently\+Airing@{Get\+Currently\+Airing}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Currently\+Airing()}{GetCurrentlyAiring()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Currently\+Airing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a644c9e4caf1db5de18a78fe03b33e278}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 299 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing().
+
+
+\begin{DoxyCode}
+300         \{
+301 
+302             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetCurrentlyAiring Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+303 
+304             JArray array = \textcolor{keyword}{new} JArray();
+305 
+306             \textcolor{keywordtype}{int} totalPages = 2;
+307 
+308             List<Task<string>> tasks = \textcolor{keyword}{new} List<Task<string>>();
+309 
+310             \textcolor{keywordtype}{string} airing = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"
+      anime?filter[status]=current&fields[anime]=canonicalTitle,averageR
+      ating,subtype,status,coverImage,posterImage,abbreviatedTitles,titles&sort=-averageRating&page[limit]=20&page[offset]="} + (0 * 20).ToString());
+311             JObject airingresultjobject = JObject.Parse(airing);
+312 
+313             array.Merge(airingresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+314 
+315 
+316             totalPages = (int)(airingresultjobject[\textcolor{stringliteral}{"meta"}].Value<int>(\textcolor{stringliteral}{"count"}) / 20 - 0.5);
+317 
+318             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < totalPages; i++)
+319             \{
+320                 \textcolor{keywordflow}{if} (airing.Contains(\textcolor{stringliteral}{"failed:"}))
+321                 \{
+322                     \textcolor{keywordflow}{break};
+323                 \}
+324 
+325                 tasks.Add(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"
+      anime?filter[status]=current&fields[anime]=canonicalTitle,averageRating,subtype,status,coverImage,posterImage,abbreviatedTitles,titles&page[limit]=20&page[offset]="} + (i * 20).
+      ToString()));
+326 
+327 
+328                 \textcolor{keywordflow}{if} (i >= totalPages)
+329                 \{
+330                     \textcolor{keywordflow}{break};
+331                 \}
+332             \}
+333 
+334             Task.WaitAll(tasks.ToArray());
+335 
+336             \textcolor{keywordflow}{foreach} (Task<string> task \textcolor{keywordflow}{in} tasks)
+337             \{
+338                 airingresultjobject = JObject.Parse(task.Result);
+339 
+340                 \textcolor{keywordflow}{try}
+341                 \{
+342                     array.Merge(airingresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+343                 \}
+344                 \textcolor{keywordflow}{catch} (Exception e)
+345                 \{
+346                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed merging data: "} + e.ToString(
+      ), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+347                 \}
+348                 task.Dispose();
+349             \}
+350 
+351 
+352 
+353             \textcolor{keywordflow}{return} array;
+354         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_af733f442659b7789588da55b00c065c4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_af733f442659b7789588da55b00c065c4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_aabd039f9220f03f5c9dcf83e104531b1}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_aabd039f9220f03f5c9dcf83e104531b1}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Genres@{Get\+Genres}}
+\index{Get\+Genres@{Get\+Genres}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Genres()}{GetGenres()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Genres (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a22e208a4c0ea64dafdbeb1a133739bfd}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 356 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+357         \{
+358             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetGenres Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+359             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + animeId, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+360 
+361             \textcolor{keywordtype}{string} genres = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"anime/"} + animeId + \textcolor{stringliteral}{"/genres"});
+362 
+363             \textcolor{keywordflow}{if} (genres.Contains(\textcolor{stringliteral}{"failed:"}))
+364             \{
+365                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JArray();
+366             \}
+367             \textcolor{keywordflow}{else}
+368             \{
+369                 \textcolor{keywordflow}{return} JObject.Parse(genres).Value<JArray>(\textcolor{stringliteral}{"data"});
+370             \}
+371         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_aabd039f9220f03f5c9dcf83e104531b1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8d6a49dd26f66dd33ea2e2b4e9b330cb}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8d6a49dd26f66dd33ea2e2b4e9b330cb}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Categories@{Get\+Categories}}
+\index{Get\+Categories@{Get\+Categories}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Categories()}{GetCategories()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Categories (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a731b56ca79910b6b1d7b2218c34e3156}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 373 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+374         \{
+375             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetCategories Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+376             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + animeId, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+377 
+378             \textcolor{keywordtype}{string} categories = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"anime/"} + animeId + \textcolor{stringliteral}{"/categories"});
+379 
+380             \textcolor{keywordflow}{if} (categories.Contains(\textcolor{stringliteral}{"failed:"}))
+381             \{
+382                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JArray();
+383             \}
+384             \textcolor{keywordflow}{else}
+385             \{
+386                 \textcolor{keywordflow}{return} JObject.Parse(categories).Value<JArray>(\textcolor{stringliteral}{"data"});
+387             \}
+388         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8d6a49dd26f66dd33ea2e2b4e9b330cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a3129d77267b0fb879e3f8f1a8e83494a}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a3129d77267b0fb879e3f8f1a8e83494a}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Episode@{Get\+Episode}}
+\index{Get\+Episode@{Get\+Episode}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Episode()}{GetEpisode()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Episode (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{episode\+Number }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a9f182eabb098e98f566c8add1695bb36}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 393 of file Kitsu\+Handler.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Anime\+Latest\+Episode().
+
+
+\begin{DoxyCode}
+394         \{
+395             \textcolor{keywordtype}{string} episode = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"episodes?filter[mediaType]=Anime&filter[media\_id]="} + animeId + \textcolor{stringliteral}{
+      "&filter[number]="} + episodeNumber);
+396             \textcolor{keywordflow}{if} (episode.Contains(\textcolor{stringliteral}{"failed:"}))
+397             \{
+398                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JObject();
+399             \}
+400             \textcolor{keywordflow}{else}
+401             \{
+402                 JObject searchresultjobject = JObject.Parse(episode);
+403 
+404                 \textcolor{keywordflow}{return} searchresultjobject[\textcolor{stringliteral}{"data"}].Value<JObject>(0);
+405             \}
+406         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a3129d77267b0fb879e3f8f1a8e83494a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a528491d8d97584b2ba2c3bfcc4b5772e}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a528491d8d97584b2ba2c3bfcc4b5772e}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+All\+Genres@{Get\+All\+Genres}}
+\index{Get\+All\+Genres@{Get\+All\+Genres}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Genres()}{GetAllGenres()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+All\+Genres (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_ad5d0744af17b926aed44fe87e6834f04}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 408 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Genres().
+
+
+\begin{DoxyCode}
+409         \{
+410             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetAllGenres Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+411 
+412             JArray array = \textcolor{keyword}{new} JArray();
+413 
+414             \textcolor{keywordtype}{int} totalPages = 0;
+415 
+416             List<Task<string>> tasks = \textcolor{keyword}{new} List<Task<string>>();
+417 
+418             \textcolor{keywordtype}{string} genres = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"genres?fields[genres]=name&page[limit]=20&page[offset]="} + (0 * 2
+      0).ToString());
+419             JObject genresresultjobject = JObject.Parse(genres);
+420 
+421             array.Merge(genresresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+422 
+423 
+424             totalPages = (int)(genresresultjobject[\textcolor{stringliteral}{"meta"}].Value<int>(\textcolor{stringliteral}{"count"}) / 20 - 0.5);
+425 
+426             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < totalPages; i++)
+427             \{
+428                 \textcolor{keywordflow}{if} (genres.Contains(\textcolor{stringliteral}{"failed:"}))
+429                 \{
+430                     \textcolor{keywordflow}{break};
+431                 \}
+432 
+433                 tasks.Add(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"genres?fields[genres]=name&page[limit]=20&page[offset]="} + (i * 20).
+      ToString()));
+434                 
+435                
+436             \}
+437 
+438             Task.WaitAll(tasks.ToArray());
+439 
+440             \textcolor{keywordflow}{foreach} (Task<string> task \textcolor{keywordflow}{in} tasks)
+441             \{
+442                 genresresultjobject = JObject.Parse(task.Result);
+443 
+444                 \textcolor{keywordflow}{try}
+445                 \{
+446                     array.Merge(genresresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+447                 \}
+448                 \textcolor{keywordflow}{catch} (Exception e)
+449                 \{
+450                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed merging data: "} + e.ToString(
+      ), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+451                 \}
+452                 task.Dispose();
+453             \}
+454 
+455             \textcolor{keywordflow}{return} array;
+456         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a528491d8d97584b2ba2c3bfcc4b5772e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a528491d8d97584b2ba2c3bfcc4b5772e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ae329f7e735a6abee2734bbbd13d121b2}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ae329f7e735a6abee2734bbbd13d121b2}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+All\+Categories@{Get\+All\+Categories}}
+\index{Get\+All\+Categories@{Get\+All\+Categories}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Categories()}{GetAllCategories()}}
+{\footnotesize\ttfamily async Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+All\+Categories (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aac2bc10e35e89c47fe6b9954dd86442a}{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}.
+
+
+
+Definition at line 458 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+All\+Categories().
+
+
+\begin{DoxyCode}
+459         \{
+460             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetAllCategories Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+461 
+462             JArray array = \textcolor{keyword}{new} JArray();
+463 
+464             \textcolor{keywordtype}{int} totalPages = 0;
+465 
+466             List<Task<string>> tasks = \textcolor{keyword}{new} List<Task<string>>();
+467 
+468             \textcolor{keywordtype}{string} categories = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"
+      categories?fields[categories]=title&page[limit]=20&page[offset]="} + (0 * 20).ToString());
+469             JObject categoriesresultjobject = JObject.Parse(categories);
+470 
+471             array.Merge(categoriesresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+472 
+473 
+474             totalPages = (int)(categoriesresultjobject[\textcolor{stringliteral}{"meta"}].Value<int>(\textcolor{stringliteral}{"count"}) / 20 - 0.5);
+475 
+476             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < totalPages; i++)
+477             \{
+478                 \textcolor{keywordflow}{if} (categories.Contains(\textcolor{stringliteral}{"failed:"}))
+479                 \{
+480                     \textcolor{keywordflow}{break};
+481                 \}
+482 
+483                 tasks.Add(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"categories?fields[categories]=title&page[limit]=20&page[offset]="} + (i * 
+      20).ToString()));
+484 
+485             \}
+486 
+487             Task.WaitAll(tasks.ToArray());
+488 
+489             \textcolor{keywordflow}{foreach} (Task<string> task \textcolor{keywordflow}{in} tasks)
+490             \{
+491                 categoriesresultjobject = JObject.Parse(task.Result);
+492 
+493                 \textcolor{keywordflow}{try}
+494                 \{
+495                     array.Merge(categoriesresultjobject.Value<JArray>(\textcolor{stringliteral}{"data"}));
+496                 \}
+497                 \textcolor{keywordflow}{catch} (Exception e)
+498                 \{
+499                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed merging data: "} + e.ToString(
+      ), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+500                 \}
+501                 task.Dispose();
+502             \}
+503 
+504             \textcolor{keywordflow}{return} array;
+505         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ae329f7e735a6abee2734bbbd13d121b2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ae329f7e735a6abee2734bbbd13d121b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a27b4c1e9d11ba03420fbd13166e0f95b}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a27b4c1e9d11ba03420fbd13166e0f95b}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get\+Episodes\+From\+Kitsu@{Get\+Episodes\+From\+Kitsu}}
+\index{Get\+Episodes\+From\+Kitsu@{Get\+Episodes\+From\+Kitsu}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Episodes\+From\+Kitsu()}{GetEpisodesFromKitsu()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Episodes\+From\+Kitsu (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{page,  }\item[{int}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 507 of file Kitsu\+Handler.\+cs.
+
+
+\begin{DoxyCode}
+508         \{
+509             \textcolor{keywordtype}{string} episodes = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}{Get}}(\textcolor{stringliteral}{"episodes?filter[mediaType]=Anime&filter[media\_id]="} + animeId +
+       \textcolor{stringliteral}{"&page[limit]=20&page[offset]="} + ((page + offset) * 20).ToString() + \textcolor{stringliteral}{"&sort=number"});
+510             \textcolor{keywordflow}{return} JObject.Parse(episodes);
+511         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Get@{Get}}
+\index{Get@{Get}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily async Task$<$string$>$ Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get (\begin{DoxyParamCaption}\item[{string}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 513 of file Kitsu\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+514         \{
+515             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Get called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+516             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"URL: "} + url, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+517             \textcolor{keyword}{using} (HttpClient client = \textcolor{keyword}{new} HttpClient())
+518             \{
+519                 HttpResponseMessage response = await client.GetAsync(\textcolor{stringliteral}{"https://kitsu.io/api/edge/"} + url);
+520 
+521                 \textcolor{keywordflow}{if} (response.IsSuccessStatusCode)
+522                 \{
+523                     \textcolor{keywordflow}{return} await response.Content.ReadAsStringAsync();
+524                 \}
+525                 \textcolor{keywordflow}{else}
+526                 \{
+527                     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"failed: "} + response.StatusCode.ToString();
+528                 \}
+529             \}
+530 
+531         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8b7c629a03096c3152252f6b5cf2937f_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}\label{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a6d3c55fa5eee15320845c2d902c96882}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 34 of file Kitsu\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_kitsu_handler_8cs}{Kitsu\+Handler.\+cs}}\end{DoxyCompactItemize}

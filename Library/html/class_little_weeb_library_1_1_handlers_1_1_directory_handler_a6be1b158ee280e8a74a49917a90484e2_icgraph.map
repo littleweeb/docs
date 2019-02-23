@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Handlers.DirectoryHandler.CreateDirectory" name="LittleWeebLibrary.Handlers.DirectoryHandler.CreateDirectory">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#a3ea6566e0d21d73d331adce1ae9c7f07" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.Create\lDirectory" alt="" coords="283,8,509,64"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#aef49a5d18d17b206d2807bba6c28f793" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.Setfullfilepath" alt="" coords="265,90,527,131"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller.html#a2db42c05c620f5658a5b6e473581f84c" title="LittleWeebLibrary.Controllers.\lSubControllers.DirectoryWebSocket\lController.OnWebSocketEvent" alt="" coords="575,5,805,61"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html#a39b333aee248388fd295a8511486c76e" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController.OnWebSocketEvent" alt="" coords="577,85,803,141"/>
+</map>

@@ -1,0 +1,257 @@
+\hypertarget{class_little_weeb_library_1_1_services_1_1_version_web_socket_service}{}\section{Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service Class Reference}
+\label{class_little_weeb_library_1_1_services_1_1_version_web_socket_service}\index{Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{class_little_weeb_library_1_1_services_1_1_version_web_socket_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_version_web_socket_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ac36d79cd9d964d06594350e5971adb5e}{Version\+Web\+Socket\+Service}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} web\+Socket\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler}{I\+Version\+Handler}} version\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_af1a64a24e2d1b2299b82ba81b3c4a537}{Check\+Version}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_a13ed681e1a924276595a18a6124028e5}{Debug\+Handler}}
+\item 
+\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler}{I\+Version\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ad2e1ecbf8218654adfe288d1a84196dd}{Version\+Handler}}
+\item 
+\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_a6f8cb312585ce76dace5c81772d5a0b1}{Web\+Socket\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 21 of file Version\+Web\+Socket\+Service.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ac36d79cd9d964d06594350e5971adb5e}\label{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ac36d79cd9d964d06594350e5971adb5e}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}!Version\+Web\+Socket\+Service@{Version\+Web\+Socket\+Service}}
+\index{Version\+Web\+Socket\+Service@{Version\+Web\+Socket\+Service}!Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Version\+Web\+Socket\+Service()}{VersionWebSocketService()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Version\+Web\+Socket\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}}}]{web\+Socket\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler}{I\+Version\+Handler}}}]{version\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 28 of file Version\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+29         \{
+30             debugHandler.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Constructor called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+31 
+32             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler}{VersionHandler}} = versionHandler;
+33             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}} = webSocketHandler;
+34             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}} = debugHandler;
+35         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ac36d79cd9d964d06594350e5971adb5e_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_af1a64a24e2d1b2299b82ba81b3c4a537}\label{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_af1a64a24e2d1b2299b82ba81b3c4a537}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}!Check\+Version@{Check\+Version}}
+\index{Check\+Version@{Check\+Version}!Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Check\+Version()}{CheckVersion()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Check\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service_a8c4b2a561c8ddb900617466e83c0f957}{Little\+Weeb\+Library.\+Services.\+I\+Version\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 37 of file Version\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+currentbuild, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+currentversion, Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Latest\+Version\+Android(), Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Latest\+Version\+Desktop(), Little\+Weeb\+Library.\+Handlers.\+Version\+Handler.\+Get\+Local\+Version(), Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+newbuild, Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+newversion, Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+To\+Json(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info.\+update\+\_\+available.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Version\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+38         \{
+39             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"CheckVersion called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+40             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}} versionInfoDevelop = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}}();
+41             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}} versionInfoRelease = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}}();
+42 
+43 
+44             versionInfoDevelop = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler}{VersionHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff}{GetLatestVersionDesktop}}(\textcolor{keyword}{false});
+45             versionInfoRelease = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler}{VersionHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_ad4dc752be10a1b3cc2d546dc1d4d6bff}{GetLatestVersionDesktop}}(\textcolor{keyword}{true});
+46 
+47 
+48 
+49 \textcolor{preprocessor}{#if \_\_ANDROID\_\_}
+50             versionInfoDevelop = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler}{VersionHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891}{GetLatestVersionAndroid}}(\textcolor{keyword}{false});
+51             versionInfoRelease = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler}{VersionHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_a4021041fcc24a7f9489060c598222891}{GetLatestVersionAndroid}}(\textcolor{keyword}{true});
+52 \textcolor{preprocessor}{#endif}
+53 
+54             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info}{JsonVersionInfo}} currentVersion = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler}{VersionHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_version_handler_ac2510dcad764a9c925d8da152740f095}{GetLocalVersion}}();
+55 
+56             \textcolor{keywordflow}{try}
+57             \{
+58 
+59                 \textcolor{keywordflow}{if} (versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a08d3b36c375a460b440678f84bdb64ee}{newversion}} != \textcolor{stringliteral}{"Not Found"} && currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} != \textcolor{stringliteral}{"Not Found"})
+60                 \{
+61 
+62 
+63                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Current: "} + currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a79b72a4b31accba79e2fbf1ca93297c4}{ToJson}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+64                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Develop: "} + versionInfoDevelop.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a79b72a4b31accba79e2fbf1ca93297c4}{ToJson}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+65 
+66                     \textcolor{keywordtype}{int} currentBuild = \textcolor{keywordtype}{int}.Parse(currentVersion.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}});
+67                     \textcolor{keywordtype}{int} newBuild = \textcolor{keywordtype}{int}.Parse(versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_abb2527c1c41e946dd71fe862a48a5f0f}{newbuild}});
+68 
+69                     \textcolor{keywordflow}{if} (versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a08d3b36c375a460b440678f84bdb64ee}{newversion}} == currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} && currentBuild >= newBuild)
+70                     \{
+71                         versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_aad6b40e255e38ff875f9b4093a5a76b4}{update\_available}} = \textcolor{keyword}{false};
+72                     \}
+73                     \textcolor{keywordflow}{else}
+74                     \{
+75                         versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_aad6b40e255e38ff875f9b4093a5a76b4}{update\_available}} = \textcolor{keyword}{true};
+76                     \}
+77 
+78                 \}
+79 
+80                 \textcolor{keywordflow}{if} (versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a08d3b36c375a460b440678f84bdb64ee}{newversion}} != \textcolor{stringliteral}{"Not Found"} && currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} != \textcolor{stringliteral}{"Not Found"})
+81                 \{
+82 
+83                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Current: "} + currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a79b72a4b31accba79e2fbf1ca93297c4}{ToJson}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+84                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Develop: "} + versionInfoRelease.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a79b72a4b31accba79e2fbf1ca93297c4}{ToJson}}(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+85                     
+86                     \textcolor{keywordtype}{int} currentBuild = \textcolor{keywordtype}{int}.Parse(currentVersion.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}});
+87                     \textcolor{keywordtype}{int} newBuild = \textcolor{keywordtype}{int}.Parse(versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_abb2527c1c41e946dd71fe862a48a5f0f}{newbuild}});
+88                     \textcolor{keywordflow}{if} (versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a08d3b36c375a460b440678f84bdb64ee}{newversion}} == currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} && currentBuild >= newBuild)
+89                     \{
+90                         versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_aad6b40e255e38ff875f9b4093a5a76b4}{update\_available}} = \textcolor{keyword}{false};
+91                     \}
+92                     \textcolor{keywordflow}{else}
+93                     \{
+94                         versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_aad6b40e255e38ff875f9b4093a5a76b4}{update\_available}} = \textcolor{keyword}{true};
+95                     \}
+96 
+97                 \}
+98 
+99                 versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}} = currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}};
+100                 versionInfoDevelop.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} = currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}};
+101 
+102                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(versionInfoDevelop.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a79b72a4b31accba79e2fbf1ca93297c4}{ToJson}}());
+103 
+104                 versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}} = currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_adb75e140a3dcc76b8ca6c1dd3c0f060a}{currentbuild}};
+105                 versionInfoRelease.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}} = currentVersion.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a9a74ca950016eb93a1ecb4d9089d9f2c}{currentversion}};
+106 
+107                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(versionInfoRelease.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_version_info_a79b72a4b31accba79e2fbf1ca93297c4}{ToJson}}());
+108             \}
+109             \textcolor{keywordflow}{catch} (Exception e)
+110             \{
+111                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+112             \}
+113         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_af1a64a24e2d1b2299b82ba81b3c4a537_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_af1a64a24e2d1b2299b82ba81b3c4a537_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ad2e1ecbf8218654adfe288d1a84196dd}\label{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_ad2e1ecbf8218654adfe288d1a84196dd}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}!Version\+Handler@{Version\+Handler}}
+\index{Version\+Handler@{Version\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Version\+Handler}{VersionHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_version_handler}{I\+Version\+Handler}} Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Version\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 24 of file Version\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_a6f8cb312585ce76dace5c81772d5a0b1}\label{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_a6f8cb312585ce76dace5c81772d5a0b1}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}!Web\+Socket\+Handler@{Web\+Socket\+Handler}}
+\index{Web\+Socket\+Handler@{Web\+Socket\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Web\+Socket\+Handler}{WebSocketHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Web\+Socket\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 25 of file Version\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_a13ed681e1a924276595a18a6124028e5}\label{class_little_weeb_library_1_1_services_1_1_version_web_socket_service_a13ed681e1a924276595a18a6124028e5}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 26 of file Version\+Web\+Socket\+Service.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\mbox{\hyperlink{_version_web_socket_service_8cs}{Version\+Web\+Socket\+Service.\+cs}}\end{DoxyCompactItemize}

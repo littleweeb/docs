@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject" name="LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service.html#a5d9baf510f46f6a3fac9fe84325bb017" title="LittleWeebLibrary.Services.\lDataBaseWebSocketService.Delete\lDocument" alt="" coords="271,5,501,61"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_file_history_handler.html#a3b3f0cdedee405d607feff81c2de085d" title="LittleWeebLibrary.Handlers.\lFileHistoryHandler.RemoveFileFrom\lFileHistory" alt="" coords="271,85,501,141"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller.html#a655abc0c42c54c9ff3572e4b4271fa3b" title="LittleWeebLibrary.Controllers.\lSubControllers.DataBaseWebSocket\lController.OnWebSocketEvent" alt="" coords="549,5,785,61"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_services_1_1_file_web_socket_service.html#ab1375e8e82a50dfa06d91bebe988d133" title="LittleWeebLibrary.Services.\lFileWebSocketService.DeleteFile" alt="" coords="560,93,775,134"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller.html#a9ecdec41f15ac23a56c402ff2c554a08" title="LittleWeebLibrary.Controllers.\lFileWebSocketController.OnWebSocketEvent" alt="" coords="833,93,1120,134"/>
+</map>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_d69fddb65e10ed1e1aad5b4f2a8c0135" kind="dir">
+    <compoundname>Services</compoundname>
+    <innerfile refid="_data_base_web_socket_service_8cs">DataBaseWebSocketService.cs</innerfile>
+    <innerfile refid="_directory_web_socket_service_8cs">DirectoryWebSocketService.cs</innerfile>
+    <innerfile refid="_download_web_socket_service_8cs">DownloadWebSocketService.cs</innerfile>
+    <innerfile refid="_file_web_socket_service_8cs">FileWebSocketService.cs</innerfile>
+    <innerfile refid="_info_api_web_socket_service_8cs">InfoApiWebSocketService.cs</innerfile>
+    <innerfile refid="_irc_web_socket_service_8cs">IrcWebSocketService.cs</innerfile>
+    <innerfile refid="_settings_web_socket_service_8cs">SettingsWebSocketService.cs</innerfile>
+    <innerfile refid="_version_web_socket_service_8cs">VersionWebSocketService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Services/"/>
+  </compounddef>
+</doxygen>

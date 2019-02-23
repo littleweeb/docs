@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Handlers.FileHandler.OpenFile" name="LittleWeebLibrary.Handlers.FileHandler.OpenFile">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#afc8c716f32bc35d59afdb287be06c3ca" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.Check\lOperatingSystems" alt="" coords="236,5,433,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_models_1_1_json_success.html#a407103dc37a77aaf47a782296bab7518" title="LittleWeebLibrary.Models.\lJsonSuccess.ToJson" alt="" coords="248,86,421,127"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0e3e7dd2e2990404b7f0461742b23440" title="LittleWeebLibrary.Models.\lJsonError.ToJson" alt="" coords="248,151,421,193"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#ad7d5522c90119111d2e929f39e7f6d3c" title="LittleWeebLibrary.Models.\lJsonError.ToString" alt="" coords="248,217,421,258"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="239,282,431,323"/>
+</map>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::GlobalInterfaces::IDebugEvent</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event_1a98e8f7816df18ade00fb1b7f285bd335" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args" kindref="compound">BaseDebugArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;BaseDebugArgs&gt; LittleWeebLibrary.GlobalInterfaces.IDebugEvent.OnDebugEvent</definition>
+        <argsstring></argsstring>
+        <name>OnDebugEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GlobalInterfaces/IDebugEvent.cs" line="8" column="1" bodyfile="GlobalInterfaces/IDebugEvent.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="94">
+        <label>LittleWeebLibrary.GlobalInterfaces.IDebugEvent</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event"/>
+      </node>
+    </collaborationgraph>
+    <location file="GlobalInterfaces/IDebugEvent.cs" line="7" column="1" bodyfile="GlobalInterfaces/IDebugEvent.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event_1a98e8f7816df18ade00fb1b7f285bd335" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::GlobalInterfaces::IDebugEvent</scope><name>OnDebugEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

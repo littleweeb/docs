@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_version_info" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonVersionInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a7a9fcfe7b1424766248cd523a28e48d0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;version_update&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="9" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1adb75e140a3dcc76b8ca6c1dd3c0f060a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.currentbuild</definition>
+        <argsstring></argsstring>
+        <name>currentbuild</name>
+        <initializer>= &quot;Not Set&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="12" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" compoundref="_version_handler_8cs" startline="211" endline="245">LittleWeebLibrary.Handlers.VersionHandler.GetLocalVersion</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a9a74ca950016eb93a1ecb4d9089d9f2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.currentversion</definition>
+        <argsstring></argsstring>
+        <name>currentversion</name>
+        <initializer>= &quot;Not Set&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="11" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" compoundref="_version_handler_8cs" startline="211" endline="245">LittleWeebLibrary.Handlers.VersionHandler.GetLocalVersion</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a836f97d258ddad4ab351b8cd06730914" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <initializer>= &quot;0000-00-00T00:00:00Z&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="18" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="18" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a758349b498e2f9d827d229bfaff9414d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.direct_download_url</definition>
+        <argsstring></argsstring>
+        <name>direct_download_url</name>
+        <initializer>= &quot;Not Found&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="16" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="16" bodyend="16"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a71865be74ad7d0a178a81b708ea85d25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.file_name</definition>
+        <argsstring></argsstring>
+        <name>file_name</name>
+        <initializer>= &quot;Not Found&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="17" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="17" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1abb2527c1c41e946dd71fe862a48a5f0f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.newbuild</definition>
+        <argsstring></argsstring>
+        <name>newbuild</name>
+        <initializer>= &quot;Not Found&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="14" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="14" bodyend="14"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08d3b36c375a460b440678f84bdb64ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.newversion</definition>
+        <argsstring></argsstring>
+        <name>newversion</name>
+        <initializer>= &quot;Not Found&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="13" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="13" bodyend="13"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a6ef07d4fd20affb8de244417395e791d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.release_url</definition>
+        <argsstring></argsstring>
+        <name>release_url</name>
+        <initializer>= &quot;Not Found&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="15" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="15" bodyend="15"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1aeb4d9fe589655ec2dacff95ffcae154b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.release_version</definition>
+        <argsstring></argsstring>
+        <name>release_version</name>
+        <initializer>= &quot;develop&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="19" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="19" bodyend="19"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1aad6b40e255e38ff875f9b4093a5a76b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Models.JsonVersionInfo.update_available</definition>
+        <argsstring></argsstring>
+        <name>update_available</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="10" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a4da32a9d061542e9dd0302fa439e9913" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a72efae30c86f1e6baaef42065127bdd2" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="20" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08c6024e38bd3141ef69612e877c4406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonVersionInfo.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="38" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a79b72a4b31accba79e2fbf1ca93297c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonVersionInfo.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="22" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="22" bodyend="25"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_version_info_1a72efae30c86f1e6baaef42065127bdd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonVersionInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonVersionInfo.cs" line="27" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="27" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="313">
+        <label>LittleWeebLibrary.Models.JsonVersionInfo</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_version_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonVersionInfo.cs" line="8" column="1" bodyfile="Models/JsonVersionInfo.cs" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1adb75e140a3dcc76b8ca6c1dd3c0f060a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>currentbuild</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a9a74ca950016eb93a1ecb4d9089d9f2c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>currentversion</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a836f97d258ddad4ab351b8cd06730914" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>date</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a758349b498e2f9d827d229bfaff9414d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>direct_download_url</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a71865be74ad7d0a178a81b708ea85d25" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>file_name</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1abb2527c1c41e946dd71fe862a48a5f0f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>newbuild</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08d3b36c375a460b440678f84bdb64ee" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>newversion</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a6ef07d4fd20affb8de244417395e791d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>release_url</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aeb4d9fe589655ec2dacff95ffcae154b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>release_version</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08c6024e38bd3141ef69612e877c4406" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a79b72a4b31accba79e2fbf1ca93297c4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a72efae30c86f1e6baaef42065127bdd2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a7a9fcfe7b1424766248cd523a28e48d0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aad6b40e255e38ff875f9b4093a5a76b4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>update_available</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a4da32a9d061542e9dd0302fa439e9913" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonVersionInfo</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

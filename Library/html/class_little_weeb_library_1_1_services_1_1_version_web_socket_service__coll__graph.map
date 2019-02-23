@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Services.VersionWebSocketService" name="LittleWeebLibrary.Services.VersionWebSocketService">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service.html" title="{IVersionWebSocketService\n||+ CheckVersion()\l}" alt="" coords="5,27,184,105"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="209,5,391,127"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler.html" title="{LittleWeebLibrary.Handlers.\lIWebSocketHandler\n||+ SendMessage()\l+ StartServer()\l+ StopServer()\l}" alt="" coords="415,5,598,127"/>
+<area shape="rect" id="node5" href="$interface_little_weeb_library_1_1_handlers_1_1_i_version_handler.html" title="{LittleWeebLibrary.Handlers.\lIVersionHandler\n||+ GetLatestVersionAndroid()\l+ GetLatestVersionDesktop()\l+ GetLocalVersion()\l}" alt="" coords="622,5,813,127"/>
+</map>

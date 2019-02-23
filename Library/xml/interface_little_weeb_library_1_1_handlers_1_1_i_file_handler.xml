@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::IFileHandler</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_handlers_1_1_file_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.FileHandler</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1aff6a35f857564900ae27586121a8bb41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.IFileHandler.DeleteFile</definition>
+        <argsstring>(string filePath, string fileName=null)</argsstring>
+        <name>DeleteFile</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903">DeleteFile</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1a135124a2374dc64f5c64fdc4ff9eb049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.IFileHandler.OpenFile</definition>
+        <argsstring>(string filePath, string fileName=null)</argsstring>
+        <name>OpenFile</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a">OpenFile</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="179">
+        <label>LittleWeebLibrary.Handlers.IFileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler"/>
+      </node>
+      <node id="180">
+        <label>LittleWeebLibrary.Handlers.FileHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_file_handler"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="181">
+        <label>LittleWeebLibrary.Handlers.IFileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/FileHandler.cs" line="19" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="18" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1aff6a35f857564900ae27586121a8bb41" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IFileHandler</scope><name>DeleteFile</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1a135124a2374dc64f5c64fdc4ff9eb049" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IFileHandler</scope><name>OpenFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

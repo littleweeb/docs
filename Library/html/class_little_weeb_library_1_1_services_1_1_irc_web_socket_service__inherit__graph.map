@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Services.IrcWebSocketService" name="LittleWeebLibrary.Services.IrcWebSocketService">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service.html" title="{IIrcWebSocketService\n||+ Connect()\l+ DisableSendMessage()\l+ Disconnect()\l+ EnableSendMessage()\l+ GetCurrentIrcSettings()\l+ SendMessage()\l}" alt="" coords="5,5,173,156"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="198,35,370,127"/>
+</map>

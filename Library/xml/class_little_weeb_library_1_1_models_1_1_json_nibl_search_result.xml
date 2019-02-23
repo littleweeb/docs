@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonNiblSearchResult</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a73956aafd3d35a51ff43d5a486024138" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonNiblSearchResult.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= new JObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblSearchResult.cs" line="11" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1add369f2f54514df06e35ed94c057f66c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonNiblSearchResult.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;nibl_search_result&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblSearchResult.cs" line="10" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a11c59a1de8aeb3487a38dcd56111c397" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonNiblSearchResult.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>=<ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1ad0ccabee81ba5885580d9516f4db4099" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblSearchResult.cs" line="12" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a7041262210bce963fd7291a826761891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonNiblSearchResult.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblSearchResult.cs" line="30" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a0d6ce8593661ae3dab31882c85b1cff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonNiblSearchResult.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblSearchResult.cs" line="14" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="14" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a299be5b400f1368ab169599395a3e56d" compoundref="_info_api_web_socket_service_8cs" startline="80" endline="131">LittleWeebLibrary.Services.InfoApiWebSocketService.GetFilesForAnime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1ad0ccabee81ba5885580d9516f4db4099" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonNiblSearchResult.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblSearchResult.cs" line="19" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="307">
+        <label>LittleWeebLibrary.Models.JsonNiblSearchResult</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonNiblSearchResult.cs" line="9" column="1" bodyfile="Models/JsonNiblSearchResult.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a73956aafd3d35a51ff43d5a486024138" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblSearchResult</scope><name>result</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a7041262210bce963fd7291a826761891" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblSearchResult</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a0d6ce8593661ae3dab31882c85b1cff7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblSearchResult</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1ad0ccabee81ba5885580d9516f4db4099" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblSearchResult</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1add369f2f54514df06e35ed94c057f66c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblSearchResult</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a11c59a1de8aeb3487a38dcd56111c397" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblSearchResult</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

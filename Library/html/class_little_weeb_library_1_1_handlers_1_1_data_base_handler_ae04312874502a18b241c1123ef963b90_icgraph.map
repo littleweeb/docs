@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection" name="LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service.html#aef8bdd650778c72d639f1e89c1d6dcad" title="LittleWeebLibrary.Services.\lDataBaseWebSocketService.GetCollection" alt="" coords="259,15,529,57"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_file_history_handler.html#a7e5a72e2cfdc3dfe97066cc7504b4445" title="LittleWeebLibrary.Handlers.\lFileHistoryHandler.GetCurrentFile\lHistory" alt="" coords="286,83,502,139"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller.html#a655abc0c42c54c9ff3572e4b4271fa3b" title="LittleWeebLibrary.Controllers.\lSubControllers.DataBaseWebSocket\lController.OnWebSocketEvent" alt="" coords="587,5,823,61"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#adb3b1a3aadf9ad491388890e432f6c91" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.GetCurrent\lFileHistory" alt="" coords="577,85,832,141"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html#a9e5e421ed57b8b2a294e17d93d027c53" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController.OnWeb\lSocketEvent" alt="" coords="880,85,1129,141"/>
+</map>

@@ -1,0 +1,135 @@
+\hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}{}\section{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args Class Reference}
+\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args}\index{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a71fdd09abcc607734be01125338fa928}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, List$<$ string $>$ $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a51cbce60bdb96d0b461d5a6e84940072}{Channels\+And\+Users}} = new Dictionary$<$string, List$<$string$>$$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a4df4d6c89f98fcbe91ee1ecb40066a77}{Connected}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a0cdd120909dbddabaa080c5a1dabb81d}{Current\+Irc\+Settings}} = new \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Irc\+Client\+Connection\+Status\+Args.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a71fdd09abcc607734be01125338fa928}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a71fdd09abcc607734be01125338fa928}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file Irc\+Client\+Connection\+Status\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+User\+List\+Update().
+
+
+\begin{DoxyCode}
+14         \{
+15             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+16 
+17             toReturn += \textcolor{stringliteral}{"Connected: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a4df4d6c89f98fcbe91ee1ecb40066a77}{Connected}}.ToString() + Environment.NewLine;
+18             toReturn += \textcolor{stringliteral}{"ChannelsAndUsers: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a51cbce60bdb96d0b461d5a6e84940072}{ChannelsAndUsers}}.ToString() + Environment.
+      NewLine;
+19             toReturn += \textcolor{stringliteral}{"Keys and it Values:"};
+20             \textcolor{keywordflow}{foreach} (KeyValuePair<\textcolor{keywordtype}{string}, List<string>> data \textcolor{keywordflow}{in} \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a51cbce60bdb96d0b461d5a6e84940072}{ChannelsAndUsers}})
+21             \{
+22                 toReturn += \textcolor{stringliteral}{"Key: "} + data.Key + Environment.NewLine;
+23                 \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} value \textcolor{keywordflow}{in} data.Value)
+24                 \{
+25                     toReturn += \textcolor{stringliteral}{"Value: "} + value + Environment.NewLine;
+26                 \}
+27             \}
+28             toReturn += \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a0cdd120909dbddabaa080c5a1dabb81d}{CurrentIrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}{ToString}}();
+29             \textcolor{keywordflow}{return} toReturn;
+30         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a71fdd09abcc607734be01125338fa928_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a4df4d6c89f98fcbe91ee1ecb40066a77}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a4df4d6c89f98fcbe91ee1ecb40066a77}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}!Connected@{Connected}}
+\index{Connected@{Connected}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}}
+\subsubsection{\texorpdfstring{Connected}{Connected}}
+{\footnotesize\ttfamily bool Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args.\+Connected = false\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Irc\+Client\+Connection\+Status\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event().
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{false};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a51cbce60bdb96d0b461d5a6e84940072}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a51cbce60bdb96d0b461d5a6e84940072}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}!Channels\+And\+Users@{Channels\+And\+Users}}
+\index{Channels\+And\+Users@{Channels\+And\+Users}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}}
+\subsubsection{\texorpdfstring{Channels\+And\+Users}{ChannelsAndUsers}}
+{\footnotesize\ttfamily Dictionary$<$string, List$<$string$>$ $>$ Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args.\+Channels\+And\+Users = new Dictionary$<$string, List$<$string$>$$>$()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Irc\+Client\+Connection\+Status\+Args.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{new} Dictionary<string, List<string>>();
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a0cdd120909dbddabaa080c5a1dabb81d}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_a0cdd120909dbddabaa080c5a1dabb81d}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}!Current\+Irc\+Settings@{Current\+Irc\+Settings}}
+\index{Current\+Irc\+Settings@{Current\+Irc\+Settings}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}}
+\subsubsection{\texorpdfstring{Current\+Irc\+Settings}{CurrentIrcSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args.\+Current\+Irc\+Settings = new \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Irc\+Client\+Connection\+Status\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Connection\+Status\+Event().
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Arguments/\mbox{\hyperlink{_irc_client_connection_status_args_8cs}{Irc\+Client\+Connection\+Status\+Args.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_ff8afd828c2f48eb6ad2d91429f5f5a8" kind="dir">
+    <compoundname>Controllers/Interfaces</compoundname>
+    <innerfile refid="_i_sub_web_socket_controller_8cs">ISubWebSocketController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/Interfaces/"/>
+  </compounddef>
+</doxygen>

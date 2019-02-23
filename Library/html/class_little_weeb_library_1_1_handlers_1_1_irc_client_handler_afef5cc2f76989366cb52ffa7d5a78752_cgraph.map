@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.IrcClientHandler.OnDownloadUpdate" name="LittleWeebLibrary.Handlers.IrcClientHandler.OnDownloadUpdate">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args.html#a08055fe777a1585dafab7fbeec58b891" title="LittleWeebLibrary.EventArguments.\lIrcClientDownloadEventArgs.ToString" alt="" coords="284,5,520,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="306,71,498,112"/>
+</map>

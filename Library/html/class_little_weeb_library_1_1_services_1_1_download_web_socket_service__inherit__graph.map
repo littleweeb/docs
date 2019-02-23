@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Services.DownloadWebSocketService" name="LittleWeebLibrary.Services.DownloadWebSocketService">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service.html" title="{IDownloadWebSocketService\n||+ AbortDownload()\l+ AddDownload()\l+ AddDownloads()\l+ GetCurrentFileHistory()\l+ Openfullfilepath()\l+ RemoveDownload()\l}" alt="" coords="5,5,196,156"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="220,35,392,127"/>
+</map>

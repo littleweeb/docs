@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::IVersionWebSocketService</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.VersionWebSocketService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service_1a8c4b2a561c8ddb900617466e83c0f957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IVersionWebSocketService.CheckVersion</definition>
+        <argsstring>()</argsstring>
+        <name>CheckVersion</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537">CheckVersion</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/VersionWebSocketService.cs" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="407">
+        <label>LittleWeebLibrary.Services.VersionWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>LittleWeebLibrary.Services.IVersionWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="408">
+        <label>LittleWeebLibrary.Services.IVersionWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/VersionWebSocketService.cs" line="17" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="16" bodyend="19"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service_1a8c4b2a561c8ddb900617466e83c0f957" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IVersionWebSocketService</scope><name>CheckVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

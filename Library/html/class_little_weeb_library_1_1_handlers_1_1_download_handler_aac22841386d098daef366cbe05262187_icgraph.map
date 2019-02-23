@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload" name="LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_file_web_socket_service.html#ab1375e8e82a50dfa06d91bebe988d133" title="LittleWeebLibrary.Services.\lFileWebSocketService.DeleteFile" alt="" coords="293,5,508,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#a3bc6b4176561f56b918e75527c7698d0" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.Remove\lDownload" alt="" coords="281,71,520,127"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller.html#a9ecdec41f15ac23a56c402ff2c554a08" title="LittleWeebLibrary.Controllers.\lFileWebSocketController.OnWebSocketEvent" alt="" coords="568,5,855,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html#a9e5e421ed57b8b2a294e17d93d027c53" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController.OnWeb\lSocketEvent" alt="" coords="587,71,836,127"/>
+</map>

@@ -1,0 +1,170 @@
+\hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler Interface Reference}
+\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}\index{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler@{Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aac2bc10e35e89c47fe6b9954dd86442a}{Get\+All\+Categories}} ()
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_ad5d0744af17b926aed44fe87e6834f04}{Get\+All\+Genres}} ()
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a85c4f22da758a475c55327fa6393935c}{Get\+Anime}} (string anime\+Id)
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a731b56ca79910b6b1d7b2218c34e3156}{Get\+Categories}} (string anime\+Id)
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a644c9e4caf1db5de18a78fe03b33e278}{Get\+Currently\+Airing}} ()
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a9f182eabb098e98f566c8add1695bb36}{Get\+Episode}} (string anime\+Id, int episode\+Number)
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_adc4f3c45aec996b1f94894368f818de4}{Get\+Episodes}} (string anime\+Id, int page=0, int pages=-\/1, int results=20, string order=\char`\"{}A\+SC\char`\"{})
+\item 
+Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a6ea08bc341bbaa01174a451acd3d9b08}{Get\+Full\+Anime}} (string anime\+Id, int amount\+Episodes\+Per\+Page=26)
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a22e208a4c0ea64dafdbeb1a133739bfd}{Get\+Genres}} (string anime\+Id)
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aa82bf536086211de6b458610b83ed43f}{Get\+Relations}} (string anime\+Id)
+\item 
+Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{Json\+Kistu\+Search\+Result}} $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a4afb4a1718099f9e4e39ebc237ae45a0}{Search\+Anime}} (string search, Dictionary$<$ string, string $>$ query\+List, int page=0, int pages=1)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 15 of file Kitsu\+Handler.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a6ea08bc341bbaa01174a451acd3d9b08}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a6ea08bc341bbaa01174a451acd3d9b08}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Full\+Anime@{Get\+Full\+Anime}}
+\index{Get\+Full\+Anime@{Get\+Full\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Full\+Anime()}{GetFullAnime()}}
+{\footnotesize\ttfamily Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Full\+Anime (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{amount\+Episodes\+Per\+Page = {\ttfamily 26} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a5f655ed8b3e26f6d6767e090eea9e3bb}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a4afb4a1718099f9e4e39ebc237ae45a0}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a4afb4a1718099f9e4e39ebc237ae45a0}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Search\+Anime@{Search\+Anime}}
+\index{Search\+Anime@{Search\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Search\+Anime()}{SearchAnime()}}
+{\footnotesize\ttfamily Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{Json\+Kistu\+Search\+Result}}$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Search\+Anime (\begin{DoxyParamCaption}\item[{string}]{search,  }\item[{Dictionary$<$ string, string $>$}]{query\+List,  }\item[{int}]{page = {\ttfamily 0},  }\item[{int}]{pages = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a92f121e8fec8cce5ffe0454d3a17c156}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a85c4f22da758a475c55327fa6393935c}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a85c4f22da758a475c55327fa6393935c}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Anime@{Get\+Anime}}
+\index{Get\+Anime@{Get\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Anime()}{GetAnime()}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Anime (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a4c88ed25befe2904416b4d90673a8f82}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_adc4f3c45aec996b1f94894368f818de4}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_adc4f3c45aec996b1f94894368f818de4}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Episodes@{Get\+Episodes}}
+\index{Get\+Episodes@{Get\+Episodes}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Episodes()}{GetEpisodes()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Episodes (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{page = {\ttfamily 0},  }\item[{int}]{pages = {\ttfamily -\/1},  }\item[{int}]{results = {\ttfamily 20},  }\item[{string}]{order = {\ttfamily \char`\"{}ASC\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a615caf4bea96465d35eb36434bc71bea}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a9f182eabb098e98f566c8add1695bb36}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a9f182eabb098e98f566c8add1695bb36}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Episode@{Get\+Episode}}
+\index{Get\+Episode@{Get\+Episode}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Episode()}{GetEpisode()}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Episode (\begin{DoxyParamCaption}\item[{string}]{anime\+Id,  }\item[{int}]{episode\+Number }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a3129d77267b0fb879e3f8f1a8e83494a}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aa82bf536086211de6b458610b83ed43f}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aa82bf536086211de6b458610b83ed43f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Relations@{Get\+Relations}}
+\index{Get\+Relations@{Get\+Relations}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Relations()}{GetRelations()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Relations (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ad1ba51037e72c80804018f4c1df37581}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a22e208a4c0ea64dafdbeb1a133739bfd}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a22e208a4c0ea64dafdbeb1a133739bfd}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Genres@{Get\+Genres}}
+\index{Get\+Genres@{Get\+Genres}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Genres()}{GetGenres()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Genres (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_aabd039f9220f03f5c9dcf83e104531b1}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_ad5d0744af17b926aed44fe87e6834f04}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_ad5d0744af17b926aed44fe87e6834f04}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+All\+Genres@{Get\+All\+Genres}}
+\index{Get\+All\+Genres@{Get\+All\+Genres}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Genres()}{GetAllGenres()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+All\+Genres (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a528491d8d97584b2ba2c3bfcc4b5772e}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aac2bc10e35e89c47fe6b9954dd86442a}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_aac2bc10e35e89c47fe6b9954dd86442a}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+All\+Categories@{Get\+All\+Categories}}
+\index{Get\+All\+Categories@{Get\+All\+Categories}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Categories()}{GetAllCategories()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+All\+Categories (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_ae329f7e735a6abee2734bbbd13d121b2}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a731b56ca79910b6b1d7b2218c34e3156}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a731b56ca79910b6b1d7b2218c34e3156}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Categories@{Get\+Categories}}
+\index{Get\+Categories@{Get\+Categories}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Categories()}{GetCategories()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Categories (\begin{DoxyParamCaption}\item[{string}]{anime\+Id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_a8d6a49dd26f66dd33ea2e2b4e9b330cb}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a644c9e4caf1db5de18a78fe03b33e278}\label{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a644c9e4caf1db5de18a78fe03b33e278}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}!Get\+Currently\+Airing@{Get\+Currently\+Airing}}
+\index{Get\+Currently\+Airing@{Get\+Currently\+Airing}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Currently\+Airing()}{GetCurrentlyAiring()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler.\+Get\+Currently\+Airing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_af733f442659b7789588da55b00c065c4}{Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_kitsu_handler_8cs}{Kitsu\+Handler.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,190 @@
+\hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message}{}\section{Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message Class Reference}
+\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message}\index{Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a1f96ba6c751985a71f547d1e0dee171d}{To\+J\+Object}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_acbac803fd5e8ecffab5335a4069fc4b4}{To\+Json}} ()
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_ae54b09f8720f6ade5ed128496a4da690}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a871a6538c19850731715e25c8e29cfef}{type}} = \char`\"{}chat\+\_\+message\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a04341cbf5d66d4b35a6374bb84a80390}{channel}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a64ad5623d43a7389182f2b008cf8dcaa}{message}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_aada65302045984832d2073e16bb0b05e}{updated}} = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_ae54b09f8720f6ade5ed128496a4da690}{To\+String}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_afb6ca99e5b064d8beb30ea29c21110fb}{user}} = string.\+Empty\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_acbac803fd5e8ecffab5335a4069fc4b4}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_acbac803fd5e8ecffab5335a4069fc4b4}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!To\+Json@{To\+Json}}
+\index{To\+Json@{To\+Json}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{To\+Json()}{ToJson()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+To\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 15 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Message\+Event().
+
+
+\begin{DoxyCode}
+16         \{
+17             \textcolor{keywordflow}{return} JsonConvert.SerializeObject(\textcolor{keyword}{this});
+18         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_acbac803fd5e8ecffab5335a4069fc4b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_ae54b09f8720f6ade5ed128496a4da690}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_ae54b09f8720f6ade5ed128496a4da690}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+\begin{DoxyCode}
+21         \{
+22             JObject jobject = \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a1f96ba6c751985a71f547d1e0dee171d}{ToJObject}}();
+23             \textcolor{keywordtype}{string} properties = \textcolor{keywordtype}{string}.Empty;
+24             \textcolor{keywordflow}{foreach} (var x \textcolor{keywordflow}{in} jobject)
+25             \{
+26                 properties += x.Key + \textcolor{stringliteral}{": "} + x.Value.ToString();
+27             \}
+28             \textcolor{keywordflow}{return} properties;
+29         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a1f96ba6c751985a71f547d1e0dee171d}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a1f96ba6c751985a71f547d1e0dee171d}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!To\+J\+Object@{To\+J\+Object}}
+\index{To\+J\+Object@{To\+J\+Object}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{To\+J\+Object()}{ToJObject()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+To\+J\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 31 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+\begin{DoxyCode}
+32         \{
+33 
+34             JObject jobject = JObject.FromObject(\textcolor{keyword}{this});
+35             \textcolor{keywordflow}{return} jobject;
+36         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a871a6538c19850731715e25c8e29cfef}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a871a6538c19850731715e25c8e29cfef}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!type@{type}}
+\index{type@{type}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+type = \char`\"{}chat\+\_\+message\char`\"{}}
+
+
+
+Definition at line 9 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a04341cbf5d66d4b35a6374bb84a80390}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a04341cbf5d66d4b35a6374bb84a80390}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!channel@{channel}}
+\index{channel@{channel}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{channel}{channel}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+channel = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_afb6ca99e5b064d8beb30ea29c21110fb}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_afb6ca99e5b064d8beb30ea29c21110fb}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!user@{user}}
+\index{user@{user}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{user}{user}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+user = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a64ad5623d43a7389182f2b008cf8dcaa}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_a64ad5623d43a7389182f2b008cf8dcaa}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!message@{message}}
+\index{message@{message}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{message}{message}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+message = string.\+Empty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keywordtype}{string}.Empty;
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_aada65302045984832d2073e16bb0b05e}\label{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_aada65302045984832d2073e16bb0b05e}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}!updated@{updated}}
+\index{updated@{updated}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}}
+\subsubsection{\texorpdfstring{updated}{updated}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message.\+updated = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_ae54b09f8720f6ade5ed128496a4da690}{To\+String}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 13 of file Json\+Irc\+Chat\+Message.\+cs.
+
+
+\begin{DoxyCode}
+13 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = StaticClasses.UtilityMethods.GetEpoch().ToString();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\mbox{\hyperlink{_json_irc_chat_message_8cs}{Json\+Irc\+Chat\+Message.\+cs}}\end{DoxyCompactItemize}

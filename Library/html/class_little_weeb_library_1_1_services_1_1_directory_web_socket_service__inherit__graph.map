@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Services.DirectoryWebSocketService" name="LittleWeebLibrary.Services.DirectoryWebSocketService">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service.html" title="{IDirectoryWebSocketService\n||+ CreateDirectory()\l+ DeleteDirectory()\l+ GetDirectories()\l+ GetDrives()\l+ GetFreeSpace()\l}" alt="" coords="5,5,192,141"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="217,27,389,119"/>
+</map>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_f65cd03095c68c40acdbdbd5ccca35f8" kind="dir">
+    <compoundname>Handlers</compoundname>
+    <innerfile refid="_anime_profile_handler_8cs">AnimeProfileHandler.cs</innerfile>
+    <innerfile refid="_anime_rule_handler_8cs">AnimeRuleHandler.cs</innerfile>
+    <innerfile refid="_data_base_handler_8cs">DataBaseHandler.cs</innerfile>
+    <innerfile refid="_debug_handler_8cs">DebugHandler.cs</innerfile>
+    <innerfile refid="_directory_handler_8cs">DirectoryHandler.cs</innerfile>
+    <innerfile refid="_download_handler_8cs">DownloadHandler.cs</innerfile>
+    <innerfile refid="_file_handler_8cs">FileHandler.cs</innerfile>
+    <innerfile refid="_file_history_handler_8cs">FileHistoryHandler.cs</innerfile>
+    <innerfile refid="_irc_client_handler_8cs">IrcClientHandler.cs</innerfile>
+    <innerfile refid="_kitsu_handler_8cs">KitsuHandler.cs</innerfile>
+    <innerfile refid="_nibl_handler_8cs">NiblHandler.cs</innerfile>
+    <innerfile refid="_settings_handler_8cs">SettingsHandler.cs</innerfile>
+    <innerfile refid="_version_handler_8cs">VersionHandler.cs</innerfile>
+    <innerfile refid="_web_socket_handler_8cs">WebSocketHandler.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Handlers/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.IrcClientHandler.SendMessage" name="LittleWeebLibrary.Handlers.IrcClientHandler.SendMessage">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#aa9fcd18dc123e1356049b4b95bbaf2ff" title="LittleWeebLibrary.Services.\lIrcWebSocketService.SendMessage" alt="" coords="253,5,487,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller.html#a5ea966dddf1e0a082dd5ec28f6ace3ab" title="LittleWeebLibrary.Controllers.\lIrcWebSocketController.OnWebSocketEvent" alt="" coords="535,5,815,47"/>
+</map>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::NiblHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.INiblHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a334c2111588fa71d1203bd8cbb572970" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.NiblHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="31" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1ac0392c6b723e01d26c8a45d64575c5af" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler" kindref="compound">IKitsuHandler</ref></type>
+        <definition>readonly IKitsuHandler LittleWeebLibrary.Handlers.NiblHandler.KitsuHandler</definition>
+        <argsstring></argsstring>
+        <name>KitsuHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="30" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a0aae159f51f737bbb89946b8fe8c8743" prot="private" static="no" mutable="no">
+        <type>WeebFileNameParser</type>
+        <definition>WeebFileNameParser LittleWeebLibrary.Handlers.NiblHandler.WeebFileNameParser</definition>
+        <argsstring></argsstring>
+        <name>WeebFileNameParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="29" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1afdd2ee189bd6bec0a1fb4a309498e6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.NiblHandler.NiblHandler</definition>
+        <argsstring>(IKitsuHandler kitsuHandler, IDebugHandler debugHandler)</argsstring>
+        <name>NiblHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler" kindref="compound">IKitsuHandler</ref></type>
+          <declname>kitsuHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="32" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="32" bodyend="38"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aac05976a2e1a688dd187ccca513ab3cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.NiblHandler.GetBotList</definition>
+        <argsstring>()</argsstring>
+        <name>GetBotList</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1ae0847d190828d9d373650626f92e83ec">GetBotList</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="40" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="40" bodyend="73"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a149bf3305de6348eaddee4afb92d5095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; int &gt;</type>
+        <definition>async Task&lt;int&gt; LittleWeebLibrary.Handlers.NiblHandler.GetLatestEpisode</definition>
+        <argsstring>(string query)</argsstring>
+        <name>GetLatestEpisode</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1a7e3c7dc7ba9a01c39d125dc0a759d606">GetLatestEpisode</reimplements>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="215" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="215" bodyend="283"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a2f28ad03d4dfe8d90c0392da8af39651" compoundref="_anime_profile_handler_8cs" startline="946" endline="1017">LittleWeebLibrary.Handlers.AnimeProfileHandler.AnimeLatestEpisode</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a20fef31afe52976e394fc44659cc3593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.NiblHandler.GetLatestFiles</definition>
+        <argsstring>(string botid)</argsstring>
+        <name>GetLatestFiles</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1a744548c45993c925a492744f1fb747e9">GetLatestFiles</reimplements>
+        <param>
+          <type>string</type>
+          <declname>botid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="76" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="76" bodyend="116"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" compoundref="_anime_profile_handler_8cs" startline="301" endline="421">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aa5fcae94d3322123b784078727a3db67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.NiblHandler.SearchNibl</definition>
+        <argsstring>(string query)</argsstring>
+        <name>SearchNibl</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1a751ab95fe78f072abef69d89e5557ad1">SearchNibl</reimplements>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="118" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="118" bodyend="161"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a2f28ad03d4dfe8d90c0392da8af39651" compoundref="_anime_profile_handler_8cs" startline="946" endline="1017">LittleWeebLibrary.Handlers.AnimeProfileHandler.AnimeLatestEpisode</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54" compoundref="_anime_profile_handler_8cs" startline="125" endline="299">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a299be5b400f1368ab169599395a3e56d" compoundref="_info_api_web_socket_service_8cs" startline="80" endline="131">LittleWeebLibrary.Services.InfoApiWebSocketService.GetFilesForAnime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1acffe025c2b1158bc67196879622dfa0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.NiblHandler.SearchNibl</definition>
+        <argsstring>(List&lt; string &gt; query, int episode=-1, string sort=&quot;name&quot;, string order=&quot;ASC&quot;)</argsstring>
+        <name>SearchNibl</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1aea34d508a803bf76f119e95b6e9e9cf0">SearchNibl</reimplements>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>episode</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sort</declname>
+          <defval>&quot;name&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>order</declname>
+          <defval>&quot;ASC&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="163" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="163" bodyend="212"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a2989b180582fadd05111d010c0700411" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>async Task&lt;string&gt; LittleWeebLibrary.Handlers.NiblHandler.Get</definition>
+        <argsstring>(string url)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/NiblHandler.cs" line="285" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="285" bodyend="303"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="218">
+        <label>LittleWeebLibrary.Handlers.NiblHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>INiblHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="220">
+        <label>LittleWeebLibrary.Handlers.NiblHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="223" relation="usage">
+          <edgelabel>-KitsuHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="223">
+        <label>LittleWeebLibrary.Handlers.IKitsuHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler"/>
+      </node>
+      <node id="221">
+        <label>INiblHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler"/>
+      </node>
+      <node id="222">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/NiblHandler.cs" line="28" column="1" bodyfile="Handlers/NiblHandler.cs" bodystart="27" bodyend="305"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a334c2111588fa71d1203bd8cbb572970" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a2989b180582fadd05111d010c0700411" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>Get</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aac05976a2e1a688dd187ccca513ab3cc" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>GetBotList</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a149bf3305de6348eaddee4afb92d5095" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>GetLatestEpisode</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a20fef31afe52976e394fc44659cc3593" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>GetLatestFiles</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1ac0392c6b723e01d26c8a45d64575c5af" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>KitsuHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1afdd2ee189bd6bec0a1fb4a309498e6c2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>NiblHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aa5fcae94d3322123b784078727a3db67" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>SearchNibl</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1acffe025c2b1158bc67196879622dfa0a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>SearchNibl</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a0aae159f51f737bbb89946b8fe8c8743" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::NiblHandler</scope><name>WeebFileNameParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

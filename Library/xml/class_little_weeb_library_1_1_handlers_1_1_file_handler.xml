@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_file_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::FileHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IFileHandler</basecompoundref>
+    <basecompoundref refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" prot="public" virt="non-virtual">LittleWeebLibrary.GlobalInterfaces.ISettingsInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a131760e1828cd7ae1df2e90e9f300426" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.FileHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="27" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1aba666088c6ab88513663dfc7bbb45bf1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+        <definition>LittleWeebSettings LittleWeebLibrary.Handlers.FileHandler.LittleWeebSettings</definition>
+        <argsstring></argsstring>
+        <name>LittleWeebSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="28" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a2cc256d20ab33e0838e50279ee9f6fc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.FileHandler.FileHandler</definition>
+        <argsstring>(IDebugHandler debugHandler)</argsstring>
+        <name>FileHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="30" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="30" bodyend="34"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.FileHandler.DeleteFile</definition>
+        <argsstring>(string filePath, string fileName=null)</argsstring>
+        <name>DeleteFile</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1aff6a35f857564900ae27586121a8bb41">DeleteFile</reimplements>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="126" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="126" bodyend="205"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" compoundref="_json_success_8cs" startline="14" endline="17">LittleWeebLibrary.Models.JsonSuccess.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133" compoundref="_file_web_socket_service_8cs" startline="39" endline="76">LittleWeebLibrary.Services.FileWebSocketService.DeleteFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.FileHandler.OpenFile</definition>
+        <argsstring>(string filePath, string fileName=null)</argsstring>
+        <name>OpenFile</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1a135124a2374dc64f5c64fdc4ff9eb049">OpenFile</reimplements>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="36" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="36" bodyend="123"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" compoundref="_utility_methods_8cs" startline="192" endline="211">LittleWeebLibrary.StaticClasses.UtilityMethods.CheckOperatingSystems</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" compoundref="_json_success_8cs" startline="14" endline="17">LittleWeebLibrary.Models.JsonSuccess.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ae140d076e6f64585e7b71bb51545e1bb" compoundref="_file_web_socket_service_8cs" startline="78" endline="130">LittleWeebLibrary.Services.FileWebSocketService.OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a4ccfd9a9698ca0dc9e228aabe27ac756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.FileHandler.SetIrcSettings</definition>
+        <argsstring>(IrcSettings settings)</argsstring>
+        <name>SetIrcSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a9ddf06e247a96d757482b37ddb070e3d">SetIrcSettings</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="207" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="207" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a81ebb3e28e77c5fc30acaf7d769ba8df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.FileHandler.SetLittleWeebSettings</definition>
+        <argsstring>(LittleWeebSettings settings)</argsstring>
+        <name>SetLittleWeebSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a5c53e44105f1f4c7f8c3e546d29939d7">SetLittleWeebSettings</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHandler.cs" line="211" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="211" bodyend="216"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a5a5b722dd8e117be810022882795b6ae" compoundref="_little_weeb_settings_8cs" startline="16" endline="35">LittleWeebLibrary.Settings.LittleWeebSettings.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="149">
+        <label>ISettingsInterface</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface"/>
+      </node>
+      <node id="148">
+        <label>IFileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler"/>
+      </node>
+      <node id="147">
+        <label>LittleWeebLibrary.Handlers.FileHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_file_handler"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="152">
+        <label>ISettingsInterface</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface"/>
+      </node>
+      <node id="151">
+        <label>IFileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler"/>
+      </node>
+      <node id="150">
+        <label>LittleWeebLibrary.Handlers.FileHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_file_handler"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="154" relation="usage">
+          <edgelabel>-LittleWeebSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="153">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="154">
+        <label>LittleWeebLibrary.Settings.LittleWeebSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/FileHandler.cs" line="24" column="1" bodyfile="Handlers/FileHandler.cs" bodystart="23" bodyend="217"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a131760e1828cd7ae1df2e90e9f300426" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>DeleteFile</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a2cc256d20ab33e0838e50279ee9f6fc0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>FileHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1aba666088c6ab88513663dfc7bbb45bf1" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>LittleWeebSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>OpenFile</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a4ccfd9a9698ca0dc9e228aabe27ac756" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>SetIrcSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a81ebb3e28e77c5fc30acaf7d769ba8df" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHandler</scope><name>SetLittleWeebSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

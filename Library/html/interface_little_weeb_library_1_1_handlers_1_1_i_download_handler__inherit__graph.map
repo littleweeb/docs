@@ -1,0 +1,3 @@
+<map id="LittleWeebLibrary.Handlers.IDownloadHandler" name="LittleWeebLibrary.Handlers.IDownloadHandler">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html" title="{LittleWeebLibrary.Handlers.\lDownloadHandler\n|&#45; CurrentlyDownloading\l&#45; DebugHandler\l&#45; DownloadProcesOnGoing\l&#45; DownloadQueue\l&#45; FileHandler\l&#45; FileHistoryHandler\l&#45; IrcClientHandler\l&#45; IrcSettings\l&#45; Stop\l|+ DownloadHandler()\l+ AbortDownload()\l+ AddDownload()\l+ AddDownloads()\l+ GetCurrentlyDownloading()\l+ RemoveDownload()\l+ SetIrcSettings()\l+ SetLittleWeebSettings()\l+ StopQueue()\l&#45; DownloadQueueHandler()\l&#45; IdGenerator()\l&#45; OnIrcClientDownloadEvent()\l}" alt="" coords="5,219,196,589"/>
+</map>

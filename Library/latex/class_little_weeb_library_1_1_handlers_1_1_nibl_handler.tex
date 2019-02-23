@@ -1,0 +1,618 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_afdd2ee189bd6bec0a1fb4a309498e6c2}{Nibl\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}} kitsu\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc}{Get\+Bot\+List}} ()
+\item 
+async Task$<$ int $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a149bf3305de6348eaddee4afb92d5095}{Get\+Latest\+Episode}} (string query)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a20fef31afe52976e394fc44659cc3593}{Get\+Latest\+Files}} (string botid)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aa5fcae94d3322123b784078727a3db67}{Search\+Nibl}} (string query)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_acffe025c2b1158bc67196879622dfa0a}{Search\+Nibl}} (List$<$ string $>$ query, int episode=-\/1, string sort=\char`\"{}name\char`\"{}, string order=\char`\"{}A\+SC\char`\"{})
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ string $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}{Get}} (string url)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{Debug\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_ac0392c6b723e01d26c8a45d64575c5af}{Kitsu\+Handler}}
+\item 
+Weeb\+File\+Name\+Parser \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{Weeb\+File\+Name\+Parser}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Nibl\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_afdd2ee189bd6bec0a1fb4a309498e6c2}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_afdd2ee189bd6bec0a1fb4a309498e6c2}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Nibl\+Handler@{Nibl\+Handler}}
+\index{Nibl\+Handler@{Nibl\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Nibl\+Handler()}{NiblHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Nibl\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}}}]{kitsu\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 32 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+33         \{
+34             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+35             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_ac0392c6b723e01d26c8a45d64575c5af}{KitsuHandler}} = kitsuHandler;
+36             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}}();
+37             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}} = debugHandler;
+38         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_afdd2ee189bd6bec0a1fb4a309498e6c2_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Get\+Bot\+List@{Get\+Bot\+List}}
+\index{Get\+Bot\+List@{Get\+Bot\+List}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Bot\+List()}{GetBotList()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Get\+Bot\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_ae0847d190828d9d373650626f92e83ec}{Little\+Weeb\+Library.\+Handlers.\+I\+Nibl\+Handler}}.
+
+
+
+Definition at line 40 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Bot\+List().
+
+
+\begin{DoxyCode}
+41         \{
+42             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetBotList called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+43 
+44             \textcolor{keywordtype}{string} bots = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}{Get}}(\textcolor{stringliteral}{"bots"});
+45 
+46             \textcolor{keywordflow}{if} (bots.Contains(\textcolor{stringliteral}{"failed:"}))
+47             \{
+48                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JObject();
+49             \}
+50             \textcolor{keywordflow}{else}
+51             \{
+52                 JObject result = JObject.Parse(bots);
+53 
+54                 Dictionary<int, string> botVsId = \textcolor{keyword}{new} Dictionary<int, string>();
+55 
+56                 \textcolor{keywordflow}{foreach} (JObject bot \textcolor{keywordflow}{in} result.Value<JArray>(\textcolor{stringliteral}{"content"}))
+57                 \{
+58                     \textcolor{keywordtype}{string} name = bot.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"});
+59                     \textcolor{keywordtype}{int} \textcolor{keywordtype}{id} = bot.Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"id"});
+60 
+61                     \textcolor{keywordflow}{try}
+62                     \{
+63                         botVsId.Add(\textcolor{keywordtype}{id}, name);
+64                     \}
+65                     \textcolor{keywordflow}{catch}
+66                     \{
+67                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not add BOT: "} + name + \textcolor{stringliteral}{"
+       with id : "} + \textcolor{keywordtype}{id} + \textcolor{stringliteral}{", id already exists!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+68                     \}
+69                 \}
+70 
+71                 \textcolor{keywordflow}{return} JObject.FromObject(botVsId);
+72             \}
+73         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a20fef31afe52976e394fc44659cc3593}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a20fef31afe52976e394fc44659cc3593}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Get\+Latest\+Files@{Get\+Latest\+Files}}
+\index{Get\+Latest\+Files@{Get\+Latest\+Files}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Latest\+Files()}{GetLatestFiles()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Get\+Latest\+Files (\begin{DoxyParamCaption}\item[{string}]{botid }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a744548c45993c925a492744f1fb747e9}{Little\+Weeb\+Library.\+Handlers.\+I\+Nibl\+Handler}}.
+
+
+
+Definition at line 76 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing().
+
+
+\begin{DoxyCode}
+77         \{
+78             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetLatestFiles called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+79             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Bot ID: "} + botid, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+80 
+81             JObject bots = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc}{GetBotList}}();
+82 
+83             \textcolor{keywordtype}{string} filesresult = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}{Get}}(\textcolor{stringliteral}{"packs/"} + botid + \textcolor{stringliteral}{"
+      /page?episodeNumber=0&page=0&size=500&sort=lastModified&direction=DESC"});
+84                                           
+85             \textcolor{keywordflow}{if} (filesresult.Contains(\textcolor{stringliteral}{"failed:"}))
+86             \{
+87                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JObject();
+88             \}
+89             \textcolor{keywordflow}{else}
+90             \{
+91                 var result = (JObject)JsonConvert.DeserializeObject(filesresult);
+92 
+93                 List<Dictionary<string, string>> listWithPacks = \textcolor{keyword}{new} List<Dictionary<string, string>>();
+94 
+95                 JArray array = result.Value<JArray>(\textcolor{stringliteral}{"content"});        
+96 
+97                 \textcolor{keywordflow}{try}
+98                 \{
+99                     \textcolor{keywordflow}{foreach} (JObject pack \textcolor{keywordflow}{in} array.Children())
+100                     \{
+101                         Dictionary<string, string> info = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}}.
+      ParseFullString(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+102                         info.Add(\textcolor{stringliteral}{"BotName"},  bots.Value<\textcolor{keywordtype}{string}>(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"botId"})));
+103                         info.Add(\textcolor{stringliteral}{"PackNumber"}, pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"number"}));
+104                         info.Add(\textcolor{stringliteral}{"FullFileName"}, pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+105                         info.Add(\textcolor{stringliteral}{"FileSize"}, pack.Value<\textcolor{keywordtype}{long}>(\textcolor{stringliteral}{"sizekbits"}).ToString());
+106                         listWithPacks.Add(info);
+107                     \}
+108                 \}
+109                 \textcolor{keywordflow}{catch}(Exception e)
+110                 \{
+111                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+112                 \}
+113 
+114                 \textcolor{keywordflow}{return} JObject.Parse(\textcolor{stringliteral}{"\{\(\backslash\)"bot\(\backslash\)":\(\backslash\)""} + bots.Value<\textcolor{keywordtype}{string}>(botid) + \textcolor{stringliteral}{"\(\backslash\)",\(\backslash\)"packs\(\backslash\)":"} + 
+      JsonConvert.SerializeObject(listWithPacks) + \textcolor{stringliteral}{" \}"});
+115             \}
+116         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a20fef31afe52976e394fc44659cc3593_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a20fef31afe52976e394fc44659cc3593_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aa5fcae94d3322123b784078727a3db67}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aa5fcae94d3322123b784078727a3db67}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Search\+Nibl@{Search\+Nibl}}
+\index{Search\+Nibl@{Search\+Nibl}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Search\+Nibl()}{SearchNibl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Search\+Nibl (\begin{DoxyParamCaption}\item[{string}]{query }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a751ab95fe78f072abef69d89e5557ad1}{Little\+Weeb\+Library.\+Handlers.\+I\+Nibl\+Handler}}.
+
+
+
+Definition at line 118 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Anime\+Latest\+Episode(), Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Episodes(), and Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Files\+For\+Anime().
+
+
+\begin{DoxyCode}
+119         \{
+120 
+121             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SearchNibl called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+122             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+123 
+124             \textcolor{keywordtype}{string} searchresult = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}{Get}}(\textcolor{stringliteral}{"search?query="} + query);
+125 
+126             \textcolor{keywordflow}{if} (searchresult.Contains(\textcolor{stringliteral}{"failed:"}))
+127             \{
+128 
+129                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query + \textcolor{stringliteral}{" FAILED."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+130                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} JObject();
+131             \}
+132             \textcolor{keywordflow}{else}
+133             \{
+134 
+135                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query + \textcolor{stringliteral}{" SUCCEEDED."},
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+136                 List<Dictionary<string, string>> listWithPacks = \textcolor{keyword}{new} List<Dictionary<string, string>>();
+137 
+138                 \textcolor{keywordflow}{try}
+139                 \{
+140                     JObject bots = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc}{GetBotList}}();
+141                     JObject result = JObject.Parse(searchresult);
+142                     JArray array = result.Value<JArray>(\textcolor{stringliteral}{"content"});
+143                     \textcolor{keywordflow}{foreach} (JObject pack \textcolor{keywordflow}{in} array.Children())
+144                     \{
+145                         Dictionary<string, string> info = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}}.
+      ParseFullString(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+146                         info.Add(\textcolor{stringliteral}{"BotName"}, bots.Value<\textcolor{keywordtype}{string}>(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"botId"})));
+147                         info.Add(\textcolor{stringliteral}{"PackNumber"}, pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"number"}));
+148                         info.Add(\textcolor{stringliteral}{"FullFileName"}, pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+149                         info.Add(\textcolor{stringliteral}{"FileSize"}, pack.Value<\textcolor{keywordtype}{long}>(\textcolor{stringliteral}{"sizekbits"}).ToString());
+150                         listWithPacks.Add(info);
+151                     \}
+152                 \}
+153                 \textcolor{keywordflow}{catch} (Exception e)
+154                 \{
+155                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+156                 \}
+157 
+158                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query + \textcolor{stringliteral}{" Succeeded."},
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+159                 \textcolor{keywordflow}{return} JObject.Parse(\textcolor{stringliteral}{"\{\(\backslash\)"packs\(\backslash\)":"} + JsonConvert.SerializeObject(listWithPacks) + \textcolor{stringliteral}{" \}"});
+160             \}
+161         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aa5fcae94d3322123b784078727a3db67_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aa5fcae94d3322123b784078727a3db67_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_acffe025c2b1158bc67196879622dfa0a}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_acffe025c2b1158bc67196879622dfa0a}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Search\+Nibl@{Search\+Nibl}}
+\index{Search\+Nibl@{Search\+Nibl}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Search\+Nibl()}{SearchNibl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Search\+Nibl (\begin{DoxyParamCaption}\item[{List$<$ string $>$}]{query,  }\item[{int}]{episode = {\ttfamily -\/1},  }\item[{string}]{sort = {\ttfamily \char`\"{}name\char`\"{}},  }\item[{string}]{order = {\ttfamily \char`\"{}ASC\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_aea34d508a803bf76f119e95b6e9e9cf0}{Little\+Weeb\+Library.\+Handlers.\+I\+Nibl\+Handler}}.
+
+
+
+Definition at line 163 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+164         \{
+165             List<string> urls = \textcolor{keyword}{new} List<string>();
+166             \textcolor{keywordflow}{foreach}(\textcolor{keywordtype}{string} searchquery \textcolor{keywordflow}{in} query)
+167             \{
+168                 \textcolor{keywordflow}{if} (episode > 0)
+169                 \{
+170                     urls.Add(\textcolor{stringliteral}{"search/page?query="} + searchquery + \textcolor{stringliteral}{"&size=4000&sort="} + sort + \textcolor{stringliteral}{"&direction="}
+       + order + \textcolor{stringliteral}{"&episodeNumber="} + episode.ToString());
+171                 \}
+172                 \textcolor{keywordflow}{else}
+173                 \{
+174                     urls.Add(\textcolor{stringliteral}{"search/page?query="} + searchquery + \textcolor{stringliteral}{"&size=4000&sort="} + sort + \textcolor{stringliteral}{"&direction="}
+       + order);
+175                 \}
+176             \}
+177 
+178             List<Task<string>> tasks = \textcolor{keyword}{new} List<Task<string>>();
+179             \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} url \textcolor{keywordflow}{in} urls)
+180             \{
+181                 tasks.Add(\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}{Get}}(url));
+182             \}
+183 
+184             await Task.WhenAll(tasks.ToArray());
+185 
+186             JObject result = \textcolor{keyword}{new} JObject();
+187 
+188           
+189             \textcolor{keywordflow}{foreach} (Task<string> task \textcolor{keywordflow}{in} tasks)
+190             \{
+191                 result.Merge(JObject.Parse(task.Result));
+192                 task.Dispose();
+193             \}
+194 
+195             JObject bots = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_aac05976a2e1a688dd187ccca513ab3cc}{GetBotList}}();
+196             JArray array = result.Value<JArray>(\textcolor{stringliteral}{"content"});
+197 
+198             List<Dictionary<string, string>> listWithPacks = \textcolor{keyword}{new} List<Dictionary<string, string>>();
+199             \textcolor{keywordflow}{foreach} (JObject pack \textcolor{keywordflow}{in} array.Children())
+200             \{
+201                 Dictionary<string, string> info = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}}.ParseFullString(pack
+      .Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+202                 info.Add(\textcolor{stringliteral}{"BotName"}, bots.Value<\textcolor{keywordtype}{string}>(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"botId"})));
+203                 info.Add(\textcolor{stringliteral}{"PackNumber"}, pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"number"}));
+204                 info.Add(\textcolor{stringliteral}{"FullFileName"}, pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+205                 info.Add(\textcolor{stringliteral}{"FileSize"}, pack.Value<\textcolor{keywordtype}{long}>(\textcolor{stringliteral}{"sizekbits"}).ToString());
+206                 listWithPacks.Add(info);
+207             \}
+208 
+209             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query + \textcolor{stringliteral}{" Succeeded. Total
+       Results: "} + array.Count(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+210             \textcolor{keywordflow}{return} JObject.Parse(\textcolor{stringliteral}{"\{\(\backslash\)"packs\(\backslash\)":"} + JsonConvert.SerializeObject(listWithPacks) + \textcolor{stringliteral}{" \}"});
+211 
+212         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_acffe025c2b1158bc67196879622dfa0a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a149bf3305de6348eaddee4afb92d5095}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a149bf3305de6348eaddee4afb92d5095}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Get\+Latest\+Episode@{Get\+Latest\+Episode}}
+\index{Get\+Latest\+Episode@{Get\+Latest\+Episode}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Latest\+Episode()}{GetLatestEpisode()}}
+{\footnotesize\ttfamily async Task$<$int$>$ Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Get\+Latest\+Episode (\begin{DoxyParamCaption}\item[{string}]{query }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a7e3c7dc7ba9a01c39d125dc0a759d606}{Little\+Weeb\+Library.\+Handlers.\+I\+Nibl\+Handler}}.
+
+
+
+Definition at line 215 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Anime\+Latest\+Episode().
+
+
+\begin{DoxyCode}
+216         \{
+217             \textcolor{keywordtype}{string} searchresult = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}{Get}}(\textcolor{stringliteral}{"search/page?query="} + query + \textcolor{stringliteral}{"
+      &episodeNumber=0&page=0&size=100&sort=episodeNumber&direction=DESC"});
+218 
+219 
+220             \textcolor{keywordtype}{int} season = -1;
+221 
+222             Dictionary<string, string> parsedquery = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}}.ParseFullString(
+      query);
+223 
+224             \textcolor{keywordflow}{if} (parsedquery.ContainsKey(\textcolor{stringliteral}{"Season"}))
+225             \{
+226                 season = \textcolor{keywordtype}{int}.Parse(parsedquery[\textcolor{stringliteral}{"Season"}]);
+227             \}
+228 
+229             \textcolor{keywordflow}{if} (searchresult.Contains(\textcolor{stringliteral}{"failed:"}))
+230             \{
+231 
+232                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query + \textcolor{stringliteral}{" FAILED."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+233                 \textcolor{keywordflow}{return} -1;
+234             \}
+235             \textcolor{keywordflow}{else}
+236             \{
+237 
+238                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Search query: "} + query + \textcolor{stringliteral}{" SUCCEEDED."},
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+239 
+240                 \textcolor{keywordflow}{try}
+241                 \{
+242                     JObject result = JObject.Parse(searchresult);
+243                     JArray array = result.Value<JArray>(\textcolor{stringliteral}{"content"});
+244 
+245                     \textcolor{keywordtype}{int} largest = 0;
+246                     \textcolor{keywordflow}{foreach} (JObject pack \textcolor{keywordflow}{in} array.Children())
+247                     \{
+248                         Dictionary<string, string> info = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}{WeebFileNameParser}}.
+      ParseFullString(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"name"}));
+249 
+250                         \textcolor{keywordflow}{if} (season != -1)
+251                         \{
+252                             \textcolor{keywordflow}{if} (info.ContainsKey(\textcolor{stringliteral}{"Season"}))
+253                             \{
+254                                 \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.Parse(info[\textcolor{stringliteral}{"Season"}]) == season)
+255                                 \{
+256                                     \textcolor{keywordflow}{if} (pack.Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"episodeNumber"}) > largest)
+257                                     \{
+258                                         largest = pack.Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"episodeNumber"});
+259                                     \}
+260                                 \}
+261                             \}
+262                         \}
+263                         \textcolor{keywordflow}{else}
+264                         \{
+265                             \textcolor{keywordflow}{if} (pack.Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"episodeNumber"}) > largest)
+266                             \{
+267                                 largest = pack.Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"episodeNumber"});
+268                             \}
+269                         \}
+270                     \}
+271 
+272                     \textcolor{keywordtype}{int} episodeNumber = largest;
+273                     \textcolor{keywordflow}{return} episodeNumber;
+274                     
+275                 \}
+276                 \textcolor{keywordflow}{catch} (Exception e)
+277                 \{
+278                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+279                     \textcolor{keywordflow}{return} -1;
+280                 \}
+281 
+282             \}
+283         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a149bf3305de6348eaddee4afb92d5095_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a149bf3305de6348eaddee4afb92d5095_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Get@{Get}}
+\index{Get@{Get}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily async Task$<$string$>$ Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Get (\begin{DoxyParamCaption}\item[{string}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 285 of file Nibl\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+286         \{
+287             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Get called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+288             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"URL: "} + url, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+289             \textcolor{keyword}{using} (HttpClient client = \textcolor{keyword}{new} HttpClient())
+290             \{
+291                 HttpResponseMessage response = await client.GetAsync(\textcolor{stringliteral}{"https://api.nibl.co.uk:8080/nibl/"} + 
+      url);
+292 
+293                 \textcolor{keywordflow}{if} (response.IsSuccessStatusCode)
+294                 \{
+295                     \textcolor{keywordflow}{return} await response.Content.ReadAsStringAsync();
+296                 \}
+297                 \textcolor{keywordflow}{else}
+298                 \{
+299                     \textcolor{keywordflow}{return} \textcolor{stringliteral}{"failed: "} + response.StatusCode.ToString();
+300                 \}
+301             \}
+302 
+303         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a2989b180582fadd05111d010c0700411_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a0aae159f51f737bbb89946b8fe8c8743}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Weeb\+File\+Name\+Parser@{Weeb\+File\+Name\+Parser}}
+\index{Weeb\+File\+Name\+Parser@{Weeb\+File\+Name\+Parser}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Weeb\+File\+Name\+Parser}{WeebFileNameParser}}
+{\footnotesize\ttfamily Weeb\+File\+Name\+Parser Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Weeb\+File\+Name\+Parser\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file Nibl\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_ac0392c6b723e01d26c8a45d64575c5af}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_ac0392c6b723e01d26c8a45d64575c5af}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Kitsu\+Handler@{Kitsu\+Handler}}
+\index{Kitsu\+Handler@{Kitsu\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Kitsu\+Handler}{KitsuHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Kitsu\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 30 of file Nibl\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}\label{class_little_weeb_library_1_1_handlers_1_1_nibl_handler_a334c2111588fa71d1203bd8cbb572970}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 31 of file Nibl\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_nibl_handler_8cs}{Nibl\+Handler.\+cs}}\end{DoxyCompactItemize}

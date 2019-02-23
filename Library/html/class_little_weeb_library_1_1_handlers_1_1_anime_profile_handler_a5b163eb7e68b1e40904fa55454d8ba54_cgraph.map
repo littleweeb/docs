@@ -1,0 +1,11 @@
+<map id="LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes" name="LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler.html#a503fb2839489e1df8b80c9a461c0fd2b" title="LittleWeebLibrary.Handlers.\lAnimeRuleHandler.FilterAnimeRules" alt="" coords="308,99,540,140"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="876,157,1068,199"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a12336d9e64983ddabaad8950486fafb2" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.GetEpoch" alt="" coords="315,216,533,257"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_handlers_1_1_nibl_handler.html#aa5fcae94d3322123b784078727a3db67" title="LittleWeebLibrary.Handlers.\lNiblHandler.SearchNibl" alt="" coords="603,244,785,285"/>
+<area shape="rect" id="node9" href="$class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info.html#a2c92ffb7d523c4f75497988156b64b7b" title="LittleWeebLibrary.Models.\lJsonKitsuAnimeInfo.ToJObject" alt="" coords="325,333,523,375"/>
+<area shape="rect" id="node10" href="$class_little_weeb_library_1_1_handlers_1_1_data_base_handler.html#a9b2223ff71f688234f95d247ea3b5739" title="LittleWeebLibrary.Handlers.\lDataBaseHandler.UpdateJObject" alt="" coords="588,364,800,405"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_data_base_handler.html#a7f61583807f99b7838a33d2db0f7ca68" title="LittleWeebLibrary.Handlers.\lDataBaseHandler.GetJObject" alt="" coords="598,48,790,89"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a7b5de7a3ecc749b655fc3ed2af55360b" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.ReadBinaryFile" alt="" coords="848,71,1096,112"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a0a86ee01a3bf201bd9cc9b2552e54976" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.Unzip" alt="" coords="875,5,1069,47"/>
+</map>

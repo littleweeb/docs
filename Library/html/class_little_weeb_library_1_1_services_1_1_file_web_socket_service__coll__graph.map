@@ -1,0 +1,8 @@
+<map id="LittleWeebLibrary.Services.FileWebSocketService" name="LittleWeebLibrary.Services.FileWebSocketService">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service.html" title="{IFileWebSocketService\n||+ DeleteFile()\l+ OpenFile()\l}" alt="" coords="5,42,161,134"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="185,27,368,149"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler.html" title="{LittleWeebLibrary.Handlers.\lIWebSocketHandler\n||+ SendMessage()\l+ StartServer()\l+ StopServer()\l}" alt="" coords="392,27,575,149"/>
+<area shape="rect" id="node5" href="$interface_little_weeb_library_1_1_handlers_1_1_i_download_handler.html" title="{LittleWeebLibrary.Handlers.\lIDownloadHandler\n||+ AbortDownload()\l+ AddDownload()\l+ AddDownloads()\l+ GetCurrentlyDownloading()\l+ RemoveDownload()\l+ StopQueue()\l}" alt="" coords="599,5,787,171"/>
+<area shape="rect" id="node6" href="$interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler.html" title="{LittleWeebLibrary.Handlers.\lIFileHistoryHandler\n||+ AddFileToFileHistory()\l+ GetCurrentFileHistory()\l+ RemoveFileFromFileHistory()\l}" alt="" coords="811,27,1012,149"/>
+<area shape="rect" id="node7" href="$interface_little_weeb_library_1_1_handlers_1_1_i_file_handler.html" title="{LittleWeebLibrary.Handlers.\lIFileHandler\n||+ DeleteFile()\l+ OpenFile()\l}" alt="" coords="1036,35,1219,141"/>
+</map>

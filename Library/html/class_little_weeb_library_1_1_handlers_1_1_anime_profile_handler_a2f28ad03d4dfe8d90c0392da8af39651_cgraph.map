@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Handlers.AnimeProfileHandler.AnimeLatestEpisode" name="LittleWeebLibrary.Handlers.AnimeProfileHandler.AnimeLatestEpisode">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_kitsu_handler.html#a3129d77267b0fb879e3f8f1a8e83494a" title="LittleWeebLibrary.Handlers.\lKitsuHandler.GetEpisode" alt="" coords="276,5,459,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_nibl_handler.html#a149bf3305de6348eaddee4afb92d5095" title="LittleWeebLibrary.Handlers.\lNiblHandler.GetLatestEpisode" alt="" coords="269,71,465,112"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="513,129,705,171"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_nibl_handler.html#aa5fcae94d3322123b784078727a3db67" title="LittleWeebLibrary.Handlers.\lNiblHandler.SearchNibl" alt="" coords="276,188,459,229"/>
+</map>

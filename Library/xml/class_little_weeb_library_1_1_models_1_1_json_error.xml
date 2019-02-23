@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_error" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonError</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_error_1a25ed286f6616ff3a708a5e2d1cbbc492" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonError.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;error&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="9" column="1" bodyfile="Models/JsonError.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_error_1ac9cf92432e69f00b21e72d9f65f3d002" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonError.errormessage</definition>
+        <argsstring></argsstring>
+        <name>errormessage</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="11" column="1" bodyfile="Models/JsonError.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_error_1a039812aa232bfc76582f0998b5937569" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonError.errortype</definition>
+        <argsstring></argsstring>
+        <name>errortype</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="10" column="1" bodyfile="Models/JsonError.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_error_1a31f1c85212ed62b97dc71b389e251cee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonError.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="13" column="1" bodyfile="Models/JsonError.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_error_1a410e00e5a421927c523c98fcccbea5a9" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>LittleWeebLibrary.Models.JsonError.get</definition>
+        <argsstring></argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="12" column="1" bodyfile="Models/JsonError.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_error_1a1f8a36ba64bd7cf7ab35770afddeeda6" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>LittleWeebLibrary.Models.JsonError.set</definition>
+        <argsstring></argsstring>
+        <name>set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="12" column="1" bodyfile="Models/JsonError.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_error_1a0623b835bb68d5d5e1f591df6a09dd81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonError.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="31" column="1" bodyfile="Models/JsonError.cs" bodystart="31" bodyend="36"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" compoundref="_download_handler_8cs" startline="375" endline="420">LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" compoundref="_download_handler_8cs" startline="143" endline="222">LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonError.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="15" column="1" bodyfile="Models/JsonError.cs" bodystart="15" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a0ab2f2e6fcb90cd42dfa0de9d6a58f7e" compoundref="_download_web_socket_service_8cs" startline="213" endline="237">LittleWeebLibrary.Services.DownloadWebSocketService.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a7aaa1db63ee81a2e5246e45ef8643087" compoundref="_download_web_socket_service_8cs" startline="68" endline="116">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ad6afd5ee42650d16c67790c6d2ac80c1" compoundref="_download_web_socket_service_8cs" startline="239" endline="292">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a0ed7b2a1d1fe30b43d06232719570435" compoundref="_info_api_web_socket_service_8cs" startline="288" endline="316">LittleWeebLibrary.Services.InfoApiWebSocketService.AddRule</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" compoundref="_directory_web_socket_service_8cs" startline="40" endline="75">LittleWeebLibrary.Services.DirectoryWebSocketService.CreateDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6be1b158ee280e8a74a49917a90484e2" compoundref="_directory_handler_8cs" startline="224" endline="267">LittleWeebLibrary.Handlers.DirectoryHandler.CreateDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" compoundref="_directory_web_socket_service_8cs" startline="77" endline="110">LittleWeebLibrary.Services.DirectoryWebSocketService.DeleteDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" compoundref="_directory_handler_8cs" startline="157" endline="222">LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a5d9baf510f46f6a3fac9fe84325bb017" compoundref="_data_base_web_socket_service_8cs" startline="41" endline="88">LittleWeebLibrary.Services.DataBaseWebSocketService.DeleteDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133" compoundref="_file_web_socket_service_8cs" startline="39" endline="76">LittleWeebLibrary.Services.FileWebSocketService.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" compoundref="_file_handler_8cs" startline="126" endline="205">LittleWeebLibrary.Handlers.FileHandler.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aef8bdd650778c72d639f1e89c1d6dcad" compoundref="_data_base_web_socket_service_8cs" startline="90" endline="119">LittleWeebLibrary.Services.DataBaseWebSocketService.GetCollection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aec42147d67551cb17c458453ef40f3bc" compoundref="_info_api_web_socket_service_8cs" startline="133" endline="159">LittleWeebLibrary.Services.InfoApiWebSocketService.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" compoundref="_directory_handler_8cs" startline="114" endline="155">LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" compoundref="_directory_web_socket_service_8cs" startline="119" endline="154">LittleWeebLibrary.Services.DirectoryWebSocketService.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aa51350396b2aa1634a680c94bebdc64c" compoundref="_data_base_web_socket_service_8cs" startline="121" endline="166">LittleWeebLibrary.Services.DataBaseWebSocketService.GetDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b" compoundref="_data_base_web_socket_controller_8cs" startline="28" endline="98">LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab" compoundref="_irc_web_socket_controller_8cs" startline="29" endline="105">LittleWeebLibrary.Controllers.IrcWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912" compoundref="_info_api_web_socket_controller_8cs" startline="30" endline="130">LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" compoundref="_settings_web_socket_controller_8cs" startline="30" endline="103">LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" compoundref="_version_web_socket_controller_8cs" startline="31" endline="84">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08" compoundref="_file_web_socket_controller_8cs" startline="31" endline="89">LittleWeebLibrary.Controllers.FileWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" compoundref="_download_web_socket_controller_8cs" startline="32" endline="110">LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" compoundref="_directory_handler_8cs" startline="270" endline="322">LittleWeebLibrary.Handlers.DirectoryHandler.OpenDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" compoundref="_file_handler_8cs" startline="36" endline="123">LittleWeebLibrary.Handlers.FileHandler.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ae140d076e6f64585e7b71bb51545e1bb" compoundref="_file_web_socket_service_8cs" startline="78" endline="130">LittleWeebLibrary.Services.FileWebSocketService.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3bc6b4176561f56b918e75527c7698d0" compoundref="_download_web_socket_service_8cs" startline="118" endline="164">LittleWeebLibrary.Services.DownloadWebSocketService.RemoveDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1aa9fcd18dc123e1356049b4b95bbaf2ff" compoundref="_irc_web_socket_service_8cs" startline="242" endline="266">LittleWeebLibrary.Services.IrcWebSocketService.SendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" compoundref="_settings_web_socket_service_8cs" startline="206" endline="235">LittleWeebLibrary.Services.SettingsWebSocketService.Setfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aa53e9a1723c0b2d607d2aa9db1991c3c" compoundref="_settings_web_socket_service_8cs" startline="171" endline="204">LittleWeebLibrary.Services.SettingsWebSocketService.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1af85671a494e85f8418f60606566521f0" compoundref="_data_base_web_socket_service_8cs" startline="168" endline="203">LittleWeebLibrary.Services.DataBaseWebSocketService.StoreDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a3771a51f4d0aab2cd4f65676427d0902" compoundref="_data_base_web_socket_service_8cs" startline="205" endline="240">LittleWeebLibrary.Services.DataBaseWebSocketService.UpdateDocument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonError.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonError.cs" line="20" column="1" bodyfile="Models/JsonError.cs" bodystart="20" bodyend="29"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a7aaa1db63ee81a2e5246e45ef8643087" compoundref="_download_web_socket_service_8cs" startline="68" endline="116">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ad6afd5ee42650d16c67790c6d2ac80c1" compoundref="_download_web_socket_service_8cs" startline="239" endline="292">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" compoundref="_directory_web_socket_service_8cs" startline="40" endline="75">LittleWeebLibrary.Services.DirectoryWebSocketService.CreateDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" compoundref="_directory_web_socket_service_8cs" startline="77" endline="110">LittleWeebLibrary.Services.DirectoryWebSocketService.DeleteDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133" compoundref="_file_web_socket_service_8cs" startline="39" endline="76">LittleWeebLibrary.Services.FileWebSocketService.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" compoundref="_file_handler_8cs" startline="126" endline="205">LittleWeebLibrary.Handlers.FileHandler.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aec42147d67551cb17c458453ef40f3bc" compoundref="_info_api_web_socket_service_8cs" startline="133" endline="159">LittleWeebLibrary.Services.InfoApiWebSocketService.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" compoundref="_directory_handler_8cs" startline="114" endline="155">LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" compoundref="_directory_web_socket_service_8cs" startline="119" endline="154">LittleWeebLibrary.Services.DirectoryWebSocketService.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a299be5b400f1368ab169599395a3e56d" compoundref="_info_api_web_socket_service_8cs" startline="80" endline="131">LittleWeebLibrary.Services.InfoApiWebSocketService.GetFilesForAnime</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b" compoundref="_data_base_web_socket_controller_8cs" startline="28" endline="98">LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab" compoundref="_irc_web_socket_controller_8cs" startline="29" endline="105">LittleWeebLibrary.Controllers.IrcWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912" compoundref="_info_api_web_socket_controller_8cs" startline="30" endline="130">LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" compoundref="_settings_web_socket_controller_8cs" startline="30" endline="103">LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" compoundref="_version_web_socket_controller_8cs" startline="31" endline="84">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08" compoundref="_file_web_socket_controller_8cs" startline="31" endline="89">LittleWeebLibrary.Controllers.FileWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" compoundref="_download_web_socket_controller_8cs" startline="32" endline="110">LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" compoundref="_file_handler_8cs" startline="36" endline="123">LittleWeebLibrary.Handlers.FileHandler.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ae140d076e6f64585e7b71bb51545e1bb" compoundref="_file_web_socket_service_8cs" startline="78" endline="130">LittleWeebLibrary.Services.FileWebSocketService.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3bc6b4176561f56b918e75527c7698d0" compoundref="_download_web_socket_service_8cs" startline="118" endline="164">LittleWeebLibrary.Services.DownloadWebSocketService.RemoveDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1aa9fcd18dc123e1356049b4b95bbaf2ff" compoundref="_irc_web_socket_service_8cs" startline="242" endline="266">LittleWeebLibrary.Services.IrcWebSocketService.SendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" compoundref="_settings_web_socket_service_8cs" startline="206" endline="235">LittleWeebLibrary.Services.SettingsWebSocketService.Setfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aa53e9a1723c0b2d607d2aa9db1991c3c" compoundref="_settings_web_socket_service_8cs" startline="171" endline="204">LittleWeebLibrary.Services.SettingsWebSocketService.SetLittleWeebSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="287">
+        <label>LittleWeebLibrary.Models.JsonError</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_error"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonError.cs" line="8" column="1" bodyfile="Models/JsonError.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1ac9cf92432e69f00b21e72d9f65f3d002" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>errormessage</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a039812aa232bfc76582f0998b5937569" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>errortype</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a410e00e5a421927c523c98fcccbea5a9" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>get</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a1f8a36ba64bd7cf7ab35770afddeeda6" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>set</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0623b835bb68d5d5e1f591df6a09dd81" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a25ed286f6616ff3a708a5e2d1cbbc492" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a31f1c85212ed62b97dc71b389e251cee" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonError</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library_1_1_models" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary::Models</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing" prot="public">LittleWeebLibrary::Models::JsonCurrentlyAiring</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection" prot="public">LittleWeebLibrary::Models::JsonDataBaseCollection</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document" prot="public">LittleWeebLibrary::Models::JsonDataBaseDocument</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_directories" prot="public">LittleWeebLibrary::Models::JsonDirectories</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_directory" prot="public">LittleWeebLibrary::Models::JsonDirectory</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info" prot="public">LittleWeebLibrary::Models::JsonDownloadedInfo</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list" prot="public">LittleWeebLibrary::Models::JsonDownloadedList</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_download_info" prot="public">LittleWeebLibrary::Models::JsonDownloadInfo</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_download_queue" prot="public">LittleWeebLibrary::Models::JsonDownloadQueue</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_error" prot="public">LittleWeebLibrary::Models::JsonError</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_free_space" prot="public">LittleWeebLibrary::Models::JsonFreeSpace</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message" prot="public">LittleWeebLibrary::Models::JsonIrcChatMessage</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_irc_info" prot="public">LittleWeebLibrary::Models::JsonIrcInfo</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories" prot="public">LittleWeebLibrary::Models::JsonKistuCategories</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres" prot="public">LittleWeebLibrary::Models::JsonKistuGenres</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result" prot="public">LittleWeebLibrary::Models::JsonKistuSearchResult</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info" prot="public">LittleWeebLibrary::Models::JsonKitsuAnimeInfo</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings" prot="public">LittleWeebLibrary::Models::JsonLittleWeebSettings</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list" prot="public">LittleWeebLibrary::Models::JsonNiblBotList</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result" prot="public">LittleWeebLibrary::Models::JsonNiblSearchResult</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_received_response" prot="public">LittleWeebLibrary::Models::JsonReceivedResponse</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_success" prot="public">LittleWeebLibrary::Models::JsonSuccess</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_version_info" prot="public">LittleWeebLibrary::Models::JsonVersionInfo</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_models_1_1_json_welcome" prot="public">LittleWeebLibrary::Models::JsonWelcome</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/JsonCurrentlyAiring.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

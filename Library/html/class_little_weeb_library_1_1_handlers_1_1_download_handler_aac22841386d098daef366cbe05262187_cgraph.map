@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload" name="LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_models_1_1_json_download_queue.html#a1d77053fc493aa88857bcafd6fea4bf7" title="LittleWeebLibrary.Models.\lJsonDownloadQueue.ToJObject" alt="" coords="281,5,487,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0623b835bb68d5d5e1f591df6a09dd81" title="LittleWeebLibrary.Models.\lJsonError.ToJObject" alt="" coords="297,71,471,112"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="288,136,480,177"/>
+</map>

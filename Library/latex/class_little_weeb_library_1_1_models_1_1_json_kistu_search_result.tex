@@ -1,0 +1,160 @@
+\hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{}\section{Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result Class Reference}
+\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}\index{Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_aa70ee158546f0b562318b143aca9d86f}{To\+J\+Object}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a6adca32faf08b7fb63c9f469ab3fbcae}{To\+Json}} ()
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a24e08aec40ba54db7235bb4ef9be8b11}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+J\+Array \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adecaada095caebc883fc6aa89210a182}{result}} = new J\+Array()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a600c0af2c31a9ac1403e96a65ad97074}{type}} = \char`\"{}kitsu\+\_\+search\+\_\+result\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adbbddbd485f97ee9514b96cab4fba37e}{updated}} = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a24e08aec40ba54db7235bb4ef9be8b11}{To\+String}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a6adca32faf08b7fb63c9f469ab3fbcae}\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a6adca32faf08b7fb63c9f469ab3fbcae}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}!To\+Json@{To\+Json}}
+\index{To\+Json@{To\+Json}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}}
+\subsubsection{\texorpdfstring{To\+Json()}{ToJson()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+To\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Search\+Kitsu().
+
+
+\begin{DoxyCode}
+14         \{
+15             \textcolor{keywordflow}{return} JsonConvert.SerializeObject(\textcolor{keyword}{this});
+16         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a6adca32faf08b7fb63c9f469ab3fbcae_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a24e08aec40ba54db7235bb4ef9be8b11}\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a24e08aec40ba54db7235bb4ef9be8b11}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 18 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+\begin{DoxyCode}
+19         \{
+20             JObject jobject = \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_aa70ee158546f0b562318b143aca9d86f}{ToJObject}}();
+21             \textcolor{keywordtype}{string} properties = \textcolor{keywordtype}{string}.Empty;
+22             \textcolor{keywordflow}{foreach} (var x \textcolor{keywordflow}{in} jobject)
+23             \{
+24                 properties += x.Key + \textcolor{stringliteral}{": "} + x.Value.ToString();
+25             \}
+26             \textcolor{keywordflow}{return} properties;
+27         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_aa70ee158546f0b562318b143aca9d86f}\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_aa70ee158546f0b562318b143aca9d86f}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}!To\+J\+Object@{To\+J\+Object}}
+\index{To\+J\+Object@{To\+J\+Object}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}}
+\subsubsection{\texorpdfstring{To\+J\+Object()}{ToJObject()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+To\+J\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+\begin{DoxyCode}
+30         \{
+31 
+32             JObject jobject = JObject.FromObject(\textcolor{keyword}{this});
+33             \textcolor{keywordflow}{return} jobject;
+34         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a600c0af2c31a9ac1403e96a65ad97074}\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a600c0af2c31a9ac1403e96a65ad97074}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}!type@{type}}
+\index{type@{type}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+type = \char`\"{}kitsu\+\_\+search\+\_\+result\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"kitsu\_search\_result"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adecaada095caebc883fc6aa89210a182}\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adecaada095caebc883fc6aa89210a182}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}!result@{result}}
+\index{result@{result}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}}
+\subsubsection{\texorpdfstring{result}{result}}
+{\footnotesize\ttfamily J\+Array Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+result = new J\+Array()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Currently\+Airing\+Async().
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{new} JArray();
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adbbddbd485f97ee9514b96cab4fba37e}\label{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adbbddbd485f97ee9514b96cab4fba37e}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}!updated@{updated}}
+\index{updated@{updated}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}}
+\subsubsection{\texorpdfstring{updated}{updated}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+updated = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_a24e08aec40ba54db7235bb4ef9be8b11}{To\+String}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Json\+Kistu\+Search\+Result.\+cs.
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = StaticClasses.UtilityMethods.GetEpoch().ToString();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\mbox{\hyperlink{_json_kistu_search_result_8cs}{Json\+Kistu\+Search\+Result.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_success" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonSuccess</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_success_1a6c518d7f5a6e5b08760bda2ea952a0ad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonSuccess.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;success&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonSuccess.cs" line="10" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_success_1a6ccf690286fe8d8e0e4040d2e7f0e708" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonSuccess.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonSuccess.cs" line="11" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_success_1a486c79938bb53ac4092683da49a07a18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonSuccess.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_success_1abd0bbcc176b7accbefc425a70816b12a" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonSuccess.cs" line="12" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_success_1aa0e750a34606497266e5a4aedc03cdeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonSuccess.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonSuccess.cs" line="29" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="29" bodyend="34"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" compoundref="_download_handler_8cs" startline="375" endline="420">LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8fd807f023ed25e031844da3927e1a23" compoundref="_download_handler_8cs" startline="225" endline="238">LittleWeebLibrary.Handlers.DownloadHandler.StopQueue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonSuccess.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonSuccess.cs" line="14" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="14" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a0ed7b2a1d1fe30b43d06232719570435" compoundref="_info_api_web_socket_service_8cs" startline="288" endline="316">LittleWeebLibrary.Services.InfoApiWebSocketService.AddRule</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" compoundref="_directory_handler_8cs" startline="157" endline="222">LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a5d9baf510f46f6a3fac9fe84325bb017" compoundref="_data_base_web_socket_service_8cs" startline="41" endline="88">LittleWeebLibrary.Services.DataBaseWebSocketService.DeleteDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" compoundref="_file_handler_8cs" startline="126" endline="205">LittleWeebLibrary.Handlers.FileHandler.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a71f89c2a8e9b0a86972d192bc3e55318" compoundref="_irc_web_socket_service_8cs" startline="182" endline="193">LittleWeebLibrary.Services.IrcWebSocketService.DisableSendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1acd9aa44a2389caa8e997db49a646c448" compoundref="_irc_web_socket_service_8cs" startline="169" endline="180">LittleWeebLibrary.Services.IrcWebSocketService.EnableSendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" compoundref="_directory_handler_8cs" startline="270" endline="322">LittleWeebLibrary.Handlers.DirectoryHandler.OpenDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" compoundref="_file_handler_8cs" startline="36" endline="123">LittleWeebLibrary.Handlers.FileHandler.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1af85671a494e85f8418f60606566521f0" compoundref="_data_base_web_socket_service_8cs" startline="168" endline="203">LittleWeebLibrary.Services.DataBaseWebSocketService.StoreDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a3771a51f4d0aab2cd4f65676427d0902" compoundref="_data_base_web_socket_service_8cs" startline="205" endline="240">LittleWeebLibrary.Services.DataBaseWebSocketService.UpdateDocument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_success_1abd0bbcc176b7accbefc425a70816b12a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonSuccess.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonSuccess.cs" line="18" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="18" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="311">
+        <label>LittleWeebLibrary.Models.JsonSuccess</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_success"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonSuccess.cs" line="8" column="1" bodyfile="Models/JsonSuccess.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a6ccf690286fe8d8e0e4040d2e7f0e708" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonSuccess</scope><name>message</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1aa0e750a34606497266e5a4aedc03cdeb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonSuccess</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonSuccess</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1abd0bbcc176b7accbefc425a70816b12a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonSuccess</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a6c518d7f5a6e5b08760bda2ea952a0ad" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonSuccess</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a486c79938bb53ac4092683da49a07a18" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonSuccess</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

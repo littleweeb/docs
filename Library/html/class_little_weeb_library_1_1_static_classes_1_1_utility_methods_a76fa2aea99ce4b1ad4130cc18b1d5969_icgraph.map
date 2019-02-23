@@ -1,0 +1,9 @@
+<map id="LittleWeebLibrary.StaticClasses.UtilityMethods.GetFreeSpaceKbits" name="LittleWeebLibrary.StaticClasses.UtilityMethods.GetFreeSpaceKbits">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#ad28cb47c19cac5e761ceff86ea021a02" title="LittleWeebLibrary.Handlers.\lDownloadHandler.AddDownload" alt="" coords="263,5,469,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#ac03f2dc024c0884bb7bd1c68ee03142e" title="LittleWeebLibrary.Handlers.\lDownloadHandler.AddDownloads" alt="" coords="260,71,472,112"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_handlers_1_1_directory_handler.html#aa439a303572de6bf09438d38a7fa4698" title="LittleWeebLibrary.Handlers.\lDirectoryHandler.GetFreeSpace" alt="" coords="263,136,469,177"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#a7aaa1db63ee81a2e5246e45ef8643087" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.AddDownload" alt="" coords="524,5,795,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html#a9e5e421ed57b8b2a294e17d93d027c53" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController.OnWeb\lSocketEvent" alt="" coords="847,63,1096,119"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#ad6afd5ee42650d16c67790c6d2ac80c1" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.AddDownloads" alt="" coords="520,71,799,112"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#a37c3c5de12db8083e8e6d22ce1fe6776" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.GetFreeSpace" alt="" coords="523,136,795,177"/>
+</map>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::FileHistoryHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IFileHistoryHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1afe186c8ea770ecb9253a07f82f23c471" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler" kindref="compound">IDataBaseHandler</ref></type>
+        <definition>readonly IDataBaseHandler LittleWeebLibrary.Handlers.FileHistoryHandler.DataBaseHandler</definition>
+        <argsstring></argsstring>
+        <name>DataBaseHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHistoryHandler.cs" line="23" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1afeb86d3ea5c145f7dd6937f061679395" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.FileHistoryHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHistoryHandler.cs" line="22" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1ab8aa730a5d9db1b2624723394bd06191" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.FileHistoryHandler.FileHistoryHandler</definition>
+        <argsstring>(IDataBaseHandler dataBaseHandler, IDebugHandler debugHandler)</argsstring>
+        <name>FileHistoryHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler" kindref="compound">IDataBaseHandler</ref></type>
+          <declname>dataBaseHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHistoryHandler.cs" line="25" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="25" bodyend="30"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.FileHistoryHandler.AddFileToFileHistory</definition>
+        <argsstring>(JsonDownloadedInfo downloadInfo)</argsstring>
+        <name>AddFileToFileHistory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_1a61ccff04c662692b2ad3f67773c73918">AddFileToFileHistory</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info" kindref="compound">JsonDownloadedInfo</ref></type>
+          <declname>downloadInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHistoryHandler.cs" line="32" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="32" bodyend="111"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a400a0cb7bf87a5c5a03c099ebd95fc07" compoundref="_json_downloaded_info_8cs" startline="11" endline="11">LittleWeebLibrary.Models.JsonDownloadedInfo.anime_id</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a48cda1035291586df653b956a5075a24" compoundref="_json_downloaded_info_8cs" startline="12" endline="12">LittleWeebLibrary.Models.JsonDownloadedInfo.anime_name</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a703b2878786376f7a1ad264118a70d75" compoundref="_json_downloaded_list_8cs" startline="14" endline="14">LittleWeebLibrary.Models.JsonDownloadedList.downloadHistorylist</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1aeb59734113f03f4435a5a2d51c1d6f5c" compoundref="_json_downloaded_info_8cs" startline="13" endline="13">LittleWeebLibrary.Models.JsonDownloadedInfo.id</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" compoundref="_data_base_handler_8cs" startline="287" endline="330">LittleWeebLibrary.Handlers.DataBaseHandler.StoreJObject</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a97de2493e2a60e3d98bd480c311a08b9" compoundref="_json_downloaded_list_8cs" startline="34" endline="39">LittleWeebLibrary.Models.JsonDownloadedList.ToJObject</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a1ffa120527f102b7bf96a4c0a2d9e298" compoundref="_json_downloaded_info_8cs" startline="28" endline="37">LittleWeebLibrary.Models.JsonDownloadedInfo.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a7e5a72e2cfdc3dfe97066cc7504b4445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list" kindref="compound">JsonDownloadedList</ref> &gt;</type>
+        <definition>async Task&lt;JsonDownloadedList&gt; LittleWeebLibrary.Handlers.FileHistoryHandler.GetCurrentFileHistory</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentFileHistory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_1a4c21e166d6be24e3378cdbbf938c4671">GetCurrentFileHistory</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHistoryHandler.cs" line="199" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="199" bodyend="212"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" compoundref="_data_base_handler_8cs" startline="51" endline="78">LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1adb3b1a3aadf9ad491388890e432f6c91" compoundref="_download_web_socket_service_8cs" startline="166" endline="170">LittleWeebLibrary.Services.DownloadWebSocketService.GetCurrentFileHistory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory</definition>
+        <argsstring>(string anime_id, string id=null, string filepath=null)</argsstring>
+        <name>RemoveFileFromFileHistory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_1afcfb45f7f8a2161350d0b78c25a3d0d3">RemoveFileFromFileHistory</reimplements>
+        <param>
+          <type>string</type>
+          <declname>anime_id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filepath</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/FileHistoryHandler.cs" line="113" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="113" bodyend="196"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7821535a003c7675c09ba846bd9502ca" compoundref="_data_base_handler_8cs" startline="188" endline="233">LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a9b2223ff71f688234f95d247ea3b5739" compoundref="_data_base_handler_8cs" startline="332" endline="366">LittleWeebLibrary.Handlers.DataBaseHandler.UpdateJObject</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133" compoundref="_file_web_socket_service_8cs" startline="39" endline="76">LittleWeebLibrary.Services.FileWebSocketService.DeleteFile</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="155">
+        <label>LittleWeebLibrary.Handlers.FileHistoryHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>IFileHistoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="160">
+        <label>LittleWeebLibrary.Handlers.IDataBaseHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler"/>
+      </node>
+      <node id="157">
+        <label>LittleWeebLibrary.Handlers.FileHistoryHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+        <childnode refid="159" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="160" relation="usage">
+          <edgelabel>-DataBaseHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="159">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="158">
+        <label>IFileHistoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/FileHistoryHandler.cs" line="19" column="1" bodyfile="Handlers/FileHistoryHandler.cs" bodystart="18" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHistoryHandler</scope><name>AddFileToFileHistory</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1afe186c8ea770ecb9253a07f82f23c471" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHistoryHandler</scope><name>DataBaseHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1afeb86d3ea5c145f7dd6937f061679395" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHistoryHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1ab8aa730a5d9db1b2624723394bd06191" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHistoryHandler</scope><name>FileHistoryHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a7e5a72e2cfdc3dfe97066cc7504b4445" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHistoryHandler</scope><name>GetCurrentFileHistory</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::FileHistoryHandler</scope><name>RemoveFileFromFileHistory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

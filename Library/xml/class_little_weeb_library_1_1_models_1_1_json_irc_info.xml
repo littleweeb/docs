@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_irc_info" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonIrcInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1afe4b739c9c9d3e79e56197dadb88a16a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;irc_data&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="9" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a46923aa9571dd4bde668025966e1904f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="11" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1aaf8e6e15c209ac7dca0fc8e581a052b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Models.JsonIrcInfo.connected</definition>
+        <argsstring></argsstring>
+        <name>connected</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="10" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1aacacd27f11b2a0a075696b51d2a2a068" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.fullfilepath</definition>
+        <argsstring></argsstring>
+        <name>fullfilepath</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="14" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a74320be514974ef57a3f5cb879a0bb09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="12" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a3c8dbe0b5446adae3c11792df96ea7df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7a9635e9efc6d62801ec57bdb90c1cee" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="15" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7deaa62c6b0192080e313c25dfa44ba5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="13" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a477f060b125dfcc0464e41d0dca94acf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonIrcInfo.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="32" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1af7d4dd885c7289ca28b0147d4feb2b84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcInfo.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="17" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="17" bodyend="20"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" compoundref="_irc_web_socket_service_8cs" startline="153" endline="167">LittleWeebLibrary.Services.IrcWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7a9635e9efc6d62801ec57bdb90c1cee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonIrcInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcInfo.cs" line="21" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="21" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="293">
+        <label>LittleWeebLibrary.Models.JsonIrcInfo</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_irc_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonIrcInfo.cs" line="8" column="1" bodyfile="Models/JsonIrcInfo.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a46923aa9571dd4bde668025966e1904f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>channel</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1aaf8e6e15c209ac7dca0fc8e581a052b4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>connected</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1aacacd27f11b2a0a075696b51d2a2a068" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>fullfilepath</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a74320be514974ef57a3f5cb879a0bb09" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>server</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a477f060b125dfcc0464e41d0dca94acf" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1af7d4dd885c7289ca28b0147d4feb2b84" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7a9635e9efc6d62801ec57bdb90c1cee" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1afe4b739c9c9d3e79e56197dadb88a16a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a3c8dbe0b5446adae3c11792df96ea7df" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>updated</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7deaa62c6b0192080e313c25dfa44ba5" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcInfo</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::EventArguments::WebSocketEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1ac7aee4603c5f55b11dd59de007b3a8b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.EventArguments.WebSocketEventArgs.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/WebSocketEventArgs.cs" line="7" column="1" bodyfile="EventArguments/WebSocketEventArgs.cs" bodystart="7" bodyend="7"/>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b" compoundref="_data_base_web_socket_controller_8cs" startline="28" endline="98">LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab" compoundref="_irc_web_socket_controller_8cs" startline="29" endline="105">LittleWeebLibrary.Controllers.IrcWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912" compoundref="_info_api_web_socket_controller_8cs" startline="30" endline="130">LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" compoundref="_settings_web_socket_controller_8cs" startline="30" endline="103">LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08" compoundref="_file_web_socket_controller_8cs" startline="31" endline="89">LittleWeebLibrary.Controllers.FileWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" compoundref="_version_web_socket_controller_8cs" startline="31" endline="84">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" compoundref="_download_web_socket_controller_8cs" startline="32" endline="110">LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1acf402c2f7fd4ddbf175fea7f921ea879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.EventArguments.WebSocketEventArgs.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/WebSocketEventArgs.cs" line="8" column="1" bodyfile="EventArguments/WebSocketEventArgs.cs" bodystart="8" bodyend="13"/>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b" compoundref="_data_base_web_socket_controller_8cs" startline="28" endline="98">LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab" compoundref="_irc_web_socket_controller_8cs" startline="29" endline="105">LittleWeebLibrary.Controllers.IrcWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912" compoundref="_info_api_web_socket_controller_8cs" startline="30" endline="130">LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" compoundref="_settings_web_socket_controller_8cs" startline="30" endline="103">LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08" compoundref="_file_web_socket_controller_8cs" startline="31" endline="89">LittleWeebLibrary.Controllers.FileWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" compoundref="_version_web_socket_controller_8cs" startline="31" endline="84">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" compoundref="_download_web_socket_controller_8cs" startline="32" endline="110">LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="92">
+        <label>LittleWeebLibrary.EventArguments.WebSocketEventArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args"/>
+      </node>
+    </collaborationgraph>
+    <location file="EventArguments/WebSocketEventArgs.cs" line="6" column="1" bodyfile="EventArguments/WebSocketEventArgs.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1ac7aee4603c5f55b11dd59de007b3a8b3" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::WebSocketEventArgs</scope><name>Message</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1acf402c2f7fd4ddbf175fea7f921ea879" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::WebSocketEventArgs</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

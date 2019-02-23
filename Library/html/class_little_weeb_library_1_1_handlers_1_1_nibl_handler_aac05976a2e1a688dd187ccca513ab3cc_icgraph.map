@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.NiblHandler.GetBotList" name="LittleWeebLibrary.Handlers.NiblHandler.GetBotList">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a5f91364bc403db5d521f15881a385143" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetBotList" alt="" coords="236,13,473,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="521,5,799,61"/>
+</map>

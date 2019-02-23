@@ -1,0 +1,132 @@
+\hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler Interface Reference}
+\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}\index{Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler@{Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ad0282431f67c1c1b27ae85ec4430d547}{Abort\+Download}} (string id=null)
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aa3c1ffac97fec47757494e14b5ade3d6}{Add\+Download}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} download)
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_a615c539f5946719ae2ef4f856db91430}{Add\+Downloads}} (List$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} $>$ download)
+\item 
+J\+Object \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aa0c6f62ad21ef6fb638314101f4357ec}{Get\+Currently\+Downloading}} ()
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aca5dc8dc1965f09d2a5860f9297ddb26}{Remove\+Download}} (string id=null, string file\+Path=null)
+\item 
+J\+Object \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_a7cc8a36cbac3bcfb4e9761fae2c5ac53}{Stop\+Queue}} ()
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args}{Download\+Update\+Event\+Args}} $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ab1d80f17c3714758e3a605adddfe68ef}{On\+Download\+Update\+Event}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file Download\+Handler.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aa3c1ffac97fec47757494e14b5ade3d6}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aa3c1ffac97fec47757494e14b5ade3d6}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!Add\+Download@{Add\+Download}}
+\index{Add\+Download@{Add\+Download}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{Add\+Download()}{AddDownload()}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+Add\+Download (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}}}]{download }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_ad28cb47c19cac5e761ceff86ea021a02}{Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_a615c539f5946719ae2ef4f856db91430}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_a615c539f5946719ae2ef4f856db91430}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!Add\+Downloads@{Add\+Downloads}}
+\index{Add\+Downloads@{Add\+Downloads}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{Add\+Downloads()}{AddDownloads()}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+Add\+Downloads (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} $>$}]{download }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_ac03f2dc024c0884bb7bd1c68ee03142e}{Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ad0282431f67c1c1b27ae85ec4430d547}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ad0282431f67c1c1b27ae85ec4430d547}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!Abort\+Download@{Abort\+Download}}
+\index{Abort\+Download@{Abort\+Download}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{Abort\+Download()}{AbortDownload()}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+Abort\+Download (\begin{DoxyParamCaption}\item[{string}]{id = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_a5a28664c89bf43b921fc9d3f1845b5a1}{Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aca5dc8dc1965f09d2a5860f9297ddb26}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aca5dc8dc1965f09d2a5860f9297ddb26}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!Remove\+Download@{Remove\+Download}}
+\index{Remove\+Download@{Remove\+Download}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{Remove\+Download()}{RemoveDownload()}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+Remove\+Download (\begin{DoxyParamCaption}\item[{string}]{id = {\ttfamily null},  }\item[{string}]{file\+Path = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_aac22841386d098daef366cbe05262187}{Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aa0c6f62ad21ef6fb638314101f4357ec}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_aa0c6f62ad21ef6fb638314101f4357ec}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!Get\+Currently\+Downloading@{Get\+Currently\+Downloading}}
+\index{Get\+Currently\+Downloading@{Get\+Currently\+Downloading}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Currently\+Downloading()}{GetCurrentlyDownloading()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+Get\+Currently\+Downloading (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_a3d913e57fb5f46a736c02858364609f9}{Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_a7cc8a36cbac3bcfb4e9761fae2c5ac53}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_a7cc8a36cbac3bcfb4e9761fae2c5ac53}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!Stop\+Queue@{Stop\+Queue}}
+\index{Stop\+Queue@{Stop\+Queue}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{Stop\+Queue()}{StopQueue()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+Stop\+Queue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_a8fd807f023ed25e031844da3927e1a23}{Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}}.
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ab1d80f17c3714758e3a605adddfe68ef}\label{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ab1d80f17c3714758e3a605adddfe68ef}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}!On\+Download\+Update\+Event@{On\+Download\+Update\+Event}}
+\index{On\+Download\+Update\+Event@{On\+Download\+Update\+Event}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}}
+\subsubsection{\texorpdfstring{On\+Download\+Update\+Event}{OnDownloadUpdateEvent}}
+{\footnotesize\ttfamily Event\+Handler$<$\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args}{Download\+Update\+Event\+Args}}$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+On\+Download\+Update\+Event}
+
+
+
+Definition at line 16 of file Download\+Handler.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Download\+Web\+Socket\+Service().
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_download_handler_8cs}{Download\+Handler.\+cs}}\end{DoxyCompactItemize}

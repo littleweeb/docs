@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::AnimeRuleHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IAnimeRuleHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a31322132913e3f4b669e14a3e621a326" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler" kindref="compound">IDataBaseHandler</ref></type>
+        <definition>readonly IDataBaseHandler LittleWeebLibrary.Handlers.AnimeRuleHandler.DataBaseHandler</definition>
+        <argsstring></argsstring>
+        <name>DataBaseHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="18" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a6ad89134d97d818f3b2deebb7e2cf361" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.AnimeRuleHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="19" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1aff5df38f10696987486267a30095ad49" prot="private" static="no" mutable="no">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Handlers.AnimeRuleHandler.GlobalRules</definition>
+        <argsstring></argsstring>
+        <name>GlobalRules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="20" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a71cb7aa9d7e5df35ae28ac4fcb11a51f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.AnimeRuleHandler.AnimeRuleHandler</definition>
+        <argsstring>(IDataBaseHandler dataBaseHandler, IDebugHandler debugHandler)</argsstring>
+        <name>AnimeRuleHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler" kindref="compound">IDataBaseHandler</ref></type>
+          <declname>dataBaseHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="22" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="22" bodyend="29"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a469232c6b73d0ceff935c4ef2d78d039" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.AnimeRuleHandler.AddRules</definition>
+        <argsstring>(JObject customRules, string anime_id)</argsstring>
+        <name>AddRules</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_1ae8bcf661c81733b24b52ce3e180aeac1">AddRules</reimplements>
+        <param>
+          <type>JObject</type>
+          <declname>customRules</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>anime_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="31" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="31" bodyend="46"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a9b2223ff71f688234f95d247ea3b5739" compoundref="_data_base_handler_8cs" startline="332" endline="366">LittleWeebLibrary.Handlers.DataBaseHandler.UpdateJObject</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a0ed7b2a1d1fe30b43d06232719570435" compoundref="_info_api_web_socket_service_8cs" startline="288" endline="316">LittleWeebLibrary.Services.InfoApiWebSocketService.AddRule</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a503fb2839489e1df8b80c9a461c0fd2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.AnimeRuleHandler.FilterAnimeRules</definition>
+        <argsstring>(JObject niblData, string animeId)</argsstring>
+        <name>FilterAnimeRules</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_1ad82316c84b3b1a7870ff94107b420cc6">FilterAnimeRules</reimplements>
+        <param>
+          <type>JObject</type>
+          <declname>niblData</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="48" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="48" bodyend="150"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54" compoundref="_anime_profile_handler_8cs" startline="125" endline="299">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a721f5c5ac798ca7e81286b3f401921fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>async Task&lt;string&gt; LittleWeebLibrary.Handlers.AnimeRuleHandler.Get</definition>
+        <argsstring>(string url)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="160" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="160" bodyend="177"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a719277ca087cc0e4b46708179d62b07f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void LittleWeebLibrary.Handlers.AnimeRuleHandler.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeRuleHandler.cs" line="152" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="152" bodyend="158"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="113">
+        <label>LittleWeebLibrary.Handlers.AnimeRuleHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>IAnimeRuleHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="118">
+        <label>LittleWeebLibrary.Handlers.IDataBaseHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler"/>
+      </node>
+      <node id="115">
+        <label>LittleWeebLibrary.Handlers.AnimeRuleHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+        <childnode refid="117" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>-DataBaseHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="117">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="116">
+        <label>IAnimeRuleHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/AnimeRuleHandler.cs" line="17" column="1" bodyfile="Handlers/AnimeRuleHandler.cs" bodystart="16" bodyend="178"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a469232c6b73d0ceff935c4ef2d78d039" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>AddRules</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a71cb7aa9d7e5df35ae28ac4fcb11a51f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>AnimeRuleHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a31322132913e3f4b669e14a3e621a326" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>DataBaseHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a6ad89134d97d818f3b2deebb7e2cf361" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a503fb2839489e1df8b80c9a461c0fd2b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>FilterAnimeRules</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a721f5c5ac798ca7e81286b3f401921fb" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>Get</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1aff5df38f10696987486267a30095ad49" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>GlobalRules</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a719277ca087cc0e4b46708179d62b07f" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::AnimeRuleHandler</scope><name>Init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_currently_airing" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonCurrentlyAiring</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1ae1ec08105360df0bacaf657a57a6d0d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonCurrentlyAiring.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= new JObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonCurrentlyAiring.cs" line="11" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a0a27db3207e9fb88e8258c86481d5d0a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonCurrentlyAiring.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;anime_info_currently_airing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonCurrentlyAiring.cs" line="10" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1aede3bf8f88b0414bc723f79fd62cd0af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonCurrentlyAiring.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a330c337c9e0ddf2866a9a102ae0e9880" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonCurrentlyAiring.cs" line="12" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a17c6ec2452aff297f572ce2544c89370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonCurrentlyAiring.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonCurrentlyAiring.cs" line="31" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a5e56160f130c25bd439904d14b5bdbc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonCurrentlyAiring.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonCurrentlyAiring.cs" line="15" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="15" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aec42147d67551cb17c458453ef40f3bc" compoundref="_info_api_web_socket_service_8cs" startline="133" endline="159">LittleWeebLibrary.Services.InfoApiWebSocketService.GetCurrentlyAiring</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a330c337c9e0ddf2866a9a102ae0e9880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonCurrentlyAiring.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonCurrentlyAiring.cs" line="20" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="269">
+        <label>LittleWeebLibrary.Models.JsonCurrentlyAiring</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonCurrentlyAiring.cs" line="8" column="1" bodyfile="Models/JsonCurrentlyAiring.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1ae1ec08105360df0bacaf657a57a6d0d8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonCurrentlyAiring</scope><name>result</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a17c6ec2452aff297f572ce2544c89370" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonCurrentlyAiring</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a5e56160f130c25bd439904d14b5bdbc4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonCurrentlyAiring</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a330c337c9e0ddf2866a9a102ae0e9880" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonCurrentlyAiring</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a0a27db3207e9fb88e8258c86481d5d0a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonCurrentlyAiring</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1aede3bf8f88b0414bc723f79fd62cd0af" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonCurrentlyAiring</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload" name="LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_irc_client_handler.html#a093409b2b1397a6a061e00802546c87b" title="LittleWeebLibrary.Handlers.\lIrcClientHandler.IsDownloading" alt="" coords="267,5,467,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="515,64,707,105"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_irc_client_handler.html#a265ca021f5086addf758e87f59a0aa11" title="LittleWeebLibrary.Handlers.\lIrcClientHandler.StopDownload" alt="" coords="267,123,467,164"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_models_1_1_json_success.html#aa0e750a34606497266e5a4aedc03cdeb" title="LittleWeebLibrary.Models.\lJsonSuccess.ToJObject" alt="" coords="280,188,453,229"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0623b835bb68d5d5e1f591df6a09dd81" title="LittleWeebLibrary.Models.\lJsonError.ToJObject" alt="" coords="280,253,453,295"/>
+</map>

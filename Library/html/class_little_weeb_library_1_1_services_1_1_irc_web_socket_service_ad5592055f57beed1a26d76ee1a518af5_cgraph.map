@@ -1,0 +1,11 @@
+<map id="LittleWeebLibrary.Services.IrcWebSocketService.Connect" name="LittleWeebLibrary.Services.IrcWebSocketService.Connect">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a9304b6462a585dd9afa13818452638a7" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.Generate\lUsername" alt="" coords="256,5,469,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_web_socket_handler.html#a1de289d54d665a32c93478c68d3e6ad0" title="LittleWeebLibrary.Handlers.\lWebSocketHandler.SendMessage" alt="" coords="252,86,473,127"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="521,174,713,215"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_irc_client_handler.html#ae463832b8e9aea73f26ed6188a14d92e" title="LittleWeebLibrary.Handlers.\lIrcClientHandler.StartConnection" alt="" coords="257,203,468,245"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0e3e7dd2e2990404b7f0461742b23440" title="LittleWeebLibrary.Models.\lJsonError.ToJson" alt="" coords="276,269,449,310"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_models_1_1_json_irc_info.html#af7d4dd885c7289ca28b0147d4feb2b84" title="LittleWeebLibrary.Models.\lJsonIrcInfo.ToJson" alt="" coords="276,334,449,375"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_settings_1_1_irc_settings.html#a2e1d7f26d7d3083d19c3a9e6c6c2d0b2" title="LittleWeebLibrary.Settings.\lIrcSettings.ToString" alt="" coords="528,461,707,502"/>
+<area shape="rect" id="node9" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#ad7d5522c90119111d2e929f39e7f6d3c" title="LittleWeebLibrary.Models.\lJsonError.ToString" alt="" coords="276,465,449,506"/>
+<area shape="rect" id="node10" href="$class_little_weeb_library_1_1_handlers_1_1_settings_handler.html#ad42462e9e851301c5f5b91663dc3fe24" title="LittleWeebLibrary.Handlers.\lSettingsHandler.WriteIrcSettings" alt="" coords="257,399,468,441"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="LittleWeebLibrary.Services.DownloadWebSocketService.GetCurrentFileHistory" name="LittleWeebLibrary.Services.DownloadWebSocketService.GetCurrentFileHistory">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_file_history_handler.html#a7e5a72e2cfdc3dfe97066cc7504b4445" title="LittleWeebLibrary.Handlers.\lFileHistoryHandler.GetCurrentFile\lHistory" alt="" coords="308,95,524,151"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="869,157,1061,199"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_handlers_1_1_web_socket_handler.html#a1de289d54d665a32c93478c68d3e6ad0" title="LittleWeebLibrary.Handlers.\lWebSocketHandler.SendMessage" alt="" coords="572,227,793,268"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_data_base_handler.html#ae04312874502a18b241c1123ef963b90" title="LittleWeebLibrary.Handlers.\lDataBaseHandler.GetCollection" alt="" coords="580,59,785,100"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a7b5de7a3ecc749b655fc3ed2af55360b" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.ReadBinaryFile" alt="" coords="841,5,1089,47"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a0a86ee01a3bf201bd9cc9b2552e54976" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.Unzip" alt="" coords="869,71,1062,112"/>
+</map>

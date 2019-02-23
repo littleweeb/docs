@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_welcome" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonWelcome</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1ad8a5e8ff3eb2ced1a8fea61ce161aff6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Models.JsonWelcome.local</definition>
+        <argsstring></argsstring>
+        <name>local</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="11" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1aa19331f4dd36ccf8f06ee8f72116643b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonWelcome.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;welcome&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="9" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1ad3fc6cf68f64e870ffd7cfabf1930e87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonWelcome.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a762f38491c69ca0d0c2c17e4582a145c" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="12" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1a4ef0527a64420ba1f47304a0a3f02627" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonWelcome.welcome</definition>
+        <argsstring></argsstring>
+        <name>welcome</name>
+        <initializer>= &quot;Succesfully made connection with <ref refid="class_little_weeb_library_1_1_little_weeb" kindref="compound">LittleWeeb</ref> Back-end!&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="10" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1a964f2548a650181c962a0cf9027ba119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonWelcome.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="30" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1a5b3e7dadb2a342808c714b6277a9150d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonWelcome.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="14" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_welcome_1a762f38491c69ca0d0c2c17e4582a145c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonWelcome.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonWelcome.cs" line="19" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="315">
+        <label>LittleWeebLibrary.Models.JsonWelcome</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_welcome"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonWelcome.cs" line="8" column="1" bodyfile="Models/JsonWelcome.cs" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1ad8a5e8ff3eb2ced1a8fea61ce161aff6" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>local</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a964f2548a650181c962a0cf9027ba119" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a5b3e7dadb2a342808c714b6277a9150d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a762f38491c69ca0d0c2c17e4582a145c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1aa19331f4dd36ccf8f06ee8f72116643b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1ad3fc6cf68f64e870ffd7cfabf1930e87" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>updated</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a4ef0527a64420ba1f47304a0a3f02627" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonWelcome</scope><name>welcome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

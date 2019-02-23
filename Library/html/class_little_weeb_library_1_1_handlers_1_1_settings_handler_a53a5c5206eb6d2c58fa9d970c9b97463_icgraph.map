@@ -1,0 +1,8 @@
+<map id="LittleWeebLibrary.Handlers.SettingsHandler.GetLittleWeebSettings" name="LittleWeebLibrary.Handlers.SettingsHandler.GetLittleWeebSettings">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#a33a4c5640800b885662c686013c02971" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.Download\lWebSocketService" alt="" coords="303,5,551,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#a50cbfe4ba270c9e84b6b7b427a1b9ce0" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.GetCurrent\lLittleWeebSettings" alt="" coords="303,85,550,141"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_irc_client_handler.html#a01745667c95f2c3d5c461f708aa13bb8" title="LittleWeebLibrary.Handlers.\lIrcClientHandler.IrcClientHandler" alt="" coords="323,166,531,207"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#a3265383962fc71a18b9a6fa0c4c84797" title="LittleWeebLibrary.Services.\lIrcWebSocketService.IrcWebSocket\lService" alt="" coords="311,232,543,288"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#aa53e9a1723c0b2d607d2aa9db1991c3c" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.SetLittle\lWeebSettings" alt="" coords="311,312,543,368"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html#a39b333aee248388fd295a8511486c76e" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController.OnWebSocketEvent" alt="" coords="599,199,825,255"/>
+</map>

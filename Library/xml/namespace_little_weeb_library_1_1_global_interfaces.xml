@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library_1_1_global_interfaces" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary::GlobalInterfaces</compoundname>
+    <innerclass refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event" prot="public">LittleWeebLibrary::GlobalInterfaces::IDebugEvent</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" prot="public">LittleWeebLibrary::GlobalInterfaces::ISettingsInterface</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="GlobalInterfaces/IDebugEvent.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

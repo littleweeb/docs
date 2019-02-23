@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController" name="LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller.html" title="{ISubWebSocketController\n||+ OnWebSocketEvent()\l}" alt="" coords="5,79,176,156"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="201,57,383,178"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler.html" title="{LittleWeebLibrary.Handlers.\lIWebSocketHandler\n||+ SendMessage()\l+ StartServer()\l+ StopServer()\l}" alt="" coords="407,57,590,178"/>
+<area shape="rect" id="node5" href="$interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service.html" title="{LittleWeebLibrary.Services.\lIInfoApiWebSocketService\n||+ AddRule()\l+ GetAllCategories()\l+ GetAllGenres()\l+ GetAnimeEpisodes()\l+ GetAnimeProfile()\l+ GetBotList()\l+ GetCurrentlyAiring()\l+ GetCurrentlyAiring()\l+ GetFilesForAnime()\l+ SearchKitsu()\l}" alt="" coords="614,5,794,229"/>
+</map>

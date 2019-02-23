@@ -1,0 +1,9 @@
+<map id="LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion" name="LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_version_handler.html#a4021041fcc24a7f9489060c598222891" title="LittleWeebLibrary.Handlers.\lVersionHandler.GetLatestVersion\lAndroid" alt="" coords="318,5,533,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="587,137,779,178"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_version_handler.html#ad4dc752be10a1b3cc2d546dc1d4d6bff" title="LittleWeebLibrary.Handlers.\lVersionHandler.GetLatestVersion\lDesktop" alt="" coords="318,268,533,324"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_handlers_1_1_version_handler.html#ac2510dcad764a9c925d8da152740f095" title="LittleWeebLibrary.Handlers.\lVersionHandler.GetLocalVersion" alt="" coords="320,137,531,178"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_handlers_1_1_web_socket_handler.html#a1de289d54d665a32c93478c68d3e6ad0" title="LittleWeebLibrary.Handlers.\lWebSocketHandler.SendMessage" alt="" coords="315,202,536,243"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_models_1_1_json_version_info.html#a79b72a4b31accba79e2fbf1ca93297c4" title="LittleWeebLibrary.Models.\lJsonVersionInfo.ToJson" alt="" coords="339,349,512,390"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#afc8c716f32bc35d59afdb287be06c3ca" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.Check\lOperatingSystems" alt="" coords="584,268,781,324"/>
+</map>

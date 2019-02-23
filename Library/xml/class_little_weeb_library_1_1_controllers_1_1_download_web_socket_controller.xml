@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Controllers::DownloadWebSocketController</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.ISubWebSocketController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a0dd1bc44e7a4b9e246d4ed07f6f51c59" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Controllers.DownloadWebSocketController.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="20" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1aadc888a9484668d089275c1a7b7e9237" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service" kindref="compound">IDirectoryWebSocketService</ref></type>
+        <definition>readonly IDirectoryWebSocketService LittleWeebLibrary.Controllers.DownloadWebSocketController.DirectoryWebSocketService</definition>
+        <argsstring></argsstring>
+        <name>DirectoryWebSocketService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="19" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a980b36f961f8ebf5f2c682e6ae206aeb" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service" kindref="compound">IDownloadWebSocketService</ref></type>
+        <definition>readonly IDownloadWebSocketService LittleWeebLibrary.Controllers.DownloadWebSocketController.DownloadWebSocketService</definition>
+        <argsstring></argsstring>
+        <name>DownloadWebSocketService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="17" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a052dcf8f2c820e57f6be9d26bcbb5817" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+        <definition>readonly IWebSocketHandler LittleWeebLibrary.Controllers.DownloadWebSocketController.WebSocketHandler</definition>
+        <argsstring></argsstring>
+        <name>WebSocketHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="18" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1adb8f6706c45d35e72ffb9cca7e768605" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Controllers.DownloadWebSocketController.DownloadWebSocketController</definition>
+        <argsstring>(IWebSocketHandler webSocketHandler, IDownloadWebSocketService downloadWebSocketService, IDirectoryWebSocketService directoryWebSocketService, IDebugHandler debugHandler)</argsstring>
+        <name>DownloadWebSocketController</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+          <declname>webSocketHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service" kindref="compound">IDownloadWebSocketService</ref></type>
+          <declname>downloadWebSocketService</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service" kindref="compound">IDirectoryWebSocketService</ref></type>
+          <declname>directoryWebSocketService</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="22" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="22" bodyend="29"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</definition>
+        <argsstring>(WebSocketEventArgs args)</argsstring>
+        <name>OnWebSocketEvent</name>
+        <reimplements refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller_1adcb26b7b397d6a67ccbf114008c29985">OnWebSocketEvent</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" kindref="compound">WebSocketEventArgs</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="32" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="32" bodyend="110"/>
+        <references refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a0ab2f2e6fcb90cd42dfa0de9d6a58f7e" compoundref="_download_web_socket_service_8cs" startline="213" endline="237">LittleWeebLibrary.Services.DownloadWebSocketService.AbortDownload</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a7aaa1db63ee81a2e5246e45ef8643087" compoundref="_download_web_socket_service_8cs" startline="68" endline="116">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownload</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ad6afd5ee42650d16c67790c6d2ac80c1" compoundref="_download_web_socket_service_8cs" startline="239" endline="292">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownloads</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1adb3b1a3aadf9ad491388890e432f6c91" compoundref="_download_web_socket_service_8cs" startline="166" endline="170">LittleWeebLibrary.Services.DownloadWebSocketService.GetCurrentFileHistory</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" compoundref="_directory_web_socket_service_8cs" startline="156" endline="161">LittleWeebLibrary.Services.DirectoryWebSocketService.GetFreeSpace</references>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1ac7aee4603c5f55b11dd59de007b3a8b3" compoundref="_web_socket_event_args_8cs" startline="7" endline="7">LittleWeebLibrary.EventArguments.WebSocketEventArgs.Message</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a6f2201dd7b86f142c2e901262ea53fbe" compoundref="_download_web_socket_service_8cs" startline="172" endline="177">LittleWeebLibrary.Services.DownloadWebSocketService.Openfullfilepath</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3bc6b4176561f56b918e75527c7698d0" compoundref="_download_web_socket_service_8cs" startline="118" endline="164">LittleWeebLibrary.Services.DownloadWebSocketService.RemoveDownload</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1acf402c2f7fd4ddbf175fea7f921ea879" compoundref="_web_socket_event_args_8cs" startline="8" endline="13">LittleWeebLibrary.EventArguments.WebSocketEventArgs.ToString</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>LittleWeebLibrary.Controllers.DownloadWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>LittleWeebLibrary.Controllers.DownloadWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-DownloadWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>-WebSocketHandler</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-DirectoryWebSocketService</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+      <node id="10">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="13">
+        <label>LittleWeebLibrary.Services.IDirectoryWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service"/>
+      </node>
+      <node id="9">
+        <label>ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+      <node id="11">
+        <label>LittleWeebLibrary.Services.IDownloadWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/SubControllers/DownloadWebSocketController.cs" line="13" column="1" bodyfile="Controllers/SubControllers/DownloadWebSocketController.cs" bodystart="12" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a0dd1bc44e7a4b9e246d4ed07f6f51c59" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::DownloadWebSocketController</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1aadc888a9484668d089275c1a7b7e9237" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::DownloadWebSocketController</scope><name>DirectoryWebSocketService</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1adb8f6706c45d35e72ffb9cca7e768605" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::DownloadWebSocketController</scope><name>DownloadWebSocketController</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a980b36f961f8ebf5f2c682e6ae206aeb" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::DownloadWebSocketController</scope><name>DownloadWebSocketService</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::DownloadWebSocketController</scope><name>OnWebSocketEvent</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a052dcf8f2c820e57f6be9d26bcbb5817" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::DownloadWebSocketController</scope><name>WebSocketHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

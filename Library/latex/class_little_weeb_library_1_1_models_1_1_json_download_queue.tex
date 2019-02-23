@@ -1,0 +1,156 @@
+\hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue}{}\section{Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue Class Reference}
+\label{class_little_weeb_library_1_1_models_1_1_json_download_queue}\index{Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue@{Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_little_weeb_library_1_1_models_1_1_json_download_queue__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\+Object \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a1d77053fc493aa88857bcafd6fea4bf7}{To\+J\+Object}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0cf0692da69b7c4ab44b7983db377c64}{To\+Json}} ()
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0613fd2171f103708bdc981048f3b80c}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_adedf9349c2afaa8562acc771e4fe5829}{download\+Queue}} = new List$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}}$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_ae1c18d45b790f6d9eb3e7f80881a5717}{type}} = \char`\"{}download\+\_\+queue\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a3c74cd3356056030ff71af3892d10b03}{updated}} = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0613fd2171f103708bdc981048f3b80c}{To\+String}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Json\+Download\+Queue.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0cf0692da69b7c4ab44b7983db377c64}\label{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0cf0692da69b7c4ab44b7983db377c64}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}!To\+Json@{To\+Json}}
+\index{To\+Json@{To\+Json}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}}
+\subsubsection{\texorpdfstring{To\+Json()}{ToJson()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue.\+To\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file Json\+Download\+Queue.\+cs.
+
+
+\begin{DoxyCode}
+14         \{
+15             \textcolor{keywordflow}{return} JsonConvert.SerializeObject(\textcolor{keyword}{this});
+16         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0613fd2171f103708bdc981048f3b80c}\label{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0613fd2171f103708bdc981048f3b80c}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 18 of file Json\+Download\+Queue.\+cs.
+
+
+\begin{DoxyCode}
+19         \{
+20             JObject jobject = \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a1d77053fc493aa88857bcafd6fea4bf7}{ToJObject}}();
+21             \textcolor{keywordtype}{string} properties = \textcolor{keywordtype}{string}.Empty;
+22             \textcolor{keywordflow}{foreach} (var x \textcolor{keywordflow}{in} jobject)
+23             \{
+24                 properties += x.Key + \textcolor{stringliteral}{": "} + x.Value.ToString();
+25             \}
+26             \textcolor{keywordflow}{return} properties;
+27         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue_a1d77053fc493aa88857bcafd6fea4bf7}\label{class_little_weeb_library_1_1_models_1_1_json_download_queue_a1d77053fc493aa88857bcafd6fea4bf7}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}!To\+J\+Object@{To\+J\+Object}}
+\index{To\+J\+Object@{To\+J\+Object}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}}
+\subsubsection{\texorpdfstring{To\+J\+Object()}{ToJObject()}}
+{\footnotesize\ttfamily J\+Object Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue.\+To\+J\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file Json\+Download\+Queue.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Download(), Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Downloads(), and Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Remove\+Download().
+
+
+\begin{DoxyCode}
+30         \{
+31 
+32             JObject jobject = JObject.FromObject(\textcolor{keyword}{this});
+33             \textcolor{keywordflow}{return} jobject;
+34         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_models_1_1_json_download_queue_a1d77053fc493aa88857bcafd6fea4bf7_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue_ae1c18d45b790f6d9eb3e7f80881a5717}\label{class_little_weeb_library_1_1_models_1_1_json_download_queue_ae1c18d45b790f6d9eb3e7f80881a5717}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}!type@{type}}
+\index{type@{type}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue.\+type = \char`\"{}download\+\_\+queue\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Json\+Download\+Queue.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{stringliteral}{"download\_queue"};
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue_adedf9349c2afaa8562acc771e4fe5829}\label{class_little_weeb_library_1_1_models_1_1_json_download_queue_adedf9349c2afaa8562acc771e4fe5829}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}!download\+Queue@{download\+Queue}}
+\index{download\+Queue@{download\+Queue}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}}
+\subsubsection{\texorpdfstring{download\+Queue}{downloadQueue}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}}$>$ Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue.\+download\+Queue = new List$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}}$>$()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Json\+Download\+Queue.\+cs.
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = \textcolor{keyword}{new} List<JsonDownloadInfo>();
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_models_1_1_json_download_queue_a3c74cd3356056030ff71af3892d10b03}\label{class_little_weeb_library_1_1_models_1_1_json_download_queue_a3c74cd3356056030ff71af3892d10b03}} 
+\index{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}!updated@{updated}}
+\index{updated@{updated}!Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue@{Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}}
+\subsubsection{\texorpdfstring{updated}{updated}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue.\+updated = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{Static\+Classes.\+Utility\+Methods.\+Get\+Epoch}}().\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_queue_a0613fd2171f103708bdc981048f3b80c}{To\+String}}()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Json\+Download\+Queue.\+cs.
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \} = StaticClasses.UtilityMethods.GetEpoch().ToString();
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\mbox{\hyperlink{_json_download_queue_8cs}{Json\+Download\+Queue.\+cs}}\end{DoxyCompactItemize}

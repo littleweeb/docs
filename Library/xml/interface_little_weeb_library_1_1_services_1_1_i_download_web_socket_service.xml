@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::IDownloadWebSocketService</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.DownloadWebSocketService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a5f49ed53660e8c5253f0609e90fc839e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDownloadWebSocketService.AbortDownload</definition>
+        <argsstring>(JObject downloadJson)</argsstring>
+        <name>AbortDownload</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a0ab2f2e6fcb90cd42dfa0de9d6a58f7e">AbortDownload</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>downloadJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DownloadWebSocketService.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1ab33026e52e15229cd8fc79c7b37b76da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDownloadWebSocketService.AddDownload</definition>
+        <argsstring>(JObject downloadJson)</argsstring>
+        <name>AddDownload</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a7aaa1db63ee81a2e5246e45ef8643087">AddDownload</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>downloadJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DownloadWebSocketService.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1ad25da3bc121e428c5bcead6bd2feb8aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDownloadWebSocketService.AddDownloads</definition>
+        <argsstring>(JObject downloadJsonBatch)</argsstring>
+        <name>AddDownloads</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ad6afd5ee42650d16c67790c6d2ac80c1">AddDownloads</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>downloadJsonBatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DownloadWebSocketService.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a2a3129b4bddba363d748c5608633c083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDownloadWebSocketService.GetCurrentFileHistory</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentFileHistory</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1adb3b1a3aadf9ad491388890e432f6c91">GetCurrentFileHistory</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DownloadWebSocketService.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1aa979c5549b6523e88fd8050a684ee493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDownloadWebSocketService.Openfullfilepath</definition>
+        <argsstring>()</argsstring>
+        <name>Openfullfilepath</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a6f2201dd7b86f142c2e901262ea53fbe">Openfullfilepath</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DownloadWebSocketService.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a746432ed84ef331ea5851e645da54941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IDownloadWebSocketService.RemoveDownload</definition>
+        <argsstring>(JObject downloadJson)</argsstring>
+        <name>RemoveDownload</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3bc6b4176561f56b918e75527c7698d0">RemoveDownload</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>downloadJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DownloadWebSocketService.cs" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="369">
+        <label>LittleWeebLibrary.Services.DownloadWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>LittleWeebLibrary.Services.IDownloadWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="370">
+        <label>LittleWeebLibrary.Services.IDownloadWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/DownloadWebSocketService.cs" line="14" column="1" bodyfile="Services/DownloadWebSocketService.cs" bodystart="13" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a5f49ed53660e8c5253f0609e90fc839e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDownloadWebSocketService</scope><name>AbortDownload</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1ab33026e52e15229cd8fc79c7b37b76da" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDownloadWebSocketService</scope><name>AddDownload</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1ad25da3bc121e428c5bcead6bd2feb8aa" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDownloadWebSocketService</scope><name>AddDownloads</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a2a3129b4bddba363d748c5608633c083" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDownloadWebSocketService</scope><name>GetCurrentFileHistory</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1aa979c5549b6523e88fd8050a684ee493" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDownloadWebSocketService</scope><name>Openfullfilepath</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a746432ed84ef331ea5851e645da54941" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IDownloadWebSocketService</scope><name>RemoveDownload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

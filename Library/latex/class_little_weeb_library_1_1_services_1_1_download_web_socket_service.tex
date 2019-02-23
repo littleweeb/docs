@@ -1,0 +1,794 @@
+\hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service}{}\section{Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service Class Reference}
+\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service}\index{Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a33a4c5640800b885662c686013c02971}{Download\+Web\+Socket\+Service}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} web\+Socket\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}} directory\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}} download\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}} file\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}} file\+History\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} settings\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0ab2f2e6fcb90cd42dfa0de9d6a58f7e}{Abort\+Download}} (J\+Object download\+Json)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a7aaa1db63ee81a2e5246e45ef8643087}{Add\+Download}} (J\+Object download\+Json)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ad6afd5ee42650d16c67790c6d2ac80c1}{Add\+Downloads}} (J\+Object download\+Json\+Batch)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_adb3b1a3aadf9ad491388890e432f6c91}{Get\+Current\+File\+History}} ()
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a6f2201dd7b86f142c2e901262ea53fbe}{Openfullfilepath}} ()
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3bc6b4176561f56b918e75527c7698d0}{Remove\+Download}} (J\+Object download\+Json)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac692e2804ac253cc2ceac79d88a2e191}{Set\+Irc\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} settings)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a4b1d1eda437419a534bb4ee17ed26d4f}{Set\+Little\+Weeb\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} settings)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async void \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3111908b7f7a133a80ab6ec3e81cdcbf}{On\+Download\+Update\+Event}} (object sender, \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args}{Download\+Update\+Event\+Args}} args)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa2867169f31006090f3ded5808b49351}{Debug\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0d34a33ab918c08f494545e1d385d7b3}{Directory\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac09ca28727dcc3745e95fe2b86ee294a}{Download\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_abd0a718117fa603834e5f34632bd548f}{File\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_acc2dbe849dfcdb92fcc803da2b7445dc}{File\+History\+Handler}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a421f39d24ab41a68e80f5a21b85762be}{Irc\+Settings}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a541fd25204120f3ee2b7f70deae533ce}{Last\+Downloaded\+Info}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a8b20d5387706e9308ef419d59a5a6fc4}{Little\+Weeb\+Settings}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa644e53f3584b83d3e51d0930ddebb83}{Settings\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa3ddd7bb317d9accdf88c650b5388f8f}{Web\+Socket\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 22 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a33a4c5640800b885662c686013c02971}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a33a4c5640800b885662c686013c02971}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Download\+Web\+Socket\+Service@{Download\+Web\+Socket\+Service}}
+\index{Download\+Web\+Socket\+Service@{Download\+Web\+Socket\+Service}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Download\+Web\+Socket\+Service()}{DownloadWebSocketService()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Download\+Web\+Socket\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}}}]{web\+Socket\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}}}]{directory\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}}}]{download\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}}}]{file\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}}}]{file\+History\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}}}]{settings\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Get\+Irc\+Settings(), Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler.\+Get\+Little\+Weeb\+Settings(), Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler.\+On\+Download\+Update\+Event, and Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+47         \{
+48             
+49 
+50             debugHandler.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Constructor called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+51 
+52             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}} = debugHandler;
+53             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}} = webSocketHandler;
+54             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}} = directoryHandler;
+55             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}} = downloadHandler;
+56             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler}{FileHandler}} = fileHandler;
+57             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler}{FileHistoryHandler}} = fileHistoryHandler;
+58             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_settings_handler}{SettingsHandler}} = settingsHandler;
+59             \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a541fd25204120f3ee2b7f70deae533ce}{LastDownloadedInfo}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{JsonDownloadInfo}}();
+60 
+61             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_settings_handler}{SettingsHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_settings_handler_a53a5c5206eb6d2c58fa9d970c9b97463}{GetLittleWeebSettings}}();
+62             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}} = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_settings_handler}{SettingsHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_settings_handler_a22195b5d1df129295e0e30298611bdba}{GetIrcSettings}}();
+63 
+64 
+65             downloadHandler.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_ab1d80f17c3714758e3a605adddfe68ef}{OnDownloadUpdateEvent}} += 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3111908b7f7a133a80ab6ec3e81cdcbf}{OnDownloadUpdateEvent}};
+66         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a33a4c5640800b885662c686013c02971_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a7aaa1db63ee81a2e5246e45ef8643087}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a7aaa1db63ee81a2e5246e45ef8643087}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Add\+Download@{Add\+Download}}
+\index{Add\+Download@{Add\+Download}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Add\+Download()}{AddDownload()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Add\+Download (\begin{DoxyParamCaption}\item[{J\+Object}]{download\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_ab33026e52e15229cd8fc79c7b37b76da}{Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 68 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Download(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+69         \{
+70 
+71             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"AddDownload called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+72             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(downloadJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+73                     
+74             \textcolor{keywordflow}{try}
+75             \{
+76                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{JsonDownloadInfo}} downloadInfo = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{JsonDownloadInfo}}()
+77                 \{
+78 
+79                     anime\_id = downloadJson.Value<JObject>(\textcolor{stringliteral}{"animeInfo"}).Value<string>(\textcolor{stringliteral}{"animeid"}),
+80                     anime\_name = downloadJson.Value<JObject>(\textcolor{stringliteral}{"animeInfo"}).Value<string>(\textcolor{stringliteral}{"title"}),
+81                     \textcolor{keywordtype}{id} = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"}),
+82                     episodeNumber = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"episodeNumber"}),
+83                     season = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"season"}),
+84                     pack = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"pack"}),
+85                     bot = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"bot"}),
+86                     fullfilepath= downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"dir"}),
+87                     filename = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"filename"}),
+88                     progress = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"progress"}),
+89                     speed = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"speed"}),
+90                     status = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}),
+91                     filesize = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"filesize"})
+92                 \};
+93 
+94                 \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a541fd25204120f3ee2b7f70deae533ce}{LastDownloadedInfo}} = downloadInfo;
+95 
+96                 JObject result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_ad28cb47c19cac5e761ceff86ea021a02}{AddDownload}}(downloadInfo);
+97 
+98                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result.ToString());
+99             \}
+100             \textcolor{keywordflow}{catch} (Exception e)
+101             \{
+102 
+103                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+104               
+105                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+106                 \{
+107                     type = \textcolor{stringliteral}{"parse\_download\_to\_add\_error"},
+108                     errormessage = \textcolor{stringliteral}{"Could not parse json containing download to add information."},
+109                     errortype = \textcolor{stringliteral}{"exception"},
+110                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+111                 \};
+112 
+113 
+114                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+115             \}
+116         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a7aaa1db63ee81a2e5246e45ef8643087_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a7aaa1db63ee81a2e5246e45ef8643087_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3bc6b4176561f56b918e75527c7698d0}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3bc6b4176561f56b918e75527c7698d0}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Remove\+Download@{Remove\+Download}}
+\index{Remove\+Download@{Remove\+Download}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Remove\+Download()}{RemoveDownload()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Remove\+Download (\begin{DoxyParamCaption}\item[{J\+Object}]{download\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_a746432ed84ef331ea5851e645da54941}{Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 118 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Remove\+Download(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+119         \{
+120 
+121             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"RemoveDownload called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+122             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(downloadJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+123 
+124             \textcolor{keywordflow}{try}
+125             \{
+126                 \textcolor{keywordtype}{string} \textcolor{keywordtype}{id} = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"});
+127                 \textcolor{keywordtype}{string} filePath = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+128                 JObject result = \textcolor{keyword}{new} JObject();
+129                 \textcolor{keywordflow}{if} (\textcolor{keywordtype}{id} != null)
+130                 \{
+131                     result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_aac22841386d098daef366cbe05262187}{RemoveDownload}}(\textcolor{keywordtype}{id});
+132                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result.ToString());
+133                 \}
+134                 \textcolor{keywordflow}{else}
+135                 \{
+136                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+137                     \{
+138                         type = \textcolor{stringliteral}{"parse\_download\_to\_remove\_error"},
+139                         errormessage = \textcolor{stringliteral}{"Neither id or file path have been defined!"},
+140                         errortype = \textcolor{stringliteral}{"warning"},
+141                         exception = \textcolor{stringliteral}{"none"}
+142                     \};
+143                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+144                 \}
+145 
+146 
+147             \}
+148             \textcolor{keywordflow}{catch} (Exception e)
+149             \{
+150                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+151 
+152                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+153                 \{
+154                     type = \textcolor{stringliteral}{"parse\_download\_to\_remove\_error"},
+155                     errormessage = \textcolor{stringliteral}{"Could not parse json containing download to remove information."},
+156                     errortype = \textcolor{stringliteral}{"exception"},
+157                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+158                 \};
+159 
+160 
+161                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+162             \}
+163 
+164         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3bc6b4176561f56b918e75527c7698d0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3bc6b4176561f56b918e75527c7698d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_adb3b1a3aadf9ad491388890e432f6c91}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_adb3b1a3aadf9ad491388890e432f6c91}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Get\+Current\+File\+History@{Get\+Current\+File\+History}}
+\index{Get\+Current\+File\+History@{Get\+Current\+File\+History}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Get\+Current\+File\+History()}{GetCurrentFileHistory()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Get\+Current\+File\+History (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_a2a3129b4bddba363d748c5608633c083}{Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 166 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Get\+Current\+File\+History(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+167         \{
+168             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"GetCurrentFileHistory called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+169             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler}{FileHistoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a7e5a72e2cfdc3dfe97066cc7504b4445}{GetCurrentFileHistory}}().ToString());
+170         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_adb3b1a3aadf9ad491388890e432f6c91_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_adb3b1a3aadf9ad491388890e432f6c91_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a6f2201dd7b86f142c2e901262ea53fbe}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a6f2201dd7b86f142c2e901262ea53fbe}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Openfullfilepath@{Openfullfilepath}}
+\index{Openfullfilepath@{Openfullfilepath}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Openfullfilepath()}{Openfullfilepath()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Openfullfilepath (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_aa979c5549b6523e88fd8050a684ee493}{Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 172 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+fullfilepath, Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Open\+Directory(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+173         \{
+174             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Openfullfilepath called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+175             \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a4f3f5841ead561873cc5130efc6294aa}{OpenDirectory}}(
+      \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}{fullfilepath}});
+176             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+177         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a6f2201dd7b86f142c2e901262ea53fbe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a6f2201dd7b86f142c2e901262ea53fbe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3111908b7f7a133a80ab6ec3e81cdcbf}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3111908b7f7a133a80ab6ec3e81cdcbf}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!On\+Download\+Update\+Event@{On\+Download\+Update\+Event}}
+\index{On\+Download\+Update\+Event@{On\+Download\+Update\+Event}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{On\+Download\+Update\+Event()}{OnDownloadUpdateEvent()}}
+{\footnotesize\ttfamily async void Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+On\+Download\+Update\+Event (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args}{Download\+Update\+Event\+Args}}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 179 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Event\+Arguments.\+Download\+Update\+Event\+Args.\+download\+Info, Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info.\+status, Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info.\+To\+Json(), Little\+Weeb\+Library.\+Event\+Arguments.\+Download\+Update\+Event\+Args.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+180         \{
+181             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"OnDownloadUpdateEvent called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+182             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(args.\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_ac81037572c354a14f1d35b654ac24b5a}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+183 
+184             \textcolor{keywordflow}{try}
+185             \{
+186                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(args.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_a6f920facf63fcef57167ccf645ed42bf}{downloadInfo}}.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info_a3fd450e7e2de8b9a936ba3b2cbeeaccb}{ToJson}}());
+187 
+188                 \textcolor{keywordflow}{if} (args.\mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_a6f920facf63fcef57167ccf645ed42bf}{downloadInfo}}.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info_ad948c6047f25fbd7f34cfdd53541ce5c}{status}} == \textcolor{stringliteral}{"COMPLETED"})
+189                 \{
+190                     await \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_adb3b1a3aadf9ad491388890e432f6c91}{GetCurrentFileHistory}}();
+191                 \}
+192             \}
+193             \textcolor{keywordflow}{catch} (Exception e)
+194             \{
+195                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+196             \}
+197         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a3111908b7f7a133a80ab6ec3e81cdcbf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac692e2804ac253cc2ceac79d88a2e191}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac692e2804ac253cc2ceac79d88a2e191}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Set\+Irc\+Settings@{Set\+Irc\+Settings}}
+\index{Set\+Irc\+Settings@{Set\+Irc\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Set\+Irc\+Settings()}{SetIrcSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Set\+Irc\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a9ddf06e247a96d757482b37ddb070e3d}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 199 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+200         \{
+201             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"SetIrcSettings called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+202             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+203             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}} = settings;
+204         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac692e2804ac253cc2ceac79d88a2e191_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a4b1d1eda437419a534bb4ee17ed26d4f}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a4b1d1eda437419a534bb4ee17ed26d4f}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}}
+\index{Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Set\+Little\+Weeb\+Settings()}{SetLittleWeebSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a5c53e44105f1f4c7f8c3e546d29939d7}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 206 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+207         \{
+208             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"SetLittleWeebSettings called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+209             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+210             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = settings;
+211         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a4b1d1eda437419a534bb4ee17ed26d4f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0ab2f2e6fcb90cd42dfa0de9d6a58f7e}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0ab2f2e6fcb90cd42dfa0de9d6a58f7e}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Abort\+Download@{Abort\+Download}}
+\index{Abort\+Download@{Abort\+Download}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Abort\+Download()}{AbortDownload()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Abort\+Download (\begin{DoxyParamCaption}\item[{J\+Object}]{download\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_a5f49ed53660e8c5253f0609e90fc839e}{Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 213 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Abort\+Download(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+214         \{
+215             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"AbortDownload called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+216             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(downloadJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+217             \textcolor{keywordtype}{string} \textcolor{keywordtype}{id} = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"});
+218             \textcolor{keywordtype}{string} filePath = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+219             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{id} != null)
+220             \{
+221 
+222                 JObject result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_a5a28664c89bf43b921fc9d3f1845b5a1}{AbortDownload}}(\textcolor{keywordtype}{id});
+223                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result.ToString());
+224             \}
+225             \textcolor{keywordflow}{else}
+226             \{
+227                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Neither id or file path have been
+       defined!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+228                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+229                 \{
+230                     type = \textcolor{stringliteral}{"parse\_download\_to\_abort\_error"},
+231                     errormessage = \textcolor{stringliteral}{"Neither id or file path have been defined!"},
+232                     errortype = \textcolor{stringliteral}{"warning"},
+233                     exception = \textcolor{stringliteral}{"none"}
+234                 \};
+235                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+236             \}
+237         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0ab2f2e6fcb90cd42dfa0de9d6a58f7e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0ab2f2e6fcb90cd42dfa0de9d6a58f7e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ad6afd5ee42650d16c67790c6d2ac80c1}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ad6afd5ee42650d16c67790c6d2ac80c1}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Add\+Downloads@{Add\+Downloads}}
+\index{Add\+Downloads@{Add\+Downloads}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Add\+Downloads()}{AddDownloads()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Add\+Downloads (\begin{DoxyParamCaption}\item[{J\+Object}]{download\+Json\+Batch }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_ad25da3bc121e428c5bcead6bd2feb8aa}{Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 239 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Add\+Downloads(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+240         \{
+241             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"AddDownloads called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+242             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(downloadJsonBatch.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);         
+243 
+244             \textcolor{keywordflow}{try}
+245             \{
+246 
+247                 JArray listWithDownloads = downloadJsonBatch.Value<JArray>(\textcolor{stringliteral}{"batch"});
+248 
+249                 List<JsonDownloadInfo> batch = \textcolor{keyword}{new} List<JsonDownloadInfo>();
+250 
+251                 \textcolor{keywordflow}{foreach} (JObject downloadJson \textcolor{keywordflow}{in} listWithDownloads)
+252                 \{
+253                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{JsonDownloadInfo}} downloadInfo = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{JsonDownloadInfo}}()
+254                     \{
+255 
+256                         anime\_id = downloadJson.Value<JObject>(\textcolor{stringliteral}{"animeInfo"}).Value<string>(\textcolor{stringliteral}{"animeid"}),
+257                         anime\_name = downloadJson.Value<JObject>(\textcolor{stringliteral}{"animeInfo"}).Value<string>(\textcolor{stringliteral}{"title"}),
+258                         \textcolor{keywordtype}{id} = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"id"}),
+259                         episodeNumber = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"episodeNumber"}),
+260                         season = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"season"}),
+261                         pack = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"pack"}),
+262                         bot = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"bot"}),
+263                         filename = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"filename"}),
+264                         progress = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"progress"}),
+265                         speed = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"speed"}),
+266                         status = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}),
+267                         filesize = downloadJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"filesize"})
+268                     \};
+269 
+270                     \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a541fd25204120f3ee2b7f70deae533ce}{LastDownloadedInfo}} = downloadInfo;
+271                     batch.Add(downloadInfo);
+272                 \}
+273                 
+274                 JObject result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_ac03f2dc024c0884bb7bd1c68ee03142e}{AddDownloads}}(batch);
+275 
+276                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result.ToString());
+277             \}
+278             \textcolor{keywordflow}{catch} (Exception e)
+279             \{
+280                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+281 
+282                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+283                 \{
+284                     type = \textcolor{stringliteral}{"parse\_downloads\_to\_add\_error"},
+285                     errormessage = \textcolor{stringliteral}{"Could not parse json containing downloads to add information."},
+286                     errortype = \textcolor{stringliteral}{"exception"},
+287                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+288                 \};
+289 
+290                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+291             \}
+292         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ad6afd5ee42650d16c67790c6d2ac80c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ad6afd5ee42650d16c67790c6d2ac80c1_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa3ddd7bb317d9accdf88c650b5388f8f}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa3ddd7bb317d9accdf88c650b5388f8f}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Web\+Socket\+Handler@{Web\+Socket\+Handler}}
+\index{Web\+Socket\+Handler@{Web\+Socket\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Web\+Socket\+Handler}{WebSocketHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Web\+Socket\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 25 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0d34a33ab918c08f494545e1d385d7b3}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a0d34a33ab918c08f494545e1d385d7b3}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Directory\+Handler@{Directory\+Handler}}
+\index{Directory\+Handler@{Directory\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Directory\+Handler}{DirectoryHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Directory\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 26 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac09ca28727dcc3745e95fe2b86ee294a}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_ac09ca28727dcc3745e95fe2b86ee294a}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Download\+Handler@{Download\+Handler}}
+\index{Download\+Handler@{Download\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Download\+Handler}{DownloadHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Download\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 27 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_acc2dbe849dfcdb92fcc803da2b7445dc}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_acc2dbe849dfcdb92fcc803da2b7445dc}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!File\+History\+Handler@{File\+History\+Handler}}
+\index{File\+History\+Handler@{File\+History\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{File\+History\+Handler}{FileHistoryHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+File\+History\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_abd0a718117fa603834e5f34632bd548f}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_abd0a718117fa603834e5f34632bd548f}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!File\+Handler@{File\+Handler}}
+\index{File\+Handler@{File\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{File\+Handler}{FileHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+File\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa644e53f3584b83d3e51d0930ddebb83}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa644e53f3584b83d3e51d0930ddebb83}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Settings\+Handler@{Settings\+Handler}}
+\index{Settings\+Handler@{Settings\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Settings\+Handler}{SettingsHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler}{I\+Settings\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Settings\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 30 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa2867169f31006090f3ded5808b49351}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_aa2867169f31006090f3ded5808b49351}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 31 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a8b20d5387706e9308ef419d59a5a6fc4}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a8b20d5387706e9308ef419d59a5a6fc4}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Little\+Weeb\+Settings@{Little\+Weeb\+Settings}}
+\index{Little\+Weeb\+Settings@{Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Little\+Weeb\+Settings}{LittleWeebSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Little\+Weeb\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 32 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a421f39d24ab41a68e80f5a21b85762be}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a421f39d24ab41a68e80f5a21b85762be}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Irc\+Settings@{Irc\+Settings}}
+\index{Irc\+Settings@{Irc\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Irc\+Settings}{IrcSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Irc\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 33 of file Download\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a541fd25204120f3ee2b7f70deae533ce}\label{class_little_weeb_library_1_1_services_1_1_download_web_socket_service_a541fd25204120f3ee2b7f70deae533ce}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}!Last\+Downloaded\+Info@{Last\+Downloaded\+Info}}
+\index{Last\+Downloaded\+Info@{Last\+Downloaded\+Info}!Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Last\+Downloaded\+Info}{LastDownloadedInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_download_info}{Json\+Download\+Info}} Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Last\+Downloaded\+Info\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 35 of file Download\+Web\+Socket\+Service.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\mbox{\hyperlink{_download_web_socket_service_8cs}{Download\+Web\+Socket\+Service.\+cs}}\end{DoxyCompactItemize}

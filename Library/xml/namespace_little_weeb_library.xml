@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_little_weeb" prot="public">LittleWeebLibrary::LittleWeeb</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_start_up" prot="public">LittleWeebLibrary::StartUp</innerclass>
+    <innernamespace refid="namespace_little_weeb_library_1_1_controllers">LittleWeebLibrary::Controllers</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_event_arguments">LittleWeebLibrary::EventArguments</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_global_interfaces">LittleWeebLibrary::GlobalInterfaces</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_handlers">LittleWeebLibrary::Handlers</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_models">LittleWeebLibrary::Models</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_properties">LittleWeebLibrary::Properties</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_services">LittleWeebLibrary::Services</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_settings">LittleWeebLibrary::Settings</innernamespace>
+    <innernamespace refid="namespace_little_weeb_library_1_1_static_classes">LittleWeebLibrary::StaticClasses</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

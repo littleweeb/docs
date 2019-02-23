@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonKistuCategories</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a9060b93b9300d3a6508ccd8c3bf34cd1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JArray</type>
+        <definition>JArray LittleWeebLibrary.Models.JsonKistuCategories.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= new JArray()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuCategories.cs" line="11" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a0f0d3599277419092a6127c8c66849e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonKistuCategories.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;kitsu_categories&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuCategories.cs" line="10" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a6ffcd8f9641f421eec961847365f5cb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonKistuCategories.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1af972fa0332070ba294c5117b95836aa4" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuCategories.cs" line="12" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1aa4fa8f73a8a500c0ee4238329c2dd8f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonKistuCategories.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuCategories.cs" line="30" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="30" bodyend="35"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1aaab94c1dc228770f7bf0b66f4a47fd54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonKistuCategories.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuCategories.cs" line="14" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="14" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1af972fa0332070ba294c5117b95836aa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonKistuCategories.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuCategories.cs" line="19" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="295">
+        <label>LittleWeebLibrary.Models.JsonKistuCategories</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonKitsuCategories.cs" line="9" column="1" bodyfile="Models/JsonKitsuCategories.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a9060b93b9300d3a6508ccd8c3bf34cd1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuCategories</scope><name>result</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1aa4fa8f73a8a500c0ee4238329c2dd8f8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuCategories</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1aaab94c1dc228770f7bf0b66f4a47fd54" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuCategories</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1af972fa0332070ba294c5117b95836aa4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuCategories</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a0f0d3599277419092a6127c8c66849e0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuCategories</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a6ffcd8f9641f421eec961847365f5cb2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuCategories</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

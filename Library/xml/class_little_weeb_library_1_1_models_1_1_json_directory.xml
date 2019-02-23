@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_directory" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonDirectory</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_directory_1a85ca592b7c664bc94b3d1619e6c6beef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDirectory.dirname</definition>
+        <argsstring></argsstring>
+        <name>dirname</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="11" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_directory_1a7bd33103cb444da0436a3369edcffa19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDirectory.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="12" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_directory_1ac6178c963cbe9e15834066ed048fc1d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDirectory.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;directory&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="10" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_directory_1aa6ff9e2e4fabee594670b7cd93fa2c69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDirectory.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a8fb3f3abbc3d89fa3a3fc6f7966fc4f9" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="13" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_directory_1ab50f54381142e811a8a1289d4b5e83e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDirectory.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="31" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_directory_1a3527cf5cff598f63b5f95cf7d6158b55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDirectory.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="15" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="15" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" compoundref="_directory_handler_8cs" startline="114" endline="155">LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_directory_1a8fb3f3abbc3d89fa3a3fc6f7966fc4f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonDirectory.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDirectory.cs" line="20" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="277">
+        <label>LittleWeebLibrary.Models.JsonDirectory</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_directory"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonDirectory.cs" line="9" column="1" bodyfile="Models/JsonDirectory.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a85ca592b7c664bc94b3d1619e6c6beef" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>dirname</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a7bd33103cb444da0436a3369edcffa19" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>path</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1ab50f54381142e811a8a1289d4b5e83e7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a3527cf5cff598f63b5f95cf7d6158b55" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a8fb3f3abbc3d89fa3a3fc6f7966fc4f9" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1ac6178c963cbe9e15834066ed048fc1d9" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1aa6ff9e2e4fabee594670b7cd93fa2c69" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDirectory</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_download_queue" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonDownloadQueue</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_queue_1adedf9349c2afaa8562acc771e4fe5829" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_download_info" kindref="compound">JsonDownloadInfo</ref> &gt;</type>
+        <definition>List&lt;JsonDownloadInfo&gt; LittleWeebLibrary.Models.JsonDownloadQueue.downloadQueue</definition>
+        <argsstring></argsstring>
+        <name>downloadQueue</name>
+        <initializer>= new List&lt;<ref refid="class_little_weeb_library_1_1_models_1_1_json_download_info" kindref="compound">JsonDownloadInfo</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadQueue.cs" line="11" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_queue_1ae1c18d45b790f6d9eb3e7f80881a5717" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadQueue.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;download_queue&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadQueue.cs" line="10" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a3c74cd3356056030ff71af3892d10b03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadQueue.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0613fd2171f103708bdc981048f3b80c" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadQueue.cs" line="12" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a1d77053fc493aa88857bcafd6fea4bf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDownloadQueue.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadQueue.cs" line="29" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="29" bodyend="34"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" compoundref="_download_handler_8cs" startline="143" endline="222">LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0cf0692da69b7c4ab44b7983db377c64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadQueue.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadQueue.cs" line="13" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0613fd2171f103708bdc981048f3b80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonDownloadQueue.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadQueue.cs" line="18" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="18" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="285">
+        <label>LittleWeebLibrary.Models.JsonDownloadQueue</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_download_queue"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonDownloadQueue.cs" line="9" column="1" bodyfile="Models/JsonDownloadQueue.cs" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1adedf9349c2afaa8562acc771e4fe5829" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadQueue</scope><name>downloadQueue</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a1d77053fc493aa88857bcafd6fea4bf7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadQueue</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0cf0692da69b7c4ab44b7983db377c64" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadQueue</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0613fd2171f103708bdc981048f3b80c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadQueue</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1ae1c18d45b790f6d9eb3e7f80881a5717" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadQueue</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a3c74cd3356056030ff71af3892d10b03" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadQueue</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

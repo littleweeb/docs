@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.AnimeRuleHandler.AddRules" name="LittleWeebLibrary.Handlers.AnimeRuleHandler.AddRules">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a0ed7b2a1d1fe30b43d06232719570435" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.AddRule" alt="" coords="243,13,467,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="515,5,792,61"/>
+</map>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a89968e57254aa26cf1d41fa7a967ec61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs.Channel</definition>
+        <argsstring></argsstring>
+        <name>Channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientMessageEventArgs.cs" line="9" column="1" bodyfile="EventArguments/IrcClientMessageEventArgs.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ad97947bcce5bebd851bef6e29fecb467" compoundref="_irc_client_handler_8cs" startline="276" endline="290">LittleWeebLibrary.Handlers.IrcClientHandler.OnMessage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a00af672ceae9da43c1bcff12049fd78d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientMessageEventArgs.cs" line="7" column="1" bodyfile="EventArguments/IrcClientMessageEventArgs.cs" bodystart="7" bodyend="7"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a93a50eb157a99b2b315ecb2439cc64db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientMessageEventArgs.cs" line="8" column="1" bodyfile="EventArguments/IrcClientMessageEventArgs.cs" bodystart="8" bodyend="8"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a0b8df2a044d27dec2dd963e978311be4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientMessageEventArgs.cs" line="10" column="1" bodyfile="EventArguments/IrcClientMessageEventArgs.cs" bodystart="10" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ad97947bcce5bebd851bef6e29fecb467" compoundref="_irc_client_handler_8cs" startline="276" endline="290">LittleWeebLibrary.Handlers.IrcClientHandler.OnMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="90">
+        <label>LittleWeebLibrary.EventArguments.IrcClientMessageEventArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args"/>
+      </node>
+    </collaborationgraph>
+    <location file="EventArguments/IrcClientMessageEventArgs.cs" line="6" column="1" bodyfile="EventArguments/IrcClientMessageEventArgs.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a89968e57254aa26cf1d41fa7a967ec61" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</scope><name>Channel</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a00af672ceae9da43c1bcff12049fd78d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</scope><name>Message</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a0b8df2a044d27dec2dd963e978311be4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a93a50eb157a99b2b315ecb2439cc64db" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

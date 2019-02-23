@@ -1,0 +1,134 @@
+\hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler Interface Reference}
+\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}\index{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ J\+Array $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a33ee83202d229f44d3839af7c1b65df0}{Get\+Collection}} (string collection)
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{Get\+J\+Object}} (string collection, string id)
+\item 
+Task$<$ J\+Object $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a9d9a8fc06ab8431daa5363becf79cf65}{Get\+J\+Object}} (string collection, string property, string value)
+\item 
+Task$<$ bool $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a76b8da1f75749b16e095dc3d635cebdf}{Remove\+J\+Object}} (string collection, string property, string value)
+\item 
+Task$<$ bool $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a4d78b21102490d85906d0eb3f4693227}{Remove\+J\+Object}} (string collection, string id=\char`\"{}\char`\"{})
+\item 
+Task$<$ bool $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{Store\+J\+Object}} (string collection, J\+Object to\+Store, string id=\char`\"{}\char`\"{})
+\item 
+Task$<$ bool $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{Update\+J\+Object}} (string collection, J\+Object to\+Update, string property, string value, bool overwrite=false)
+\item 
+Task$<$ bool $>$ \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a30fbd69419ce902612a3c323b451f3fa}{Update\+J\+Object}} (string collection, J\+Object to\+Update, string id=\char`\"{}\char`\"{}, bool overwrite=false)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file Data\+Base\+Handler.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a33ee83202d229f44d3839af7c1b65df0}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a33ee83202d229f44d3839af7c1b65df0}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Get\+Collection@{Get\+Collection}}
+\index{Get\+Collection@{Get\+Collection}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Collection()}{GetCollection()}}
+{\footnotesize\ttfamily Task$<$J\+Array$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Get\+Collection (\begin{DoxyParamCaption}\item[{string}]{collection }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae04312874502a18b241c1123ef963b90}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Get\+J\+Object@{Get\+J\+Object}}
+\index{Get\+J\+Object@{Get\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+J\+Object()}{GetJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Get\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7f61583807f99b7838a33d2db0f7ca68}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a9d9a8fc06ab8431daa5363becf79cf65}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a9d9a8fc06ab8431daa5363becf79cf65}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Get\+J\+Object@{Get\+J\+Object}}
+\index{Get\+J\+Object@{Get\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+J\+Object()}{GetJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Get\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{property,  }\item[{string}]{value }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a4d7ed521cd4bedc0d650bc01afc67587}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Store\+J\+Object@{Store\+J\+Object}}
+\index{Store\+J\+Object@{Store\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Store\+J\+Object()}{StoreJObject()}}
+{\footnotesize\ttfamily Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Store\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{J\+Object}]{to\+Store,  }\item[{string}]{id = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a5e6a70ef81b049da46b6ae3a15b09cd3}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Update\+J\+Object@{Update\+J\+Object}}
+\index{Update\+J\+Object@{Update\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Update\+J\+Object()}{UpdateJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Update\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{J\+Object}]{to\+Update,  }\item[{string}]{property,  }\item[{string}]{value,  }\item[{bool}]{overwrite = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ae1bd1078fc9253555322dc0609c49863}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a30fbd69419ce902612a3c323b451f3fa}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a30fbd69419ce902612a3c323b451f3fa}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Update\+J\+Object@{Update\+J\+Object}}
+\index{Update\+J\+Object@{Update\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Update\+J\+Object()}{UpdateJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Update\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{J\+Object}]{to\+Update,  }\item[{string}]{id = {\ttfamily \char`\"{}\char`\"{}},  }\item[{bool}]{overwrite = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a9b2223ff71f688234f95d247ea3b5739}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a76b8da1f75749b16e095dc3d635cebdf}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a76b8da1f75749b16e095dc3d635cebdf}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Remove\+J\+Object@{Remove\+J\+Object}}
+\index{Remove\+J\+Object@{Remove\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Remove\+J\+Object()}{RemoveJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Remove\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{property,  }\item[{string}]{value }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_ac9938b8d47b353d15c8e77e94849896e}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+\mbox{\Hypertarget{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a4d78b21102490d85906d0eb3f4693227}\label{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a4d78b21102490d85906d0eb3f4693227}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}!Remove\+J\+Object@{Remove\+J\+Object}}
+\index{Remove\+J\+Object@{Remove\+J\+Object}!Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Remove\+J\+Object()}{RemoveJObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Task$<$bool$>$ Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler.\+Remove\+J\+Object (\begin{DoxyParamCaption}\item[{string}]{collection,  }\item[{string}]{id = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_data_base_handler_a7821535a003c7675c09ba846bd9502ca}{Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_data_base_handler_8cs}{Data\+Base\+Handler.\+cs}}\end{DoxyCompactItemize}

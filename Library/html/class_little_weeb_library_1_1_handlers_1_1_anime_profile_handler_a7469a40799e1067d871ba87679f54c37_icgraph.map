@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring" name="LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#aec42147d67551cb17c458453ef40f3bc" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetCurrently\lAiring" alt="" coords="269,5,517,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="565,5,843,61"/>
+</map>

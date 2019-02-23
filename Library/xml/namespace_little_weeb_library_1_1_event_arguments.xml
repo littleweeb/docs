@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library_1_1_event_arguments" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary::EventArguments</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args" prot="public">LittleWeebLibrary::EventArguments::BaseDebugArgs</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args" prot="public">LittleWeebLibrary::EventArguments::DownloadUpdateEventArgs</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_file_handler_debug_event_args" prot="public">LittleWeebLibrary::EventArguments::FileHandlerDebugEventArgs</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args" prot="public">LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args" prot="public">LittleWeebLibrary::EventArguments::IrcClientDownloadEventArgs</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" prot="public">LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" prot="public">LittleWeebLibrary::EventArguments::WebSocketEventArgs</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

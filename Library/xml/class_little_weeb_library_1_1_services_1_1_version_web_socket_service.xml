@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_services_1_1_version_web_socket_service" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::VersionWebSocketService</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.IVersionWebSocketService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1a13ed681e1a924276595a18a6124028e5" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>IDebugHandler LittleWeebLibrary.Services.VersionWebSocketService.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/VersionWebSocketService.cs" line="26" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1ad2e1ecbf8218654adfe288d1a84196dd" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler" kindref="compound">IVersionHandler</ref></type>
+        <definition>IVersionHandler LittleWeebLibrary.Services.VersionWebSocketService.VersionHandler</definition>
+        <argsstring></argsstring>
+        <name>VersionHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/VersionWebSocketService.cs" line="24" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1a6f8cb312585ce76dace5c81772d5a0b1" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+        <definition>IWebSocketHandler LittleWeebLibrary.Services.VersionWebSocketService.WebSocketHandler</definition>
+        <argsstring></argsstring>
+        <name>WebSocketHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/VersionWebSocketService.cs" line="25" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1ac36d79cd9d964d06594350e5971adb5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Services.VersionWebSocketService.VersionWebSocketService</definition>
+        <argsstring>(IWebSocketHandler webSocketHandler, IVersionHandler versionHandler, IDebugHandler debugHandler)</argsstring>
+        <name>VersionWebSocketService</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+          <declname>webSocketHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler" kindref="compound">IVersionHandler</ref></type>
+          <declname>versionHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/VersionWebSocketService.cs" line="28" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="28" bodyend="35"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</definition>
+        <argsstring>()</argsstring>
+        <name>CheckVersion</name>
+        <reimplements refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service_1a8c4b2a561c8ddb900617466e83c0f957">CheckVersion</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/VersionWebSocketService.cs" line="37" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="37" bodyend="113"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1adb75e140a3dcc76b8ca6c1dd3c0f060a" compoundref="_json_version_info_8cs" startline="12" endline="12">LittleWeebLibrary.Models.JsonVersionInfo.currentbuild</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a9a74ca950016eb93a1ecb4d9089d9f2c" compoundref="_json_version_info_8cs" startline="11" endline="11">LittleWeebLibrary.Models.JsonVersionInfo.currentversion</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" compoundref="_version_handler_8cs" startline="211" endline="245">LittleWeebLibrary.Handlers.VersionHandler.GetLocalVersion</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1abb2527c1c41e946dd71fe862a48a5f0f" compoundref="_json_version_info_8cs" startline="14" endline="14">LittleWeebLibrary.Models.JsonVersionInfo.newbuild</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08d3b36c375a460b440678f84bdb64ee" compoundref="_json_version_info_8cs" startline="13" endline="13">LittleWeebLibrary.Models.JsonVersionInfo.newversion</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a79b72a4b31accba79e2fbf1ca93297c4" compoundref="_json_version_info_8cs" startline="22" endline="25">LittleWeebLibrary.Models.JsonVersionInfo.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aad6b40e255e38ff875f9b4093a5a76b4" compoundref="_json_version_info_8cs" startline="10" endline="10">LittleWeebLibrary.Models.JsonVersionInfo.update_available</references>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" compoundref="_version_web_socket_controller_8cs" startline="31" endline="84">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="424">
+        <label>LittleWeebLibrary.Services.VersionWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>IVersionWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="426">
+        <label>LittleWeebLibrary.Services.VersionWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="428" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>-WebSocketHandler</edgelabel>
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>-VersionHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="427">
+        <label>IVersionWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service"/>
+      </node>
+      <node id="430">
+        <label>LittleWeebLibrary.Handlers.IVersionHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler"/>
+      </node>
+      <node id="429">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+      <node id="428">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/VersionWebSocketService.cs" line="22" column="1" bodyfile="Services/VersionWebSocketService.cs" bodystart="21" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::VersionWebSocketService</scope><name>CheckVersion</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1a13ed681e1a924276595a18a6124028e5" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::VersionWebSocketService</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1ad2e1ecbf8218654adfe288d1a84196dd" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::VersionWebSocketService</scope><name>VersionHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1ac36d79cd9d964d06594350e5971adb5e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::VersionWebSocketService</scope><name>VersionWebSocketService</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1a6f8cb312585ce76dace5c81772d5a0b1" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::VersionWebSocketService</scope><name>WebSocketHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

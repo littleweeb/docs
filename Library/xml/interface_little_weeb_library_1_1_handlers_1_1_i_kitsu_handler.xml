@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::IKitsuHandler</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.KitsuHandler</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1aac2bc10e35e89c47fe6b9954dd86442a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetAllCategories</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllCategories</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1ae329f7e735a6abee2734bbbd13d121b2">GetAllCategories</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1ad5d0744af17b926aed44fe87e6834f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetAllGenres</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllGenres</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a528491d8d97584b2ba2c3bfcc4b5772e">GetAllGenres</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a85c4f22da758a475c55327fa6393935c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JObject &gt;</type>
+        <definition>Task&lt;JObject&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetAnime</definition>
+        <argsstring>(string animeId)</argsstring>
+        <name>GetAnime</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a4c88ed25befe2904416b4d90673a8f82">GetAnime</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a731b56ca79910b6b1d7b2218c34e3156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetCategories</definition>
+        <argsstring>(string animeId)</argsstring>
+        <name>GetCategories</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a8d6a49dd26f66dd33ea2e2b4e9b330cb">GetCategories</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a644c9e4caf1db5de18a78fe03b33e278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetCurrentlyAiring</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentlyAiring</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1af733f442659b7789588da55b00c065c4">GetCurrentlyAiring</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a9f182eabb098e98f566c8add1695bb36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JObject &gt;</type>
+        <definition>Task&lt;JObject&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetEpisode</definition>
+        <argsstring>(string animeId, int episodeNumber)</argsstring>
+        <name>GetEpisode</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a3129d77267b0fb879e3f8f1a8e83494a">GetEpisode</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>episodeNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1adc4f3c45aec996b1f94894368f818de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetEpisodes</definition>
+        <argsstring>(string animeId, int page=0, int pages=-1, int results=20, string order=&quot;ASC&quot;)</argsstring>
+        <name>GetEpisodes</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a615caf4bea96465d35eb36434bc71bea">GetEpisodes</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>page</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pages</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>results</declname>
+          <defval>20</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>order</declname>
+          <defval>&quot;ASC&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a6ea08bc341bbaa01174a451acd3d9b08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info" kindref="compound">JsonKitsuAnimeInfo</ref> &gt;</type>
+        <definition>Task&lt;JsonKitsuAnimeInfo&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetFullAnime</definition>
+        <argsstring>(string animeId, int amountEpisodesPerPage=26)</argsstring>
+        <name>GetFullAnime</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a5f655ed8b3e26f6d6767e090eea9e3bb">GetFullAnime</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amountEpisodesPerPage</declname>
+          <defval>26</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a22e208a4c0ea64dafdbeb1a133739bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetGenres</definition>
+        <argsstring>(string animeId)</argsstring>
+        <name>GetGenres</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1aabd039f9220f03f5c9dcf83e104531b1">GetGenres</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1aa82bf536086211de6b458610b83ed43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; JArray &gt;</type>
+        <definition>Task&lt;JArray&gt; LittleWeebLibrary.Handlers.IKitsuHandler.GetRelations</definition>
+        <argsstring>(string animeId)</argsstring>
+        <name>GetRelations</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1ad1ba51037e72c80804018f4c1df37581">GetRelations</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>animeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a4afb4a1718099f9e4e39ebc237ae45a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result" kindref="compound">JsonKistuSearchResult</ref> &gt;</type>
+        <definition>Task&lt;JsonKistuSearchResult&gt; LittleWeebLibrary.Handlers.IKitsuHandler.SearchAnime</definition>
+        <argsstring>(string search, Dictionary&lt; string, string &gt; queryList, int page=0, int pages=1)</argsstring>
+        <name>SearchAnime</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a92f121e8fec8cce5ffe0454d3a17c156">SearchAnime</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>search</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>queryList</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>page</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pages</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/KitsuHandler.cs" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="188">
+        <label>LittleWeebLibrary.Handlers.IKitsuHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler"/>
+      </node>
+      <node id="189">
+        <label>LittleWeebLibrary.Handlers.KitsuHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="190">
+        <label>LittleWeebLibrary.Handlers.IKitsuHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/KitsuHandler.cs" line="16" column="1" bodyfile="Handlers/KitsuHandler.cs" bodystart="15" bodyend="29"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1aac2bc10e35e89c47fe6b9954dd86442a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetAllCategories</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1ad5d0744af17b926aed44fe87e6834f04" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetAllGenres</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a85c4f22da758a475c55327fa6393935c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetAnime</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a731b56ca79910b6b1d7b2218c34e3156" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetCategories</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a644c9e4caf1db5de18a78fe03b33e278" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetCurrentlyAiring</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a9f182eabb098e98f566c8add1695bb36" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetEpisode</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1adc4f3c45aec996b1f94894368f818de4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetEpisodes</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a6ea08bc341bbaa01174a451acd3d9b08" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetFullAnime</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a22e208a4c0ea64dafdbeb1a133739bfd" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetGenres</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1aa82bf536086211de6b458610b83ed43f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>GetRelations</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a4afb4a1718099f9e4e39ebc237ae45a0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IKitsuHandler</scope><name>SearchAnime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

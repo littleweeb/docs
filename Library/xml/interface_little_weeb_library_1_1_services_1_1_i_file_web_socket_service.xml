@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::IFileWebSocketService</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.FileWebSocketService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_1a1d612036848a98701a908e3054d8001f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IFileWebSocketService.DeleteFile</definition>
+        <argsstring>(JObject fileInfoJson)</argsstring>
+        <name>DeleteFile</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133">DeleteFile</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>fileInfoJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/FileWebSocketService.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_1a55cfbde72a70fb90c011438a1c415713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IFileWebSocketService.OpenFile</definition>
+        <argsstring>(JObject fileInfoJson)</argsstring>
+        <name>OpenFile</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ae140d076e6f64585e7b71bb51545e1bb">OpenFile</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>fileInfoJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/FileWebSocketService.cs" line="14" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="372">
+        <label>LittleWeebLibrary.Services.FileWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>LittleWeebLibrary.Services.IFileWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="373">
+        <label>LittleWeebLibrary.Services.IFileWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/FileWebSocketService.cs" line="12" column="1" bodyfile="Services/FileWebSocketService.cs" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_1a1d612036848a98701a908e3054d8001f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IFileWebSocketService</scope><name>DeleteFile</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_1a55cfbde72a70fb90c011438a1c415713" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IFileWebSocketService</scope><name>OpenFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

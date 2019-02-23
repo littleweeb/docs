@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller" prot="public" virt="non-virtual">LittleWeebLibrary.Controllers.ISubWebSocketController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1aa9dbf3ffb60b7fad884bbdb3c553b1e7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/SettingsWebSocketController.cs" line="19" column="1" bodyfile="Controllers/SubControllers/SettingsWebSocketController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a6d733d35bf981733110071fe2fe8129c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service" kindref="compound">ISettingsWebSocketService</ref></type>
+        <definition>readonly ISettingsWebSocketService LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.SettingsWebSocketService</definition>
+        <argsstring></argsstring>
+        <name>SettingsWebSocketService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/SettingsWebSocketController.cs" line="17" column="1" bodyfile="Controllers/SubControllers/SettingsWebSocketController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a38ef1d85352aa67696205ad34fdef40d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+        <definition>readonly IWebSocketHandler LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.WebSocketHandler</definition>
+        <argsstring></argsstring>
+        <name>WebSocketHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/SettingsWebSocketController.cs" line="18" column="1" bodyfile="Controllers/SubControllers/SettingsWebSocketController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a81701a5495065390949f1672fcac1f40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.SettingsWebSocketController</definition>
+        <argsstring>(IWebSocketHandler webSocketHandler, ISettingsWebSocketService settingsWebSocketService, IDebugHandler debugHandler)</argsstring>
+        <name>SettingsWebSocketController</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+          <declname>webSocketHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service" kindref="compound">ISettingsWebSocketService</ref></type>
+          <declname>settingsWebSocketService</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/SettingsWebSocketController.cs" line="21" column="1" bodyfile="Controllers/SubControllers/SettingsWebSocketController.cs" bodystart="21" bodyend="27"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.OnWebSocketEvent</definition>
+        <argsstring>(WebSocketEventArgs args)</argsstring>
+        <name>OnWebSocketEvent</name>
+        <reimplements refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller_1adcb26b7b397d6a67ccbf114008c29985">OnWebSocketEvent</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" kindref="compound">WebSocketEventArgs</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/SubControllers/SettingsWebSocketController.cs" line="30" column="1" bodyfile="Controllers/SubControllers/SettingsWebSocketController.cs" bodystart="30" bodyend="103"/>
+        <references refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a50cbfe4ba270c9e84b6b7b427a1b9ce0" compoundref="_settings_web_socket_service_8cs" startline="117" endline="132">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentLittleWeebSettings</references>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1ac7aee4603c5f55b11dd59de007b3a8b3" compoundref="_web_socket_event_args_8cs" startline="7" endline="7">LittleWeebLibrary.EventArguments.WebSocketEventArgs.Message</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" compoundref="_settings_web_socket_service_8cs" startline="206" endline="235">LittleWeebLibrary.Services.SettingsWebSocketService.Setfullfilepath</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</references>
+        <references refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aa53e9a1723c0b2d607d2aa9db1991c3c" compoundref="_settings_web_socket_service_8cs" startline="171" endline="204">LittleWeebLibrary.Services.SettingsWebSocketService.SetLittleWeebSettings</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1acf402c2f7fd4ddbf175fea7f921ea879" compoundref="_web_socket_event_args_8cs" startline="8" endline="13">LittleWeebLibrary.EventArguments.WebSocketEventArgs.ToString</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="62">
+        <label>LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="64">
+        <label>LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController</label>
+        <link refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>-WebSocketHandler</edgelabel>
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>-SettingsWebSocketService</edgelabel>
+        </childnode>
+      </node>
+      <node id="67">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+      <node id="66">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="65">
+        <label>ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+      <node id="68">
+        <label>LittleWeebLibrary.Services.ISettingsWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/SubControllers/SettingsWebSocketController.cs" line="13" column="1" bodyfile="Controllers/SubControllers/SettingsWebSocketController.cs" bodystart="12" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1aa9dbf3ffb60b7fad884bbdb3c553b1e7" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</scope><name>OnWebSocketEvent</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a81701a5495065390949f1672fcac1f40" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</scope><name>SettingsWebSocketController</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a6d733d35bf981733110071fe2fe8129c" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</scope><name>SettingsWebSocketService</name></member>
+      <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a38ef1d85352aa67696205ad34fdef40d" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</scope><name>WebSocketHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

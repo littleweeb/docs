@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload" name="LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_models_1_1_json_download_info.html#af36cbb3251b0efcd80a45f1fef89f5c9" title="LittleWeebLibrary.Models.\lJsonDownloadInfo.ToString" alt="" coords="262,5,439,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="255,71,447,112"/>
+</map>

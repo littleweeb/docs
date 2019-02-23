@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir">
+    <compoundname>Models</compoundname>
+    <innerfile refid="_json_currently_airing_8cs">JsonCurrentlyAiring.cs</innerfile>
+    <innerfile refid="_json_data_base_collection_8cs">JsonDataBaseCollection.cs</innerfile>
+    <innerfile refid="_json_data_base_document_8cs">JsonDataBaseDocument.cs</innerfile>
+    <innerfile refid="_json_directories_8cs">JsonDirectories.cs</innerfile>
+    <innerfile refid="_json_directory_8cs">JsonDirectory.cs</innerfile>
+    <innerfile refid="_json_downloaded_info_8cs">JsonDownloadedInfo.cs</innerfile>
+    <innerfile refid="_json_downloaded_list_8cs">JsonDownloadedList.cs</innerfile>
+    <innerfile refid="_json_download_info_8cs">JsonDownloadInfo.cs</innerfile>
+    <innerfile refid="_json_download_queue_8cs">JsonDownloadQueue.cs</innerfile>
+    <innerfile refid="_json_error_8cs">JsonError.cs</innerfile>
+    <innerfile refid="_json_free_space_8cs">JsonFreeSpace.cs</innerfile>
+    <innerfile refid="_json_irc_chat_message_8cs">JsonIrcChatMessage.cs</innerfile>
+    <innerfile refid="_json_irc_info_8cs">JsonIrcInfo.cs</innerfile>
+    <innerfile refid="_json_kistu_search_result_8cs">JsonKistuSearchResult.cs</innerfile>
+    <innerfile refid="_json_kitsu_anime_info_8cs">JsonKitsuAnimeInfo.cs</innerfile>
+    <innerfile refid="_json_kitsu_categories_8cs">JsonKitsuCategories.cs</innerfile>
+    <innerfile refid="_json_kitsu_genres_8cs">JsonKitsuGenres.cs</innerfile>
+    <innerfile refid="_json_little_weeb_settings_8cs">JsonLittleWeebSettings.cs</innerfile>
+    <innerfile refid="_json_nibl_bot_list_8cs">JsonNiblBotList.cs</innerfile>
+    <innerfile refid="_json_nibl_search_result_8cs">JsonNiblSearchResult.cs</innerfile>
+    <innerfile refid="_json_received_response_8cs">JsonReceivedResponse.cs</innerfile>
+    <innerfile refid="_json_success_8cs">JsonSuccess.cs</innerfile>
+    <innerfile refid="_json_version_info_8cs">JsonVersionInfo.cs</innerfile>
+    <innerfile refid="_json_welcome_8cs">JsonWelcome.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/"/>
+  </compounddef>
+</doxygen>

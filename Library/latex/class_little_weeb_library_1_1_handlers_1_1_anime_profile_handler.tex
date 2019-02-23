@@ -1,0 +1,1608 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ac2f5e6adc1c0a36ff24797a437bf490d}{Anime\+Profile\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}} kitsu\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler}{I\+Nibl\+Handler}} nibl\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} data\+Base\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler}{I\+Anime\+Rule\+Handler}} anime\+Rule\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a5b163eb7e68b1e40904fa55454d8ba54}{Get\+Anime\+Episodes}} (string id, int amount\+Per\+Page=26, bool no\+Cache=false, bool cached=false)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061}{Get\+Anime\+Profile}} (string id, int amount\+Per\+Page=26, bool no\+Cache=false)
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{Json\+Currently\+Airing}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7469a40799e1067d871ba87679f54c37}{Get\+Currently\+Airing}} (bool non\+Found\+Animes=false, int bot\+Id=21, bool no\+Cache=false, bool cached=false)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a2f28ad03d4dfe8d90c0392da8af39651}{Anime\+Latest\+Episode}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} result)
+\item 
+async Task$<$ J\+Object $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a1bb944a0f0871b23484be89e2cf8705f}{Bot\+List\+Per\+Results}} (Dictionary$<$ string, Dictionary$<$ int, List$<$ J\+Object $>$$>$$>$ parsed)
+\item 
+async Task$<$ Tuple$<$ J\+Array, Dictionary$<$ string, int $>$ $>$ $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a132e4da0f082cc2c967cd06eaac3337b}{Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results}} (J\+Array result, Dictionary$<$ string, Dictionary$<$ int, List$<$ J\+Object $>$$>$$>$ parsed\+Nibl\+Result)
+\item 
+async Task$<$ Dictionary$<$ int, J\+Object $>$ $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a11b3560a1e2fe0e3ac5d481efb46d7a6}{Currently\+Airing\+Async}} (int index, string title)
+\item 
+async Task$<$ int $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4fc9722b5a07b62c081a75873934682e}{Get\+Previous\+Seasons\+Total\+Episodes}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} info, int season\+Number)
+\item 
+async Task$<$ int $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ad7341acd9da86cd5cee9a45b0a41f887}{Get\+Season\+From\+Anime}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} info)
+\item 
+async Task$<$ Dictionary$<$ string, Dictionary$<$ int, List$<$ J\+Object $>$ $>$ $>$ $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a92412693abdf9ea697e6b793b71d468f}{Parse\+Nibl\+Search\+Results}} (J\+Object nibl\+Results, int previous\+Episode\+End, int season\+Number)
+\item 
+async Task$<$ List$<$ string $>$ $>$ \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4796da2a058bbc1efe2ee8f31b6a9b4d}{Parse\+Titles}} (\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}} info)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler}{I\+Anime\+Rule\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aa8248a311fa69699a8230f005bcecdbc}{Anime\+Rule\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{Data\+Base\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{Debug\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}{Kitsu\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler}{I\+Nibl\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}{Nibl\+Handler}}
+\item 
+readonly Weeb\+File\+Name\+Parser \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}{Weeb\+File\+Name\+Parser}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ac2f5e6adc1c0a36ff24797a437bf490d}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ac2f5e6adc1c0a36ff24797a437bf490d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Anime\+Profile\+Handler@{Anime\+Profile\+Handler}}
+\index{Anime\+Profile\+Handler@{Anime\+Profile\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Anime\+Profile\+Handler()}{AnimeProfileHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Anime\+Profile\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}}}]{kitsu\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler}{I\+Nibl\+Handler}}}]{nibl\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}}}]{data\+Base\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler}{I\+Anime\+Rule\+Handler}}}]{anime\+Rule\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 42 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+43         \{
+44             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+45             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}{KitsuHandler}} = kitsuHandler;
+46             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}{NiblHandler}} = niblHandler;
+47             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}} = dataBaseHandler;
+48             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aa8248a311fa69699a8230f005bcecdbc}{AnimeRuleHandler}} = animeRuleHandler;
+49             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}} = debugHandler;
+50             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}{WeebFileNameParser}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}{WeebFileNameParser}}();
+51         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ac2f5e6adc1c0a36ff24797a437bf490d_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Get\+Anime\+Profile@{Get\+Anime\+Profile}}
+\index{Get\+Anime\+Profile@{Get\+Anime\+Profile}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Anime\+Profile()}{GetAnimeProfile()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Profile (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{int}]{amount\+Per\+Page = {\ttfamily 26},  }\item[{bool}]{no\+Cache = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad0fbcf84372d9d564e8d84d3291fa136}{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler}}.
+
+
+
+Definition at line 54 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+episodes, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+episodes\+\_\+per\+\_\+page, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+info, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+stored, Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Get\+Epoch(), Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Full\+Anime(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Store\+J\+Object(), Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+To\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+updated, and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Anime\+Profile().
+
+
+\begin{DoxyCode}
+55         \{
+56             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetAnimeProfile called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+57             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + \textcolor{keywordtype}{id}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+58             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Amount Episodes Per Page: "} + amountPerPage,
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+59             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"NoCache: "} + noCache, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+60 
+61 
+62             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{JsonKitsuAnimeInfo}} result = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{JsonKitsuAnimeInfo}}();
+63            
+64             JObject db\_result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"anime"}, \textcolor{keywordtype}{id});
+65 
+66             \textcolor{keywordflow}{if} (db\_result.Count == 0 || noCache)
+67             \{
+68                 result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}{KitsuHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a6ea08bc341bbaa01174a451acd3d9b08}{GetFullAnime}}(\textcolor{keywordtype}{id}, amountPerPage);
+69                 result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a2f28ad03d4dfe8d90c0392da8af39651}{AnimeLatestEpisode}}(result);
+70 
+71                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{StoreJObject}}(\textcolor{stringliteral}{"anime"}, result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a2c92ffb7d523c4f75497988156b64b7b}{ToJObject}}(), id);
+72                 result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11190c3959e72a4b3b9fdd482de156cb}{anime\_stored}} = \textcolor{keyword}{false};
+73                 \textcolor{keywordflow}{return} result;
+74             \}
+75             \textcolor{keywordflow}{else}
+76             \{
+77                 result = JsonConvert.DeserializeObject<\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{JsonKitsuAnimeInfo}}>(db\_result.
+      ToString());
+78                 \textcolor{keywordflow}{if} ((result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}) == \textcolor{stringliteral}{"current"} && \textcolor{keywordtype}{long}
+      .Parse(result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_afc1bfd4e16df7491b9e7ae7380641938}{updated}}) > (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{GetEpoch}}() - (30*60*1000))) || noCache
+      )
+79                 \{
+80                     result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a2f28ad03d4dfe8d90c0392da8af39651}{AnimeLatestEpisode}}(result);
+81                     result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11190c3959e72a4b3b9fdd482de156cb}{anime\_stored}} = \textcolor{keyword}{true};
+82                 \}
+83 
+84 
+85                 \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11a2513ce95fe17d206eeb738811d087}{anime\_episodes\_per\_page}} != amountPerPage && result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}.Count > 0)
+86                 \{
+87                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"RE-ARRANGING EPISODES PER PAGE
+       BEFORE PARSING"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+88                     JArray AllEpisodes = \textcolor{keyword}{new} JArray();
+89                     \textcolor{keywordflow}{foreach} (JArray current\_page \textcolor{keywordflow}{in} result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}})
+90                     \{
+91                         \textcolor{keywordflow}{foreach} (JObject episode \textcolor{keywordflow}{in} current\_page)
+92                         \{
+93                             AllEpisodes.Add(episode);
+94                         \}
+95                     \}
+96 
+97                     JArray page = \textcolor{keyword}{new} JArray();
+98                     JArray pages = \textcolor{keyword}{new} JArray();
+99                     \textcolor{keywordtype}{int} episodeCount = 0;
+100                     \textcolor{keywordflow}{foreach} (JObject episode \textcolor{keywordflow}{in} AllEpisodes)
+101                     \{
+102                         \textcolor{keywordflow}{if} (episodeCount >= amountPerPage)
+103                         \{
+104                             pages.Add(page);
+105                             page = \textcolor{keyword}{new} JArray();
+106                             episodeCount = 0;
+107                         \}
+108 
+109                         page.Add(episode);
+110                         episodeCount++;
+111                     \}
+112 
+113                     result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11a2513ce95fe17d206eeb738811d087}{anime\_episodes\_per\_page}} = amountPerPage;
+114                     result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}} = pages;
+115                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{UpdateJObject}}(\textcolor{stringliteral}{"anime"}, result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a2c92ffb7d523c4f75497988156b64b7b}{ToJObject}}(), id, \textcolor{keyword}{true});
+116                 \}
+117 
+118 
+119             \}
+120 
+121 
+122             \textcolor{keywordflow}{return} result;
+123         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a5b163eb7e68b1e40904fa55454d8ba54}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a5b163eb7e68b1e40904fa55454d8ba54}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Get\+Anime\+Episodes@{Get\+Anime\+Episodes}}
+\index{Get\+Anime\+Episodes@{Get\+Anime\+Episodes}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Anime\+Episodes()}{GetAnimeEpisodes()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Anime\+Episodes (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{int}]{amount\+Per\+Page = {\ttfamily 26},  }\item[{bool}]{no\+Cache = {\ttfamily false},  }\item[{bool}]{cached = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ac23c001a51abb10a3d013738000dafec}{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler}}.
+
+
+
+Definition at line 125 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+bot\+\_\+sources, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+episodes, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+episodes\+\_\+per\+\_\+page, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+info, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+resolutions, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+stored, Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler.\+Filter\+Anime\+Rules(), Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Get\+Epoch(), Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Search\+Nibl(), Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+To\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+updated, and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Anime\+Episodes().
+
+
+\begin{DoxyCode}
+126         \{
+127             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetAnimeEpisodes called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+128             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime ID: "} + \textcolor{keywordtype}{id}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+129             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Amount Episodes Per Page: "} + amountPerPage,
+       \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+130             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"NoCache: "} + noCache, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+131             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"cached: "} + cached, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+132 
+133 
+134             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{JsonKitsuAnimeInfo}} result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aaa89fba506cfcdad18a5aa3f9b860061}{GetAnimeProfile}}(\textcolor{keywordtype}{id}, 
+      amountPerPage, noCache);
+135 
+136 
+137           \textcolor{comment}{//  DebugHandler.TraceMessage("Does anime contains files: " +
+       result.anime\_episodes[0].Value<JObject>(0).ContainsKey("files").ToString(), DebugSource.TASK, DebugType.INFO);}
+138             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OR Is anime current: "} + result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+139             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"AND Previous time updated:  "} + \textcolor{keywordtype}{long}.Parse(
+      result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_afc1bfd4e16df7491b9e7ae7380641938}{updated}}).ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+140             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"AND Current time minus 30 minutes:  "} + (
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{GetEpoch}}() - (30*60*1000)).ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+141             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ANDCurrent time:  "} + 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{GetEpoch}}().ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+142             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OR refresh cache:  "} + noCache.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+143 
+144 
+145             \textcolor{comment}{//this reanages the episodes into separate pages if the old amount per page differes from the
+       newly requested}
+146             \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11a2513ce95fe17d206eeb738811d087}{anime\_episodes\_per\_page}} != amountPerPage && result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}.Count > 0) 
+147             \{
+148 
+149                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"RE-ARRANGING EPISODES PER PAGE BEFORE
+       PARSING (EPSISODE PARSING)"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+150                 JArray AllEpisodes = \textcolor{keyword}{new} JArray();
+151                 \textcolor{keywordflow}{foreach} (JArray current\_page \textcolor{keywordflow}{in} result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}})
+152                 \{
+153                     \textcolor{keywordflow}{foreach} (JObject episode \textcolor{keywordflow}{in} current\_page)
+154                     \{
+155                         AllEpisodes.Add(episode);
+156                     \}
+157                 \}
+158 
+159                 JArray page = \textcolor{keyword}{new} JArray();
+160                 JArray pages = \textcolor{keyword}{new} JArray();
+161                 \textcolor{keywordtype}{int} episodeCount = 0;
+162                 \textcolor{keywordflow}{foreach} (JObject episode \textcolor{keywordflow}{in} AllEpisodes)
+163                 \{
+164                     \textcolor{keywordflow}{if} (episodeCount >= amountPerPage)
+165                     \{
+166                         pages.Add(page);
+167                         page = \textcolor{keyword}{new} JArray();
+168                         episodeCount = 0;
+169                     \}
+170 
+171                     page.Add(episode);
+172                     episodeCount++;
+173                 \}
+174 
+175                 result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}} = pages;
+176                 result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11a2513ce95fe17d206eeb738811d087}{anime\_episodes\_per\_page}} = amountPerPage;
+177 
+178             \}
+179 
+180             \textcolor{comment}{//only if the anime is not currently airing}
+181             \textcolor{keywordflow}{if} (cached && result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}.Count > 0)
+182             \{
+183                 \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}[0].Value<JObject>(0).ContainsKey(\textcolor{stringliteral}{"files"}))
+184                 \{
+185                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"RETURNING REORDERD EXISTING EPISODES
+      "}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+186                     \textcolor{keywordflow}{return} result;
+187                 \}
+188             \}
+189 
+190 
+191             \textcolor{keywordtype}{bool} hasEpisodesAndFiles = \textcolor{keyword}{false};
+192             \textcolor{keywordtype}{bool} hasEpisodes = \textcolor{keyword}{false};
+193 
+194             \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}.Count > 0)
+195             \{
+196                 hasEpisodes = \textcolor{keyword}{true};
+197                 \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}[0].Value<JObject>(0).ContainsKey(\textcolor{stringliteral}{"files"}))
+198                     hasEpisodesAndFiles = \textcolor{keyword}{true};
+199             \}
+200 
+201             \textcolor{keywordflow}{if} (result != null && hasEpisodes) \{
+202                 \textcolor{keywordflow}{if} (!result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11190c3959e72a4b3b9fdd482de156cb}{anime\_stored}}
+203                 || !hasEpisodesAndFiles
+204                 || (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}) == \textcolor{stringliteral}{"current"}
+205                     &&
+206                     \textcolor{keywordtype}{long}.Parse(result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_afc1bfd4e16df7491b9e7ae7380641938}{updated}}) > (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{GetEpoch}}() - (30 * 60 * 1000)))
+207                 || noCache)
+208                 \{
+209                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"START GATHERING EPISODE FILES PER
+       EPISODE"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+210 
+211                     List<string> animeTitles = \textcolor{keyword}{new} List<string>();
+212                     \textcolor{keywordtype}{int} seasonNumber = 1;
+213                     \textcolor{keywordtype}{int} previousEpisodeEnd = 0;
+214                     JObject niblResults = \textcolor{keyword}{new} JObject();
+215 
+216                     var loadDataTasks = \textcolor{keyword}{new} Task[]
+217                     \{ 
+218                         \textcolor{comment}{//parse all titles from the anime.}
+219                         Task.Run(async () => animeTitles= await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4796da2a058bbc1efe2ee8f31b6a9b4d}{ParseTitles}}(result)),
+220                         \textcolor{comment}{//get season number from title or from kitsu}
+221                         Task.Run(async () => seasonNumber = await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ad7341acd9da86cd5cee9a45b0a41f887}{GetSeasonFromAnime}}(result))
+222                     \};
+223 
+224                     \textcolor{keywordflow}{try}
+225                     \{
+226                         await Task.WhenAll(loadDataTasks);
+227                     \}
+228                     \textcolor{keywordflow}{catch} (Exception ex)
+229                     \{
+230                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED RUNNING DATA GATHERING
+       TASK (ParseTitles & GetSeasonFromAnime) ASYNC: "} + ex.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+231                         \textcolor{comment}{// handle exception}
+232                     \}
+233 
+234                     loadDataTasks = \textcolor{keyword}{new} Task[]
+235                     \{
+236                     \textcolor{comment}{//get total amount of episodes from previous seasons (excluding current season).}
+237                     Task.Run(async () => previousEpisodeEnd = await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4fc9722b5a07b62c081a75873934682e}{GetPreviousSeasonsTotalEpisodes}}(result, seasonNumber)),
+238                 
+239                     \textcolor{comment}{//search nibl}
+240                     Task.Run(async () => niblResults =  await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}{NiblHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a751ab95fe78f072abef69d89e5557ad1}{SearchNibl}}(animeTitles))
+241                     \};
+242                     \textcolor{keywordflow}{try}
+243                     \{
+244                         await Task.WhenAll(loadDataTasks);
+245                     \}
+246                     \textcolor{keywordflow}{catch} (Exception ex)
+247                     \{
+248                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED RUNNING DATA GATHERING
+       TASK (GetPreviousSeasonsTotalEpisodes & SearchNibl) ASYNC: "} + ex.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+249                         \textcolor{comment}{// handle exception}
+250                     \}
+251 
+252 
+253                     \textcolor{keywordflow}{if} (previousEpisodeEnd == -1)
+254                     \{
+255                         seasonNumber = -1;
+256                     \}
+257 
+258                     \textcolor{comment}{//check rules}
+259                     niblResults = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aa8248a311fa69699a8230f005bcecdbc}{AnimeRuleHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_ad82316c84b3b1a7870ff94107b420cc6}{FilterAnimeRules}}(niblResults, \textcolor{keywordtype}{id});
+260 
+261 
+262                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"NIBL RESULTS AFTER RULES: "} + 
+      niblResults.Value<JArray>(\textcolor{stringliteral}{"packs"}).Count.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+263 
+264                     \textcolor{comment}{//parse nibl search results}
+265                     Dictionary<string, Dictionary<int, List<JObject>>> parsedNiblResults = await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a92412693abdf9ea697e6b793b71d468f}{ParseNiblSearchResults}}(niblResults, previousEpisodeEnd, seasonNumber);
+266 
+267 
+268                     \textcolor{comment}{//combine parsed nibl results with kistu episodes.}
+269 
+270 
+271                     loadDataTasks = \textcolor{keyword}{new} Task[]
+272                     \{
+273                         \textcolor{comment}{//compare results per episode from kitsu}
+274                         Task.Run(async () => \{
+275                             Tuple<JArray, Dictionary<string, int>> combined = await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a132e4da0f082cc2c967cd06eaac3337b}{CombineAnimeEpisodesParsedNiblResults}}(result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}, parsedNiblResults);
+276                             result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}} = combined.Item1;
+277                             result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a10f0da892462fa2f1817e08336aea4ff}{anime\_resolutions}} = JObject.FromObject(combined.Item2);
+278                         \}),
+279                 
+280                         \textcolor{comment}{//search nibl}
+281                         Task.Run(async () => result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_aca4b832adca7f1916bee332b2b8b312f}{anime\_bot\_sources}} = await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a1bb944a0f0871b23484be89e2cf8705f}{BotListPerResults}}(parsedNiblResults))
+282                     \};
+283                     \textcolor{keywordflow}{try}
+284                     \{
+285                         await Task.WhenAll(loadDataTasks);
+286                     \}
+287                     \textcolor{keywordflow}{catch} (Exception ex)
+288                     \{
+289                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED RUNNING DATA GATHERING
+       TASK (CombineAnimeEpisodesParsedNiblResults & BotListPerResults) ASYNC: "} + ex.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+290                         \textcolor{comment}{// handle exception}
+291                     \}
+292                     result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a11190c3959e72a4b3b9fdd482de156cb}{anime\_stored}} = \textcolor{keyword}{false};
+293 
+294                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{UpdateJObject}}(\textcolor{stringliteral}{"anime"}, result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a2c92ffb7d523c4f75497988156b64b7b}{ToJObject}}(), id, \textcolor{keyword}{true});
+295                 \}
+296             \}          
+297 
+298             \textcolor{keywordflow}{return} result;
+299         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a5b163eb7e68b1e40904fa55454d8ba54_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a5b163eb7e68b1e40904fa55454d8ba54_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7469a40799e1067d871ba87679f54c37}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7469a40799e1067d871ba87679f54c37}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Get\+Currently\+Airing@{Get\+Currently\+Airing}}
+\index{Get\+Currently\+Airing@{Get\+Currently\+Airing}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Currently\+Airing()}{GetCurrentlyAiring()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{Json\+Currently\+Airing}}$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Currently\+Airing (\begin{DoxyParamCaption}\item[{bool}]{non\+Found\+Animes = {\ttfamily false},  }\item[{int}]{bot\+Id = {\ttfamily 21},  }\item[{bool}]{no\+Cache = {\ttfamily false},  }\item[{bool}]{cached = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_ad59273ddfe35a2560f3e07879b334c25}{Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler}}.
+
+
+
+Definition at line 301 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Currently\+Airing(), Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Get\+Epoch(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Get\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Get\+Latest\+Files(), Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Store\+J\+Object(), Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler.\+Update\+J\+Object().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service.\+Get\+Currently\+Airing().
+
+
+\begin{DoxyCode}
+302         \{
+303 
+304             JObject db\_result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a6586c4d1cfebdb8d5d40bc544d51914c}{GetJObject}}(\textcolor{stringliteral}{"airing"}, \textcolor{stringliteral}{"
+      currently\_airing"});
+305 
+306             \textcolor{keywordtype}{bool} newEntry = \textcolor{keyword}{false};
+307 
+308             \textcolor{keywordflow}{if} (db\_result.Count > 0)
+309             \{
+310                 \textcolor{keywordflow}{if} (\textcolor{keywordtype}{long}.Parse(db\_result.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"updated"})) > (
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a12336d9e64983ddabaad8950486fafb2}{GetEpoch}}() - (30*60*1000)) && !noCache || cached)
+311                 \{
+312                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{JsonCurrentlyAiring}} toreturn = JsonConvert.DeserializeObject<
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{JsonCurrentlyAiring}}>(db\_result.ToString());
+313                     \textcolor{keywordflow}{return} toreturn;
+314                 \}
+315             \} \textcolor{keywordflow}{else} \{
+316                 newEntry = \textcolor{keyword}{true};
+317             \}
+318 
+319             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetCurrentlyAiring called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+320 
+321             JObject result = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}{NiblHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a744548c45993c925a492744f1fb747e9}{GetLatestFiles}}(botId.ToString());  
+             
+322 
+323 
+324             Dictionary<int, JObject> latestAiringKitsuUnordered = \textcolor{keyword}{new} Dictionary<int, JObject>();
+325             List<JObject> latestAiringKitsu = \textcolor{keyword}{new} List<JObject>();
+326             List<JObject> nonLatestAiringKitsu = \textcolor{keyword}{new} List<JObject>();
+327 
+328 
+329             JArray array = result.Value<JArray>(\textcolor{stringliteral}{"packs"});
+330             List<string> animetitles = \textcolor{keyword}{new} List<string>();
+331 
+332 
+333             List<Task<Dictionary<int, JObject>>> parralel = \textcolor{keyword}{new} List<Task<Dictionary<int, JObject>>>();
+334 
+335             \textcolor{keywordtype}{int} i = 0;
+336 
+337             Dictionary<int, int> TaskIds = \textcolor{keyword}{new} Dictionary<int, int>();
+338 
+339             \textcolor{keywordflow}{foreach} (JObject pack \textcolor{keywordflow}{in} array) \{
+340                 \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"AccurateMainAnimeTitle"}))
+341                 \{
+342                     \textcolor{keywordtype}{string} title = pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"AccurateMainAnimeTitle"});
+343                     \textcolor{keywordflow}{if} (!animetitles.Contains(title))
+344                     \{
+345                         Dictionary<int, JObject> di = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a11b3560a1e2fe0e3ac5d481efb46d7a6}{CurrentlyAiringAsync}}(i, 
+      title);
+346 
+347                         Task<Dictionary<int, JObject>> newT = Task.Factory.StartNew(async delegate
+348                         \{
+349                             \textcolor{keywordflow}{return} await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a11b3560a1e2fe0e3ac5d481efb46d7a6}{CurrentlyAiringAsync}}(i, title);
+350                         \}).Unwrap();
+351 
+352 
+353                         TaskIds.Add(newT.Id, i);
+354                         parralel.Add(newT);
+355                         i++;
+356                         animetitles.Add(title);
+357                     \}
+358                 \}
+359             \}
+360 
+361 
+362             \textcolor{keywordflow}{try}
+363             \{
+364                 await Task.WhenAll(parralel.ToArray());
+365 
+366                 \textcolor{keywordflow}{foreach}(Task<Dictionary<int, JObject>> t \textcolor{keywordflow}{in} parralel)\{
+367                     Dictionary<int, JObject> r = t.Result;
+368                     \textcolor{keywordtype}{int} index = TaskIds[t.Id];
+369                     KeyValuePair<int, JObject> kp = r.First();
+370                     latestAiringKitsuUnordered.Add(index, kp.Value);
+371                 \}
+372             \}
+373             \textcolor{keywordflow}{catch} (Exception ex)
+374             \{
+375                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED RUNNING DATA GATHERING TASK
+       (CURRENTLY AIRING) ASYNC: "} + ex.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+376                 \textcolor{comment}{// handle exception}
+377             \}
+378 
+379 
+380             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} a = 0; a < latestAiringKitsuUnordered.Count; a++)
+381             \{
+382                 \textcolor{keywordflow}{try}
+383                 \{
+384                     \textcolor{keywordflow}{if} (latestAiringKitsuUnordered[a].Count > 0)
+385                     \{
+386                         latestAiringKitsu.Add(latestAiringKitsuUnordered[a]);
+387                     \}
+388                 \}
+389                 \textcolor{keywordflow}{catch} (Exception e)
+390                 \{
+391                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED TO ADD AIRING ANIME ORDERD AT
+       INDEX: "} + a.ToString() + \textcolor{stringliteral}{", ERROR: "} + e.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+392                 \}
+393             \}
+394 
+395 
+396             JObject resultCurrentlyAiringKitsu = \textcolor{keyword}{new} JObject();
+397 
+398             \textcolor{keywordflow}{if} (nonFoundAnimes)
+399             \{
+400                 resultCurrentlyAiringKitsu[\textcolor{stringliteral}{"airing\_all"}] = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}{KitsuHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a644c9e4caf1db5de18a78fe03b33e278}{GetCurrentlyAiring}}();
+401             \}
+402 
+403             resultCurrentlyAiringKitsu[\textcolor{stringliteral}{"airing\_ordered"}] = JArray.FromObject(latestAiringKitsu);
+404 
+405 
+406 
+407             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{JsonCurrentlyAiring}} airing = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_currently_airing}{JsonCurrentlyAiring}}
+408             \{
+409                 result = resultCurrentlyAiringKitsu
+410             \};
+411 
+412             \textcolor{keywordflow}{if} (newEntry) \{
+413                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a5d87c42ef7dc7e5d86f7e6fada3454e9}{StoreJObject}}(\textcolor{stringliteral}{"airing"}, JObject.FromObject(
+      airing), \textcolor{stringliteral}{"currently\_airing"});
+414             \} \textcolor{keywordflow}{else}
+415             \{
+416                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}{DataBaseHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_a00c429576be33aa60bdf1a88edaf88c6}{UpdateJObject}}(\textcolor{stringliteral}{"airing"}, JObject.
+      FromObject(airing), \textcolor{stringliteral}{"currently\_airing"}, \textcolor{keyword}{true}); 
+417             \}
+418 
+419             \textcolor{keywordflow}{return} airing;
+420 
+421         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7469a40799e1067d871ba87679f54c37_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7469a40799e1067d871ba87679f54c37_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ad7341acd9da86cd5cee9a45b0a41f887}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ad7341acd9da86cd5cee9a45b0a41f887}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Get\+Season\+From\+Anime@{Get\+Season\+From\+Anime}}
+\index{Get\+Season\+From\+Anime@{Get\+Season\+From\+Anime}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Season\+From\+Anime()}{GetSeasonFromAnime()}}
+{\footnotesize\ttfamily async Task$<$int$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Season\+From\+Anime (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 423 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+episodes, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+info, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+424         \{
+425 
+426             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetSeasonFromAnime called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+427             \textcolor{comment}{// DebugHandler.TraceMessage("Anime Info: ", DebugSource.TASK, DebugType.PARAMETERS);}
+428             \textcolor{comment}{// DebugHandler.TraceMessage(info.ToJson(), DebugSource.TASK, DebugType.PARAMETERS);}
+429 
+430             \textcolor{keywordtype}{int} seasonNumber = 1;
+431 
+432             \textcolor{keywordflow}{if} (info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}.Count > 0)
+433             \{
+434                 \textcolor{keywordflow}{if} (info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}[0][0].Value<JObject>(\textcolor{stringliteral}{"attributes"}).ContainsKey(\textcolor{stringliteral}{"
+      seasonNumber"}))
+435                 \{
+436                     seasonNumber = info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_ae788c0962dabe5e210fba53aecae820d}{anime\_episodes}}[0][0][\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"
+      seasonNumber"});
+437                 \}
+438 
+439                 await Task.Run(() =>
+440                 \{
+441                     Dictionary<string, string> parsedTitle = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}{WeebFileNameParser}}.
+      ParseFullString(info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"canonicalTitle"}));
+442 
+443                     \textcolor{keywordflow}{if} (parsedTitle.ContainsKey(\textcolor{stringliteral}{"Season"}))
+444                     \{
+445                         \textcolor{keywordtype}{int} parsedSeasonNumberFromTitle = -1;
+446                         \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.TryParse(parsedTitle[\textcolor{stringliteral}{"Season"}], out parsedSeasonNumberFromTitle))
+447                         \{
+448                             \textcolor{keywordflow}{if} (parsedSeasonNumberFromTitle > seasonNumber)
+449                             \{
+450                                 seasonNumber = parsedSeasonNumberFromTitle;
+451                             \}
+452                         \}
+453                     \}
+454                 \});
+455             \}
+456             
+457 
+458             \textcolor{keywordflow}{return} seasonNumber;
+459         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ad7341acd9da86cd5cee9a45b0a41f887_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4fc9722b5a07b62c081a75873934682e}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4fc9722b5a07b62c081a75873934682e}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Get\+Previous\+Seasons\+Total\+Episodes@{Get\+Previous\+Seasons\+Total\+Episodes}}
+\index{Get\+Previous\+Seasons\+Total\+Episodes@{Get\+Previous\+Seasons\+Total\+Episodes}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Previous\+Seasons\+Total\+Episodes()}{GetPreviousSeasonsTotalEpisodes()}}
+{\footnotesize\ttfamily async Task$<$int$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Get\+Previous\+Seasons\+Total\+Episodes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}}]{info,  }\item[{int}]{season\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 461 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+relations, and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+462         \{
+463 
+464             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetPreviousSeasonsTotalEpisodes called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+465             \textcolor{comment}{//DebugHandler.TraceMessage("Anime Info: ", DebugSource.TASK, DebugType.PARAMETERS);}
+466            \textcolor{comment}{// DebugHandler.TraceMessage(info.ToJson(), DebugSource.TASK, DebugType.PARAMETERS);}
+467             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"SeasonNumber: "} + seasonNumber, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+468 
+469             \textcolor{keywordtype}{int} tempSeasonNumber = seasonNumber;
+470 
+471             \textcolor{keywordtype}{int} previousEpisodeEnd = 0;
+472 
+473             JArray tempRelated = info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a8df2cf3af93654bd0362985dfd3208e0}{anime\_relations}};
+474 
+475             \textcolor{keywordtype}{bool} has\_prequal = \textcolor{keyword}{false};
+476             await Task.Run(async () =>
+477             \{
+478                 \textcolor{keywordflow}{while} (tempSeasonNumber > 1)
+479                 \{
+480                     \textcolor{keywordflow}{foreach} (JObject relatedAnime \textcolor{keywordflow}{in} tempRelated)
+481                     \{
+482                         \textcolor{keywordflow}{if} (relatedAnime.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"role"}) == \textcolor{stringliteral}{"prequel"})
+483                         \{
+484 
+485                             previousEpisodeEnd += relatedAnime[\textcolor{stringliteral}{"attributes"}].Value<int>(\textcolor{stringliteral}{"episodeCount"});
+486 
+487                             if ((tempSeasonNumber - 1) > 1)
+488                             \{
+489                                 tempRelated = await KitsuHandler.GetRelations(relatedAnime.Value<string>(\textcolor{stringliteral}{"
+      id"}));
+490                             \}
+491                             has\_prequal = \textcolor{keyword}{true};
+492                             \textcolor{keywordflow}{break};
+493                         \}
+494                     \}
+495                     tempSeasonNumber--;
+496                 \}
+497             \});
+498 
+499             \textcolor{keywordflow}{if} (!has\_prequal)
+500             \{
+501 
+502                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"HAS NO PREQUALS SO IGNORE SEASON NUMBER"}
+      , \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+503                 previousEpisodeEnd = -1;
+504             \}
+505             \textcolor{keywordflow}{else}
+506             \{
+507                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"HAS PREQUAL, PREQUAL STOP EPISODES: "} + 
+      previousEpisodeEnd, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+508 
+509             \}
+510 
+511             \textcolor{keywordflow}{return} previousEpisodeEnd;
+512         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4fc9722b5a07b62c081a75873934682e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4796da2a058bbc1efe2ee8f31b6a9b4d}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4796da2a058bbc1efe2ee8f31b6a9b4d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Parse\+Titles@{Parse\+Titles}}
+\index{Parse\+Titles@{Parse\+Titles}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Parse\+Titles()}{ParseTitles()}}
+{\footnotesize\ttfamily async Task$<$List$<$string$>$ $>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Parse\+Titles (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 514 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+info, Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Int\+To\+Roman(), Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Remove\+Special\+Characters(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+515         \{
+516             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ParseTitles called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+517   \textcolor{comment}{//          DebugHandler.TraceMessage("Anime Info: ", DebugSource.TASK, DebugType.PARAMETERS);}
+518 \textcolor{comment}{//            DebugHandler.TraceMessage(info.ToJson(), DebugSource.TASK, DebugType.PARAMETERS);}
+519 
+520             List<string> animeTitles = \textcolor{keyword}{new} List<string>();
+521 
+522             JObject titles = info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<JObject>(\textcolor{stringliteral}{"titles"});
+523 
+524             await Task.Run(() =>
+525             \{
+526                 \textcolor{keywordflow}{foreach} (KeyValuePair<string, JToken> title \textcolor{keywordflow}{in} titles)
+527                 \{
+528 
+529                     \textcolor{keywordflow}{if} (!animeTitles.Contains(title.Value.ToString()))
+530                     \{
+531                         Dictionary<string, string> parsed = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}{WeebFileNameParser}}.
+      ParseFullString(title.Value.ToString());
+532                         parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{RemoveSpecialCharacters}}(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}]).Trim();
+533                         parsed[\textcolor{stringliteral}{"SubAnimeTitle"}] = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{RemoveSpecialCharacters}}(parsed[\textcolor{stringliteral}{"SubAnimeTitle"}]).Trim();
+534 
+535                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"1: Removing special chars from
+       title: "} + title.Value.ToString().ToLower(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+536                         \textcolor{keywordtype}{string} titleparsed = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{RemoveSpecialCharacters}}(title.Value.ToString().ToLower()).Trim();
+537 
+538                         \textcolor{keywordflow}{if} (titleparsed.Length > 2 && title.Key != \textcolor{stringliteral}{"ja\_jp"})                        \{
+539 
+540 
+541                             \textcolor{keywordtype}{bool} parsedSeason = \textcolor{keyword}{false};
+542                             \textcolor{keywordflow}{if} (parsed.ContainsKey(\textcolor{stringliteral}{"Season"}))
+543                             \{
+544                                 \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}]) > 1)
+545                                 \{
+546                                     \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" "} + 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{IntToRoman}}(\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}]))))
+547                                     \{
+548                                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} +
+       parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" "} + \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{IntToRoman}}(\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season
+      "}])), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+549                                         animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" "} + 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{IntToRoman}}(\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}])));
+550                                     \}
+551 
+552                                     \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" s"} + parsed[\textcolor{stringliteral}{"
+      Season"}]))
+553                                     \{
+554                                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} +
+       parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" s"} + parsed[\textcolor{stringliteral}{"Season"}], \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+555                                         animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" s"} + parsed[\textcolor{stringliteral}{"Season"}])
+      ;
+556                                     \}
+557 
+558                                     \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" season "} + 
+      parsed[\textcolor{stringliteral}{"Season"}]))
+559                                     \{
+560                                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} +
+       parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" season "} + parsed[\textcolor{stringliteral}{"Season"}], \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+561                                         animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" season "} + parsed[\textcolor{stringliteral}{"
+      Season"}]);
+562                                     \}
+563                                     parsedSeason = \textcolor{keyword}{true};
+564                                 \}
+565                             \}
+566 
+567                             \textcolor{keywordflow}{if} (!parsedSeason)
+568                             \{
+569                                 \textcolor{keywordflow}{if} (parsed.ContainsKey(\textcolor{stringliteral}{"SubAnimeTitle"}))
+570                                 \{
+571                                     titleparsed = parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + parsed[\textcolor{stringliteral}{"SubAnimeTitle"}];
+572 
+573                                     \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}]))
+574                                     \{
+575                                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} +
+       parsed[\textcolor{stringliteral}{"MainAnimeTitle"}], \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+576                                         animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}]);
+577                                     \}
+578 
+579                                     \textcolor{keywordflow}{if} (!animeTitles.Contains(titleparsed) && parsed[\textcolor{stringliteral}{"SubAnimeTitle"}].
+      Length > 2) \textcolor{comment}{// last part of anime title must be longer than 2 chars to be significant.}
+580                                     \{
+581                                         \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} +
+       titleparsed, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+582                                         animeTitles.Add(titleparsed);
+583                                     \}
+584 
+585                                 \}
+586                             \}
+587                             \textcolor{keywordflow}{else}
+588                             \{
+589 
+590                             \}
+591                             animeTitles.Add(title.Value.ToString());
+592 
+593                         \}
+594                     \}
+595                    
+596                 \}
+597 
+598                 \textcolor{keywordflow}{if} (info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<JArray>(\textcolor{stringliteral}{"abbreviatedTitles"}) != null)
+599                 \{
+600                     \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} title \textcolor{keywordflow}{in} info.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<JArray>(\textcolor{stringliteral}{"
+      abbreviatedTitles"}))
+601                     \{
+602                         \textcolor{keywordflow}{if} (!animeTitles.Contains(title))
+603                         \{
+604 
+605                             Dictionary<string, string> parsed = 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}{WeebFileNameParser}}.ParseFullString(title);
+606 
+607                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"2: Removing special chars
+       from title: "} + title.ToLower(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+608                             \textcolor{keywordtype}{string} titleparsed = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{RemoveSpecialCharacters}}(title.ToLower()).Trim();
+609 
+610                             parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{RemoveSpecialCharacters}}(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}]).Trim();
+611                             parsed[\textcolor{stringliteral}{"SubAnimeTitle"}] = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aa04235b1cf84b6741c496d8ecaea0eeb}{RemoveSpecialCharacters}}(parsed[\textcolor{stringliteral}{"SubAnimeTitle"}]).Trim();
+612 
+613                             \textcolor{keywordflow}{if} (titleparsed.Length > 2)
+614                             \{
+615 
+616                                 \textcolor{keywordtype}{bool} parsedSeason = \textcolor{keyword}{false};
+617 
+618                                 \textcolor{keywordflow}{if} (parsed.ContainsKey(\textcolor{stringliteral}{"Season"}))
+619                                 \{
+620                                     \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}]) > 1)
+621                                     \{
+622                                         \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" "} + 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{IntToRoman}}(\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}]))))
+623                                         \{
+624                                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} + parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" "} + 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{IntToRoman}}(\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}])), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+625                                             animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" "} + 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_ab54bc5e0856652f4554fda497af655b8}{IntToRoman}}(\textcolor{keywordtype}{int}.Parse(parsed[\textcolor{stringliteral}{"Season"}])));
+626                                         \}
+627 
+628                                         \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" s"} + parsed[\textcolor{stringliteral}{
+      "Season"}]))
+629                                         \{
+630                                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} + parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" s"} + parsed[\textcolor{stringliteral}{"Season"}], 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+631                                             animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" s"} + parsed[\textcolor{stringliteral}{"
+      Season"}]);
+632                                         \}
+633 
+634                                         \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" season "} + 
+      parsed[\textcolor{stringliteral}{"Season"}]))
+635                                         \{
+636                                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} + parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" season "} + parsed[\textcolor{stringliteral}{"Season"}], 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+637                                             animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + \textcolor{stringliteral}{" season "} + parsed[\textcolor{stringliteral}{
+      "Season"}]);
+638                                         \}
+639                                         parsedSeason = \textcolor{keyword}{true};
+640                                     \}
+641                                 \}
+642 
+643 
+644                                 \textcolor{keywordflow}{if} (!parsedSeason)
+645                                 \{
+646                                     \textcolor{keywordflow}{if} (parsed.ContainsKey(\textcolor{stringliteral}{"SubAnimeTitle"}))
+647                                     \{
+648                                         titleparsed = parsed[\textcolor{stringliteral}{"MainAnimeTitle"}] + parsed[\textcolor{stringliteral}{"SubAnimeTitle"}];
+649 
+650 
+651                                         \textcolor{keywordflow}{if} (!animeTitles.Contains(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}]))
+652                                         \{
+653                                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} + parsed[\textcolor{stringliteral}{"MainAnimeTitle"}], \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+654                                             animeTitles.Add(parsed[\textcolor{stringliteral}{"MainAnimeTitle"}]);
+655                                         \}
+656 
+657                                         \textcolor{keywordflow}{if} (!animeTitles.Contains(titleparsed) && parsed[\textcolor{stringliteral}{"SubAnimeTitle"}].
+      Length > 2) \textcolor{comment}{// last part of anime title must be longer than 2 chars to be significant.}
+658                                         \{
+659                                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Added Title: "} + titleparsed, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+660                                             animeTitles.Add(titleparsed);
+661                                         \}
+662                                     \}
+663 
+664                                 \}
+665 
+666                                 animeTitles.Add(title);
+667                             \}
+668 
+669                         \}
+670                        
+671                     \}
+672                 \}
+673             \});          
+674 
+675             \textcolor{keywordflow}{return} animeTitles;
+676         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4796da2a058bbc1efe2ee8f31b6a9b4d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a92412693abdf9ea697e6b793b71d468f}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a92412693abdf9ea697e6b793b71d468f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Parse\+Nibl\+Search\+Results@{Parse\+Nibl\+Search\+Results}}
+\index{Parse\+Nibl\+Search\+Results@{Parse\+Nibl\+Search\+Results}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Parse\+Nibl\+Search\+Results()}{ParseNiblSearchResults()}}
+{\footnotesize\ttfamily async Task$<$Dictionary$<$string, Dictionary$<$int, List$<$J\+Object$>$ $>$ $>$ $>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Parse\+Nibl\+Search\+Results (\begin{DoxyParamCaption}\item[{J\+Object}]{nibl\+Results,  }\item[{int}]{previous\+Episode\+End,  }\item[{int}]{season\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 678 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+679         \{
+680 
+681             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ParseNiblSearchResults called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+682             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime Info: "}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+683            \textcolor{comment}{// DebugHandler.TraceMessage(niblResults.ToString(Newtonsoft.Json.Formatting.None),
+       DebugSource.TASK, DebugType.PARAMETERS);}
+684             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime Previous Episodes: "} + 
+      previousEpisodeEnd, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+685             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Anime SeasonNumber: "} + seasonNumber, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+686 
+687             Dictionary<string, Dictionary<int, List<JObject>>> resolutions = \textcolor{keyword}{new} Dictionary<string,
+       Dictionary<int, List<JObject>>>()
+688             \{
+689                 \{ \textcolor{stringliteral}{"UNKNOWN"}, \textcolor{keyword}{new} Dictionary<int, List<JObject>>()\},
+690                 \{ \textcolor{stringliteral}{"480P"}, \textcolor{keyword}{new} Dictionary<int, List<JObject>>()\},
+691                 \{ \textcolor{stringliteral}{"720P"}, \textcolor{keyword}{new} Dictionary<int, List<JObject>>()\},
+692                 \{ \textcolor{stringliteral}{"1080P"}, \textcolor{keyword}{new} Dictionary<int, List<JObject>>()\}
+693             \};
+694 
+695 
+696             await Task.Run(() => \{
+697 
+698 
+699                 JObject[] items = niblResults.Value<JArray>(\textcolor{stringliteral}{"packs"}).ToObject<JObject[]>();
+700 
+701                 Parallel.ForEach(items, (pack) =>
+702                 \{
+703                     \textcolor{keywordflow}{try}
+704                     \{
+705                         \textcolor{keywordtype}{string} resolution = \textcolor{stringliteral}{"UNKNOWN"};
+706 
+707                         \textcolor{keywordtype}{bool} correctSeason = \textcolor{keyword}{false};
+708                         \textcolor{keywordtype}{int} seasonFromFile = -1;
+709                         \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Season"}))
+710                         \{
+711 
+712                             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.TryParse(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Season"}), out seasonFromFile))
+713                             \{
+714                                 \textcolor{keywordflow}{if} (seasonFromFile == seasonNumber)
+715                                 \{
+716                                     correctSeason = \textcolor{keyword}{true};
+717                                 \}
+718                             \}
+719                         \}
+720 
+721                         \textcolor{keywordflow}{if} (correctSeason || seasonNumber < 0)
+722                         \{
+723                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ANIME EPISODE IS CORRECT
+       SEASON: "} + pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Episode"}), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+724                             \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Video\_Resolution"}))
+725                             \{
+726                                 resolution = pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Video\_Resolution"});
+727                             \}
+728 
+729                             \textcolor{keywordtype}{int} episodeValue = -1;
+730                             \textcolor{keywordflow}{if} (!resolutions.ContainsKey(resolution))
+731                             \{
+732                                 \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Episode"}))
+733                                 \{
+734                                     \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.TryParse(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Episode"}), out episodeValue))
+735                                     \{
+736                                         resolutions.Add(resolution, \textcolor{keyword}{new} Dictionary<\textcolor{keywordtype}{int}, List<JObject>>() \{ 
+      \{ episodeValue, \textcolor{keyword}{new} List<JObject>() \{ pack \} \} \});
+737                                     \}
+738                                     \textcolor{keywordflow}{else}
+739                                     \{
+740                                         resolutions.Add(resolution, \textcolor{keyword}{new} Dictionary<\textcolor{keywordtype}{int}, List<JObject>>() \{ 
+      \{ episodeValue, \textcolor{keyword}{new} List<JObject>() \{ pack \} \} \});
+741                                     \}
+742                                 \}
+743                                 \textcolor{keywordflow}{else}
+744                                 \{
+745                                     resolutions.Add(resolution, \textcolor{keyword}{new} Dictionary<\textcolor{keywordtype}{int}, List<JObject>>() \{ \{ 
+      episodeValue, \textcolor{keyword}{new} List<JObject>() \{ pack \} \} \});
+746                                 \}
+747                             \}
+748                             \textcolor{keywordflow}{else}
+749                             \{
+750                                 \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Episode"}))
+751                                 \{
+752                                     \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.TryParse(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Episode"}), out episodeValue))
+753                                     \{
+754                                         \textcolor{keywordflow}{if} (resolutions[resolution].ContainsKey(episodeValue))
+755                                         \{
+756                                             resolutions[resolution][episodeValue].Add(pack);
+757                                         \}
+758                                         \textcolor{keywordflow}{else}
+759                                         \{
+760                                             resolutions[resolution].Add(episodeValue, \textcolor{keyword}{new} List<JObject>() \{
+       pack \});
+761                                         \}
+762                                     \}
+763                                     \textcolor{keywordflow}{else}
+764                                     \{
+765                                         \textcolor{keywordflow}{if} (resolutions[resolution].ContainsKey(episodeValue))
+766                                         \{
+767                                             resolutions[resolution][episodeValue].Add(pack);
+768                                         \}
+769                                         \textcolor{keywordflow}{else}
+770                                         \{
+771                                             resolutions[resolution].Add(episodeValue, \textcolor{keyword}{new} List<JObject>() \{
+       pack \});
+772                                         \}
+773                                     \}
+774                                 \}
+775                                 \textcolor{keywordflow}{else}
+776                                 \{
+777                                     \textcolor{keywordflow}{if} (resolutions[resolution].ContainsKey(episodeValue))
+778                                     \{
+779                                         resolutions[resolution][episodeValue].Add(pack);
+780                                     \}
+781                                     \textcolor{keywordflow}{else}
+782                                     \{
+783                                         resolutions[resolution].Add(episodeValue, \textcolor{keyword}{new} List<JObject>() \{ 
+      pack \});
+784                                     \}
+785                                 \}
+786                             \}
+787                         \}
+788                         \textcolor{keywordflow}{else} \textcolor{comment}{// not correct season}
+789                         \{
+790                             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"ANIME EPISODE IS *NOT*
+       CORRECT SEASON: "} + pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Episode"}), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+791                             \textcolor{keywordflow}{if} (previousEpisodeEnd > 0)
+792                             \{
+793                                 \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Video\_Resolution"}))
+794                                 \{
+795                                     resolution = pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Video\_Resolution"});
+796                                 \}
+797 
+798                                 \textcolor{keywordtype}{int} episodeValue = -1;
+799                                 \textcolor{keywordflow}{if} (!resolutions.ContainsKey(resolution))
+800                                 \{
+801                                     \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Episode"}))
+802                                     \{
+803                                         \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.TryParse(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Episode"}), out episodeValue))
+804                                         \{
+805                                             \textcolor{keywordflow}{if} (episodeValue > previousEpisodeEnd)
+806                                             \{
+807                                                 resolutions.Add(resolution, \textcolor{keyword}{new} Dictionary<\textcolor{keywordtype}{int}, 
+      List<JObject>>() \{ \{ (episodeValue - previousEpisodeEnd), \textcolor{keyword}{new} List<JObject>() \{ pack \} \} \});
+808                                             \}
+809                                         \}
+810                                     \}
+811                                 \}
+812                                 \textcolor{keywordflow}{else}
+813                                 \{
+814                                     \textcolor{keywordflow}{if} (pack.ContainsKey(\textcolor{stringliteral}{"Episode"}))
+815                                     \{
+816                                         \textcolor{keywordflow}{if} (\textcolor{keywordtype}{int}.TryParse(pack.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"Episode"}), out episodeValue))
+817                                         \{
+818                                             \textcolor{keywordflow}{if} (episodeValue > previousEpisodeEnd)
+819                                             \{
+820                                                 \textcolor{keywordflow}{if} (resolutions[resolution].ContainsKey(episodeValue - 
+      previousEpisodeEnd))
+821                                                 \{
+822                                                     resolutions[resolution][(episodeValue - 
+      previousEpisodeEnd)].Add(pack);
+823                                                 \}
+824                                                 \textcolor{keywordflow}{else}
+825                                                 \{
+826                                                     resolutions[resolution].Add((episodeValue - 
+      previousEpisodeEnd), \textcolor{keyword}{new} List<JObject>() \{ pack \});
+827                                                 \}
+828                                             \}
+829                                         \}
+830                                     \}
+831                                 \}
+832                             \}
+833                         \}
+834                     \}
+835                     \textcolor{keywordflow}{catch}
+836                     \{
+837 
+838                     \}
+839                    
+840                 \});
+841 
+842             \});
+843 
+844             \textcolor{keywordflow}{return} resolutions;
+845 
+846         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a92412693abdf9ea697e6b793b71d468f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a1bb944a0f0871b23484be89e2cf8705f}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a1bb944a0f0871b23484be89e2cf8705f}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Bot\+List\+Per\+Results@{Bot\+List\+Per\+Results}}
+\index{Bot\+List\+Per\+Results@{Bot\+List\+Per\+Results}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Bot\+List\+Per\+Results()}{BotListPerResults()}}
+{\footnotesize\ttfamily async Task$<$J\+Object$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Bot\+List\+Per\+Results (\begin{DoxyParamCaption}\item[{Dictionary$<$ string, Dictionary$<$ int, List$<$ J\+Object $>$$>$$>$}]{parsed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 848 of file Anime\+Profile\+Handler.\+cs.
+
+
+\begin{DoxyCode}
+849         \{
+850 
+851             Dictionary<string, int> listWithBots = \textcolor{keyword}{new} Dictionary<string, int>();
+852             await Task.Run(() =>
+853             \{
+854                 \textcolor{keywordflow}{foreach} (KeyValuePair<\textcolor{keywordtype}{string}, Dictionary<\textcolor{keywordtype}{int}, List<JObject>>> resolution \textcolor{keywordflow}{in} parsed)
+855                 \{
+856                     \textcolor{keywordflow}{foreach} (KeyValuePair<\textcolor{keywordtype}{int}, List<JObject>> episode \textcolor{keywordflow}{in} resolution.Value)
+857                     \{
+858                         foreach (JObject pack in episode.Value)
+859                         \{
+860                             if (!listWithBots.ContainsKey(pack.Value<string>(\textcolor{stringliteral}{"BotName"})))
+861                             \{
+862                                 listWithBots.Add(pack.Value<string>(\textcolor{stringliteral}{"BotName"}), 0);
+863                             \}
+864                             else
+865                             \{
+866                                 listWithBots[pack.Value<string>(\textcolor{stringliteral}{"BotName"})] = listWithBots[pack.Value<strin
+      g>(\textcolor{stringliteral}{"BotName"})] + 1;
+867                             \}
+868                         \}
+869                     \}
+870                 \}
+871             \});           
+872             \textcolor{keywordflow}{return} JObject.FromObject(listWithBots);
+873         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a132e4da0f082cc2c967cd06eaac3337b}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a132e4da0f082cc2c967cd06eaac3337b}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results@{Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results}}
+\index{Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results@{Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results()}{CombineAnimeEpisodesParsedNiblResults()}}
+{\footnotesize\ttfamily async Task$<$Tuple$<$J\+Array, Dictionary$<$string, int$>$ $>$ $>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results (\begin{DoxyParamCaption}\item[{J\+Array}]{result,  }\item[{Dictionary$<$ string, Dictionary$<$ int, List$<$ J\+Object $>$$>$$>$}]{parsed\+Nibl\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 875 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+876         \{
+877             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"CombineAnimeEpisodesParsedNiblResults called
+      "}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+878            \textcolor{comment}{// DebugHandler.TraceMessage("Anime Info: ", DebugSource.TASK, DebugType.PARAMETERS);}
+879            \textcolor{comment}{// DebugHandler.TraceMessage(result.ToJson(), DebugSource.TASK, DebugType.PARAMETERS);}
+880 
+881 
+882             JArray new\_anime\_episodes = result;
+883 
+884             List<int> indexToRemove = \textcolor{keyword}{new} List<int>();
+885 
+886 
+887             Dictionary<string, int> filesPerResolutions = \textcolor{keyword}{new} Dictionary<string, int>();
+888 
+889             await Task.Run(() =>
+890             \{
+891                 \textcolor{keywordtype}{int} pageindex = 0;
+892                 \textcolor{keywordflow}{foreach} (JArray page \textcolor{keywordflow}{in} new\_anime\_episodes)
+893                 \{
+894                     \textcolor{keywordtype}{int} index = 0;
+895                     \textcolor{keywordflow}{foreach} (JObject episode \textcolor{keywordflow}{in} page)
+896                     \{
+897                         \textcolor{keywordtype}{int} episodeNumber = episode[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"number"});
+898 
+899                         JObject fileList = \textcolor{keyword}{new} JObject();
+900 
+901                         \textcolor{keywordtype}{bool} hasvalues = \textcolor{keyword}{false};
+902                         \textcolor{keywordflow}{foreach} (KeyValuePair<\textcolor{keywordtype}{string}, Dictionary<\textcolor{keywordtype}{int}, List<JObject>>> resolution \textcolor{keywordflow}{in} 
+      parsedNiblResult)
+903                         \{
+904                             \textcolor{keywordflow}{if} (!filesPerResolutions.ContainsKey(resolution.Key))
+905                             \{
+906                                 filesPerResolutions.Add(resolution.Key, 0);
+907                             \}
+908                             \textcolor{keywordflow}{if} (resolution.Value.ContainsKey(episodeNumber))
+909                             \{
+910 
+911                                 List<JObject> files = resolution.Value[episodeNumber];
+912 
+913                                 filesPerResolutions[resolution.Key] = filesPerResolutions[resolution.Key] +
+       files.Count;
+914 
+915                                 JArray filesArray = JArray.FromObject(files);
+916 
+917                                 fileList[resolution.Key] = filesArray;
+918 
+919                                 \textcolor{keywordflow}{if} (filesArray.Count > 0)
+920                                 \{
+921                                     hasvalues = \textcolor{keyword}{true};
+922                                 \}
+923                             \}
+924 
+925                         \}
+926 
+927                         \textcolor{keywordflow}{if} (hasvalues)
+928                         \{
+929                             new\_anime\_episodes[pageindex][index][\textcolor{stringliteral}{"files"}] = fileList;
+930                         \}
+931                         \textcolor{keywordflow}{else}
+932                         \{
+933                             new\_anime\_episodes[pageindex][index][\textcolor{stringliteral}{"files"}] = \textcolor{keyword}{false};
+934                         \}
+935 
+936                         index++;
+937                     \}
+938 
+939                     pageindex++;
+940                 \}
+941                 
+942             \});
+943             \textcolor{keywordflow}{return} Tuple.Create(new\_anime\_episodes, filesPerResolutions);
+944         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a132e4da0f082cc2c967cd06eaac3337b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a2f28ad03d4dfe8d90c0392da8af39651}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a2f28ad03d4dfe8d90c0392da8af39651}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Anime\+Latest\+Episode@{Anime\+Latest\+Episode}}
+\index{Anime\+Latest\+Episode@{Anime\+Latest\+Episode}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Anime\+Latest\+Episode()}{AnimeLatestEpisode()}}
+{\footnotesize\ttfamily async Task$<$\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}$>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Anime\+Latest\+Episode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info}{Json\+Kitsu\+Anime\+Info}}}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 946 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+id, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+info, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+latest\+\_\+episode, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+total\+\_\+episode\+\_\+pages, Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info.\+anime\+\_\+total\+\_\+episodes, Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Get\+Episode(), Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Get\+Latest\+Episode(), Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler.\+Search\+Nibl(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+947         \{
+948             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"LatestEpisode called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+949            
+950             \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}.Value<JObject>(\textcolor{stringliteral}{"attributes"}).ContainsKey(\textcolor{stringliteral}{"episodeCount"}))
+951             \{
+952                 \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}][\textcolor{stringliteral}{"episodeCount"}].Type != JTokenType.Null)
+953                 \{
+954                     result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a05eac71810dc6aa9ae33a224b5a6957c}{anime\_total\_episodes}} = result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{int}>(\textcolor{stringliteral}{"episodeCount"});
+955                     result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a359be736ccb4ae5ccf50f5d754cd4973}{anime\_total\_episode\_pages}} = (int)Math.Ceiling(((\textcolor{keywordtype}{double})
+      ((result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a05eac71810dc6aa9ae33a224b5a6957c}{anime\_total\_episodes}}) / (\textcolor{keywordtype}{double})20))) - 1;
+956                 \}
+957             \}
+958 
+959             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Airing: "} + result.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a6a3974cec731d5a54452608449091130}{anime\_id}} + \textcolor{stringliteral}{" = "} + result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+960 
+961             \textcolor{keywordflow}{if} (result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a1a83f1d3043428e596a7a62ab36e27db}{anime\_info}}[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"status"}) == \textcolor{stringliteral}{"current"})
+962             \{
+963                 List<string> animeTitles = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4796da2a058bbc1efe2ee8f31b6a9b4d}{ParseTitles}}(result);
+964                 \textcolor{keywordtype}{int} seasonNumber = -1;
+965                 \textcolor{keywordtype}{int} previousEpisodeEnd = -1;
+966                 JObject niblResults = \textcolor{keyword}{new} JObject();
+967 
+968                 \textcolor{keywordflow}{try}
+969                 \{
+970                     seasonNumber = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_ad7341acd9da86cd5cee9a45b0a41f887}{GetSeasonFromAnime}}(result);
+971                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FINISHED GET SEASING NUMBER: "} + 
+      seasonNumber.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+972                 \}
+973                 \textcolor{keywordflow}{catch} (Exception ex)
+974                 \{
+975                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FAILED RUNNING DATA GATHERING TASK
+       (GetSeasonFromAnime) ASYNC: "} + ex.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+976                     \textcolor{comment}{// handle exception}
+977                 \}
+978 
+979                 previousEpisodeEnd = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4fc9722b5a07b62c081a75873934682e}{GetPreviousSeasonsTotalEpisodes}}(
+      result, seasonNumber);
+980 
+981                 \textcolor{keywordtype}{int} currentLatestEpisode = 0;
+982                 JObject resultNibl = \textcolor{keyword}{new} JObject();
+983 
+984                 \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} title \textcolor{keywordflow}{in} animeTitles)
+985                 \{
+986                     \textcolor{keywordtype}{int} episodeNumber = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}{NiblHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a7e3c7dc7ba9a01c39d125dc0a759d606}{GetLatestEpisode}}(title);
+987                     \textcolor{keywordflow}{if} (episodeNumber > currentLatestEpisode)
+988                     \{
+989                         currentLatestEpisode = episodeNumber;
+990                     \}
+991                 \}
+992                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"FINISHED GETTING LATEST EPISODE NUMBER
+       FROM NIBL "} + currentLatestEpisode.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+993 
+994 
+995                 resultNibl = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}{NiblHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_a751ab95fe78f072abef69d89e5557ad1}{SearchNibl}}(animeTitles, 
+      currentLatestEpisode);
+996                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Nibl result latest episode: "} + 
+      resultNibl.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+997 
+998                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Nibl result latest episode done: "} + 
+      resultNibl.ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+999                 Dictionary<string, Dictionary<int, List<JObject>>> parsedNibl =  await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a92412693abdf9ea697e6b793b71d468f}{ParseNiblSearchResults}}(resultNibl, previousEpisodeEnd, seasonNumber);
+1000 
+1001                 JObject files = \textcolor{keyword}{new} JObject
+1002                 \{
+1003                     [\textcolor{stringliteral}{"files"}] = JObject.FromObject(parsedNibl)
+1004                 \};
+1005 
+1006                 JObject latestKitsuEpisode = await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}{KitsuHandler}}.
+      \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a9f182eabb098e98f566c8add1695bb36}{GetEpisode}}(result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a6a3974cec731d5a54452608449091130}{anime\_id}}, currentLatestEpisode);
+1007 
+1008                 latestKitsuEpisode.Merge(files);
+1009                 result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a53ef2cd169a3c8be49c809a10dbd1701}{anime\_latest\_episode}} = latestKitsuEpisode;
+1010 
+1011                 result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a05eac71810dc6aa9ae33a224b5a6957c}{anime\_total\_episodes}} = currentLatestEpisode;
+1012                 result.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_a359be736ccb4ae5ccf50f5d754cd4973}{anime\_total\_episode\_pages}} = (int)Math.Ceiling(((\textcolor{keywordtype}{double})((
+      currentLatestEpisode) / (\textcolor{keywordtype}{double})20) )) - 1;
+1013 
+1014             \}
+1015 
+1016             \textcolor{keywordflow}{return} result;
+1017         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a2f28ad03d4dfe8d90c0392da8af39651_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a11b3560a1e2fe0e3ac5d481efb46d7a6}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a11b3560a1e2fe0e3ac5d481efb46d7a6}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Currently\+Airing\+Async@{Currently\+Airing\+Async}}
+\index{Currently\+Airing\+Async@{Currently\+Airing\+Async}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Currently\+Airing\+Async()}{CurrentlyAiringAsync()}}
+{\footnotesize\ttfamily async Task$<$Dictionary$<$int, J\+Object$>$ $>$ Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Currently\+Airing\+Async (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{string}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 1019 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result.\+result, Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler.\+Search\+Anime(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+1019                                                                                                   \{
+1020 
+1021             Dictionary<int, JObject> latestAiringKitsuUnordered = \textcolor{keyword}{new} Dictionary<int, JObject>();
+1022             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Searching anime at index: "} + index + \textcolor{stringliteral}{",
+       anime title: "} + title, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+1023 
+1024             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result}{JsonKistuSearchResult}} searchresult = await 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}{KitsuHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_a4afb4a1718099f9e4e39ebc237ae45a0}{SearchAnime}}(title, \textcolor{keyword}{new} Dictionary<string, string>() \{ \{ \textcolor{stringliteral}{"status"}, \textcolor{stringliteral}{"
+      current"} \}, \{ \textcolor{stringliteral}{"subtype"}, \textcolor{stringliteral}{"TV"} \} \}, 0, 1);
+1025             \textcolor{keywordflow}{try}
+1026             \{
+1027                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Adding anime at index: "} + index + \textcolor{stringliteral}{",
+       anime title: "} + searchresult.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adecaada095caebc883fc6aa89210a182}{result}}.Value<JObject>(0)[\textcolor{stringliteral}{"attributes"}].Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"canonicalTitle"}), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+1028 
+1029                 latestAiringKitsuUnordered.Add(index, searchresult.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_adecaada095caebc883fc6aa89210a182}{result}}.Value<JObject>(0));
+1030             \}
+1031             \textcolor{keywordflow}{catch} (Exception e)
+1032             \{
+1033                 latestAiringKitsuUnordered.Add(index, \textcolor{keyword}{new} JObject());
+1034 
+1035                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ERROR);
+1036             \}
+1037 
+1038             \textcolor{keywordflow}{return} latestAiringKitsuUnordered;
+1039         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a11b3560a1e2fe0e3ac5d481efb46d7a6_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_adf3e37895c7834c51b436beed19d1aa5}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Kitsu\+Handler@{Kitsu\+Handler}}
+\index{Kitsu\+Handler@{Kitsu\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Kitsu\+Handler}{KitsuHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler}{I\+Kitsu\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Kitsu\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 35 of file Anime\+Profile\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4bba317e1a7ee70ecc0d7e108787d399}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Nibl\+Handler@{Nibl\+Handler}}
+\index{Nibl\+Handler@{Nibl\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Nibl\+Handler}{NiblHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler}{I\+Nibl\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Nibl\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 36 of file Anime\+Profile\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a4764b15d1f2aaf7d21aa461508a08a62}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Data\+Base\+Handler@{Data\+Base\+Handler}}
+\index{Data\+Base\+Handler@{Data\+Base\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Data\+Base\+Handler}{DataBaseHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler}{I\+Data\+Base\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Data\+Base\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 37 of file Anime\+Profile\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aa8248a311fa69699a8230f005bcecdbc}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_aa8248a311fa69699a8230f005bcecdbc}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Anime\+Rule\+Handler@{Anime\+Rule\+Handler}}
+\index{Anime\+Rule\+Handler@{Anime\+Rule\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Anime\+Rule\+Handler}{AnimeRuleHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler}{I\+Anime\+Rule\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Anime\+Rule\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 38 of file Anime\+Profile\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a0b0ae3c3838d26351485e6dfc566a632}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 39 of file Anime\+Profile\+Handler.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}\label{class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_a7f6515084315842dded98b57c4f7cd22}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}!Weeb\+File\+Name\+Parser@{Weeb\+File\+Name\+Parser}}
+\index{Weeb\+File\+Name\+Parser@{Weeb\+File\+Name\+Parser}!Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}}
+\subsubsection{\texorpdfstring{Weeb\+File\+Name\+Parser}{WeebFileNameParser}}
+{\footnotesize\ttfamily readonly Weeb\+File\+Name\+Parser Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler.\+Weeb\+File\+Name\+Parser\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 40 of file Anime\+Profile\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_anime_profile_handler_8cs}{Anime\+Profile\+Handler.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Models.JsonDownloadInfo.ToJson" name="LittleWeebLibrary.Models.JsonDownloadInfo.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#a2f646f8d28235a8953b67207ee6131d9" title="LittleWeebLibrary.Handlers.\lDownloadHandler.DownloadQueueHandler" alt="" coords="227,5,491,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#a3111908b7f7a133a80ab6ec3e81cdcbf" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.OnDownload\lUpdateEvent" alt="" coords="227,71,492,127"/>
+</map>

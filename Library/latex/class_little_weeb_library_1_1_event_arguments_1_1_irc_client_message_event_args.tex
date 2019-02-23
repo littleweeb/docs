@@ -1,0 +1,128 @@
+\hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args}{}\section{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args Class Reference}
+\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args}\index{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a0b8df2a044d27dec2dd963e978311be4}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a89968e57254aa26cf1d41fa7a967ec61}{Channel}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a00af672ceae9da43c1bcff12049fd78d}{Message}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a93a50eb157a99b2b315ecb2439cc64db}{User}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file Irc\+Client\+Message\+Event\+Args.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a0b8df2a044d27dec2dd963e978311be4}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a0b8df2a044d27dec2dd963e978311be4}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file Irc\+Client\+Message\+Event\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Message\+Event(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Message().
+
+
+\begin{DoxyCode}
+11         \{
+12             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+13             toReturn += \textcolor{stringliteral}{"Message: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a00af672ceae9da43c1bcff12049fd78d}{Message}} + Environment.NewLine;
+14             toReturn += \textcolor{stringliteral}{"User: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a93a50eb157a99b2b315ecb2439cc64db}{User}} + Environment.NewLine;
+15             toReturn += \textcolor{stringliteral}{"Channel: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a89968e57254aa26cf1d41fa7a967ec61}{Channel}} + Environment.NewLine;
+16             \textcolor{keywordflow}{return} toReturn;
+17         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a0b8df2a044d27dec2dd963e978311be4_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a00af672ceae9da43c1bcff12049fd78d}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a00af672ceae9da43c1bcff12049fd78d}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}!Message@{Message}}
+\index{Message@{Message}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}}
+\subsubsection{\texorpdfstring{Message}{Message}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args.\+Message\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 7 of file Irc\+Client\+Message\+Event\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Message\+Event().
+
+
+\begin{DoxyCode}
+7 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a93a50eb157a99b2b315ecb2439cc64db}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a93a50eb157a99b2b315ecb2439cc64db}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}!User@{User}}
+\index{User@{User}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}}
+\subsubsection{\texorpdfstring{User}{User}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args.\+User\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 8 of file Irc\+Client\+Message\+Event\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Message\+Event().
+
+
+\begin{DoxyCode}
+8 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a89968e57254aa26cf1d41fa7a967ec61}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_a89968e57254aa26cf1d41fa7a967ec61}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}!Channel@{Channel}}
+\index{Channel@{Channel}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}}
+\subsubsection{\texorpdfstring{Channel}{Channel}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args.\+Channel\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Irc\+Client\+Message\+Event\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service.\+On\+Irc\+Client\+Message\+Event(), and Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Message().
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Arguments/\mbox{\hyperlink{_irc_client_message_event_args_8cs}{Irc\+Client\+Message\+Event\+Args.\+cs}}\end{DoxyCompactItemize}

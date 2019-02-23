@@ -1,0 +1,9 @@
+<map id="LittleWeebLibrary.Models.JsonIrcInfo.ToJson" name="LittleWeebLibrary.Models.JsonIrcInfo.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#ad5592055f57beed1a26d76ee1a518af5" title="LittleWeebLibrary.Services.\lIrcWebSocketService.Connect" alt="" coords="251,5,449,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#a637703e827e16a5d99055119bfe62972" title="LittleWeebLibrary.Services.\lIrcWebSocketService.Disconnect" alt="" coords="243,71,457,112"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#aaa29fbcae1268174d436730a58afadca" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.GetCurrent\lIrcSettings" alt="" coords="227,217,473,273"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#a9add76a72fff82d5b7009d34620516dd" title="LittleWeebLibrary.Services.\lIrcWebSocketService.GetCurrentIrc\lSettings" alt="" coords="237,137,463,193"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#abd98810f045f0200700d8441a0c14902" title="LittleWeebLibrary.Services.\lIrcWebSocketService.OnIrcClient\lConnectionStatusEvent" alt="" coords="243,297,457,353"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller.html#a5ea966dddf1e0a082dd5ec28f6ace3ab" title="LittleWeebLibrary.Controllers.\lIrcWebSocketController.OnWebSocketEvent" alt="" coords="521,71,801,112"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html#a39b333aee248388fd295a8511486c76e" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController.OnWebSocketEvent" alt="" coords="548,217,775,273"/>
+</map>

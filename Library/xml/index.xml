@@ -1,0 +1,1291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::BaseWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a24d4bcbb4e3711480785bb3ba0490a87" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a73de333945e3c5cbba6976077e62d61c" kind="variable"><name>SubControllers</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a4f9d71be8e7e947390a2c15dae5692ab" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a0e9c1d617d9de0f8b1aec72078a81b18" kind="function"><name>BaseWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1ae799e6c0e4c3ed0200b18a0360968ac8" kind="function"><name>SetSubControllers</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a5344934da2b25a2ec1599b2ec86dd06e" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::DownloadWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a0dd1bc44e7a4b9e246d4ed07f6f51c59" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1aadc888a9484668d089275c1a7b7e9237" kind="variable"><name>DirectoryWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a980b36f961f8ebf5f2c682e6ae206aeb" kind="variable"><name>DownloadWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a052dcf8f2c820e57f6be9d26bcbb5817" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1adb8f6706c45d35e72ffb9cca7e768605" kind="function"><name>DownloadWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::FileWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a79ef455892623101bcd0acdfdf444831" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1abe5b4bdf507c8ea2e86387824fa30df7" kind="variable"><name>FileWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a45408070db690e3a794a666995655466" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a6e297614bf4d98314e6d3583ccdf6dae" kind="function"><name>FileWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller" kind="interface"><name>LittleWeebLibrary::Controllers::IBaseWebSocketController</name>
+    <member refid="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller_1a80d53e08202c06f729b0aa90d36c152f" kind="function"><name>SetSubControllers</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::IrcWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1ac7ae7d3e2272f43e33217f61d322e21e" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a941b64ee037b2e8cdab92dbb0d327a93" kind="variable"><name>IrcWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1ae030b949a8326b776837fc32aec41abb" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a6668898a19272a602ab6ae79a29caaaa" kind="function"><name>IrcWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller" kind="interface"><name>LittleWeebLibrary::Controllers::ISubWebSocketController</name>
+    <member refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller_1adcb26b7b397d6a67ccbf114008c29985" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::SubControllers::DataBaseWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1add7dc4cb6fa48d3349fc365ec0c4d9fb" kind="variable"><name>DataBaseWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a8653a13344308bd83e631d1028c5c845" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1afbb86fe1001e699f3d5f777ea20bb731" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1ac8f85473ad0ccabfa985d704343a49a7" kind="function"><name>DataBaseWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::SubControllers::DirectoryWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1abf69338892fe5271089f8f5f5f8f98e4" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1abc26a62941c830a9d2ac9a99da75090c" kind="variable"><name>DirectoryWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1aeb38c7591cca93339c43ed5b1424b790" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a46e3ddc55aed91ecf9ecf4e8b6849aa8" kind="function"><name>DirectoryWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::SubControllers::InfoApiWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1a157706fc440b32d465de389a727a90c0" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1a188679b63479808515ecf4850f70b3e3" kind="variable"><name>InfoApiWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1a4edb97d9c7fc56d1e93351f197144ca8" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1a7c884b59b148f11761492b39619acf32" kind="function"><name>InfoApiWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::SubControllers::SettingsWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1aa9dbf3ffb60b7fad884bbdb3c553b1e7" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a6d733d35bf981733110071fe2fe8129c" kind="variable"><name>SettingsWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a38ef1d85352aa67696205ad34fdef40d" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a81701a5495065390949f1672fcac1f40" kind="function"><name>SettingsWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller" kind="class"><name>LittleWeebLibrary::Controllers::SubControllers::VersionWebSocketController</name>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1a24e591facb6cdbd59b1dc2fdd176097b" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1ace430a42e0ff93f1e4476abefc14e6e9" kind="variable"><name>VersionWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1a81dd482a3c1356e21cd2b6e7b1de4812" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1a8c030dabf1c19d49efa902ef97a84f7a" kind="function"><name>VersionWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" kind="function"><name>OnWebSocketEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args" kind="class"><name>LittleWeebLibrary::EventArguments::BaseDebugArgs</name>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1ab2d00faa48751515043b173742b84857" kind="property"><name>DebugMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1a13caf826c18316458f6cc474853dc774" kind="property"><name>DebugSource</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1a95613b85e457ccb3bc214489b5cdcb01" kind="property"><name>DebugSourceType</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1aa2822d085deabfeb175824f22a114f1f" kind="property"><name>DebugType</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1abd45b6cc151692d7c3878ea3c2c61d88" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args" kind="class"><name>LittleWeebLibrary::EventArguments::DownloadUpdateEventArgs</name>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_1a6f920facf63fcef57167ccf645ed42bf" kind="property"><name>downloadInfo</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_download_update_event_args_1ac81037572c354a14f1d35b654ac24b5a" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_file_handler_debug_event_args" kind="class"><name>LittleWeebLibrary::EventArguments::FileHandlerDebugEventArgs</name>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args" kind="class"><name>LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</name>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a51cbce60bdb96d0b461d5a6e84940072" kind="property"><name>ChannelsAndUsers</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a4df4d6c89f98fcbe91ee1ecb40066a77" kind="property"><name>Connected</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a0cdd120909dbddabaa080c5a1dabb81d" kind="property"><name>CurrentIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a71fdd09abcc607734be01125338fa928" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args" kind="class"><name>LittleWeebLibrary::EventArguments::IrcClientDownloadEventArgs</name>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1aa939c25b51a6fa3ceadd3f22d2f630c4" kind="property"><name>DownloadProgress</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1a0d1c494e39acae88a865520f60d60ea6" kind="property"><name>DownloadSpeed</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1a59c5c002bc9b25fea03c12fd0c8a8769" kind="property"><name>DownloadStatus</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1a1f2b2510d2f6c011c709be1610bb0a3a" kind="property"><name>FileLocation</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1ae708a4da9c599b02372c55dd08294cd5" kind="property"><name>FileName</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1a1d39a926b93644e0d7dd5e0c2e6f6164" kind="property"><name>FileSize</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_1a08055fe777a1585dafab7fbeec58b891" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" kind="class"><name>LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</name>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a89968e57254aa26cf1d41fa7a967ec61" kind="property"><name>Channel</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a00af672ceae9da43c1bcff12049fd78d" kind="property"><name>Message</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a93a50eb157a99b2b315ecb2439cc64db" kind="property"><name>User</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a0b8df2a044d27dec2dd963e978311be4" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" kind="class"><name>LittleWeebLibrary::EventArguments::WebSocketEventArgs</name>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1ac7aee4603c5f55b11dd59de007b3a8b3" kind="property"><name>Message</name></member>
+    <member refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_1acf402c2f7fd4ddbf175fea7f921ea879" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event" kind="interface"><name>LittleWeebLibrary::GlobalInterfaces::IDebugEvent</name>
+    <member refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_debug_event_1a98e8f7816df18ade00fb1b7f285bd335" kind="event"><name>OnDebugEvent</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" kind="interface"><name>LittleWeebLibrary::GlobalInterfaces::ISettingsInterface</name>
+    <member refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a9ddf06e247a96d757482b37ddb070e3d" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a5c53e44105f1f4c7f8c3e546d29939d7" kind="function"><name>SetLittleWeebSettings</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler" kind="class"><name>LittleWeebLibrary::Handlers::AnimeProfileHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aa8248a311fa69699a8230f005bcecdbc" kind="variable"><name>AnimeRuleHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4764b15d1f2aaf7d21aa461508a08a62" kind="variable"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a0b0ae3c3838d26351485e6dfc566a632" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1adf3e37895c7834c51b436beed19d1aa5" kind="variable"><name>KitsuHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4bba317e1a7ee70ecc0d7e108787d399" kind="variable"><name>NiblHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7f6515084315842dded98b57c4f7cd22" kind="variable"><name>WeebFileNameParser</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1ac2f5e6adc1c0a36ff24797a437bf490d" kind="function"><name>AnimeProfileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54" kind="function"><name>GetAnimeEpisodes</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061" kind="function"><name>GetAnimeProfile</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a2f28ad03d4dfe8d90c0392da8af39651" kind="function"><name>AnimeLatestEpisode</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a1bb944a0f0871b23484be89e2cf8705f" kind="function"><name>BotListPerResults</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a132e4da0f082cc2c967cd06eaac3337b" kind="function"><name>CombineAnimeEpisodesParsedNiblResults</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a11b3560a1e2fe0e3ac5d481efb46d7a6" kind="function"><name>CurrentlyAiringAsync</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4fc9722b5a07b62c081a75873934682e" kind="function"><name>GetPreviousSeasonsTotalEpisodes</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1ad7341acd9da86cd5cee9a45b0a41f887" kind="function"><name>GetSeasonFromAnime</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a92412693abdf9ea697e6b793b71d468f" kind="function"><name>ParseNiblSearchResults</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4796da2a058bbc1efe2ee8f31b6a9b4d" kind="function"><name>ParseTitles</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler" kind="class"><name>LittleWeebLibrary::Handlers::AnimeRuleHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a31322132913e3f4b669e14a3e621a326" kind="variable"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a6ad89134d97d818f3b2deebb7e2cf361" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1aff5df38f10696987486267a30095ad49" kind="variable"><name>GlobalRules</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a71cb7aa9d7e5df35ae28ac4fcb11a51f" kind="function"><name>AnimeRuleHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a469232c6b73d0ceff935c4ef2d78d039" kind="function"><name>AddRules</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a503fb2839489e1df8b80c9a461c0fd2b" kind="function"><name>FilterAnimeRules</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a721f5c5ac798ca7e81286b3f401921fb" kind="function"><name>Get</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a719277ca087cc0e4b46708179d62b07f" kind="function"><name>Init</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler" kind="class"><name>LittleWeebLibrary::Handlers::DataBaseHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1aeea801d75a8294727c8b8e2805b43abb" kind="variable"><name>DataBasePath</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1aa474a1f934032623ffb3ae5eb156148b" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1af3623e6075f8aaf6f5082994cd1448df" kind="function"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" kind="function"><name>GetCollection</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" kind="function"><name>GetJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a4d7ed521cd4bedc0d650bc01afc67587" kind="function"><name>GetJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7821535a003c7675c09ba846bd9502ca" kind="function"><name>RemoveJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ac9938b8d47b353d15c8e77e94849896e" kind="function"><name>RemoveJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" kind="function"><name>StoreJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a9b2223ff71f688234f95d247ea3b5739" kind="function"><name>UpdateJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae1bd1078fc9253555322dc0609c49863" kind="function"><name>UpdateJObject</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler" kind="class"><name>LittleWeebLibrary::Handlers::DebugHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac6690e0052ce2a2a040a5160c60fa6d4" kind="variable"><name>DebugFileName</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac3da0e592d7c056dfeb8e60a5a5c1986" kind="variable"><name>DebugPath</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6073413df4c401fb94a64ee2a0649293" kind="variable"><name>DebugSourceTypes</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a99de78cea15e565e6c5c819b7230e57b" kind="variable"><name>DebugTypes</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a37befa26f60bbf4a6b945fb8be13977e" kind="variable"><name>DebugWriteAble</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6707530c5bad1e3a3af39620e0f783c2" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1af4dc20fe66b515bdd875bb4b1124cb2a" kind="variable"><name>MessageQueue</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6c33170a85d7efd28a204285e1851dc5" kind="variable"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a56724baaa1b399d63773b3be73f0ad96" kind="variable"><name>stop</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a110c2f11a80b5dfa28545eca4a867a0b" kind="function"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac253016968e2d0141b49ab227a715242" kind="function"><name>SetSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1aa02d002a4bdac52d769697d240866214" kind="function"><name>StopDebugger</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" kind="function"><name>TraceMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a913150657a1b7f0b61e4494cc2f3eae1" kind="function"><name>CreateFile</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a37b616e03da950fb30d1087cb7bc69fd" kind="function"><name>DebugFileWriter</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a733f22d0dabe84bf05463bdaeb2da250" kind="function"><name>TraceWriter</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ade74885424ad635ba119c8c146bd7e73" kind="function"><name>WriteTrace</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler" kind="class"><name>LittleWeebLibrary::Handlers::DirectoryHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1adb882b8ec72046e2b95b6d11228f6927" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a347ba4ee0182625434973769c90d06e1" kind="function"><name>DirectoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6be1b158ee280e8a74a49917a90484e2" kind="function"><name>CreateDirectory</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" kind="function"><name>DeleteDirectory</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" kind="function"><name>GetDirectories</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" kind="function"><name>GetDrives</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" kind="function"><name>GetFreeSpace</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" kind="function"><name>OpenDirectory</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_download_handler" kind="class"><name>LittleWeebLibrary::Handlers::DownloadHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a639d0d2adc924c6252b3cc5756ea9281" kind="event"><name>OnDownloadUpdateEvent</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a45f8f3fe581060feacfedcaee99d9363" kind="variable"><name>CurrentlyDownloading</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a9f1aedadbd6f343d8de1c54724eca11e" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a2819c4cad3fca5a4b6ebc9894e3788fc" kind="variable"><name>DownloadProcesOnGoing</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a11dcd1dea101dd36f9cac44c5d47ad29" kind="variable"><name>DownloadQueue</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1abf1cefedf4cb1dd53e3b97823e50ec5f" kind="variable"><name>FileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a40cbbbcd11e091becd46de0254081661" kind="variable"><name>FileHistoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a0ffa906f8e42099ea4a822a33ae707cd" kind="variable"><name>IrcClientHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1abd6998e0c48b061f7ec3f53e495054ea" kind="variable"><name>IrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1af5e3cf628dab0016b460a3be80798609" kind="variable"><name>Stop</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ae98f5b136d09bb9f619bfad68f8d8bf7" kind="function"><name>DownloadHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" kind="function"><name>AbortDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" kind="function"><name>AddDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" kind="function"><name>AddDownloads</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a3d913e57fb5f46a736c02858364609f9" kind="function"><name>GetCurrentlyDownloading</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" kind="function"><name>RemoveDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a6edcb9be7543c9fb587df06c994f50fb" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a0ad546188f5b5145dd9b088852cd29f8" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8fd807f023ed25e031844da3927e1a23" kind="function"><name>StopQueue</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a2f646f8d28235a8953b67207ee6131d9" kind="function"><name>DownloadQueueHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad673ec5fc987996b4793c41ce77aaad4" kind="function"><name>IdGenerator</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" kind="function"><name>OnIrcClientDownloadEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_file_handler" kind="class"><name>LittleWeebLibrary::Handlers::FileHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a131760e1828cd7ae1df2e90e9f300426" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1aba666088c6ab88513663dfc7bbb45bf1" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a2cc256d20ab33e0838e50279ee9f6fc0" kind="function"><name>FileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" kind="function"><name>DeleteFile</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" kind="function"><name>OpenFile</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a4ccfd9a9698ca0dc9e228aabe27ac756" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a81ebb3e28e77c5fc30acaf7d769ba8df" kind="function"><name>SetLittleWeebSettings</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler" kind="class"><name>LittleWeebLibrary::Handlers::FileHistoryHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1afe186c8ea770ecb9253a07f82f23c471" kind="variable"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1afeb86d3ea5c145f7dd6937f061679395" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1ab8aa730a5d9db1b2624723394bd06191" kind="function"><name>FileHistoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" kind="function"><name>AddFileToFileHistory</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a7e5a72e2cfdc3dfe97066cc7504b4445" kind="function"><name>GetCurrentFileHistory</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" kind="function"><name>RemoveFileFromFileHistory</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IAnimeProfileHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ac23c001a51abb10a3d013738000dafec" kind="function"><name>GetAnimeEpisodes</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ad0fbcf84372d9d564e8d84d3291fa136" kind="function"><name>GetAnimeProfile</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ad59273ddfe35a2560f3e07879b334c25" kind="function"><name>GetCurrentlyAiring</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IAnimeRuleHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_1ae8bcf661c81733b24b52ce3e180aeac1" kind="function"><name>AddRules</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler_1ad82316c84b3b1a7870ff94107b420cc6" kind="function"><name>FilterAnimeRules</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IDataBaseHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a33ee83202d229f44d3839af7c1b65df0" kind="function"><name>GetCollection</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a6586c4d1cfebdb8d5d40bc544d51914c" kind="function"><name>GetJObject</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a9d9a8fc06ab8431daa5363becf79cf65" kind="function"><name>GetJObject</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a76b8da1f75749b16e095dc3d635cebdf" kind="function"><name>RemoveJObject</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a4d78b21102490d85906d0eb3f4693227" kind="function"><name>RemoveJObject</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a5d87c42ef7dc7e5d86f7e6fada3454e9" kind="function"><name>StoreJObject</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a00c429576be33aa60bdf1a88edaf88c6" kind="function"><name>UpdateJObject</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a30fbd69419ce902612a3c323b451f3fa" kind="function"><name>UpdateJObject</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IDebugHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1ac94e404b87a0922e0d6a7c7a7bc2a1b5" kind="function"><name>SetSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a96c2102206eb5238faa8a07bc9652fd1" kind="function"><name>StopDebugger</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc" kind="function"><name>TraceMessage</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IDirectoryHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1aa2298db37f9e9a6050d01be4d3150889" kind="function"><name>CreateDirectory</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1a7fcae4cc311e09d32b84327b74d80828" kind="function"><name>DeleteDirectory</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1a4db23041b31d9b7e46c0be7acb27b0a8" kind="function"><name>GetDirectories</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1ac0cc258a8bef2c9956638e14ad7d1e63" kind="function"><name>GetDrives</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1aa969b0771c2482aa5b3fed0d5b9fae65" kind="function"><name>GetFreeSpace</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1a43ca9f14498ef3b9cfbdf960b877ac19" kind="function"><name>OpenDirectory</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IDownloadHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1ab1d80f17c3714758e3a605adddfe68ef" kind="event"><name>OnDownloadUpdateEvent</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1ad0282431f67c1c1b27ae85ec4430d547" kind="function"><name>AbortDownload</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1aa3c1ffac97fec47757494e14b5ade3d6" kind="function"><name>AddDownload</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1a615c539f5946719ae2ef4f856db91430" kind="function"><name>AddDownloads</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1aa0c6f62ad21ef6fb638314101f4357ec" kind="function"><name>GetCurrentlyDownloading</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1aca5dc8dc1965f09d2a5860f9297ddb26" kind="function"><name>RemoveDownload</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler_1a7cc8a36cbac3bcfb4e9761fae2c5ac53" kind="function"><name>StopQueue</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IFileHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1aff6a35f857564900ae27586121a8bb41" kind="function"><name>DeleteFile</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler_1a135124a2374dc64f5c64fdc4ff9eb049" kind="function"><name>OpenFile</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IFileHistoryHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_1a61ccff04c662692b2ad3f67773c73918" kind="function"><name>AddFileToFileHistory</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_1a4c21e166d6be24e3378cdbbf938c4671" kind="function"><name>GetCurrentFileHistory</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler_1afcfb45f7f8a2161350d0b78c25a3d0d3" kind="function"><name>RemoveFileFromFileHistory</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IIrcClientHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1aa5c6de48e7174db5e954a98bc7f51428" kind="event"><name>OnIrcClientConnectionStatusEvent</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a613d3077c0296d53b1b5e13931b9a0e5" kind="event"><name>OnIrcClientDownloadEvent</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a11c263a58db1c4077ddbfffeb7fea46b" kind="event"><name>OnIrcClientMessageEvent</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1af27269f6df01227345fc51030e702b51" kind="function"><name>CurrentSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1ae2c21ca5104d4aaceeccd1268e0d52b2" kind="function"><name>IsConnected</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1abb1d62bc52436a68712fd1b80d9f911e" kind="function"><name>IsDownloading</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1aa9da8681f056b8122ad56c586a78fed0" kind="function"><name>SendMessage</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a060949c5d049dd8a06c0ef672b4d4fad" kind="function"><name>Setfullfilepath</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a0a814a058f665efda8c88eb5306658f5" kind="function"><name>StartConnection</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1af14486a1ffa0b1d4ab3058f442ee9d6a" kind="function"><name>StartDownload</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1a2b673db5262a09a26d72ee57e34e5b60" kind="function"><name>StopConnection</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler_1af1da0e6ed40f306b92dc0952c05cd1fe" kind="function"><name>StopDownload</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IKitsuHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1aac2bc10e35e89c47fe6b9954dd86442a" kind="function"><name>GetAllCategories</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1ad5d0744af17b926aed44fe87e6834f04" kind="function"><name>GetAllGenres</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a85c4f22da758a475c55327fa6393935c" kind="function"><name>GetAnime</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a731b56ca79910b6b1d7b2218c34e3156" kind="function"><name>GetCategories</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a644c9e4caf1db5de18a78fe03b33e278" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a9f182eabb098e98f566c8add1695bb36" kind="function"><name>GetEpisode</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1adc4f3c45aec996b1f94894368f818de4" kind="function"><name>GetEpisodes</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a6ea08bc341bbaa01174a451acd3d9b08" kind="function"><name>GetFullAnime</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a22e208a4c0ea64dafdbeb1a133739bfd" kind="function"><name>GetGenres</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1aa82bf536086211de6b458610b83ed43f" kind="function"><name>GetRelations</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler_1a4afb4a1718099f9e4e39ebc237ae45a0" kind="function"><name>SearchAnime</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler" kind="interface"><name>LittleWeebLibrary::Handlers::INiblHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1ae0847d190828d9d373650626f92e83ec" kind="function"><name>GetBotList</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1a7e3c7dc7ba9a01c39d125dc0a759d606" kind="function"><name>GetLatestEpisode</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1a744548c45993c925a492744f1fb747e9" kind="function"><name>GetLatestFiles</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1a751ab95fe78f072abef69d89e5557ad1" kind="function"><name>SearchNibl</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler_1aea34d508a803bf76f119e95b6e9e9cf0" kind="function"><name>SearchNibl</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler" kind="class"><name>LittleWeebLibrary::Handlers::IrcClientHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa8ef070963f103cc627e781c39b90c64" kind="event"><name>OnIrcClientConnectionStatusEvent</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a43ee49f8e97d65bf318e5f663587d7a6" kind="event"><name>OnIrcClientDownloadEvent</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a60906730beb3dae974b2bdc77a51bb8d" kind="event"><name>OnIrcClientMessageEvent</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ab50ece494948d25db1839f4d6eab038f" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a1c78638ea8025b27bb3e604f432ce325" kind="variable"><name>IrcClient</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a5a8c1eee913ec3c9afad8acd1bfbc37c" kind="variable"><name>IrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a10457d1436c29ce92878e74579717dc0" kind="variable"><name>IsConnectedBool</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a03a557318cb10111d7871fb229a86a86" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ac52cdf245955073d59f8193e167c149d" kind="variable"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a01745667c95f2c3d5c461f708aa13bb8" kind="function"><name>IrcClientHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa15fe2f3c1bd99a513400b0880298edd" kind="function"><name>CurrentSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2cc2c26c57a1c94f209ca8641c9e25ef" kind="function"><name>IsConnected</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a093409b2b1397a6a061e00802546c87b" kind="function"><name>IsDownloading</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae28984176dff0eda63604b8e5c25abb4" kind="function"><name>SendMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aafe7e3669d3fdd8a0a3c37a240b3c574" kind="function"><name>Setfullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a510c909225e51c66b65f7114ebd356d3" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae0b7e9fc2b6c7874a6be2a938f88fc1a" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" kind="function"><name>StartConnection</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" kind="function"><name>StartDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a97a617b50a161906a91ce1ea483a1770" kind="function"><name>StopConnection</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a265ca021f5086addf758e87f59a0aa11" kind="function"><name>StopDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afef5cc2f76989366cb52ffa7d5a78752" kind="function"><name>OnDownloadUpdate</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1abdc8785a2452e7a1d496c44a424d1812" kind="function"><name>OnDownloadUpdateDebug</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ad97947bcce5bebd851bef6e29fecb467" kind="function"><name>OnMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2b48c617972be0b3079a262ffc8141f6" kind="function"><name>OnMessageDebug</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a8ffa9ba31b96d32a4c1fdafc04afaf5e" kind="function"><name>OnUserListUpdate</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler" kind="interface"><name>LittleWeebLibrary::Handlers::ISettingsHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a8ee9be789e628c80fae0db96d890569b" kind="function"><name>GetIrcSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a493bc8df18211fa8c3874371b809e006" kind="function"><name>GetLittleWeebSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a0c2480bc0a0ff28ed1dc68d32817efc6" kind="function"><name>WriteIrcSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a6b2cfe838785ae84db9608fb041c5fb5" kind="function"><name>WriteLittleWeebSettings</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IVersionHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_1a812c819dce905da83c29a48e3aabba2e" kind="function"><name>GetLatestVersionAndroid</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_1a0d72fd0650a8bd465bcf22fab766e111" kind="function"><name>GetLatestVersionDesktop</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_1a0358d04d17b2333448008eb793add5ae" kind="function"><name>GetLocalVersion</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kind="interface"><name>LittleWeebLibrary::Handlers::IWebSocketHandler</name>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a97a64552bc41c6a11c65ec489f833d8c" kind="event"><name>OnWebSocketEvent</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a1e512d10e0dd5f5b15abc2b46659142a" kind="function"><name>SendMessage</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a14d51d50fb03c21d6f47f4250e49f288" kind="function"><name>StartServer</name></member>
+    <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a69aca27030b0df701d7ce57ba2545cb1" kind="function"><name>StopServer</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler" kind="class"><name>LittleWeebLibrary::Handlers::KitsuHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a6d3c55fa5eee15320845c2d902c96882" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a92f980060f9277a512dfda67768a7428" kind="function"><name>KitsuHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1ae329f7e735a6abee2734bbbd13d121b2" kind="function"><name>GetAllCategories</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a528491d8d97584b2ba2c3bfcc4b5772e" kind="function"><name>GetAllGenres</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a4c88ed25befe2904416b4d90673a8f82" kind="function"><name>GetAnime</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a8d6a49dd26f66dd33ea2e2b4e9b330cb" kind="function"><name>GetCategories</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1af733f442659b7789588da55b00c065c4" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a3129d77267b0fb879e3f8f1a8e83494a" kind="function"><name>GetEpisode</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a615caf4bea96465d35eb36434bc71bea" kind="function"><name>GetEpisodes</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a5f655ed8b3e26f6d6767e090eea9e3bb" kind="function"><name>GetFullAnime</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1aabd039f9220f03f5c9dcf83e104531b1" kind="function"><name>GetGenres</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1ad1ba51037e72c80804018f4c1df37581" kind="function"><name>GetRelations</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a92f121e8fec8cce5ffe0454d3a17c156" kind="function"><name>SearchAnime</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a8b7c629a03096c3152252f6b5cf2937f" kind="function"><name>Get</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a27b4c1e9d11ba03420fbd13166e0f95b" kind="function"><name>GetEpisodesFromKitsu</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler" kind="class"><name>LittleWeebLibrary::Handlers::NiblHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a334c2111588fa71d1203bd8cbb572970" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1ac0392c6b723e01d26c8a45d64575c5af" kind="variable"><name>KitsuHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a0aae159f51f737bbb89946b8fe8c8743" kind="variable"><name>WeebFileNameParser</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1afdd2ee189bd6bec0a1fb4a309498e6c2" kind="function"><name>NiblHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aac05976a2e1a688dd187ccca513ab3cc" kind="function"><name>GetBotList</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a149bf3305de6348eaddee4afb92d5095" kind="function"><name>GetLatestEpisode</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a20fef31afe52976e394fc44659cc3593" kind="function"><name>GetLatestFiles</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aa5fcae94d3322123b784078727a3db67" kind="function"><name>SearchNibl</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1acffe025c2b1158bc67196879622dfa0a" kind="function"><name>SearchNibl</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a2989b180582fadd05111d010c0700411" kind="function"><name>Get</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler" kind="class"><name>LittleWeebLibrary::Handlers::SettingsHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a80da61f3a3fcbb5f9ac6057591a98acf" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a2e309fc6b949f0bb7e7ace8c2017be7f" kind="variable"><name>SettingsPath</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a6b11494ae34a6ff54b825941ef06cdb2" kind="function"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a22195b5d1df129295e0e30298611bdba" kind="function"><name>GetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a53a5c5206eb6d2c58fa9d970c9b97463" kind="function"><name>GetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1ad42462e9e851301c5f5b91663dc3fe24" kind="function"><name>WriteIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1af5a1ea4a3605d938b363e83268774d6f" kind="function"><name>WriteLittleWeebSettings</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_version_handler" kind="class"><name>LittleWeebLibrary::Handlers::VersionHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a9d4e181ca6b1efff96f530dd7981d6e3" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a51b31c85fe764e675c800d75b668f5d4" kind="function"><name>VersionHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" kind="function"><name>GetLatestVersionAndroid</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" kind="function"><name>GetLatestVersionDesktop</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" kind="function"><name>GetLocalVersion</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler" kind="class"><name>LittleWeebLibrary::Handlers::WebSocketHandler</name>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a77ea6ec1d9b66676ebb1491cb42b3ec9" kind="event"><name>OnWebSocketEvent</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a019d083f8ea9b7ad625222d2311c5b26" kind="variable"><name>ClientIds</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1aa1474285fe938f284633c31403bf9edf" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1ace78703e1e323bb96f1f6941b7483a88" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a20ab6e2afd31971c72722e2680dc50ca" kind="variable"><name>Server</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1aa420f7ed35d16df6ef6f18bd0ab8fa3a" kind="function"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" kind="function"><name>SendMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a9c13ff9ec9ed3dfc07235f47332276d1" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a7ca1faf86f9796afd4c9981a7c961f3b" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a23d4ffbabdb67c97ea843d4e7dc5cbdd" kind="function"><name>StartServer</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1abcd87ac26780369b500299fc12aa0039" kind="function"><name>StopServer</name></member>
+    <member refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a527c7515f2e19938e9ff23ce2d993fda" kind="function"><name>OnWebSocketServerEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_little_weeb" kind="class"><name>LittleWeebLibrary::LittleWeeb</name>
+    <member refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" kind="variable"><name>startUp</name></member>
+    <member refid="class_little_weeb_library_1_1_little_weeb_1a15e3c466b1eccd90f03c3d2661dfbfd7" kind="function"><name>LittleWeeb</name></member>
+    <member refid="class_little_weeb_library_1_1_little_weeb_1abdb53c29265dddd9fa0a27c8bf4d50f2" kind="function"><name>Stop</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing" kind="class"><name>LittleWeebLibrary::Models::JsonCurrentlyAiring</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1ae1ec08105360df0bacaf657a57a6d0d8" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a0a27db3207e9fb88e8258c86481d5d0a" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1aede3bf8f88b0414bc723f79fd62cd0af" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a17c6ec2452aff297f572ce2544c89370" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a5e56160f130c25bd439904d14b5bdbc4" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing_1a330c337c9e0ddf2866a9a102ae0e9880" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection" kind="class"><name>LittleWeebLibrary::Models::JsonDataBaseCollection</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection_1a5dd052bee11a80bb2794594ec7a1a772" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection_1ada1f636f42040ebdd7a96b7a388afa7d" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection_1a650eb5da20f77813da3d4f4fae56bf3b" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection_1abb41335632171ada7d3003a69a388392" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection_1a2df5ba56e4691271213328b9bc2dbb1f" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_collection_1ac50c3070bcc5af0ca9f223bb88a1ef6c" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document" kind="class"><name>LittleWeebLibrary::Models::JsonDataBaseDocument</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1afa1d795f001099e7b20b68598a64aa6e" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a5d2a9fcc303c5b63fb119d8d1fac84de" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a42925c25aecabb526e6dbb3172d94efb" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1ae582e7c7033e71722913fe3b620ac80c" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a9b07f0f62d6352441b62b26dff058acb" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_data_base_document_1a0a84a997c39ac76d99382cdabf9227bf" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_directories" kind="class"><name>LittleWeebLibrary::Models::JsonDirectories</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a2cc6b2f3d096a90439b9492b889921be" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a674e1e3950c199b1558ba3202b66a79b" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a370ad019604c1b719b921ea34f8b4f69" kind="variable"><name>directories</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a66a155b005f6c2c19eb95ddd912a64ee" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a06826e97f8dd170ecad5574cf8ef816a" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directories_1aef343d105a3881b4c144dc557aaf76dc" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_directory" kind="class"><name>LittleWeebLibrary::Models::JsonDirectory</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a85ca592b7c664bc94b3d1619e6c6beef" kind="property"><name>dirname</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a7bd33103cb444da0436a3369edcffa19" kind="property"><name>path</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1ac6178c963cbe9e15834066ed048fc1d9" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1aa6ff9e2e4fabee594670b7cd93fa2c69" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1ab50f54381142e811a8a1289d4b5e83e7" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a3527cf5cff598f63b5f95cf7d6158b55" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a8fb3f3abbc3d89fa3a3fc6f7966fc4f9" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info" kind="class"><name>LittleWeebLibrary::Models::JsonDownloadedInfo</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1af85c70bf9535518e09e0888c4627cd36" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a400a0cb7bf87a5c5a03c099ebd95fc07" kind="property"><name>anime_id</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a48cda1035291586df653b956a5075a24" kind="property"><name>anime_name</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a29e4d7e91a121867373b693e2008c6ba" kind="property"><name>bot</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1ad4c26e6a2088b99100d58cf0bc417078" kind="property"><name>episodeNumber</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a7a6955e2db300470aeaefba5d92b1a4b" kind="property"><name>filename</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1adf6c38e7fc82ee9f1e08e47ed4e4ba30" kind="property"><name>filesize</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a6bd6f4b0515ff75d2dac485ff1a7f434" kind="property"><name>fullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1aeb59734113f03f4435a5a2d51c1d6f5c" kind="property"><name>id</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1ab7ef459c62e838dd50d1519a63f374a6" kind="property"><name>pack</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1ac181fee7a26fa42b576b66a4d8febbe2" kind="property"><name>season</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a60ae790ecf3f0779b1e6d94964970ff1" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a9d0248a04fbe0fcc8b6c393ef7f6680e" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1ad96946eb69871859ec8e765663e8b151" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_info_1a1ffa120527f102b7bf96a4c0a2d9e298" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list" kind="class"><name>LittleWeebLibrary::Models::JsonDownloadedList</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1ae9c0af7921d00044b0d8f3979a568674" kind="property"><name>anime_cover</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a11d6f5b4211280127583ee5311386f15" kind="property"><name>anime_id</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1acee14c943bef27ef60807f308c375d41" kind="property"><name>anime_title</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a703b2878786376f7a1ad264118a70d75" kind="property"><name>downloadHistorylist</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a0a9823bb8700fb7c7c095112f0198ec1" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a3b07c23e2d9771cd069857ff761d20e2" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a97de2493e2a60e3d98bd480c311a08b9" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a3c84d87443d03e22ba63bbbd4f81b8b2" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_downloaded_list_1a85d819ca67ad513254f77d395eef4816" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_download_info" kind="class"><name>LittleWeebLibrary::Models::JsonDownloadInfo</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a4c31eb2a79dc5e0d239b493c3e8dd866" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a544452b6bde1433070fb088af297cc12" kind="property"><name>anime_id</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a27d95ac59e5a4bf7f68421e9ea0036db" kind="property"><name>anime_name</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a0c8281bcd1f8766ddc86d89f0dc1b23c" kind="property"><name>bot</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af04b1b815de21ea578f039ecc0e2957b" kind="property"><name>downloadDirectory</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a25aeccc063b602b3d6576f12a9a1b1df" kind="property"><name>downloadIndex</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a8ea2c1b9bb90ff75af38c6afa8f0bc14" kind="property"><name>episodeNumber</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1d7135715feead09b5ace2b3b67fce4a" kind="property"><name>filename</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1afd063798a57238b7cfd014f60efdfff4" kind="property"><name>filesize</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a67b4d374c16d8ed97f39438c10196861" kind="property"><name>fullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1ae74efeee78e915f2fff1eb34bfd125f5" kind="property"><name>id</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a22ff0d4dde2f90e7ee5048a9cf01393f" kind="property"><name>pack</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a7ddc5b0dc7e617ed2cf665c2e5e5345a" kind="property"><name>progress</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1a534e3df34b7537f0a00a0ace920ee8" kind="property"><name>season</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1d05f9a1872baac04d0561b5d0b34cf1" kind="property"><name>speed</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1ad948c6047f25fbd7f34cfdd53541ce5c" kind="property"><name>status</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1ae45b3e3afeb93f4cb92dc5bda3bd9535" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a9a8921b52b118be5bc135ad49a4aee29" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a3fd450e7e2de8b9a936ba3b2cbeeaccb" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af36cbb3251b0efcd80a45f1fef89f5c9" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_download_queue" kind="class"><name>LittleWeebLibrary::Models::JsonDownloadQueue</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1adedf9349c2afaa8562acc771e4fe5829" kind="property"><name>downloadQueue</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1ae1c18d45b790f6d9eb3e7f80881a5717" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a3c74cd3356056030ff71af3892d10b03" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a1d77053fc493aa88857bcafd6fea4bf7" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0cf0692da69b7c4ab44b7983db377c64" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_download_queue_1a0613fd2171f103708bdc981048f3b80c" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_error" kind="class"><name>LittleWeebLibrary::Models::JsonError</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a25ed286f6616ff3a708a5e2d1cbbc492" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1ac9cf92432e69f00b21e72d9f65f3d002" kind="property"><name>errormessage</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a039812aa232bfc76582f0998b5937569" kind="property"><name>errortype</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a31f1c85212ed62b97dc71b389e251cee" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a410e00e5a421927c523c98fcccbea5a9" kind="variable"><name>get</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a1f8a36ba64bd7cf7ab35770afddeeda6" kind="variable"><name>set</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0623b835bb68d5d5e1f591df6a09dd81" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_free_space" kind="class"><name>LittleWeebLibrary::Models::JsonFreeSpace</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a22620db3979c7d52ee764555c29a940c" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a411fcb0402a7b696adfee7cb2a3efad0" kind="property"><name>freespacebytes</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a835bd50126595d47780104725423d991" kind="property"><name>freespacekbytes</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1ac331b31dba1337829ebc86ef88164e57" kind="property"><name>freespacembytes</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a9c3ae588d489e377de5bd608b69a5e75" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a5deaf058a148e647128b1fca6f9fc722" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a3ab3c947402838a29e33684edaf16a54" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1ab23fb33c2e1990fc09fb171193bee852" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message" kind="class"><name>LittleWeebLibrary::Models::JsonIrcChatMessage</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a871a6538c19850731715e25c8e29cfef" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a04341cbf5d66d4b35a6374bb84a80390" kind="property"><name>channel</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a64ad5623d43a7389182f2b008cf8dcaa" kind="property"><name>message</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1aada65302045984832d2073e16bb0b05e" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1afb6ca99e5b064d8beb30ea29c21110fb" kind="property"><name>user</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a1f96ba6c751985a71f547d1e0dee171d" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1acbac803fd5e8ecffab5335a4069fc4b4" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1ae54b09f8720f6ade5ed128496a4da690" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_irc_info" kind="class"><name>LittleWeebLibrary::Models::JsonIrcInfo</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1afe4b739c9c9d3e79e56197dadb88a16a" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a46923aa9571dd4bde668025966e1904f" kind="property"><name>channel</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1aaf8e6e15c209ac7dca0fc8e581a052b4" kind="property"><name>connected</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1aacacd27f11b2a0a075696b51d2a2a068" kind="property"><name>fullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a74320be514974ef57a3f5cb879a0bb09" kind="property"><name>server</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a3c8dbe0b5446adae3c11792df96ea7df" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7deaa62c6b0192080e313c25dfa44ba5" kind="property"><name>user</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a477f060b125dfcc0464e41d0dca94acf" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1af7d4dd885c7289ca28b0147d4feb2b84" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_info_1a7a9635e9efc6d62801ec57bdb90c1cee" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories" kind="class"><name>LittleWeebLibrary::Models::JsonKistuCategories</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a9060b93b9300d3a6508ccd8c3bf34cd1" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a0f0d3599277419092a6127c8c66849e0" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1a6ffcd8f9641f421eec961847365f5cb2" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1aa4fa8f73a8a500c0ee4238329c2dd8f8" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1aaab94c1dc228770f7bf0b66f4a47fd54" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_categories_1af972fa0332070ba294c5117b95836aa4" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres" kind="class"><name>LittleWeebLibrary::Models::JsonKistuGenres</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1abe59eb4feea93c87e21bd606962f550d" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a2a4f637bc3bfd761362181d443bfea80" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a64039ea4f8a80b3048979813fcce9099" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a0cce3f3f712276fbae17ef4d99ec6fad" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aad51f41f73ee3bb3f21196e721af3658" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aff942cf4016346e9df66de3b8c2b7cf6" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result" kind="class"><name>LittleWeebLibrary::Models::JsonKistuSearchResult</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_1adecaada095caebc883fc6aa89210a182" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_1a600c0af2c31a9ac1403e96a65ad97074" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_1adbbddbd485f97ee9514b96cab4fba37e" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_1aa70ee158546f0b562318b143aca9d86f" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_1a6adca32faf08b7fb63c9f469ab3fbcae" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_search_result_1a24e08aec40ba54db7235bb4ef9be8b11" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info" kind="class"><name>LittleWeebLibrary::Models::JsonKitsuAnimeInfo</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1aca4b832adca7f1916bee332b2b8b312f" kind="property"><name>anime_bot_sources</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1aaaa63157f78ca2cb7b9c08ba4092d6be" kind="property"><name>anime_categories</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1ae788c0962dabe5e210fba53aecae820d" kind="property"><name>anime_episodes</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a11a2513ce95fe17d206eeb738811d087" kind="property"><name>anime_episodes_per_page</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a72957f03d160801021514febcf127b8b" kind="property"><name>anime_genres</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a6a3974cec731d5a54452608449091130" kind="property"><name>anime_id</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a1a83f1d3043428e596a7a62ab36e27db" kind="property"><name>anime_info</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a53ef2cd169a3c8be49c809a10dbd1701" kind="property"><name>anime_latest_episode</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a8df2cf3af93654bd0362985dfd3208e0" kind="property"><name>anime_relations</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a10f0da892462fa2f1817e08336aea4ff" kind="property"><name>anime_resolutions</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1ad0c35e5073c60e273c694a365e5e3ffa" kind="property"><name>anime_rules</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a11190c3959e72a4b3b9fdd482de156cb" kind="property"><name>anime_stored</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a359be736ccb4ae5ccf50f5d754cd4973" kind="property"><name>anime_total_episode_pages</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a05eac71810dc6aa9ae33a224b5a6957c" kind="property"><name>anime_total_episodes</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1aad0a453cab7c5ec1c6ff16a23c90e35b" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1afc1bfd4e16df7491b9e7ae7380641938" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a2c92ffb7d523c4f75497988156b64b7b" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a6f026c01a93f73b903cfef82d4c2dad5" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info_1a869f64c42523b48911549a2f3fffffa7" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings" kind="class"><name>LittleWeebLibrary::Models::JsonLittleWeebSettings</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a7129f2e6dce8f139b8875d5ff8cc2ddb" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1add95221dde294414735d4fc462121b78" kind="property"><name>debuglevel</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a63635018610bc5d1486d599340f76a24" kind="property"><name>debugtype</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a38486f6672a25851a1c1eb001e04dc4f" kind="property"><name>local</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a2163a3d5774f6923137da1066fddfe90" kind="property"><name>maxdebuglogsize</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a2d8ad3ab7f7d224bed24e1f9b052edee" kind="property"><name>port</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1aedb0795f2506d53f01640372fa3e7e4e" kind="property"><name>randomusernamelength</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a62e7dbb8c6431cb5090d4333da56d174" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1adefa3710a72bdd1e1c864479218f0614" kind="property"><name>version</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1ae327fa558c554472183fb37a73ecb6de" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1afb2de66338da820dca2c6c6703008a82" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a9aca9f5ee262951043ae1fd7d58d3127" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list" kind="class"><name>LittleWeebLibrary::Models::JsonNiblBotList</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1adbd5920212e2cb6bbf3f43fff328af92" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1af742b935697bf89647242479744af6e5" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a847e10383522c3a7e8de785080690b07" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a6c959577c5cc2851d1a2c830fd6f4961" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a852d40e99ff93888a16fdba1d45aee14" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1aff76def0d8bf7b2d2f3b985a0507d6a0" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result" kind="class"><name>LittleWeebLibrary::Models::JsonNiblSearchResult</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a73956aafd3d35a51ff43d5a486024138" kind="property"><name>result</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1add369f2f54514df06e35ed94c057f66c" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a11c59a1de8aeb3487a38dcd56111c397" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a7041262210bce963fd7291a826761891" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1a0d6ce8593661ae3dab31882c85b1cff7" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_search_result_1ad0ccabee81ba5885580d9516f4db4099" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_received_response" kind="class"><name>LittleWeebLibrary::Models::JsonReceivedResponse</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1af28532db4b071f09d3f5c332d98ac470" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a91b2c3461ca7bf54c108e0942ef48c25" kind="property"><name>received</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1aab698f610c341ad6a13f891262331683" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a415c10f87514185eebe1d911be1f32d2" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1abed77a236608efb9bf777a44e6d2361b" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a396aa50a773bcd751e23cc7d61db34be" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_success" kind="class"><name>LittleWeebLibrary::Models::JsonSuccess</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a6c518d7f5a6e5b08760bda2ea952a0ad" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a6ccf690286fe8d8e0e4040d2e7f0e708" kind="property"><name>message</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a486c79938bb53ac4092683da49a07a18" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1aa0e750a34606497266e5a4aedc03cdeb" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_success_1abd0bbcc176b7accbefc425a70816b12a" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_version_info" kind="class"><name>LittleWeebLibrary::Models::JsonVersionInfo</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a7a9fcfe7b1424766248cd523a28e48d0" kind="variable"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1adb75e140a3dcc76b8ca6c1dd3c0f060a" kind="property"><name>currentbuild</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a9a74ca950016eb93a1ecb4d9089d9f2c" kind="property"><name>currentversion</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a836f97d258ddad4ab351b8cd06730914" kind="property"><name>date</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a758349b498e2f9d827d229bfaff9414d" kind="property"><name>direct_download_url</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a71865be74ad7d0a178a81b708ea85d25" kind="property"><name>file_name</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1abb2527c1c41e946dd71fe862a48a5f0f" kind="property"><name>newbuild</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08d3b36c375a460b440678f84bdb64ee" kind="property"><name>newversion</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a6ef07d4fd20affb8de244417395e791d" kind="property"><name>release_url</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aeb4d9fe589655ec2dacff95ffcae154b" kind="property"><name>release_version</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aad6b40e255e38ff875f9b4093a5a76b4" kind="property"><name>update_available</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a4da32a9d061542e9dd0302fa439e9913" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08c6024e38bd3141ef69612e877c4406" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a79b72a4b31accba79e2fbf1ca93297c4" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a72efae30c86f1e6baaef42065127bdd2" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_models_1_1_json_welcome" kind="class"><name>LittleWeebLibrary::Models::JsonWelcome</name>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1ad8a5e8ff3eb2ced1a8fea61ce161aff6" kind="property"><name>local</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1aa19331f4dd36ccf8f06ee8f72116643b" kind="property"><name>type</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1ad3fc6cf68f64e870ffd7cfabf1930e87" kind="property"><name>updated</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a4ef0527a64420ba1f47304a0a3f02627" kind="property"><name>welcome</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a964f2548a650181c962a0cf9027ba119" kind="function"><name>ToJObject</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a5b3e7dadb2a342808c714b6277a9150d" kind="function"><name>ToJson</name></member>
+    <member refid="class_little_weeb_library_1_1_models_1_1_json_welcome_1a762f38491c69ca0d0c2c17e4582a145c" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_properties_1_1_resources" kind="class"><name>LittleWeebLibrary::Properties::Resources</name>
+    <member refid="class_little_weeb_library_1_1_properties_1_1_resources_1aeef4a113050bf5ebd1968df426863a61" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_little_weeb_library_1_1_properties_1_1_resources_1a6d062a13ce609e908f117f76256a39f8" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_little_weeb_library_1_1_properties_1_1_resources_1a58ffc26a2061c9892ae606c75696b5ae" kind="property"><name>Culture</name></member>
+    <member refid="class_little_weeb_library_1_1_properties_1_1_resources_1a177db73ea6cb556ab6cc1b12777e1ad2" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_little_weeb_library_1_1_properties_1_1_resources_1a8782c3cb37586a67ccab0154bd2b8d5d" kind="property"><name>Version</name></member>
+    <member refid="class_little_weeb_library_1_1_properties_1_1_resources_1ae0439f3d53efcbb58f6259478db62e9e" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::DataBaseWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a67887b9141e4bb47fd92c95b3ac89fd6" kind="variable"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a6ad3d83d94358db7e6bee7e31f97899a" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a9bfc017139f9970e762b485277912a0e" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a052238e0026967e104db0c6723923c7b" kind="function"><name>DataBaseWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a5d9baf510f46f6a3fac9fe84325bb017" kind="function"><name>DeleteDocument</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aef8bdd650778c72d639f1e89c1d6dcad" kind="function"><name>GetCollection</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aa51350396b2aa1634a680c94bebdc64c" kind="function"><name>GetDocument</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1af85671a494e85f8418f60606566521f0" kind="function"><name>StoreDocument</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a3771a51f4d0aab2cd4f65676427d0902" kind="function"><name>UpdateDocument</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::DirectoryWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a2f5d1d89d38705e969d839baf750deb2" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1abf56baaa5c2889b119df9fac310ddcec" kind="variable"><name>DirectoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1af787fc8865b07d96d3436b2b688b2019" kind="variable"><name>IrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ad1f0f5e0e86404fb3b899821afa8ecdb" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a425caa3dbf037fe98843e9941c2dd7c7" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0842064ce4231990ed07bcbacb7a71f" kind="function"><name>DirectoryWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" kind="function"><name>CreateDirectory</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" kind="function"><name>DeleteDirectory</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" kind="function"><name>GetDirectories</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a368f502e063381bccfed714d8350dc69" kind="function"><name>GetDrives</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" kind="function"><name>GetFreeSpace</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a223c62acb36e1ac602552fa1ecf67057" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a015a3ae2bb0f275de152ae039fad566e" kind="function"><name>SetLittleWeebSettings</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::DownloadWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1aa2867169f31006090f3ded5808b49351" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a0d34a33ab918c08f494545e1d385d7b3" kind="variable"><name>DirectoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ac09ca28727dcc3745e95fe2b86ee294a" kind="variable"><name>DownloadHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1abd0a718117fa603834e5f34632bd548f" kind="variable"><name>FileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1acc2dbe849dfcdb92fcc803da2b7445dc" kind="variable"><name>FileHistoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a421f39d24ab41a68e80f5a21b85762be" kind="variable"><name>IrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a541fd25204120f3ee2b7f70deae533ce" kind="variable"><name>LastDownloadedInfo</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a8b20d5387706e9308ef419d59a5a6fc4" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1aa644e53f3584b83d3e51d0930ddebb83" kind="variable"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1aa3ddd7bb317d9accdf88c650b5388f8f" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a33a4c5640800b885662c686013c02971" kind="function"><name>DownloadWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a0ab2f2e6fcb90cd42dfa0de9d6a58f7e" kind="function"><name>AbortDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a7aaa1db63ee81a2e5246e45ef8643087" kind="function"><name>AddDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ad6afd5ee42650d16c67790c6d2ac80c1" kind="function"><name>AddDownloads</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1adb3b1a3aadf9ad491388890e432f6c91" kind="function"><name>GetCurrentFileHistory</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a6f2201dd7b86f142c2e901262ea53fbe" kind="function"><name>Openfullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3bc6b4176561f56b918e75527c7698d0" kind="function"><name>RemoveDownload</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ac692e2804ac253cc2ceac79d88a2e191" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a4b1d1eda437419a534bb4ee17ed26d4f" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3111908b7f7a133a80ab6ec3e81cdcbf" kind="function"><name>OnDownloadUpdateEvent</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::FileWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1a972c8d4e2c4c18fc0692b374a5dc0755" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1a1454bdaf3155b52f7323760d365a4ba5" kind="variable"><name>DownloadHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1a8ce883130927cd3c38f2cf82c09f5521" kind="variable"><name>FileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1aa3e7ce6b984037bf7ff11df859b83361" kind="variable"><name>FileHistoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1a6217e3b7706763f8cc5215a352140402" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1a06fb16d6cce4fdc44878a384ad85efc4" kind="function"><name>FileWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133" kind="function"><name>DeleteFile</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ae140d076e6f64585e7b71bb51545e1bb" kind="function"><name>OpenFile</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IDataBaseWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a4411fbc1801df45d63aa3a0624891ef6" kind="function"><name>DeleteDocument</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1aeeeecbdfb73e0242a2d36f8d1d88b6ee" kind="function"><name>GetCollection</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1abe25bfca603db07eb94658e65d0627dc" kind="function"><name>GetDocument</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a94ab5dc454950814a3e6346e14219a87" kind="function"><name>StoreDocument</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service_1a8b70c95afacce9abbd2d70c77b22c51a" kind="function"><name>UpdateDocument</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IDirectoryWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a8c80286719a0fb39034e2ba88e244bbe" kind="function"><name>CreateDirectory</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a7247bbfce026cc39dc8721536c8ba6a8" kind="function"><name>DeleteDirectory</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a6062c7a41f8cbbe4b78295e4073c5225" kind="function"><name>GetDirectories</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a079ed5bda7dd1c9fa497bf3a1effacaa" kind="function"><name>GetDrives</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a0a28e43d70bf2d5904bb4e59d1cd6cd7" kind="function"><name>GetFreeSpace</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IDownloadWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a5f49ed53660e8c5253f0609e90fc839e" kind="function"><name>AbortDownload</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1ab33026e52e15229cd8fc79c7b37b76da" kind="function"><name>AddDownload</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1ad25da3bc121e428c5bcead6bd2feb8aa" kind="function"><name>AddDownloads</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a2a3129b4bddba363d748c5608633c083" kind="function"><name>GetCurrentFileHistory</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1aa979c5549b6523e88fd8050a684ee493" kind="function"><name>Openfullfilepath</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service_1a746432ed84ef331ea5851e645da54941" kind="function"><name>RemoveDownload</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IFileWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_1a1d612036848a98701a908e3054d8001f" kind="function"><name>DeleteFile</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_1a55cfbde72a70fb90c011438a1c415713" kind="function"><name>OpenFile</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IInfoApiWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a93dc6813e6d9fbda4710075dc9963a89" kind="function"><name>AddRule</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a9c96d562783b36df84843e6dfe36d049" kind="function"><name>GetAllCategories</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ab5db362889793db2a4371db323876cec" kind="function"><name>GetAllGenres</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1aa6af79ecbc2f3f3747416adfa54f1c4a" kind="function"><name>GetAnimeEpisodes</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a6aef5d33af6000db81bd9467fd88220f" kind="function"><name>GetAnimeProfile</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1acee715ffd1c39bcef083983a15ebe782" kind="function"><name>GetBotList</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a1791a3e776fadbc8a72ce23b4d4274b2" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1af0c98888bc126df1f8b3c1904c766dc9" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ae8d7dda1099fcb5af57dc702da33024b" kind="function"><name>GetFilesForAnime</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ac75ad408fb83a3e0a2d2dc1272dfa355" kind="function"><name>SearchKitsu</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IIrcWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a1d34ec7c04db6779c41ee6a78d602760" kind="function"><name>Connect</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a68ae0e96a4de9e8ad3c43f4dd89546b8" kind="function"><name>DisableSendMessage</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1ac3bedeb941873ec5211357841a1e6e92" kind="function"><name>Disconnect</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1ad873d87b345c52b09672423c707862ac" kind="function"><name>EnableSendMessage</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1abcd6f0217a73e1533c3b3fc8160b54fa" kind="function"><name>GetCurrentIrcSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service_1a79d2a4282565f178600ba77fac451e9f" kind="function"><name>SendMessage</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::InfoApiWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a7e7e0952bac653aa1fd30d80908d43ec" kind="variable"><name>AnimeProfileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a81ad38ad6b1f50e306cbb5cf239137d5" kind="variable"><name>AnimeRuleHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aa87338ed549d0abc2d2b4894950500d2" kind="variable"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a1f53858532221c78f417c0a491349c5c" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a4fd3b1c29fc707e20f4c5626e158a391" kind="variable"><name>KitsuHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aa18b0760be9ba6aa8f1aab048588173b" kind="variable"><name>NiblHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a6a413fe47a289e28c63d48cb758828f3" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a87e98d408b1c2336a95736ac7bd416d4" kind="variable"><name>WeebFileNameParser</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1accba84b6333a0472f3acae2469ce5da3" kind="function"><name>InfoApiWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a0ed7b2a1d1fe30b43d06232719570435" kind="function"><name>AddRule</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" kind="function"><name>GetAllCategories</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" kind="function"><name>GetAllGenres</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a754f738fba586cc927d64251329c736a" kind="function"><name>GetAnimeEpisodes</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a12f4d83332b28988ce0e2bc5ff3ed369" kind="function"><name>GetAnimeProfile</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" kind="function"><name>GetBotList</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aec42147d67551cb17c458453ef40f3bc" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a71d24528e1dd2c138abed9778e9cc761" kind="function"><name>GetCurrentlyAiring</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a299be5b400f1368ab169599395a3e56d" kind="function"><name>GetFilesForAnime</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1af6678c62bfe074bc5ce399ff21641d6e" kind="function"><name>SearchKitsu</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::IrcWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a14115a06f9abb3ce67d655602f19ad9f" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ae64fc278865ee8ee000e804033675455" kind="variable"><name>IrcClientHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a6a6a9c8d3bb672d74b564ba68c335970" kind="variable"><name>IrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a6621f29728a33aa4be9edbdba319ac9e" kind="variable"><name>IsIrcConnected</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abfb3948233f18e1eb9e268687f862f24" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abeb1251a64e640930814f582196f0058" kind="variable"><name>SendMessageToWebSocketClient</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a388e08365fb36d27ffed7e41f9dd14ff" kind="variable"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a44141a0f98eabf4a14c1c4da0ddf77f1" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a3265383962fc71a18b9a6fa0c4c84797" kind="function"><name>IrcWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" kind="function"><name>Connect</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a71f89c2a8e9b0a86972d192bc3e55318" kind="function"><name>DisableSendMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" kind="function"><name>Disconnect</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1acd9aa44a2389caa8e997db49a646c448" kind="function"><name>EnableSendMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" kind="function"><name>GetCurrentIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1aa9fcd18dc123e1356049b4b95bbaf2ff" kind="function"><name>SendMessage</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a6476ee44ddf292f916b20085c03af5eb" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a48697b5d89c2899e73d1ecf7492bd083" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" kind="function"><name>OnIrcClientConnectionStatusEvent</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" kind="function"><name>OnIrcClientMessageEvent</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::ISettingsWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service_1ab23ceb6d97191ccdbef5584caa1964a1" kind="function"><name>GetCurrentIrcSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service_1a4d6f03913f7445083d6b572438853bc0" kind="function"><name>GetCurrentLittleWeebSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service_1a295e6129fa61ceca9564f774442ca79e" kind="function"><name>Setfullfilepath</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service_1a553587be5ed3abeda3a1c239a93b65c2" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service_1a30b412115be9b4480ab1d195674b1c49" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service_1a84507a02937d9fbfb1edb25251ec7f90" kind="function"><name>SetSettingsClasses</name></member>
+  </compound>
+  <compound refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service" kind="interface"><name>LittleWeebLibrary::Services::IVersionWebSocketService</name>
+    <member refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service_1a8c4b2a561c8ddb900617466e83c0f957" kind="function"><name>CheckVersion</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::SettingsWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1ab5a47129a4d077a3497d67c1b39e4b6d" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a243293148010ce74979305982ffd9505" kind="variable"><name>DebugHandlerSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a5255bd82dcc248d48f25c5e2036007f2" kind="variable"><name>DirectoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a9c882760b2b7bb5b4702d82fefa39c86" kind="variable"><name>DirectoryWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a834b0e787537121601b42a10c0f66b11" kind="variable"><name>DirectoryWebSocketServiceSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a5853b282a852f5d4bccf59bddf7a778c" kind="variable"><name>DownloadHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a9286d8fe383ca7d602cf880d70cc8057" kind="variable"><name>DownloadHandlerSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1ada9991c2723267302beca88b619d9f21" kind="variable"><name>FileHandlerSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a8f9ef556b45a2e7297a12f1ded2c099e" kind="variable"><name>IrcClientHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1ac4a0e348cfe6a17966f7bf79ce960dd3" kind="variable"><name>IrcClientHandlerSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a437215cbfb8e8a9978ed71cdbff66b32" kind="variable"><name>IrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1ae4dd69d37907824173c0726417ac82e5" kind="variable"><name>IrcWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a08fdc44efb1b6f74ee5fa72943346ff4" kind="variable"><name>IrcWebSocketServiceSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a7aa9baf58c24d8b00c1e9ceb9a5c0194" kind="variable"><name>LittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a4202bbb29613d04cc6bcd3578b140b6a" kind="variable"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a78a96ccdd2ce97cc21291298a08ca286" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a495c7c6be4958ea9d71e3d1d38e61fda" kind="variable"><name>WebSocketHandlerSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaaa502b8a0362b6852d909887727bddb" kind="function"><name>SettingsWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" kind="function"><name>GetCurrentIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a50cbfe4ba270c9e84b6b7b427a1b9ce0" kind="function"><name>GetCurrentLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" kind="function"><name>Setfullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" kind="function"><name>SetIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aa53e9a1723c0b2d607d2aa9db1991c3c" kind="function"><name>SetLittleWeebSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1af799e00c29f6eec4ca8874cda559c225" kind="function"><name>SetSettingsClasses</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a6eba1d3b176e627d3dae57070e1c3beb" kind="function"><name>SetAllIrcSettings</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a5ae643bad024f7eca3178d5359886f6f" kind="function"><name>SetAllLittleWeebSettings</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service" kind="class"><name>LittleWeebLibrary::Services::VersionWebSocketService</name>
+    <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1a13ed681e1a924276595a18a6124028e5" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1ad2e1ecbf8218654adfe288d1a84196dd" kind="variable"><name>VersionHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1a6f8cb312585ce76dace5c81772d5a0b1" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1ac36d79cd9d964d06594350e5971adb5e" kind="function"><name>VersionWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" kind="function"><name>CheckVersion</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kind="class"><name>LittleWeebLibrary::Settings::IrcSettings</name>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a395d5d33ff9f9699551a38b4ab6866e4" kind="property"><name>Channels</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1ad1f67b09e16ba2b5fed2dcdefeac8e1a" kind="property"><name>fullfilepath</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a13491703ff0e9a96c87743e70002f6fe" kind="property"><name>Port</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1aea7952c2d3db87eb5609feae15c5475c" kind="property"><name>Secure</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a99953f00fc76a98af0bd06129876d5ef" kind="property"><name>ServerAddress</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a1a400295f11e155e37002041410e47f1" kind="property"><name>UserName</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a2e1d7f26d7d3083d19c3a9e6c6c2d0b2" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kind="class"><name>LittleWeebLibrary::Settings::LittleWeebSettings</name>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a22bedc101a7007c6cdce341f22c833d6" kind="property"><name>CurrentlyAiringBot</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a22ae8b2dc7e6bb5e0b3b0220484c4c86" kind="property"><name>DebugLevel</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a3e498a95757f135bc082566afbfa8877" kind="property"><name>DebugType</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a01ccf2dfb1b01854f23b34f1eb7ac39c" kind="property"><name>Local</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1aed66354aaf455ab77c7360074cb05a2d" kind="property"><name>MaxDebugLogSize</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1ab37db9696fb199dbdad39ea6c7eda76c" kind="property"><name>Port</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a0826aad7341af901477ce991359129d4" kind="property"><name>RandomUsernameLength</name></member>
+    <member refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a5a5b722dd8e117be810022882795b6ae" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_start_up" kind="class"><name>LittleWeebLibrary::StartUp</name>
+    <member refid="class_little_weeb_library_1_1_start_up_1a0001440b687fc61abdbc98936f1093e9" kind="variable"><name>AnimeProfileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a005fb782af2d30e4cb6b8b4587f58403" kind="variable"><name>AnimeRuleHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a83747f1927dc289d85a8b4b26844952d" kind="variable"><name>DataBaseHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a0d332718adef991399ef83c637f60fd8" kind="variable"><name>DataBaseWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1aa330ff3b4b2a2d501b127f99cfaddc12" kind="variable"><name>DataBaseWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a52de928ecf0e2495e16511d6d00486f1" kind="variable"><name>DebugHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1aac37cfb46ad45608bea3fe2547ac4dce" kind="variable"><name>DirectoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a7d9287cfe0c87dd727af3e0932905870" kind="variable"><name>DirectoryWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a84bf27f74487f7ca69ddb0620378a0a8" kind="variable"><name>DirectoryWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a03db7121ba274462aa88a7aee4110296" kind="variable"><name>DownloadHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1ad5421fcdf8aae805b8331bd0e9034f39" kind="variable"><name>DownloadWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1ae6133ff8a65bb66f7525066878e4bce1" kind="variable"><name>DownloadWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a294aca8837f3c631a94f0674efd377fb" kind="variable"><name>FileHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a2bc39d9594dd6eab424fb6c2df64ae33" kind="variable"><name>FileHistoryHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a98e8d01c4660f0288eb114f2a11c8d4d" kind="variable"><name>FileWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a5e64330715e64985065209ba09a5740d" kind="variable"><name>FileWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a85ff0dfe3a4216d8ebdc822744566cb3" kind="variable"><name>InfoApiWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1af07b74fa1eae59d33216c2931d0f764a" kind="variable"><name>InfoApiWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a2fc62a1c073c34ef1d402bd8f63d2934" kind="variable"><name>IrcClientHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a47d1759095fa3e41fccb1a6d6997a91c" kind="variable"><name>IrcWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a5f3d87069480ab499770d8aed9b20a40" kind="variable"><name>IrcWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a5a49b71bffa630f5a24994a9c5d0482c" kind="variable"><name>KitsuHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a87cc37de3a24ab2aafe37a43f133b91b" kind="variable"><name>NiblHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a42ceac2446a2d7593923c9f1b67d9f34" kind="variable"><name>SettingsHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a2c80109780ba0dc7597ad400327dc25f" kind="variable"><name>SettingsWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1aa6541f1fbf659fd81e0497cb3ed11904" kind="variable"><name>SettingsWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a6d2a07a49ea183721e0c3db070119bc7" kind="variable"><name>VersionHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a7f740efb00da5359c15ecb26a05fd528" kind="variable"><name>VersionWebSocketController</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1ae03e11c4c9b89a1592dea78426186a10" kind="variable"><name>VersionWebSocketService</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a2da461ac41945c5a63d4561a513dcaef" kind="variable"><name>WebSocketHandler</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a7f35b9dfb45fb003a9653d1f531044c9" kind="function"><name>StartUp</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1a2ea98092dfdb92bfc6decfdc373d6e78" kind="function"><name>Start</name></member>
+    <member refid="class_little_weeb_library_1_1_start_up_1aaa6147f0dd162c1962e575689dcb22c5" kind="function"><name>Stop</name></member>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_static_classes_1_1_enumerators" kind="class"><name>LittleWeebLibrary::StaticClasses::Enumerators</name>
+  </compound>
+  <compound refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods" kind="class"><name>LittleWeebLibrary::StaticClasses::UtilityMethods</name>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1" kind="enum"><name>OperatingSystems</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1aaea23489ce3aa9b6406ebb28e0cda430" kind="enumvalue"><name>Windows</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1af0db3bf534c8f5fb180a104e63d8088c" kind="enumvalue"><name>OsX</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1aedc9f0a5a5d57797bf68e37364743831" kind="enumvalue"><name>Linux</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1a88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9fe4cf5d219f0453436fe9c85ad261bf" kind="function"><name>BasePath</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a376120497e647e8c20d6a68c288db292" kind="function"><name>CalculateSimilarity</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" kind="function"><name>CheckOperatingSystems</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a4a514b7e55cf2285f4f16d778164695d" kind="function"><name>CopyTo</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9304b6462a585dd9afa13818452638a7" kind="function"><name>GenerateUsername</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kind="function"><name>GetEpoch</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a76fa2aea99ce4b1ad4130cc18b1d5969" kind="function"><name>GetFreeSpaceKbits</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1ab54bc5e0856652f4554fda497af655b8" kind="function"><name>IntToRoman</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" kind="function"><name>ReadBinaryFile</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aa04235b1cf84b6741c496d8ecaea0eeb" kind="function"><name>RemoveSpecialCharacters</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" kind="function"><name>Unzip</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a6542a3a6ea0aed6b4d78bb44a4a7d9d7" kind="function"><name>WriteBinaryFile</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a16933213071d531063b29979e7b55fe8" kind="function"><name>Zip</name></member>
+    <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aaa6b7e7b9ba5429a7c91ef95bb408653" kind="function"><name>LevenshteinDistance</name></member>
+  </compound>
+  <compound refid="namespace_android_1_1_content_1_1_res" kind="namespace"><name>Android::Content::Res</name>
+  </compound>
+  <compound refid="namespace_lite_d_b" kind="namespace"><name>LiteDB</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library" kind="namespace"><name>LittleWeebLibrary</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_controllers" kind="namespace"><name>LittleWeebLibrary::Controllers</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_controllers_1_1_sub_controllers" kind="namespace"><name>LittleWeebLibrary::Controllers::SubControllers</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_event_arguments" kind="namespace"><name>LittleWeebLibrary::EventArguments</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_global_interfaces" kind="namespace"><name>LittleWeebLibrary::GlobalInterfaces</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_handlers" kind="namespace"><name>LittleWeebLibrary::Handlers</name>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292be" kind="enum"><name>DebugSource</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea6a6c13de377f2e68c12e781bd526d815" kind="enumvalue"><name>CONSTRUCTOR</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea725e74fd6435d86483781e2bd8e9d2c7" kind="enumvalue"><name>METHOD</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea030d962d0faa148f02848881a3b4fdb6" kind="enumvalue"><name>EVENT</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea0ed9b001ca1cd2667302a9be876ede9d" kind="enumvalue"><name>TASK</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea3932d629fb5e2be9d09b3a4485b3cc9d" kind="enumvalue"><name>EXTERNAL</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea0db45d2a4141101bdfe48e3314cfbca3" kind="enumvalue"><name>UNDEFINED</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62" kind="enum"><name>DebugType</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62ab50339a10e1de285ac99d4c3990b8693" kind="enumvalue"><name>NONE</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62a4431deb70317f4dcca10ec31677c704d" kind="enumvalue"><name>ENTRY_EXIT</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62aeb178264802ebbd52cccc8feadb72a6f" kind="enumvalue"><name>PARAMETERS</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62a551b723eafd6a31d444fcb2f5920fbd3" kind="enumvalue"><name>INFO</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62a059e9861e0400dfbe05c98a841f3f96b" kind="enumvalue"><name>WARNING</name></member>
+    <member refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62abb1ca97ec761fc37101737ba0aa2e7c5" kind="enumvalue"><name>ERROR</name></member>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_models" kind="namespace"><name>LittleWeebLibrary::Models</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_properties" kind="namespace"><name>LittleWeebLibrary::Properties</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_services" kind="namespace"><name>LittleWeebLibrary::Services</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_settings" kind="namespace"><name>LittleWeebLibrary::Settings</name>
+  </compound>
+  <compound refid="namespace_little_weeb_library_1_1_static_classes" kind="namespace"><name>LittleWeebLibrary::StaticClasses</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json_1_1_linq" kind="namespace"><name>Newtonsoft::Json::Linq</name>
+  </compound>
+  <compound refid="namespace_p_c_l_ext_1_1_file_storage" kind="namespace"><name>PCLExt::FileStorage</name>
+  </compound>
+  <compound refid="namespace_simple_i_r_c_lib" kind="namespace"><name>SimpleIRCLib</name>
+  </compound>
+  <compound refid="namespace_simple_web_socket_server_library" kind="namespace"><name>SimpleWebSocketServerLibrary</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_concurrent" kind="namespace"><name>System::Collections::Concurrent</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o_1_1_compression" kind="namespace"><name>System::IO::Compression</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_http" kind="namespace"><name>System::Net::Http</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_weeb_file_name_parser_library" kind="namespace"><name>WeebFileNameParserLibrary</name>
+  </compound>
+  <compound refid="_base_web_socket_controller_8cs" kind="file"><name>BaseWebSocketController.cs</name>
+  </compound>
+  <compound refid="_i_sub_web_socket_controller_8cs" kind="file"><name>ISubWebSocketController.cs</name>
+  </compound>
+  <compound refid="_data_base_web_socket_controller_8cs" kind="file"><name>DataBaseWebSocketController.cs</name>
+  </compound>
+  <compound refid="_directory_web_socket_controller_8cs" kind="file"><name>DirectoryWebSocketController.cs</name>
+  </compound>
+  <compound refid="_download_web_socket_controller_8cs" kind="file"><name>DownloadWebSocketController.cs</name>
+  </compound>
+  <compound refid="_file_web_socket_controller_8cs" kind="file"><name>FileWebSocketController.cs</name>
+  </compound>
+  <compound refid="_info_api_web_socket_controller_8cs" kind="file"><name>InfoApiWebSocketController.cs</name>
+  </compound>
+  <compound refid="_irc_web_socket_controller_8cs" kind="file"><name>IrcWebSocketController.cs</name>
+  </compound>
+  <compound refid="_settings_web_socket_controller_8cs" kind="file"><name>SettingsWebSocketController.cs</name>
+  </compound>
+  <compound refid="_version_web_socket_controller_8cs" kind="file"><name>VersionWebSocketController.cs</name>
+  </compound>
+  <compound refid="_base_debug_args_8cs" kind="file"><name>BaseDebugArgs.cs</name>
+  </compound>
+  <compound refid="_download_update_event_args_8cs" kind="file"><name>DownloadUpdateEventArgs.cs</name>
+  </compound>
+  <compound refid="_file_handler_debug_event_args_8cs" kind="file"><name>FileHandlerDebugEventArgs.cs</name>
+  </compound>
+  <compound refid="_irc_client_connection_status_args_8cs" kind="file"><name>IrcClientConnectionStatusArgs.cs</name>
+  </compound>
+  <compound refid="_irc_client_download_args_8cs" kind="file"><name>IrcClientDownloadArgs.cs</name>
+  </compound>
+  <compound refid="_irc_client_message_event_args_8cs" kind="file"><name>IrcClientMessageEventArgs.cs</name>
+  </compound>
+  <compound refid="_web_socket_event_args_8cs" kind="file"><name>WebSocketEventArgs.cs</name>
+  </compound>
+  <compound refid="_i_debug_event_8cs" kind="file"><name>IDebugEvent.cs</name>
+  </compound>
+  <compound refid="_i_settings_interface_8cs" kind="file"><name>ISettingsInterface.cs</name>
+  </compound>
+  <compound refid="_anime_profile_handler_8cs" kind="file"><name>AnimeProfileHandler.cs</name>
+  </compound>
+  <compound refid="_anime_rule_handler_8cs" kind="file"><name>AnimeRuleHandler.cs</name>
+  </compound>
+  <compound refid="_data_base_handler_8cs" kind="file"><name>DataBaseHandler.cs</name>
+  </compound>
+  <compound refid="_debug_handler_8cs" kind="file"><name>DebugHandler.cs</name>
+  </compound>
+  <compound refid="_directory_handler_8cs" kind="file"><name>DirectoryHandler.cs</name>
+  </compound>
+  <compound refid="_download_handler_8cs" kind="file"><name>DownloadHandler.cs</name>
+  </compound>
+  <compound refid="_file_handler_8cs" kind="file"><name>FileHandler.cs</name>
+  </compound>
+  <compound refid="_file_history_handler_8cs" kind="file"><name>FileHistoryHandler.cs</name>
+  </compound>
+  <compound refid="_irc_client_handler_8cs" kind="file"><name>IrcClientHandler.cs</name>
+  </compound>
+  <compound refid="_kitsu_handler_8cs" kind="file"><name>KitsuHandler.cs</name>
+  </compound>
+  <compound refid="_nibl_handler_8cs" kind="file"><name>NiblHandler.cs</name>
+  </compound>
+  <compound refid="_settings_handler_8cs" kind="file"><name>SettingsHandler.cs</name>
+  </compound>
+  <compound refid="_version_handler_8cs" kind="file"><name>VersionHandler.cs</name>
+  </compound>
+  <compound refid="_web_socket_handler_8cs" kind="file"><name>WebSocketHandler.cs</name>
+  </compound>
+  <compound refid="_little_weeb_8cs" kind="file"><name>LittleWeeb.cs</name>
+  </compound>
+  <compound refid="_json_currently_airing_8cs" kind="file"><name>JsonCurrentlyAiring.cs</name>
+  </compound>
+  <compound refid="_json_data_base_collection_8cs" kind="file"><name>JsonDataBaseCollection.cs</name>
+  </compound>
+  <compound refid="_json_data_base_document_8cs" kind="file"><name>JsonDataBaseDocument.cs</name>
+  </compound>
+  <compound refid="_json_directories_8cs" kind="file"><name>JsonDirectories.cs</name>
+  </compound>
+  <compound refid="_json_directory_8cs" kind="file"><name>JsonDirectory.cs</name>
+  </compound>
+  <compound refid="_json_downloaded_info_8cs" kind="file"><name>JsonDownloadedInfo.cs</name>
+  </compound>
+  <compound refid="_json_downloaded_list_8cs" kind="file"><name>JsonDownloadedList.cs</name>
+  </compound>
+  <compound refid="_json_download_info_8cs" kind="file"><name>JsonDownloadInfo.cs</name>
+  </compound>
+  <compound refid="_json_download_queue_8cs" kind="file"><name>JsonDownloadQueue.cs</name>
+  </compound>
+  <compound refid="_json_error_8cs" kind="file"><name>JsonError.cs</name>
+  </compound>
+  <compound refid="_json_free_space_8cs" kind="file"><name>JsonFreeSpace.cs</name>
+  </compound>
+  <compound refid="_json_irc_chat_message_8cs" kind="file"><name>JsonIrcChatMessage.cs</name>
+  </compound>
+  <compound refid="_json_irc_info_8cs" kind="file"><name>JsonIrcInfo.cs</name>
+  </compound>
+  <compound refid="_json_kistu_search_result_8cs" kind="file"><name>JsonKistuSearchResult.cs</name>
+  </compound>
+  <compound refid="_json_kitsu_anime_info_8cs" kind="file"><name>JsonKitsuAnimeInfo.cs</name>
+  </compound>
+  <compound refid="_json_kitsu_categories_8cs" kind="file"><name>JsonKitsuCategories.cs</name>
+  </compound>
+  <compound refid="_json_kitsu_genres_8cs" kind="file"><name>JsonKitsuGenres.cs</name>
+  </compound>
+  <compound refid="_json_little_weeb_settings_8cs" kind="file"><name>JsonLittleWeebSettings.cs</name>
+  </compound>
+  <compound refid="_json_nibl_bot_list_8cs" kind="file"><name>JsonNiblBotList.cs</name>
+  </compound>
+  <compound refid="_json_nibl_search_result_8cs" kind="file"><name>JsonNiblSearchResult.cs</name>
+  </compound>
+  <compound refid="_json_received_response_8cs" kind="file"><name>JsonReceivedResponse.cs</name>
+  </compound>
+  <compound refid="_json_success_8cs" kind="file"><name>JsonSuccess.cs</name>
+  </compound>
+  <compound refid="_json_version_info_8cs" kind="file"><name>JsonVersionInfo.cs</name>
+  </compound>
+  <compound refid="_json_welcome_8cs" kind="file"><name>JsonWelcome.cs</name>
+  </compound>
+  <compound refid="_debug_2net45_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net46_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net47_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2netcoreapp2_80_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2netcoreapp2_81_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2netstandard2_80_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_01_android_2netstandard2_80_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_01_android___2netstandard2_80_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2netstandard2_80_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_01_android_2netstandard2_80_2_little_weeb_library_8_assembly_info_8cs" kind="file"><name>LittleWeebLibrary.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="net45_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="net46_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="net47_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="netcoreapp2_81_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="net45_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="net46_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="net47_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="netcoreapp2_81_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="net45_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="net46_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="net47_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="netcoreapp2_81_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_data_base_web_socket_service_8cs" kind="file"><name>DataBaseWebSocketService.cs</name>
+  </compound>
+  <compound refid="_directory_web_socket_service_8cs" kind="file"><name>DirectoryWebSocketService.cs</name>
+  </compound>
+  <compound refid="_download_web_socket_service_8cs" kind="file"><name>DownloadWebSocketService.cs</name>
+  </compound>
+  <compound refid="_file_web_socket_service_8cs" kind="file"><name>FileWebSocketService.cs</name>
+  </compound>
+  <compound refid="_info_api_web_socket_service_8cs" kind="file"><name>InfoApiWebSocketService.cs</name>
+  </compound>
+  <compound refid="_irc_web_socket_service_8cs" kind="file"><name>IrcWebSocketService.cs</name>
+  </compound>
+  <compound refid="_settings_web_socket_service_8cs" kind="file"><name>SettingsWebSocketService.cs</name>
+  </compound>
+  <compound refid="_version_web_socket_service_8cs" kind="file"><name>VersionWebSocketService.cs</name>
+  </compound>
+  <compound refid="_irc_settings_8cs" kind="file"><name>IrcSettings.cs</name>
+  </compound>
+  <compound refid="_little_weeb_settings_8cs" kind="file"><name>LittleWeebSettings.cs</name>
+  </compound>
+  <compound refid="_start_up_8cs" kind="file"><name>StartUp.cs</name>
+  </compound>
+  <compound refid="_enumerators_8cs" kind="file"><name>Enumerators.cs</name>
+  </compound>
+  <compound refid="_utility_methods_8cs" kind="file"><name>UtilityMethods.cs</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="dir_f1e231c396d6a78f925b250f39acb3ba" kind="dir"><name>Controllers</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_cac2beceb4c1969ca10da3f52b25b201" kind="dir"><name>obj/Debug Android</name>
+  </compound>
+  <compound refid="dir_2cdf7403009e7746788c11127233b1ca" kind="dir"><name>obj/Debug Android_</name>
+  </compound>
+  <compound refid="dir_b5da7871358c9a881567e6cdb75bf6a2" kind="dir"><name>EventArguments/DebugArguments</name>
+  </compound>
+  <compound refid="dir_935d9c363659c2dd11bf5025103efd1b" kind="dir"><name>EventArguments</name>
+  </compound>
+  <compound refid="dir_7ca20fae2ae73ff469d17e6995332d06" kind="dir"><name>GlobalInterfaces</name>
+  </compound>
+  <compound refid="dir_f65cd03095c68c40acdbdbd5ccca35f8" kind="dir"><name>Handlers</name>
+  </compound>
+  <compound refid="dir_ff8afd828c2f48eb6ad2d91429f5f5a8" kind="dir"><name>Controllers/Interfaces</name>
+  </compound>
+  <compound refid="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir"><name>Models</name>
+  </compound>
+  <compound refid="dir_bd1b7d9c44d12bcf9dfc7703b0636408" kind="dir"><name>obj/Debug/net45</name>
+  </compound>
+  <compound refid="dir_6019302c4064a6b7abd48416bffa09ad" kind="dir"><name>obj/Debug/net46</name>
+  </compound>
+  <compound refid="dir_a03e5126f2e147181a404694931c00da" kind="dir"><name>obj/Debug/net47</name>
+  </compound>
+  <compound refid="dir_d5195bf08bcacbe99bae411567ec7778" kind="dir"><name>obj/Debug/netcoreapp2.0</name>
+  </compound>
+  <compound refid="dir_ca3a19cec90cbda5e133c48b7de7c892" kind="dir"><name>obj/Debug/netcoreapp2.1</name>
+  </compound>
+  <compound refid="dir_effe7c127209dbc7d63a81657a8ab6e2" kind="dir"><name>obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_fa51791b7f4c4bad850cc4c8d20f8b02" kind="dir"><name>obj/Debug Android/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_d1228d0b9a4710331c42d1e1c8a25d85" kind="dir"><name>obj/Debug Android_/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_ad2108f0fb269d14ff781af4e012fbe2" kind="dir"><name>obj/Release/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_32459b8f1e47faad1441fc208d2c7080" kind="dir"><name>obj/Release Android/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
+  </compound>
+  <compound refid="dir_9fe5cc214b8578ee5b8e153089aca810" kind="dir"><name>obj/Release</name>
+  </compound>
+  <compound refid="dir_a0cdce7a1c37807acc7c586dcb8c3c46" kind="dir"><name>obj/Release Android</name>
+  </compound>
+  <compound refid="dir_d69fddb65e10ed1e1aad5b4f2a8c0135" kind="dir"><name>Services</name>
+  </compound>
+  <compound refid="dir_8ae0dd75af039a94f4269584fb8eef13" kind="dir"><name>Settings</name>
+  </compound>
+  <compound refid="dir_868c86eb7b98fcfd02030fcbf11805cf" kind="dir"><name>StaticClasses</name>
+  </compound>
+  <compound refid="dir_bb193086afccbc229b20ad97b58eaac3" kind="dir"><name>Controllers/SubControllers</name>
+  </compound>
+</doxygenindex>

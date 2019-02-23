@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::DirectoryWebSocketService</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.IDirectoryWebSocketService</basecompoundref>
+    <basecompoundref refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface" prot="public" virt="non-virtual">LittleWeebLibrary.GlobalInterfaces.ISettingsInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a2f5d1d89d38705e969d839baf750deb2" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Services.DirectoryWebSocketService.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="26" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1abf56baaa5c2889b119df9fac310ddcec" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler" kindref="compound">IDirectoryHandler</ref></type>
+        <definition>readonly IDirectoryHandler LittleWeebLibrary.Services.DirectoryWebSocketService.DirectoryHandler</definition>
+        <argsstring></argsstring>
+        <name>DirectoryHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="24" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1af787fc8865b07d96d3436b2b688b2019" prot="private" static="no" mutable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+        <definition>IrcSettings LittleWeebLibrary.Services.DirectoryWebSocketService.IrcSettings</definition>
+        <argsstring></argsstring>
+        <name>IrcSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="29" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ad1f0f5e0e86404fb3b899821afa8ecdb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+        <definition>LittleWeebSettings LittleWeebLibrary.Services.DirectoryWebSocketService.LittleWeebSettings</definition>
+        <argsstring></argsstring>
+        <name>LittleWeebSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="28" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a425caa3dbf037fe98843e9941c2dd7c7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+        <definition>readonly IWebSocketHandler LittleWeebLibrary.Services.DirectoryWebSocketService.WebSocketHandler</definition>
+        <argsstring></argsstring>
+        <name>WebSocketHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="25" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0842064ce4231990ed07bcbacb7a71f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Services.DirectoryWebSocketService.DirectoryWebSocketService</definition>
+        <argsstring>(IWebSocketHandler webSocketHandler, IDirectoryHandler directoryHandler, IDebugHandler debugHandler)</argsstring>
+        <name>DirectoryWebSocketService</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kindref="compound">IWebSocketHandler</ref></type>
+          <declname>webSocketHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler" kindref="compound">IDirectoryHandler</ref></type>
+          <declname>directoryHandler</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="31" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="31" bodyend="38"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Services.DirectoryWebSocketService.CreateDirectory</definition>
+        <argsstring>(JObject directoryJson)</argsstring>
+        <name>CreateDirectory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a8c80286719a0fb39034e2ba88e244bbe">CreateDirectory</reimplements>
+        <param>
+          <type>JObject</type>
+          <declname>directoryJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="40" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="40" bodyend="75"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6be1b158ee280e8a74a49917a90484e2" compoundref="_directory_handler_8cs" startline="224" endline="267">LittleWeebLibrary.Handlers.DirectoryHandler.CreateDirectory</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Services.DirectoryWebSocketService.DeleteDirectory</definition>
+        <argsstring>(JObject directoryJson)</argsstring>
+        <name>DeleteDirectory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a7247bbfce026cc39dc8721536c8ba6a8">DeleteDirectory</reimplements>
+        <param>
+          <type>JObject</type>
+          <declname>directoryJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="77" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="77" bodyend="110"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" compoundref="_directory_handler_8cs" startline="157" endline="222">LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Services.DirectoryWebSocketService.GetDirectories</definition>
+        <argsstring>(JObject directoryJson)</argsstring>
+        <name>GetDirectories</name>
+        <reimplements refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a6062c7a41f8cbbe4b78295e4073c5225">GetDirectories</reimplements>
+        <param>
+          <type>JObject</type>
+          <declname>directoryJson</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="119" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="119" bodyend="154"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" compoundref="_directory_handler_8cs" startline="114" endline="155">LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a368f502e063381bccfed714d8350dc69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Services.DirectoryWebSocketService.GetDrives</definition>
+        <argsstring>()</argsstring>
+        <name>GetDrives</name>
+        <reimplements refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a079ed5bda7dd1c9fa497bf3a1effacaa">GetDrives</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="112" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="112" bodyend="117"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Services.DirectoryWebSocketService.GetFreeSpace</definition>
+        <argsstring>()</argsstring>
+        <name>GetFreeSpace</name>
+        <reimplements refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_1a0a28e43d70bf2d5904bb4e59d1cd6cd7">GetFreeSpace</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="156" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="156" bodyend="161"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1ad1f67b09e16ba2b5fed2dcdefeac8e1a" compoundref="_irc_settings_8cs" startline="17" endline="17">LittleWeebLibrary.Settings.IrcSettings.fullfilepath</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" compoundref="_download_web_socket_controller_8cs" startline="32" endline="110">LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a223c62acb36e1ac602552fa1ecf67057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Services.DirectoryWebSocketService.SetIrcSettings</definition>
+        <argsstring>(IrcSettings settings)</argsstring>
+        <name>SetIrcSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a9ddf06e247a96d757482b37ddb070e3d">SetIrcSettings</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="163" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="163" bodyend="168"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_irc_settings_1a2e1d7f26d7d3083d19c3a9e6c6c2d0b2" compoundref="_irc_settings_8cs" startline="20" endline="30">LittleWeebLibrary.Settings.IrcSettings.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a015a3ae2bb0f275de152ae039fad566e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Services.DirectoryWebSocketService.SetLittleWeebSettings</definition>
+        <argsstring>(LittleWeebSettings settings)</argsstring>
+        <name>SetLittleWeebSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_1a5c53e44105f1f4c7f8c3e546d29939d7">SetLittleWeebSettings</reimplements>
+        <param>
+          <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/DirectoryWebSocketService.cs" line="170" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="170" bodyend="175"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a5a5b722dd8e117be810022882795b6ae" compoundref="_little_weeb_settings_8cs" startline="16" endline="35">LittleWeebLibrary.Settings.LittleWeebSettings.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>IDirectoryWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service"/>
+      </node>
+      <node id="328">
+        <label>ISettingsInterface</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface"/>
+      </node>
+      <node id="326">
+        <label>LittleWeebLibrary.Services.DirectoryWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service"/>
+        <childnode refid="327" relation="public-inheritance">
+        </childnode>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="330">
+        <label>IDirectoryWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service"/>
+      </node>
+      <node id="331">
+        <label>ISettingsInterface</label>
+        <link refid="interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface"/>
+      </node>
+      <node id="335">
+        <label>LittleWeebLibrary.Handlers.IDirectoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler"/>
+      </node>
+      <node id="333">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+      <node id="332">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="334">
+        <label>LittleWeebLibrary.Settings.LittleWeebSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings"/>
+      </node>
+      <node id="336">
+        <label>LittleWeebLibrary.Settings.IrcSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_irc_settings"/>
+      </node>
+      <node id="329">
+        <label>LittleWeebLibrary.Services.DirectoryWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="333" relation="usage">
+          <edgelabel>-WebSocketHandler</edgelabel>
+        </childnode>
+        <childnode refid="334" relation="usage">
+          <edgelabel>-LittleWeebSettings</edgelabel>
+        </childnode>
+        <childnode refid="335" relation="usage">
+          <edgelabel>-DirectoryHandler</edgelabel>
+        </childnode>
+        <childnode refid="336" relation="usage">
+          <edgelabel>-IrcSettings</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Services/DirectoryWebSocketService.cs" line="21" column="1" bodyfile="Services/DirectoryWebSocketService.cs" bodystart="20" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>CreateDirectory</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a2f5d1d89d38705e969d839baf750deb2" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>DeleteDirectory</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1abf56baaa5c2889b119df9fac310ddcec" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>DirectoryHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0842064ce4231990ed07bcbacb7a71f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>DirectoryWebSocketService</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>GetDirectories</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a368f502e063381bccfed714d8350dc69" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>GetDrives</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>GetFreeSpace</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1af787fc8865b07d96d3436b2b688b2019" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>IrcSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ad1f0f5e0e86404fb3b899821afa8ecdb" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>LittleWeebSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a223c62acb36e1ac602552fa1ecf67057" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>SetIrcSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a015a3ae2bb0f275de152ae039fad566e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>SetLittleWeebSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a425caa3dbf037fe98843e9941c2dd7c7" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Services::DirectoryWebSocketService</scope><name>WebSocketHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

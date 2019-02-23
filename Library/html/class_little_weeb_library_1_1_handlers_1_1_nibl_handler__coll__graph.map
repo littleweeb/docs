@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.NiblHandler" name="LittleWeebLibrary.Handlers.NiblHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler.html" title="{INiblHandler\n||+ GetBotList()\l+ GetLatestEpisode()\l+ GetLatestFiles()\l+ SearchNibl()\l+ SearchNibl()\l}" alt="" coords="5,57,152,193"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="177,64,359,185"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler.html" title="{LittleWeebLibrary.Handlers.\lIKitsuHandler\n||+ GetAllCategories()\l+ GetAllGenres()\l+ GetAnime()\l+ GetCategories()\l+ GetCurrentlyAiring()\l+ GetEpisode()\l+ GetEpisodes()\l+ GetFullAnime()\l+ GetGenres()\l+ GetRelations()\l+ SearchAnime()\l}" alt="" coords="383,5,566,244"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="LittleWeebLibrary.Services.DownloadWebSocketService.RemoveDownload" name="LittleWeebLibrary.Services.DownloadWebSocketService.RemoveDownload">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_download_handler.html#aac22841386d098daef366cbe05262187" title="LittleWeebLibrary.Handlers.\lDownloadHandler.RemoveDownload" alt="" coords="292,71,520,112"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="575,136,767,177"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_handlers_1_1_web_socket_handler.html#a1de289d54d665a32c93478c68d3e6ad0" title="LittleWeebLibrary.Handlers.\lWebSocketHandler.SendMessage" alt="" coords="295,188,517,229"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0e3e7dd2e2990404b7f0461742b23440" title="LittleWeebLibrary.Models.\lJsonError.ToJson" alt="" coords="319,253,493,295"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#ad7d5522c90119111d2e929f39e7f6d3c" title="LittleWeebLibrary.Models.\lJsonError.ToString" alt="" coords="319,319,493,360"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_models_1_1_json_download_queue.html#a1d77053fc493aa88857bcafd6fea4bf7" title="LittleWeebLibrary.Models.\lJsonDownloadQueue.ToJObject" alt="" coords="568,5,773,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0623b835bb68d5d5e1f591df6a09dd81" title="LittleWeebLibrary.Models.\lJsonError.ToJObject" alt="" coords="584,71,757,112"/>
+</map>

@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::DataBaseHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IDataBaseHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1aeea801d75a8294727c8b8e2805b43abb" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string LittleWeebLibrary.Handlers.DataBaseHandler.DataBasePath</definition>
+        <argsstring></argsstring>
+        <name>DataBasePath</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="28" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1aa474a1f934032623ffb3ae5eb156148b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.DataBaseHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="27" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1af3623e6075f8aaf6f5082994cd1448df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.DataBaseHandler.DataBaseHandler</definition>
+        <argsstring>(IDebugHandler debugHandler)</argsstring>
+        <name>DataBaseHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="30" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="30" bodyend="49"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9fe4cf5d219f0453436fe9c85ad261bf" compoundref="_utility_methods_8cs" startline="214" endline="240">LittleWeebLibrary.StaticClasses.UtilityMethods.BasePath</references>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JArray &gt;</type>
+        <definition>async Task&lt;JArray&gt; LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection</definition>
+        <argsstring>(string collection)</argsstring>
+        <name>GetCollection</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a33ee83202d229f44d3839af7c1b65df0">GetCollection</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="51" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="51" bodyend="78"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" compoundref="_utility_methods_8cs" startline="170" endline="189">LittleWeebLibrary.StaticClasses.UtilityMethods.ReadBinaryFile</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" compoundref="_utility_methods_8cs" startline="127" endline="146">LittleWeebLibrary.StaticClasses.UtilityMethods.Unzip</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aef8bdd650778c72d639f1e89c1d6dcad" compoundref="_data_base_web_socket_service_8cs" startline="90" endline="119">LittleWeebLibrary.Services.DataBaseWebSocketService.GetCollection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a7e5a72e2cfdc3dfe97066cc7504b4445" compoundref="_file_history_handler_8cs" startline="199" endline="212">LittleWeebLibrary.Handlers.FileHistoryHandler.GetCurrentFileHistory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</definition>
+        <argsstring>(string collection, string id)</argsstring>
+        <name>GetJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a6586c4d1cfebdb8d5d40bc544d51914c">GetJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="80" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="80" bodyend="132"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" compoundref="_utility_methods_8cs" startline="170" endline="189">LittleWeebLibrary.StaticClasses.UtilityMethods.ReadBinaryFile</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" compoundref="_utility_methods_8cs" startline="127" endline="146">LittleWeebLibrary.StaticClasses.UtilityMethods.Unzip</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" compoundref="_file_history_handler_8cs" startline="32" endline="111">LittleWeebLibrary.Handlers.FileHistoryHandler.AddFileToFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a469232c6b73d0ceff935c4ef2d78d039" compoundref="_anime_rule_handler_8cs" startline="31" endline="46">LittleWeebLibrary.Handlers.AnimeRuleHandler.AddRules</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a503fb2839489e1df8b80c9a461c0fd2b" compoundref="_anime_rule_handler_8cs" startline="48" endline="150">LittleWeebLibrary.Handlers.AnimeRuleHandler.FilterAnimeRules</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061" compoundref="_anime_profile_handler_8cs" startline="54" endline="123">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeProfile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" compoundref="_anime_profile_handler_8cs" startline="301" endline="421">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aa51350396b2aa1634a680c94bebdc64c" compoundref="_data_base_web_socket_service_8cs" startline="121" endline="166">LittleWeebLibrary.Services.DataBaseWebSocketService.GetDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" compoundref="_file_history_handler_8cs" startline="113" endline="196">LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a4d7ed521cd4bedc0d650bc01afc67587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; JObject &gt;</type>
+        <definition>async Task&lt;JObject&gt; LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</definition>
+        <argsstring>(string collection, string property, string value)</argsstring>
+        <name>GetJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a9d9a8fc06ab8431daa5363becf79cf65">GetJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="134" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="134" bodyend="186"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" compoundref="_utility_methods_8cs" startline="170" endline="189">LittleWeebLibrary.StaticClasses.UtilityMethods.ReadBinaryFile</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" compoundref="_utility_methods_8cs" startline="127" endline="146">LittleWeebLibrary.StaticClasses.UtilityMethods.Unzip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7821535a003c7675c09ba846bd9502ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject</definition>
+        <argsstring>(string collection, string id)</argsstring>
+        <name>RemoveJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a4d78b21102490d85906d0eb3f4693227">RemoveJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="188" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="188" bodyend="233"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a5d9baf510f46f6a3fac9fe84325bb017" compoundref="_data_base_web_socket_service_8cs" startline="41" endline="88">LittleWeebLibrary.Services.DataBaseWebSocketService.DeleteDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" compoundref="_file_history_handler_8cs" startline="113" endline="196">LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ac9938b8d47b353d15c8e77e94849896e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject</definition>
+        <argsstring>(string collection, string property, string value)</argsstring>
+        <name>RemoveJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a76b8da1f75749b16e095dc3d635cebdf">RemoveJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="235" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="235" bodyend="285"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" compoundref="_utility_methods_8cs" startline="170" endline="189">LittleWeebLibrary.StaticClasses.UtilityMethods.ReadBinaryFile</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" compoundref="_utility_methods_8cs" startline="127" endline="146">LittleWeebLibrary.StaticClasses.UtilityMethods.Unzip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.DataBaseHandler.StoreJObject</definition>
+        <argsstring>(string collection, JObject toStore, string id=&quot;&quot;)</argsstring>
+        <name>StoreJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a5d87c42ef7dc7e5d86f7e6fada3454e9">StoreJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>JObject</type>
+          <declname>toStore</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="287" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="287" bodyend="330"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a6542a3a6ea0aed6b4d78bb44a4a7d9d7" compoundref="_utility_methods_8cs" startline="149" endline="168">LittleWeebLibrary.StaticClasses.UtilityMethods.WriteBinaryFile</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a16933213071d531063b29979e7b55fe8" compoundref="_utility_methods_8cs" startline="105" endline="125">LittleWeebLibrary.StaticClasses.UtilityMethods.Zip</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" compoundref="_file_history_handler_8cs" startline="32" endline="111">LittleWeebLibrary.Handlers.FileHistoryHandler.AddFileToFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061" compoundref="_anime_profile_handler_8cs" startline="54" endline="123">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeProfile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" compoundref="_anime_profile_handler_8cs" startline="301" endline="421">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1af85671a494e85f8418f60606566521f0" compoundref="_data_base_web_socket_service_8cs" startline="168" endline="203">LittleWeebLibrary.Services.DataBaseWebSocketService.StoreDocument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a9b2223ff71f688234f95d247ea3b5739" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.DataBaseHandler.UpdateJObject</definition>
+        <argsstring>(string collection, JObject toUpdate, string id, bool overwrite=false)</argsstring>
+        <name>UpdateJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a30fbd69419ce902612a3c323b451f3fa">UpdateJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>JObject</type>
+          <declname>toUpdate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="332" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="332" bodyend="366"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a469232c6b73d0ceff935c4ef2d78d039" compoundref="_anime_rule_handler_8cs" startline="31" endline="46">LittleWeebLibrary.Handlers.AnimeRuleHandler.AddRules</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54" compoundref="_anime_profile_handler_8cs" startline="125" endline="299">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061" compoundref="_anime_profile_handler_8cs" startline="54" endline="123">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeProfile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" compoundref="_anime_profile_handler_8cs" startline="301" endline="421">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" compoundref="_file_history_handler_8cs" startline="113" endline="196">LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a3771a51f4d0aab2cd4f65676427d0902" compoundref="_data_base_web_socket_service_8cs" startline="205" endline="240">LittleWeebLibrary.Services.DataBaseWebSocketService.UpdateDocument</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae1bd1078fc9253555322dc0609c49863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; LittleWeebLibrary.Handlers.DataBaseHandler.UpdateJObject</definition>
+        <argsstring>(string collection, JObject toUpdate, string property, string value, bool overwrite=false)</argsstring>
+        <name>UpdateJObject</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler_1a00c429576be33aa60bdf1a88edaf88c6">UpdateJObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>JObject</type>
+          <declname>toUpdate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DataBaseHandler.cs" line="368" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="368" bodyend="403"/>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="119">
+        <label>LittleWeebLibrary.Handlers.DataBaseHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>IDataBaseHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="121">
+        <label>LittleWeebLibrary.Handlers.DataBaseHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+        <childnode refid="123" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="123">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="122">
+        <label>IDataBaseHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/DataBaseHandler.cs" line="26" column="1" bodyfile="Handlers/DataBaseHandler.cs" bodystart="25" bodyend="404"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1af3623e6075f8aaf6f5082994cd1448df" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>DataBaseHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1aeea801d75a8294727c8b8e2805b43abb" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>DataBasePath</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1aa474a1f934032623ffb3ae5eb156148b" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>GetCollection</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>GetJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a4d7ed521cd4bedc0d650bc01afc67587" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>GetJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7821535a003c7675c09ba846bd9502ca" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>RemoveJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ac9938b8d47b353d15c8e77e94849896e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>RemoveJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>StoreJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a9b2223ff71f688234f95d247ea3b5739" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>UpdateJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae1bd1078fc9253555322dc0609c49863" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DataBaseHandler</scope><name>UpdateJObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

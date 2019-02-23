@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a51cbce60bdb96d0b461d5a6e84940072" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, List&lt; string &gt; &gt;</type>
+        <definition>Dictionary&lt;string, List&lt;string&gt; &gt; LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.ChannelsAndUsers</definition>
+        <argsstring></argsstring>
+        <name>ChannelsAndUsers</name>
+        <initializer>= new Dictionary&lt;string, List&lt;string&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientConnectionStatusArgs.cs" line="10" column="1" bodyfile="EventArguments/IrcClientConnectionStatusArgs.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a4df4d6c89f98fcbe91ee1ecb40066a77" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.Connected</definition>
+        <argsstring></argsstring>
+        <name>Connected</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientConnectionStatusArgs.cs" line="9" column="1" bodyfile="EventArguments/IrcClientConnectionStatusArgs.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a0cdd120909dbddabaa080c5a1dabb81d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref></type>
+        <definition>IrcSettings LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.CurrentIrcSettings</definition>
+        <argsstring></argsstring>
+        <name>CurrentIrcSettings</name>
+        <initializer>= new <ref refid="class_little_weeb_library_1_1_settings_1_1_irc_settings" kindref="compound">IrcSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientConnectionStatusArgs.cs" line="11" column="1" bodyfile="EventArguments/IrcClientConnectionStatusArgs.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a71fdd09abcc607734be01125338fa928" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/IrcClientConnectionStatusArgs.cs" line="13" column="1" bodyfile="EventArguments/IrcClientConnectionStatusArgs.cs" bodystart="13" bodyend="30"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a8ffa9ba31b96d32a4c1fdafc04afaf5e" compoundref="_irc_client_handler_8cs" startline="298" endline="329">LittleWeebLibrary.Handlers.IrcClientHandler.OnUserListUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="86">
+        <label>LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args"/>
+      </node>
+    </collaborationgraph>
+    <location file="EventArguments/IrcClientConnectionStatusArgs.cs" line="8" column="1" bodyfile="EventArguments/IrcClientConnectionStatusArgs.cs" bodystart="7" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a51cbce60bdb96d0b461d5a6e84940072" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</scope><name>ChannelsAndUsers</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a4df4d6c89f98fcbe91ee1ecb40066a77" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</scope><name>Connected</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a0cdd120909dbddabaa080c5a1dabb81d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</scope><name>CurrentIrcSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_connection_status_args_1a71fdd09abcc607734be01125338fa928" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::IrcClientConnectionStatusArgs</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

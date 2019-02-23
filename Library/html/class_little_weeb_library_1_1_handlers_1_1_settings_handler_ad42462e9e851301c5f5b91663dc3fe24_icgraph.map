@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Handlers.SettingsHandler.WriteIrcSettings" name="LittleWeebLibrary.Handlers.SettingsHandler.WriteIrcSettings">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#ad5592055f57beed1a26d76ee1a518af5" title="LittleWeebLibrary.Services.\lIrcWebSocketService.Connect" alt="" coords="295,5,494,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#aef49a5d18d17b206d2807bba6c28f793" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.Setfullfilepath" alt="" coords="264,71,525,112"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#a898cb4543b5abd273844405770687442" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.SetIrc\lSettings" alt="" coords="285,137,504,193"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller.html#a5ea966dddf1e0a082dd5ec28f6ace3ab" title="LittleWeebLibrary.Controllers.\lIrcWebSocketController.OnWebSocketEvent" alt="" coords="573,5,853,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html#a39b333aee248388fd295a8511486c76e" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController.OnWebSocketEvent" alt="" coords="600,103,827,159"/>
+</map>

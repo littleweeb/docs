@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonKistuGenres</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1abe59eb4feea93c87e21bd606962f550d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JArray</type>
+        <definition>JArray LittleWeebLibrary.Models.JsonKistuGenres.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= new JArray()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuGenres.cs" line="11" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a2a4f637bc3bfd761362181d443bfea80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonKistuGenres.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;kitsu_genres&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuGenres.cs" line="10" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a64039ea4f8a80b3048979813fcce9099" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonKistuGenres.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aff942cf4016346e9df66de3b8c2b7cf6" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuGenres.cs" line="12" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a0cce3f3f712276fbae17ef4d99ec6fad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonKistuGenres.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuGenres.cs" line="30" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="30" bodyend="35"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aad51f41f73ee3bb3f21196e721af3658" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonKistuGenres.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuGenres.cs" line="14" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="14" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aff942cf4016346e9df66de3b8c2b7cf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonKistuGenres.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonKitsuGenres.cs" line="19" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="297">
+        <label>LittleWeebLibrary.Models.JsonKistuGenres</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonKitsuGenres.cs" line="9" column="1" bodyfile="Models/JsonKitsuGenres.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1abe59eb4feea93c87e21bd606962f550d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuGenres</scope><name>result</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a0cce3f3f712276fbae17ef4d99ec6fad" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuGenres</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aad51f41f73ee3bb3f21196e721af3658" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuGenres</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1aff942cf4016346e9df66de3b8c2b7cf6" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuGenres</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a2a4f637bc3bfd761362181d443bfea80" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuGenres</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_kistu_genres_1a64039ea4f8a80b3048979813fcce9099" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonKistuGenres</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

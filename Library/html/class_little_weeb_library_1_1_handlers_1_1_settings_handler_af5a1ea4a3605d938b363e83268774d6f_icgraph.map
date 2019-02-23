@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.SettingsHandler.WriteLittleWeebSettings" name="LittleWeebLibrary.Handlers.SettingsHandler.WriteLittleWeebSettings">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#aa53e9a1723c0b2d607d2aa9db1991c3c" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.SetLittle\lWeebSettings" alt="" coords="264,5,496,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html#a39b333aee248388fd295a8511486c76e" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController.OnWebSocketEvent" alt="" coords="544,5,771,61"/>
+</map>

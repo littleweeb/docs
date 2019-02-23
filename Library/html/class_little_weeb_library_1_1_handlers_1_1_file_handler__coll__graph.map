@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Handlers.FileHandler" name="LittleWeebLibrary.Handlers.FileHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_file_handler.html" title="{IFileHandler\n||+ DeleteFile()\l+ OpenFile()\l}" alt="" coords="5,49,105,141"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="129,49,301,141"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="325,35,508,156"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_settings_1_1_little_weeb_settings.html" title="{LittleWeebLibrary.Settings.\lLittleWeebSettings\n|+ CurrentlyAiringBot\l+ DebugLevel\l+ DebugType\l+ Local\l+ MaxDebugLogSize\l+ Port\l+ RandomUsernameLength\l|+ ToString()\l}" alt="" coords="532,5,712,185"/>
+</map>

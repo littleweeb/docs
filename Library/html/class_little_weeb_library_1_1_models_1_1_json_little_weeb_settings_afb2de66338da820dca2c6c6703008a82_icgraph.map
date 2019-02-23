@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Models.JsonLittleWeebSettings.ToJson" name="LittleWeebLibrary.Models.JsonLittleWeebSettings.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_settings_web_socket_service.html#a50cbfe4ba270c9e84b6b7b427a1b9ce0" title="LittleWeebLibrary.Services.\lSettingsWebSocketService.GetCurrent\lLittleWeebSettings" alt="" coords="257,5,504,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html#a39b333aee248388fd295a8511486c76e" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController.OnWebSocketEvent" alt="" coords="552,5,779,61"/>
+</map>

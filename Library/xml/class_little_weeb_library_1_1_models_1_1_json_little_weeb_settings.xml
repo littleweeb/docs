@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonLittleWeebSettings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a7129f2e6dce8f139b8875d5ff8cc2ddb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonLittleWeebSettings.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;littleweeb_settings&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="11" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1add95221dde294414735d4fc462121b78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; LittleWeebLibrary.Models.JsonLittleWeebSettings.debuglevel</definition>
+        <argsstring></argsstring>
+        <name>debuglevel</name>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="17" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a63635018610bc5d1486d599340f76a24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; LittleWeebLibrary.Models.JsonLittleWeebSettings.debugtype</definition>
+        <argsstring></argsstring>
+        <name>debugtype</name>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="18" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a38486f6672a25851a1c1eb001e04dc4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Models.JsonLittleWeebSettings.local</definition>
+        <argsstring></argsstring>
+        <name>local</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="13" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a2163a3d5774f6923137da1066fddfe90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.Models.JsonLittleWeebSettings.maxdebuglogsize</definition>
+        <argsstring></argsstring>
+        <name>maxdebuglogsize</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="16" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a2d8ad3ab7f7d224bed24e1f9b052edee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.Models.JsonLittleWeebSettings.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="12" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1aedb0795f2506d53f01640372fa3e7e4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.Models.JsonLittleWeebSettings.randomusernamelength</definition>
+        <argsstring></argsstring>
+        <name>randomusernamelength</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="15" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a62e7dbb8c6431cb5090d4333da56d174" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonLittleWeebSettings.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a9aca9f5ee262951043ae1fd7d58d3127" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="19" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1adefa3710a72bdd1e1c864479218f0614" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonLittleWeebSettings.version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="14" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1ae327fa558c554472183fb37a73ecb6de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonLittleWeebSettings.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="37" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1afb2de66338da820dca2c6c6703008a82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonLittleWeebSettings.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="22" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="22" bodyend="25"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a50cbfe4ba270c9e84b6b7b427a1b9ce0" compoundref="_settings_web_socket_service_8cs" startline="117" endline="132">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentLittleWeebSettings</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a9aca9f5ee262951043ae1fd7d58d3127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonLittleWeebSettings.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonLittleWeebSettings.cs" line="26" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="303">
+        <label>LittleWeebLibrary.Models.JsonLittleWeebSettings</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonLittleWeebSettings.cs" line="9" column="1" bodyfile="Models/JsonLittleWeebSettings.cs" bodystart="8" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1add95221dde294414735d4fc462121b78" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>debuglevel</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a63635018610bc5d1486d599340f76a24" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>debugtype</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a38486f6672a25851a1c1eb001e04dc4f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>local</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a2163a3d5774f6923137da1066fddfe90" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>maxdebuglogsize</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a2d8ad3ab7f7d224bed24e1f9b052edee" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>port</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1aedb0795f2506d53f01640372fa3e7e4e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>randomusernamelength</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1ae327fa558c554472183fb37a73ecb6de" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1afb2de66338da820dca2c6c6703008a82" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a9aca9f5ee262951043ae1fd7d58d3127" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a7129f2e6dce8f139b8875d5ff8cc2ddb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1a62e7dbb8c6431cb5090d4333da56d174" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>updated</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_little_weeb_settings_1adefa3710a72bdd1e1c864479218f0614" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonLittleWeebSettings</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

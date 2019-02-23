@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_directory_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::DirectoryHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IDirectoryHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1adb882b8ec72046e2b95b6d11228f6927" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.DirectoryHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="26" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a347ba4ee0182625434973769c90d06e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.DirectoryHandler.DirectoryHandler</definition>
+        <argsstring>(IDebugHandler debugHandler)</argsstring>
+        <name>DirectoryHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="28" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="28" bodyend="32"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6be1b158ee280e8a74a49917a90484e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DirectoryHandler.CreateDirectory</definition>
+        <argsstring>(string path, string name)</argsstring>
+        <name>CreateDirectory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1aa2298db37f9e9a6050d01be4d3150889">CreateDirectory</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="224" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="224" bodyend="267"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" compoundref="_directory_web_socket_service_8cs" startline="40" endline="75">LittleWeebLibrary.Services.DirectoryWebSocketService.CreateDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" compoundref="_settings_web_socket_service_8cs" startline="206" endline="235">LittleWeebLibrary.Services.SettingsWebSocketService.Setfullfilepath</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory</definition>
+        <argsstring>(string path)</argsstring>
+        <name>DeleteDirectory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1a7fcae4cc311e09d32b84327b74d80828">DeleteDirectory</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="157" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="157" bodyend="222"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" compoundref="_json_success_8cs" startline="14" endline="17">LittleWeebLibrary.Models.JsonSuccess.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" compoundref="_directory_web_socket_service_8cs" startline="77" endline="110">LittleWeebLibrary.Services.DirectoryWebSocketService.DeleteDirectory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetDirectories</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1a4db23041b31d9b7e46c0be7acb27b0a8">GetDirectories</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="114" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="114" bodyend="155"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a3527cf5cff598f63b5f95cf7d6158b55" compoundref="_json_directory_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonDirectory.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" compoundref="_directory_web_socket_service_8cs" startline="119" endline="154">LittleWeebLibrary.Services.DirectoryWebSocketService.GetDirectories</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</definition>
+        <argsstring>()</argsstring>
+        <name>GetDrives</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1ac0cc258a8bef2c9956638e14ad7d1e63">GetDrives</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="34" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="34" bodyend="112"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a370ad019604c1b719b921ea34f8b4f69" compoundref="_json_directories_8cs" startline="11">LittleWeebLibrary.Models.JsonDirectories.directories</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a85ca592b7c664bc94b3d1619e6c6beef" compoundref="_json_directory_8cs" startline="11" endline="11">LittleWeebLibrary.Models.JsonDirectory.dirname</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a7bd33103cb444da0436a3369edcffa19" compoundref="_json_directory_8cs" startline="12" endline="12">LittleWeebLibrary.Models.JsonDirectory.path</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_directories_1a06826e97f8dd170ecad5574cf8ef816a" compoundref="_json_directories_8cs" startline="14" endline="17">LittleWeebLibrary.Models.JsonDirectories.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_directory_1a3527cf5cff598f63b5f95cf7d6158b55" compoundref="_json_directory_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonDirectory.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1ad7d5522c90119111d2e929f39e7f6d3c" compoundref="_json_error_8cs" startline="20" endline="29">LittleWeebLibrary.Models.JsonError.ToString</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a368f502e063381bccfed714d8350dc69" compoundref="_directory_web_socket_service_8cs" startline="112" endline="117">LittleWeebLibrary.Services.DirectoryWebSocketService.GetDrives</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetFreeSpace</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1aa969b0771c2482aa5b3fed0d5b9fae65">GetFreeSpace</reimplements>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="324" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="324" bodyend="339"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a411fcb0402a7b696adfee7cb2a3efad0" compoundref="_json_free_space_8cs" startline="10" endline="10">LittleWeebLibrary.Models.JsonFreeSpace.freespacebytes</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a835bd50126595d47780104725423d991" compoundref="_json_free_space_8cs" startline="11" endline="11">LittleWeebLibrary.Models.JsonFreeSpace.freespacekbytes</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1ac331b31dba1337829ebc86ef88164e57" compoundref="_json_free_space_8cs" startline="12" endline="12">LittleWeebLibrary.Models.JsonFreeSpace.freespacembytes</references>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a76fa2aea99ce4b1ad4130cc18b1d5969" compoundref="_utility_methods_8cs" startline="78" endline="91">LittleWeebLibrary.StaticClasses.UtilityMethods.GetFreeSpaceKbits</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_free_space_1a3ab3c947402838a29e33684edaf16a54" compoundref="_json_free_space_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonFreeSpace.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" compoundref="_directory_web_socket_service_8cs" startline="156" endline="161">LittleWeebLibrary.Services.DirectoryWebSocketService.GetFreeSpace</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DirectoryHandler.OpenDirectory</definition>
+        <argsstring>(string directoryPath)</argsstring>
+        <name>OpenDirectory</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_1a43ca9f14498ef3b9cfbdf960b877ac19">OpenDirectory</reimplements>
+        <param>
+          <type>string</type>
+          <declname>directoryPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DirectoryHandler.cs" line="270" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="270" bodyend="322"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" compoundref="_utility_methods_8cs" startline="192" endline="211">LittleWeebLibrary.StaticClasses.UtilityMethods.CheckOperatingSystems</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_success_1a407103dc37a77aaf47a782296bab7518" compoundref="_json_success_8cs" startline="14" endline="17">LittleWeebLibrary.Models.JsonSuccess.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_error_1a0e3e7dd2e2990404b7f0461742b23440" compoundref="_json_error_8cs" startline="15" endline="18">LittleWeebLibrary.Models.JsonError.ToJson</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a6f2201dd7b86f142c2e901262ea53fbe" compoundref="_download_web_socket_service_8cs" startline="172" endline="177">LittleWeebLibrary.Services.DownloadWebSocketService.Openfullfilepath</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>LittleWeebLibrary.Handlers.DirectoryHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>IDirectoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="134">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="132">
+        <label>LittleWeebLibrary.Handlers.DirectoryHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="133">
+        <label>IDirectoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/DirectoryHandler.cs" line="23" column="1" bodyfile="Handlers/DirectoryHandler.cs" bodystart="22" bodyend="340"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6be1b158ee280e8a74a49917a90484e2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>CreateDirectory</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1adb882b8ec72046e2b95b6d11228f6927" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>DeleteDirectory</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a347ba4ee0182625434973769c90d06e1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>DirectoryHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>GetDirectories</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>GetDrives</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>GetFreeSpace</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DirectoryHandler</scope><name>OpenDirectory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

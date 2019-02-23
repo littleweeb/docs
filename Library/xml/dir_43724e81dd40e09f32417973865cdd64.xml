@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_43724e81dd40e09f32417973865cdd64" kind="dir">
+    <compoundname>obj</compoundname>
+    <innerdir refid="dir_a71c3b2ad23b9ff58220dd012d201987">obj/Debug</innerdir>
+    <innerdir refid="dir_cac2beceb4c1969ca10da3f52b25b201">obj/Debug Android</innerdir>
+    <innerdir refid="dir_2cdf7403009e7746788c11127233b1ca">obj/Debug Android_</innerdir>
+    <innerdir refid="dir_9fe5cc214b8578ee5b8e153089aca810">obj/Release</innerdir>
+    <innerdir refid="dir_a0cdce7a1c37807acc7c586dcb8c3c46">obj/Release Android</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/"/>
+  </compounddef>
+</doxygen>

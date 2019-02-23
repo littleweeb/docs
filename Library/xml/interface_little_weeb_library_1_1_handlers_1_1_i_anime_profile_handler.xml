@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::IAnimeProfileHandler</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.AnimeProfileHandler</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ac23c001a51abb10a3d013738000dafec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info" kindref="compound">JsonKitsuAnimeInfo</ref> &gt;</type>
+        <definition>Task&lt;JsonKitsuAnimeInfo&gt; LittleWeebLibrary.Handlers.IAnimeProfileHandler.GetAnimeEpisodes</definition>
+        <argsstring>(string id, int amountPerPage=26, bool noCache=false, bool cached=false)</argsstring>
+        <name>GetAnimeEpisodes</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54">GetAnimeEpisodes</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amountPerPage</declname>
+          <defval>26</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noCache</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cached</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeProfileHandler.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ad0fbcf84372d9d564e8d84d3291fa136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_kitsu_anime_info" kindref="compound">JsonKitsuAnimeInfo</ref> &gt;</type>
+        <definition>Task&lt;JsonKitsuAnimeInfo&gt; LittleWeebLibrary.Handlers.IAnimeProfileHandler.GetAnimeProfile</definition>
+        <argsstring>(string id, int amountPerPage=26, bool noCache=false)</argsstring>
+        <name>GetAnimeProfile</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061">GetAnimeProfile</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amountPerPage</declname>
+          <defval>26</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noCache</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeProfileHandler.cs" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ad59273ddfe35a2560f3e07879b334c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_currently_airing" kindref="compound">JsonCurrentlyAiring</ref> &gt;</type>
+        <definition>Task&lt;JsonCurrentlyAiring&gt; LittleWeebLibrary.Handlers.IAnimeProfileHandler.GetCurrentlyAiring</definition>
+        <argsstring>(bool nonFoundAnimes=false, int botId=21, bool noCache=false, bool cached=false)</argsstring>
+        <name>GetCurrentlyAiring</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37">GetCurrentlyAiring</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>nonFoundAnimes</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>botId</declname>
+          <defval>21</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noCache</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cached</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/AnimeProfileHandler.cs" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="162">
+        <label>LittleWeebLibrary.Handlers.AnimeProfileHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler"/>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>LittleWeebLibrary.Handlers.IAnimeProfileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="163">
+        <label>LittleWeebLibrary.Handlers.IAnimeProfileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/AnimeProfileHandler.cs" line="26" column="1" bodyfile="Handlers/AnimeProfileHandler.cs" bodystart="25" bodyend="32"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ac23c001a51abb10a3d013738000dafec" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IAnimeProfileHandler</scope><name>GetAnimeEpisodes</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ad0fbcf84372d9d564e8d84d3291fa136" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IAnimeProfileHandler</scope><name>GetAnimeProfile</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler_1ad59273ddfe35a2560f3e07879b334c25" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IAnimeProfileHandler</scope><name>GetCurrentlyAiring</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

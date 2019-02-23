@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::IWebSocketHandler</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.WebSocketHandler</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a97a64552bc41c6a11c65ec489f833d8c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args" kindref="compound">WebSocketEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;WebSocketEventArgs&gt; LittleWeebLibrary.Handlers.IWebSocketHandler.OnWebSocketEvent</definition>
+        <argsstring></argsstring>
+        <name>OnWebSocketEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/WebSocketHandler.cs" line="17" column="1" bodyfile="Handlers/WebSocketHandler.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a1e512d10e0dd5f5b15abc2b46659142a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Handlers.IWebSocketHandler.SendMessage</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SendMessage</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0">SendMessage</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/WebSocketHandler.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a14d51d50fb03c21d6f47f4250e49f288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.IWebSocketHandler.StartServer</definition>
+        <argsstring>()</argsstring>
+        <name>StartServer</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a23d4ffbabdb67c97ea843d4e7dc5cbdd">StartServer</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/WebSocketHandler.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a69aca27030b0df701d7ce57ba2545cb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Handlers.IWebSocketHandler.StopServer</definition>
+        <argsstring>()</argsstring>
+        <name>StopServer</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1abcd87ac26780369b500299fc12aa0039">StopServer</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/WebSocketHandler.cs" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="211">
+        <label>LittleWeebLibrary.Handlers.WebSocketHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="212">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/WebSocketHandler.cs" line="16" column="1" bodyfile="Handlers/WebSocketHandler.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a97a64552bc41c6a11c65ec489f833d8c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IWebSocketHandler</scope><name>OnWebSocketEvent</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a1e512d10e0dd5f5b15abc2b46659142a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IWebSocketHandler</scope><name>SendMessage</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a14d51d50fb03c21d6f47f4250e49f288" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IWebSocketHandler</scope><name>StartServer</name></member>
+      <member refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler_1a69aca27030b0df701d7ce57ba2545cb1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::IWebSocketHandler</scope><name>StopServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

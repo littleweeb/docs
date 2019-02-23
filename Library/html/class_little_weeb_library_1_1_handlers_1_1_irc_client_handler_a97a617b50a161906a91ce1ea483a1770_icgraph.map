@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Handlers.IrcClientHandler.StopConnection" name="LittleWeebLibrary.Handlers.IrcClientHandler.StopConnection">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#a637703e827e16a5d99055119bfe62972" title="LittleWeebLibrary.Services.\lIrcWebSocketService.Disconnect" alt="" coords="263,8,477,49"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_start_up.html#aaa6147f0dd162c1962e575689dcb22c5" title="LittleWeebLibrary.StartUp.Stop" alt="" coords="269,75,471,102"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller.html#a5ea966dddf1e0a082dd5ec28f6ace3ab" title="LittleWeebLibrary.Controllers.\lIrcWebSocketController.OnWebSocketEvent" alt="" coords="525,5,805,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_little_weeb.html#abdb53c29265dddd9fa0a27c8bf4d50f2" title="LittleWeebLibrary.Little\lWeeb.Stop" alt="" coords="588,71,743,112"/>
+</map>

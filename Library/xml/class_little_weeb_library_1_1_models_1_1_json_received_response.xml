@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_received_response" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonReceivedResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_received_response_1af28532db4b071f09d3f5c332d98ac470" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonReceivedResponse.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;received_websocket_message&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonReceivedResponse.cs" line="9" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_received_response_1a91b2c3461ca7bf54c108e0942ef48c25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonReceivedResponse.received</definition>
+        <argsstring></argsstring>
+        <name>received</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonReceivedResponse.cs" line="10" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_received_response_1aab698f610c341ad6a13f891262331683" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonReceivedResponse.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a396aa50a773bcd751e23cc7d61db34be" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonReceivedResponse.cs" line="11" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_received_response_1a415c10f87514185eebe1d911be1f32d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonReceivedResponse.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonReceivedResponse.cs" line="29" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_received_response_1abed77a236608efb9bf777a44e6d2361b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonReceivedResponse.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonReceivedResponse.cs" line="13" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="13" bodyend="16"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a527c7515f2e19938e9ff23ce2d993fda" compoundref="_web_socket_handler_8cs" startline="118" endline="183">LittleWeebLibrary.Handlers.WebSocketHandler.OnWebSocketServerEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_received_response_1a396aa50a773bcd751e23cc7d61db34be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonReceivedResponse.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonReceivedResponse.cs" line="18" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="18" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="309">
+        <label>LittleWeebLibrary.Models.JsonReceivedResponse</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_received_response"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonReceivedResponse.cs" line="8" column="1" bodyfile="Models/JsonReceivedResponse.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a91b2c3461ca7bf54c108e0942ef48c25" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonReceivedResponse</scope><name>received</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a415c10f87514185eebe1d911be1f32d2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonReceivedResponse</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1abed77a236608efb9bf777a44e6d2361b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonReceivedResponse</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1a396aa50a773bcd751e23cc7d61db34be" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonReceivedResponse</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1af28532db4b071f09d3f5c332d98ac470" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonReceivedResponse</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_received_response_1aab698f610c341ad6a13f891262331683" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonReceivedResponse</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

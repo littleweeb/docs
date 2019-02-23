@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_download_info" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonDownloadInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a4c31eb2a79dc5e0d239b493c3e8dd866" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;download_update&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="9" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a544452b6bde1433070fb088af297cc12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.anime_id</definition>
+        <argsstring></argsstring>
+        <name>anime_id</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="10" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="10" bodyend="10"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a27d95ac59e5a4bf7f68421e9ea0036db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.anime_name</definition>
+        <argsstring></argsstring>
+        <name>anime_name</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="11" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a0c8281bcd1f8766ddc86d89f0dc1b23c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.bot</definition>
+        <argsstring></argsstring>
+        <name>bot</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="15" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="15" bodyend="15"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" compoundref="_irc_client_handler_8cs" startline="120" endline="135">LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1af04b1b815de21ea578f039ecc0e2957b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.downloadDirectory</definition>
+        <argsstring></argsstring>
+        <name>downloadDirectory</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="24" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="24" bodyend="24"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" compoundref="_irc_client_handler_8cs" startline="120" endline="135">LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a25aeccc063b602b3d6576f12a9a1b1df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.Models.JsonDownloadInfo.downloadIndex</definition>
+        <argsstring></argsstring>
+        <name>downloadIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="22" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="22" bodyend="22"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a8ea2c1b9bb90ff75af38c6afa8f0bc14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.episodeNumber</definition>
+        <argsstring></argsstring>
+        <name>episodeNumber</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="14" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="14" bodyend="14"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1d7135715feead09b5ace2b3b67fce4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="20" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="20" bodyend="20"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" compoundref="_download_handler_8cs" startline="143" endline="222">LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1afd063798a57238b7cfd014f60efdfff4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.filesize</definition>
+        <argsstring></argsstring>
+        <name>filesize</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="21" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="21" bodyend="21"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a67b4d374c16d8ed97f39438c10196861" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.fullfilepath</definition>
+        <argsstring></argsstring>
+        <name>fullfilepath</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="23" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="23" bodyend="23"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" compoundref="_download_handler_8cs" startline="143" endline="222">LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1ae74efeee78e915f2fff1eb34bfd125f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="12" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" compoundref="_download_handler_8cs" startline="375" endline="420">LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" compoundref="_download_handler_8cs" startline="143" endline="222">LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a22ff0d4dde2f90e7ee5048a9cf01393f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.pack</definition>
+        <argsstring></argsstring>
+        <name>pack</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="16" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="16" bodyend="16"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" compoundref="_irc_client_handler_8cs" startline="120" endline="135">LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a7ddc5b0dc7e617ed2cf665c2e5e5345a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="17" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="17" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1a534e3df34b7537f0a00a0ace920ee8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.season</definition>
+        <argsstring></argsstring>
+        <name>season</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="13" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="13" bodyend="13"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1d05f9a1872baac04d0561b5d0b34cf1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="18" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="18" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1ad948c6047f25fbd7f34cfdd53541ce5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="19" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="19" bodyend="19"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3111908b7f7a133a80ab6ec3e81cdcbf" compoundref="_download_web_socket_service_8cs" startline="179" endline="197">LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1ae45b3e3afeb93f4cb92dc5bda3bd9535" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af36cbb3251b0efcd80a45f1fef89f5c9" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="25" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a9a8921b52b118be5bc135ad49a4aee29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonDownloadInfo.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="43" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="43" bodyend="48"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a3d913e57fb5f46a736c02858364609f9" compoundref="_download_handler_8cs" startline="240" endline="244">LittleWeebLibrary.Handlers.DownloadHandler.GetCurrentlyDownloading</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1a3fd450e7e2de8b9a936ba3b2cbeeaccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonDownloadInfo.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="27" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="27" bodyend="30"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a2f646f8d28235a8953b67207ee6131d9" compoundref="_download_handler_8cs" startline="340" endline="360">LittleWeebLibrary.Handlers.DownloadHandler.DownloadQueueHandler</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3111908b7f7a133a80ab6ec3e81cdcbf" compoundref="_download_web_socket_service_8cs" startline="179" endline="197">LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_download_info_1af36cbb3251b0efcd80a45f1fef89f5c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonDownloadInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonDownloadInfo.cs" line="32" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="32" bodyend="41"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" compoundref="_irc_client_handler_8cs" startline="120" endline="135">LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="283">
+        <label>LittleWeebLibrary.Models.JsonDownloadInfo</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_download_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonDownloadInfo.cs" line="8" column="1" bodyfile="Models/JsonDownloadInfo.cs" bodystart="7" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a544452b6bde1433070fb088af297cc12" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>anime_id</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a27d95ac59e5a4bf7f68421e9ea0036db" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>anime_name</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a0c8281bcd1f8766ddc86d89f0dc1b23c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>bot</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af04b1b815de21ea578f039ecc0e2957b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>downloadDirectory</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a25aeccc063b602b3d6576f12a9a1b1df" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>downloadIndex</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a8ea2c1b9bb90ff75af38c6afa8f0bc14" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>episodeNumber</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1d7135715feead09b5ace2b3b67fce4a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>filename</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1afd063798a57238b7cfd014f60efdfff4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>filesize</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a67b4d374c16d8ed97f39438c10196861" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>fullfilepath</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1ae74efeee78e915f2fff1eb34bfd125f5" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>id</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a22ff0d4dde2f90e7ee5048a9cf01393f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>pack</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a7ddc5b0dc7e617ed2cf665c2e5e5345a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>progress</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1a534e3df34b7537f0a00a0ace920ee8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>season</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a1d05f9a1872baac04d0561b5d0b34cf1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>speed</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1ad948c6047f25fbd7f34cfdd53541ce5c" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>status</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a9a8921b52b118be5bc135ad49a4aee29" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a3fd450e7e2de8b9a936ba3b2cbeeaccb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1af36cbb3251b0efcd80a45f1fef89f5c9" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1a4c31eb2a79dc5e0d239b493c3e8dd866" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_download_info_1ae45b3e3afeb93f4cb92dc5bda3bd9535" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonDownloadInfo</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

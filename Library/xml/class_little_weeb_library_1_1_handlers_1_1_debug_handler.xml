@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_debug_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::DebugHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IDebugHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac6690e0052ce2a2a040a5160c60fa6d4" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string LittleWeebLibrary.Handlers.DebugHandler.DebugFileName</definition>
+        <argsstring></argsstring>
+        <name>DebugFileName</name>
+        <initializer>= &quot;littleweeb.log&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="33" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac3da0e592d7c056dfeb8e60a5a5c1986" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Handlers.DebugHandler.DebugPath</definition>
+        <argsstring></argsstring>
+        <name>DebugPath</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="34" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6073413df4c401fb94a64ee2a0649293" prot="private" static="no" mutable="no">
+        <type>readonly string []</type>
+        <definition>readonly string [] LittleWeebLibrary.Handlers.DebugHandler.DebugSourceTypes</definition>
+        <argsstring></argsstring>
+        <name>DebugSourceTypes</name>
+        <initializer>= new string[] { &quot;CONSTRUCTOR&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea725e74fd6435d86483781e2bd8e9d2c7" kindref="member">METHOD</ref>&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea030d962d0faa148f02848881a3b4fdb6" kindref="member">EVENT</ref>&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea0ed9b001ca1cd2667302a9be876ede9d" kindref="member">TASK</ref>&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292bea3932d629fb5e2be9d09b3a4485b3cc9d" kindref="member">EXTERNAL</ref>(LIBRARY)&quot;, &quot;NOT DEFINED&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="36" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a99de78cea15e565e6c5c819b7230e57b" prot="private" static="no" mutable="no">
+        <type>readonly string []</type>
+        <definition>readonly string [] LittleWeebLibrary.Handlers.DebugHandler.DebugTypes</definition>
+        <argsstring></argsstring>
+        <name>DebugTypes</name>
+        <initializer>= new string[] { &quot;NOT DEFINED&quot;, &quot;ENTRY/EXIT&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62aeb178264802ebbd52cccc8feadb72a6f" kindref="member">PARAMETERS</ref>&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62a551b723eafd6a31d444fcb2f5920fbd3" kindref="member">INFO</ref>&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62a059e9861e0400dfbe05c98a841f3f96b" kindref="member">WARNING</ref>&quot;, &quot;<ref refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62abb1ca97ec761fc37101737ba0aa2e7c5" kindref="member">ERROR</ref>&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="35" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a37befa26f60bbf4a6b945fb8be13977e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.DebugHandler.DebugWriteAble</definition>
+        <argsstring></argsstring>
+        <name>DebugWriteAble</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="32" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6707530c5bad1e3a3af39620e0f783c2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings" kindref="compound">LittleWeebSettings</ref></type>
+        <definition>LittleWeebSettings LittleWeebLibrary.Handlers.DebugHandler.LittleWeebSettings</definition>
+        <argsstring></argsstring>
+        <name>LittleWeebSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="38" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1af4dc20fe66b515bdd875bb4b1124cb2a" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; string[]&gt;</type>
+        <definition>readonly List&lt;string[]&gt; LittleWeebLibrary.Handlers.DebugHandler.MessageQueue</definition>
+        <argsstring></argsstring>
+        <name>MessageQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="37" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6c33170a85d7efd28a204285e1851dc5" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler" kindref="compound">ISettingsHandler</ref></type>
+        <definition>ISettingsHandler LittleWeebLibrary.Handlers.DebugHandler.SettingsHandler</definition>
+        <argsstring></argsstring>
+        <name>SettingsHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="41" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a56724baaa1b399d63773b3be73f0ad96" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LittleWeebLibrary.Handlers.DebugHandler.stop</definition>
+        <argsstring></argsstring>
+        <name>stop</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="39" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a110c2f11a80b5dfa28545eca4a867a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.DebugHandler.DebugHandler</definition>
+        <argsstring>()</argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="43" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="43" bodyend="69"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a22ae8b2dc7e6bb5e0b3b0220484c4c86" compoundref="_little_weeb_settings_8cs" startline="11" endline="11">LittleWeebLibrary.Settings.LittleWeebSettings.DebugLevel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac253016968e2d0141b49ab227a715242" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.DebugHandler.SetSettings</definition>
+        <argsstring>(ISettingsHandler settingsHandler)</argsstring>
+        <name>SetSettings</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1ac94e404b87a0922e0d6a7c7a7bc2a1b5">SetSettings</reimplements>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler" kindref="compound">ISettingsHandler</ref></type>
+          <declname>settingsHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="71" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="71" bodyend="75"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler_1a493bc8df18211fa8c3874371b809e006">LittleWeebLibrary.Handlers.ISettingsHandler.GetLittleWeebSettings</references>
+        <referencedby refid="class_little_weeb_library_1_1_start_up_1a7f35b9dfb45fb003a9653d1f531044c9" compoundref="_start_up_8cs" startline="51" endline="121">LittleWeebLibrary.StartUp.StartUp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1aa02d002a4bdac52d769697d240866214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.DebugHandler.StopDebugger</definition>
+        <argsstring>()</argsstring>
+        <name>StopDebugger</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a96c2102206eb5238faa8a07bc9652fd1">StopDebugger</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="252" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="252" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</definition>
+        <argsstring>(string message, DebugSource sourcetype, DebugType debugtype, [System.Runtime.CompilerServices.CallerMemberName] string memberName=&quot;&quot;, [System.Runtime.CompilerServices.CallerFilePath] string sourceFilePath=&quot;&quot;, [System.Runtime.CompilerServices.CallerLineNumber] int sourceLineNumber=0)</argsstring>
+        <name>TraceMessage</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">TraceMessage</reimplements>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_little_weeb_library_1_1_handlers_1a2a6ca0775121c9c503d58aa254d292be" kindref="member">DebugSource</ref></type>
+          <declname>sourcetype</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_little_weeb_library_1_1_handlers_1ab66019ed40462876ec4e61bb3ccb0a62" kindref="member">DebugType</ref></type>
+          <declname>debugtype</declname>
+        </param>
+        <param>
+          <attributes>[System.Runtime.CompilerServices.CallerMemberName]</attributes>
+          <type>string</type>
+          <declname>memberName</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <attributes>[System.Runtime.CompilerServices.CallerFilePath]</attributes>
+          <type>string</type>
+          <declname>sourceFilePath</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <attributes>[System.Runtime.CompilerServices.CallerLineNumber]</attributes>
+          <type>int</type>
+          <declname>sourceLineNumber</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="118" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="118" bodyend="132"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a22ae8b2dc7e6bb5e0b3b0220484c4c86" compoundref="_little_weeb_settings_8cs" startline="11" endline="11">LittleWeebLibrary.Settings.LittleWeebSettings.DebugLevel</references>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1a3e498a95757f135bc082566afbfa8877" compoundref="_little_weeb_settings_8cs" startline="12" endline="12">LittleWeebLibrary.Settings.LittleWeebSettings.DebugType</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a0ab2f2e6fcb90cd42dfa0de9d6a58f7e" compoundref="_download_web_socket_service_8cs" startline="213" endline="237">LittleWeebLibrary.Services.DownloadWebSocketService.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a5a28664c89bf43b921fc9d3f1845b5a1" compoundref="_download_handler_8cs" startline="375" endline="420">LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a7aaa1db63ee81a2e5246e45ef8643087" compoundref="_download_web_socket_service_8cs" startline="68" endline="116">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ad6afd5ee42650d16c67790c6d2ac80c1" compoundref="_download_web_socket_service_8cs" startline="239" endline="292">LittleWeebLibrary.Services.DownloadWebSocketService.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a615bf14eae35f656b211f0500abe4d29" compoundref="_file_history_handler_8cs" startline="32" endline="111">LittleWeebLibrary.Handlers.FileHistoryHandler.AddFileToFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a0ed7b2a1d1fe30b43d06232719570435" compoundref="_info_api_web_socket_service_8cs" startline="288" endline="316">LittleWeebLibrary.Services.InfoApiWebSocketService.AddRule</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a469232c6b73d0ceff935c4ef2d78d039" compoundref="_anime_rule_handler_8cs" startline="31" endline="46">LittleWeebLibrary.Handlers.AnimeRuleHandler.AddRules</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a2f28ad03d4dfe8d90c0392da8af39651" compoundref="_anime_profile_handler_8cs" startline="946" endline="1017">LittleWeebLibrary.Handlers.AnimeProfileHandler.AnimeLatestEpisode</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a132e4da0f082cc2c967cd06eaac3337b" compoundref="_anime_profile_handler_8cs" startline="875" endline="944">LittleWeebLibrary.Handlers.AnimeProfileHandler.CombineAnimeEpisodesParsedNiblResults</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a3ea6566e0d21d73d331adce1ae9c7f07" compoundref="_directory_web_socket_service_8cs" startline="40" endline="75">LittleWeebLibrary.Services.DirectoryWebSocketService.CreateDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6be1b158ee280e8a74a49917a90484e2" compoundref="_directory_handler_8cs" startline="224" endline="267">LittleWeebLibrary.Handlers.DirectoryHandler.CreateDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a11b3560a1e2fe0e3ac5d481efb46d7a6" compoundref="_anime_profile_handler_8cs" startline="1019" endline="1039">LittleWeebLibrary.Handlers.AnimeProfileHandler.CurrentlyAiringAsync</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aa15fe2f3c1bd99a513400b0880298edd" compoundref="_irc_client_handler_8cs" startline="270" endline="274">LittleWeebLibrary.Handlers.IrcClientHandler.CurrentSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1af3623e6075f8aaf6f5082994cd1448df" compoundref="_data_base_handler_8cs" startline="30" endline="49">LittleWeebLibrary.Handlers.DataBaseHandler.DataBaseHandler</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1ac0af5740848de2340e4d3e9225eeb0d7" compoundref="_directory_web_socket_service_8cs" startline="77" endline="110">LittleWeebLibrary.Services.DirectoryWebSocketService.DeleteDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aeae514c438e071fe95c42ff74e0fef9d" compoundref="_directory_handler_8cs" startline="157" endline="222">LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a5d9baf510f46f6a3fac9fe84325bb017" compoundref="_data_base_web_socket_service_8cs" startline="41" endline="88">LittleWeebLibrary.Services.DataBaseWebSocketService.DeleteDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ab1375e8e82a50dfa06d91bebe988d133" compoundref="_file_web_socket_service_8cs" startline="39" endline="76">LittleWeebLibrary.Services.FileWebSocketService.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1ae1b342c4d821543a0a3400e4e0c95903" compoundref="_file_handler_8cs" startline="126" endline="205">LittleWeebLibrary.Handlers.FileHandler.DeleteFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a71f89c2a8e9b0a86972d192bc3e55318" compoundref="_irc_web_socket_service_8cs" startline="182" endline="193">LittleWeebLibrary.Services.IrcWebSocketService.DisableSendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a637703e827e16a5d99055119bfe62972" compoundref="_irc_web_socket_service_8cs" startline="195" endline="240">LittleWeebLibrary.Services.IrcWebSocketService.Disconnect</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ae98f5b136d09bb9f619bfad68f8d8bf7" compoundref="_download_handler_8cs" startline="41" endline="65">LittleWeebLibrary.Handlers.DownloadHandler.DownloadHandler</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a2f646f8d28235a8953b67207ee6131d9" compoundref="_download_handler_8cs" startline="340" endline="360">LittleWeebLibrary.Handlers.DownloadHandler.DownloadQueueHandler</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1acd9aa44a2389caa8e997db49a646c448" compoundref="_irc_web_socket_service_8cs" startline="169" endline="180">LittleWeebLibrary.Services.IrcWebSocketService.EnableSendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a503fb2839489e1df8b80c9a461c0fd2b" compoundref="_anime_rule_handler_8cs" startline="48" endline="150">LittleWeebLibrary.Handlers.AnimeRuleHandler.FilterAnimeRules</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a721f5c5ac798ca7e81286b3f401921fb" compoundref="_anime_rule_handler_8cs" startline="160" endline="177">LittleWeebLibrary.Handlers.AnimeRuleHandler.Get</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a2989b180582fadd05111d010c0700411" compoundref="_nibl_handler_8cs" startline="285" endline="303">LittleWeebLibrary.Handlers.NiblHandler.Get</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a8b7c629a03096c3152252f6b5cf2937f" compoundref="_kitsu_handler_8cs" startline="513" endline="531">LittleWeebLibrary.Handlers.KitsuHandler.Get</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545" compoundref="_info_api_web_socket_service_8cs" startline="363" endline="408">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllCategories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1ae329f7e735a6abee2734bbbd13d121b2" compoundref="_kitsu_handler_8cs" startline="458" endline="505">LittleWeebLibrary.Handlers.KitsuHandler.GetAllCategories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636" compoundref="_info_api_web_socket_service_8cs" startline="318" endline="361">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAllGenres</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a528491d8d97584b2ba2c3bfcc4b5772e" compoundref="_kitsu_handler_8cs" startline="408" endline="456">LittleWeebLibrary.Handlers.KitsuHandler.GetAllGenres</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a4c88ed25befe2904416b4d90673a8f82" compoundref="_kitsu_handler_8cs" startline="109" endline="125">LittleWeebLibrary.Handlers.KitsuHandler.GetAnime</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54" compoundref="_anime_profile_handler_8cs" startline="125" endline="299">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a754f738fba586cc927d64251329c736a" compoundref="_info_api_web_socket_service_8cs" startline="214" endline="244">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAnimeEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061" compoundref="_anime_profile_handler_8cs" startline="54" endline="123">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeProfile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a12f4d83332b28988ce0e2bc5ff3ed369" compoundref="_info_api_web_socket_service_8cs" startline="55" endline="78">LittleWeebLibrary.Services.InfoApiWebSocketService.GetAnimeProfile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aac05976a2e1a688dd187ccca513ab3cc" compoundref="_nibl_handler_8cs" startline="40" endline="73">LittleWeebLibrary.Handlers.NiblHandler.GetBotList</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a8d6a49dd26f66dd33ea2e2b4e9b330cb" compoundref="_kitsu_handler_8cs" startline="373" endline="388">LittleWeebLibrary.Handlers.KitsuHandler.GetCategories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" compoundref="_data_base_handler_8cs" startline="51" endline="78">LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aef8bdd650778c72d639f1e89c1d6dcad" compoundref="_data_base_web_socket_service_8cs" startline="90" endline="119">LittleWeebLibrary.Services.DataBaseWebSocketService.GetCollection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1adb3b1a3aadf9ad491388890e432f6c91" compoundref="_download_web_socket_service_8cs" startline="166" endline="170">LittleWeebLibrary.Services.DownloadWebSocketService.GetCurrentFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a7e5a72e2cfdc3dfe97066cc7504b4445" compoundref="_file_history_handler_8cs" startline="199" endline="212">LittleWeebLibrary.Handlers.FileHistoryHandler.GetCurrentFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aaa29fbcae1268174d436730a58afadca" compoundref="_settings_web_socket_service_8cs" startline="100" endline="115">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a9add76a72fff82d5b7009d34620516dd" compoundref="_irc_web_socket_service_8cs" startline="153" endline="167">LittleWeebLibrary.Services.IrcWebSocketService.GetCurrentIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a50cbfe4ba270c9e84b6b7b427a1b9ce0" compoundref="_settings_web_socket_service_8cs" startline="117" endline="132">LittleWeebLibrary.Services.SettingsWebSocketService.GetCurrentLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aec42147d67551cb17c458453ef40f3bc" compoundref="_info_api_web_socket_service_8cs" startline="133" endline="159">LittleWeebLibrary.Services.InfoApiWebSocketService.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1af733f442659b7789588da55b00c065c4" compoundref="_kitsu_handler_8cs" startline="299" endline="354">LittleWeebLibrary.Handlers.KitsuHandler.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" compoundref="_anime_profile_handler_8cs" startline="301" endline="421">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a3d913e57fb5f46a736c02858364609f9" compoundref="_download_handler_8cs" startline="240" endline="244">LittleWeebLibrary.Handlers.DownloadHandler.GetCurrentlyDownloading</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa9d1414a83cadcf99da2cad30f39b2e3" compoundref="_directory_handler_8cs" startline="114" endline="155">LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a1fee74b9f658b29f4c2bb643a48425e0" compoundref="_directory_web_socket_service_8cs" startline="119" endline="154">LittleWeebLibrary.Services.DirectoryWebSocketService.GetDirectories</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1aa51350396b2aa1634a680c94bebdc64c" compoundref="_data_base_web_socket_service_8cs" startline="121" endline="166">LittleWeebLibrary.Services.DataBaseWebSocketService.GetDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a6ab9fa9b838eeca3f918429af0a3564d" compoundref="_directory_handler_8cs" startline="34" endline="112">LittleWeebLibrary.Handlers.DirectoryHandler.GetDrives</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a368f502e063381bccfed714d8350dc69" compoundref="_directory_web_socket_service_8cs" startline="112" endline="117">LittleWeebLibrary.Services.DirectoryWebSocketService.GetDrives</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a615caf4bea96465d35eb36434bc71bea" compoundref="_kitsu_handler_8cs" startline="127" endline="187">LittleWeebLibrary.Handlers.KitsuHandler.GetEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a299be5b400f1368ab169599395a3e56d" compoundref="_info_api_web_socket_service_8cs" startline="80" endline="131">LittleWeebLibrary.Services.InfoApiWebSocketService.GetFilesForAnime</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a37c3c5de12db8083e8e6d22ce1fe6776" compoundref="_directory_web_socket_service_8cs" startline="156" endline="161">LittleWeebLibrary.Services.DirectoryWebSocketService.GetFreeSpace</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a5f655ed8b3e26f6d6767e090eea9e3bb" compoundref="_kitsu_handler_8cs" startline="189" endline="261">LittleWeebLibrary.Handlers.KitsuHandler.GetFullAnime</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1aabd039f9220f03f5c9dcf83e104531b1" compoundref="_kitsu_handler_8cs" startline="356" endline="371">LittleWeebLibrary.Handlers.KitsuHandler.GetGenres</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a22195b5d1df129295e0e30298611bdba" compoundref="_settings_handler_8cs" startline="188" endline="222">LittleWeebLibrary.Handlers.SettingsHandler.GetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a149bf3305de6348eaddee4afb92d5095" compoundref="_nibl_handler_8cs" startline="215" endline="283">LittleWeebLibrary.Handlers.NiblHandler.GetLatestEpisode</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1a20fef31afe52976e394fc44659cc3593" compoundref="_nibl_handler_8cs" startline="76" endline="116">LittleWeebLibrary.Handlers.NiblHandler.GetLatestFiles</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" compoundref="_version_handler_8cs" startline="127" endline="209">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a53a5c5206eb6d2c58fa9d970c9b97463" compoundref="_settings_handler_8cs" startline="146" endline="186">LittleWeebLibrary.Handlers.SettingsHandler.GetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" compoundref="_version_handler_8cs" startline="211" endline="245">LittleWeebLibrary.Handlers.VersionHandler.GetLocalVersion</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4fc9722b5a07b62c081a75873934682e" compoundref="_anime_profile_handler_8cs" startline="461" endline="512">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetPreviousSeasonsTotalEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1ad1ba51037e72c80804018f4c1df37581" compoundref="_kitsu_handler_8cs" startline="263" endline="296">LittleWeebLibrary.Handlers.KitsuHandler.GetRelations</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1ad7341acd9da86cd5cee9a45b0a41f887" compoundref="_anime_profile_handler_8cs" startline="423" endline="459">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetSeasonFromAnime</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_rule_handler_1a719277ca087cc0e4b46708179d62b07f" compoundref="_anime_rule_handler_8cs" startline="152" endline="158">LittleWeebLibrary.Handlers.AnimeRuleHandler.Init</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2cc2c26c57a1c94f209ca8641c9e25ef" compoundref="_irc_client_handler_8cs" startline="245" endline="268">LittleWeebLibrary.Handlers.IrcClientHandler.IsConnected</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a093409b2b1397a6a061e00802546c87b" compoundref="_irc_client_handler_8cs" startline="239" endline="243">LittleWeebLibrary.Handlers.IrcClientHandler.IsDownloading</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afef5cc2f76989366cb52ffa7d5a78752" compoundref="_irc_client_handler_8cs" startline="331" endline="348">LittleWeebLibrary.Handlers.IrcClientHandler.OnDownloadUpdate</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1abdc8785a2452e7a1d496c44a424d1812" compoundref="_irc_client_handler_8cs" startline="350" endline="355">LittleWeebLibrary.Handlers.IrcClientHandler.OnDownloadUpdateDebug</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3111908b7f7a133a80ab6ec3e81cdcbf" compoundref="_download_web_socket_service_8cs" startline="179" endline="197">LittleWeebLibrary.Services.DownloadWebSocketService.OnDownloadUpdateEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1abd98810f045f0200700d8441a0c14902" compoundref="_irc_web_socket_service_8cs" startline="307" endline="340">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientConnectionStatusEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8e40df55d254c0b95bb0a72becde5039" compoundref="_download_handler_8cs" startline="246" endline="337">LittleWeebLibrary.Handlers.DownloadHandler.OnIrcClientDownloadEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ad97947bcce5bebd851bef6e29fecb467" compoundref="_irc_client_handler_8cs" startline="276" endline="290">LittleWeebLibrary.Handlers.IrcClientHandler.OnMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a2b48c617972be0b3079a262ffc8141f6" compoundref="_irc_client_handler_8cs" startline="292" endline="296">LittleWeebLibrary.Handlers.IrcClientHandler.OnMessageDebug</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a8ffa9ba31b96d32a4c1fdafc04afaf5e" compoundref="_irc_client_handler_8cs" startline="298" endline="329">LittleWeebLibrary.Handlers.IrcClientHandler.OnUserListUpdate</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller_1a655abc0c42c54c9ff3572e4b4271fa3b" compoundref="_data_base_web_socket_controller_8cs" startline="28" endline="98">LittleWeebLibrary.Controllers.SubControllers.DataBaseWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller_1a5ea966dddf1e0a082dd5ec28f6ace3ab" compoundref="_irc_web_socket_controller_8cs" startline="29" endline="105">LittleWeebLibrary.Controllers.IrcWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller_1ad620537574b819085ff8eb394add2912" compoundref="_info_api_web_socket_controller_8cs" startline="30" endline="130">LittleWeebLibrary.Controllers.SubControllers.InfoApiWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller_1a39b333aee248388fd295a8511486c76e" compoundref="_settings_web_socket_controller_8cs" startline="30" endline="103">LittleWeebLibrary.Controllers.SubControllers.SettingsWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller_1a2db42c05c620f5658a5b6e473581f84c" compoundref="_directory_web_socket_controller_8cs" startline="30" endline="101">LittleWeebLibrary.Controllers.SubControllers.DirectoryWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller_1aecbfb94508db51693b11ea8dba9cf7e9" compoundref="_version_web_socket_controller_8cs" startline="31" endline="84">LittleWeebLibrary.Controllers.SubControllers.VersionWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller_1a9ecdec41f15ac23a56c402ff2c554a08" compoundref="_file_web_socket_controller_8cs" startline="31" endline="89">LittleWeebLibrary.Controllers.FileWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller_1a9e5e421ed57b8b2a294e17d93d027c53" compoundref="_download_web_socket_controller_8cs" startline="32" endline="110">LittleWeebLibrary.Controllers.DownloadWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1a5344934da2b25a2ec1599b2ec86dd06e" compoundref="_base_web_socket_controller_8cs" startline="38" endline="52">LittleWeebLibrary.Controllers.BaseWebSocketController.OnWebSocketEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a527c7515f2e19938e9ff23ce2d993fda" compoundref="_web_socket_handler_8cs" startline="118" endline="183">LittleWeebLibrary.Handlers.WebSocketHandler.OnWebSocketServerEvent</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" compoundref="_directory_handler_8cs" startline="270" endline="322">LittleWeebLibrary.Handlers.DirectoryHandler.OpenDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" compoundref="_file_handler_8cs" startline="36" endline="123">LittleWeebLibrary.Handlers.FileHandler.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_file_web_socket_service_1ae140d076e6f64585e7b71bb51545e1bb" compoundref="_file_web_socket_service_8cs" startline="78" endline="130">LittleWeebLibrary.Services.FileWebSocketService.OpenFile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a6f2201dd7b86f142c2e901262ea53fbe" compoundref="_download_web_socket_service_8cs" startline="172" endline="177">LittleWeebLibrary.Services.DownloadWebSocketService.Openfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a92412693abdf9ea697e6b793b71d468f" compoundref="_anime_profile_handler_8cs" startline="678" endline="846">LittleWeebLibrary.Handlers.AnimeProfileHandler.ParseNiblSearchResults</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4796da2a058bbc1efe2ee8f31b6a9b4d" compoundref="_anime_profile_handler_8cs" startline="514" endline="676">LittleWeebLibrary.Handlers.AnimeProfileHandler.ParseTitles</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a3bc6b4176561f56b918e75527c7698d0" compoundref="_download_web_socket_service_8cs" startline="118" endline="164">LittleWeebLibrary.Services.DownloadWebSocketService.RemoveDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1aac22841386d098daef366cbe05262187" compoundref="_download_handler_8cs" startline="143" endline="222">LittleWeebLibrary.Handlers.DownloadHandler.RemoveDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_history_handler_1a3b3f0cdedee405d607feff81c2de085d" compoundref="_file_history_handler_8cs" startline="113" endline="196">LittleWeebLibrary.Handlers.FileHistoryHandler.RemoveFileFromFileHistory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7821535a003c7675c09ba846bd9502ca" compoundref="_data_base_handler_8cs" startline="188" endline="233">LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_kitsu_handler_1a92f121e8fec8cce5ffe0454d3a17c156" compoundref="_kitsu_handler_8cs" startline="42" endline="107">LittleWeebLibrary.Handlers.KitsuHandler.SearchAnime</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1af6678c62bfe074bc5ce399ff21641d6e" compoundref="_info_api_web_socket_service_8cs" startline="246" endline="286">LittleWeebLibrary.Services.InfoApiWebSocketService.SearchKitsu</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_nibl_handler_1aa5fcae94d3322123b784078727a3db67" compoundref="_nibl_handler_8cs" startline="118" endline="161">LittleWeebLibrary.Handlers.NiblHandler.SearchNibl</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a1de289d54d665a32c93478c68d3e6ad0" compoundref="_web_socket_handler_8cs" startline="73" endline="96">LittleWeebLibrary.Handlers.WebSocketHandler.SendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae28984176dff0eda63604b8e5c25abb4" compoundref="_irc_client_handler_8cs" startline="91" endline="118">LittleWeebLibrary.Handlers.IrcClientHandler.SendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1aa9fcd18dc123e1356049b4b95bbaf2ff" compoundref="_irc_web_socket_service_8cs" startline="242" endline="266">LittleWeebLibrary.Services.IrcWebSocketService.SendMessage</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a6eba1d3b176e627d3dae57070e1c3beb" compoundref="_settings_web_socket_service_8cs" startline="248" endline="257">LittleWeebLibrary.Services.SettingsWebSocketService.SetAllIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a5ae643bad024f7eca3178d5359886f6f" compoundref="_settings_web_socket_service_8cs" startline="237" endline="246">LittleWeebLibrary.Services.SettingsWebSocketService.SetAllLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1aafe7e3669d3fdd8a0a3c37a240b3c574" compoundref="_irc_client_handler_8cs" startline="83" endline="89">LittleWeebLibrary.Handlers.IrcClientHandler.Setfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aef49a5d18d17b206d2807bba6c28f793" compoundref="_settings_web_socket_service_8cs" startline="206" endline="235">LittleWeebLibrary.Services.SettingsWebSocketService.Setfullfilepath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a510c909225e51c66b65f7114ebd356d3" compoundref="_irc_client_handler_8cs" startline="69" endline="74">LittleWeebLibrary.Handlers.IrcClientHandler.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1a898cb4543b5abd273844405770687442" compoundref="_settings_web_socket_service_8cs" startline="134" endline="169">LittleWeebLibrary.Services.SettingsWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a223c62acb36e1ac602552fa1ecf67057" compoundref="_directory_web_socket_service_8cs" startline="163" endline="168">LittleWeebLibrary.Services.DirectoryWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1ac692e2804ac253cc2ceac79d88a2e191" compoundref="_download_web_socket_service_8cs" startline="199" endline="204">LittleWeebLibrary.Services.DownloadWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a6476ee44ddf292f916b20085c03af5eb" compoundref="_irc_web_socket_service_8cs" startline="342" endline="347">LittleWeebLibrary.Services.IrcWebSocketService.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a6edcb9be7543c9fb587df06c994f50fb" compoundref="_download_handler_8cs" startline="362" endline="367">LittleWeebLibrary.Handlers.DownloadHandler.SetIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a7ca1faf86f9796afd4c9981a7c961f3b" compoundref="_web_socket_handler_8cs" startline="43" endline="48">LittleWeebLibrary.Handlers.WebSocketHandler.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae0b7e9fc2b6c7874a6be2a938f88fc1a" compoundref="_irc_client_handler_8cs" startline="76" endline="81">LittleWeebLibrary.Handlers.IrcClientHandler.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_1a015a3ae2bb0f275de152ae039fad566e" compoundref="_directory_web_socket_service_8cs" startline="170" endline="175">LittleWeebLibrary.Services.DirectoryWebSocketService.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1aa53e9a1723c0b2d607d2aa9db1991c3c" compoundref="_settings_web_socket_service_8cs" startline="171" endline="204">LittleWeebLibrary.Services.SettingsWebSocketService.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_download_web_socket_service_1a4b1d1eda437419a534bb4ee17ed26d4f" compoundref="_download_web_socket_service_8cs" startline="206" endline="211">LittleWeebLibrary.Services.DownloadWebSocketService.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a81ebb3e28e77c5fc30acaf7d769ba8df" compoundref="_file_handler_8cs" startline="211" endline="216">LittleWeebLibrary.Handlers.FileHandler.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1a48697b5d89c2899e73d1ecf7492bd083" compoundref="_irc_web_socket_service_8cs" startline="349" endline="355">LittleWeebLibrary.Services.IrcWebSocketService.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a0ad546188f5b5145dd9b088852cd29f8" compoundref="_download_handler_8cs" startline="369" endline="373">LittleWeebLibrary.Handlers.DownloadHandler.SetLittleWeebSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_settings_web_socket_service_1af799e00c29f6eec4ca8874cda559c225" compoundref="_settings_web_socket_service_8cs" startline="63" endline="98">LittleWeebLibrary.Services.SettingsWebSocketService.SetSettingsClasses</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller_1ae799e6c0e4c3ed0200b18a0360968ac8" compoundref="_base_web_socket_controller_8cs" startline="32" endline="36">LittleWeebLibrary.Controllers.BaseWebSocketController.SetSubControllers</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1ae463832b8e9aea73f26ed6188a14d92e" compoundref="_irc_client_handler_8cs" startline="137" endline="174">LittleWeebLibrary.Handlers.IrcClientHandler.StartConnection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1afa3e3e60cc12d3867d3c6e2a188dca14" compoundref="_irc_client_handler_8cs" startline="120" endline="135">LittleWeebLibrary.Handlers.IrcClientHandler.StartDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1a23d4ffbabdb67c97ea843d4e7dc5cbdd" compoundref="_web_socket_handler_8cs" startline="50" endline="71">LittleWeebLibrary.Handlers.WebSocketHandler.StartServer</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a97a617b50a161906a91ce1ea483a1770" compoundref="_irc_client_handler_8cs" startline="176" endline="222">LittleWeebLibrary.Handlers.IrcClientHandler.StopConnection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_irc_client_handler_1a265ca021f5086addf758e87f59a0aa11" compoundref="_irc_client_handler_8cs" startline="224" endline="237">LittleWeebLibrary.Handlers.IrcClientHandler.StopDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1a8fd807f023ed25e031844da3927e1a23" compoundref="_download_handler_8cs" startline="225" endline="238">LittleWeebLibrary.Handlers.DownloadHandler.StopQueue</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_1abcd87ac26780369b500299fc12aa0039" compoundref="_web_socket_handler_8cs" startline="98" endline="116">LittleWeebLibrary.Handlers.WebSocketHandler.StopServer</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1af85671a494e85f8418f60606566521f0" compoundref="_data_base_web_socket_service_8cs" startline="168" endline="203">LittleWeebLibrary.Services.DataBaseWebSocketService.StoreDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" compoundref="_data_base_handler_8cs" startline="287" endline="330">LittleWeebLibrary.Handlers.DataBaseHandler.StoreJObject</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_data_base_web_socket_service_1a3771a51f4d0aab2cd4f65676427d0902" compoundref="_data_base_web_socket_service_8cs" startline="205" endline="240">LittleWeebLibrary.Services.DataBaseWebSocketService.UpdateDocument</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a9b2223ff71f688234f95d247ea3b5739" compoundref="_data_base_handler_8cs" startline="332" endline="366">LittleWeebLibrary.Handlers.DataBaseHandler.UpdateJObject</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1ad42462e9e851301c5f5b91663dc3fe24" compoundref="_settings_handler_8cs" startline="67" endline="105">LittleWeebLibrary.Handlers.SettingsHandler.WriteIrcSettings</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1af5a1ea4a3605d938b363e83268774d6f" compoundref="_settings_handler_8cs" startline="107" endline="144">LittleWeebLibrary.Handlers.SettingsHandler.WriteLittleWeebSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a913150657a1b7f0b61e4494cc2f3eae1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Handlers.DebugHandler.CreateFile</definition>
+        <argsstring>()</argsstring>
+        <name>CreateFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="134" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="134" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a37b616e03da950fb30d1087cb7bc69fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Handlers.DebugHandler.DebugFileWriter</definition>
+        <argsstring>(string[] message)</argsstring>
+        <name>DebugFileWriter</name>
+        <param>
+          <type>string []</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="173" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="173" bodyend="245"/>
+        <references refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_1aed66354aaf455ab77c7360074cb05a2d" compoundref="_little_weeb_settings_8cs" startline="13" endline="13">LittleWeebLibrary.Settings.LittleWeebSettings.MaxDebugLogSize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a733f22d0dabe84bf05463bdaeb2da250" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task LittleWeebLibrary.Handlers.DebugHandler.TraceWriter</definition>
+        <argsstring>()</argsstring>
+        <name>TraceWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="78" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="78" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ade74885424ad635ba119c8c146bd7e73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.Handlers.DebugHandler.WriteTrace</definition>
+        <argsstring>(string toWrite)</argsstring>
+        <name>WriteTrace</name>
+        <param>
+          <type>string</type>
+          <declname>toWrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/DebugHandler.cs" line="247" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="247" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="124">
+        <label>LittleWeebLibrary.Handlers.DebugHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="126">
+        <label>LittleWeebLibrary.Handlers.DebugHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>-LittleWeebSettings</edgelabel>
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>-SettingsHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="129">
+        <label>LittleWeebLibrary.Handlers.ISettingsHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler"/>
+      </node>
+      <node id="127">
+        <label>IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="128">
+        <label>LittleWeebLibrary.Settings.LittleWeebSettings</label>
+        <link refid="class_little_weeb_library_1_1_settings_1_1_little_weeb_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/DebugHandler.cs" line="30" column="1" bodyfile="Handlers/DebugHandler.cs" bodystart="29" bodyend="256"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a913150657a1b7f0b61e4494cc2f3eae1" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>CreateFile</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac6690e0052ce2a2a040a5160c60fa6d4" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugFileName</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a37b616e03da950fb30d1087cb7bc69fd" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugFileWriter</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a110c2f11a80b5dfa28545eca4a867a0b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac3da0e592d7c056dfeb8e60a5a5c1986" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugPath</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6073413df4c401fb94a64ee2a0649293" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugSourceTypes</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a99de78cea15e565e6c5c819b7230e57b" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugTypes</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a37befa26f60bbf4a6b945fb8be13977e" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>DebugWriteAble</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6707530c5bad1e3a3af39620e0f783c2" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>LittleWeebSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1af4dc20fe66b515bdd875bb4b1124cb2a" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>MessageQueue</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ac253016968e2d0141b49ab227a715242" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>SetSettings</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a6c33170a85d7efd28a204285e1851dc5" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>SettingsHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a56724baaa1b399d63773b3be73f0ad96" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>stop</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1aa02d002a4bdac52d769697d240866214" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>StopDebugger</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>TraceMessage</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1a733f22d0dabe84bf05463bdaeb2da250" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>TraceWriter</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1ade74885424ad635ba119c8c146bd7e73" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::DebugHandler</scope><name>WriteTrace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

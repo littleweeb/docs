@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_handlers_1_1_version_handler" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Handlers::VersionHandler</compoundname>
+    <basecompoundref refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler" prot="public" virt="non-virtual">LittleWeebLibrary.Handlers.IVersionHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a9d4e181ca6b1efff96f530dd7981d6e3" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+        <definition>readonly IDebugHandler LittleWeebLibrary.Handlers.VersionHandler.DebugHandler</definition>
+        <argsstring></argsstring>
+        <name>DebugHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/VersionHandler.cs" line="26" column="1" bodyfile="Handlers/VersionHandler.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a51b31c85fe764e675c800d75b668f5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.Handlers.VersionHandler.VersionHandler</definition>
+        <argsstring>(IDebugHandler debugHandler)</argsstring>
+        <name>VersionHandler</name>
+        <param>
+          <type><ref refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler" kindref="compound">IDebugHandler</ref></type>
+          <declname>debugHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/VersionHandler.cs" line="28" column="1" bodyfile="Handlers/VersionHandler.cs" bodystart="28" bodyend="32"/>
+        <references refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_1a2e405bc3492e683cd3702fae125221bc">LittleWeebLibrary.Handlers.IDebugHandler.TraceMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_version_info" kindref="compound">JsonVersionInfo</ref> &gt;</type>
+        <definition>async Task&lt;JsonVersionInfo&gt; LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionAndroid</definition>
+        <argsstring>(bool release)</argsstring>
+        <name>GetLatestVersionAndroid</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_1a812c819dce905da83c29a48e3aabba2e">GetLatestVersionAndroid</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>release</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/VersionHandler.cs" line="127" column="1" bodyfile="Handlers/VersionHandler.cs" bodystart="127" bodyend="209"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a836f97d258ddad4ab351b8cd06730914" compoundref="_json_version_info_8cs" startline="18" endline="18">LittleWeebLibrary.Models.JsonVersionInfo.date</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a758349b498e2f9d827d229bfaff9414d" compoundref="_json_version_info_8cs" startline="16" endline="16">LittleWeebLibrary.Models.JsonVersionInfo.direct_download_url</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a71865be74ad7d0a178a81b708ea85d25" compoundref="_json_version_info_8cs" startline="17" endline="17">LittleWeebLibrary.Models.JsonVersionInfo.file_name</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1abb2527c1c41e946dd71fe862a48a5f0f" compoundref="_json_version_info_8cs" startline="14" endline="14">LittleWeebLibrary.Models.JsonVersionInfo.newbuild</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08d3b36c375a460b440678f84bdb64ee" compoundref="_json_version_info_8cs" startline="13" endline="13">LittleWeebLibrary.Models.JsonVersionInfo.newversion</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a6ef07d4fd20affb8de244417395e791d" compoundref="_json_version_info_8cs" startline="15" endline="15">LittleWeebLibrary.Models.JsonVersionInfo.release_url</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aeb4d9fe589655ec2dacff95ffcae154b" compoundref="_json_version_info_8cs" startline="19" endline="19">LittleWeebLibrary.Models.JsonVersionInfo.release_version</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_little_weeb_library_1_1_models_1_1_json_version_info" kindref="compound">JsonVersionInfo</ref> &gt;</type>
+        <definition>async Task&lt;JsonVersionInfo&gt; LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</definition>
+        <argsstring>(bool release)</argsstring>
+        <name>GetLatestVersionDesktop</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_1a0d72fd0650a8bd465bcf22fab766e111">GetLatestVersionDesktop</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>release</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/VersionHandler.cs" line="34" column="1" bodyfile="Handlers/VersionHandler.cs" bodystart="34" bodyend="124"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" compoundref="_utility_methods_8cs" startline="192" endline="211">LittleWeebLibrary.StaticClasses.UtilityMethods.CheckOperatingSystems</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a836f97d258ddad4ab351b8cd06730914" compoundref="_json_version_info_8cs" startline="18" endline="18">LittleWeebLibrary.Models.JsonVersionInfo.date</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a758349b498e2f9d827d229bfaff9414d" compoundref="_json_version_info_8cs" startline="16" endline="16">LittleWeebLibrary.Models.JsonVersionInfo.direct_download_url</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a71865be74ad7d0a178a81b708ea85d25" compoundref="_json_version_info_8cs" startline="17" endline="17">LittleWeebLibrary.Models.JsonVersionInfo.file_name</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1abb2527c1c41e946dd71fe862a48a5f0f" compoundref="_json_version_info_8cs" startline="14" endline="14">LittleWeebLibrary.Models.JsonVersionInfo.newbuild</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a08d3b36c375a460b440678f84bdb64ee" compoundref="_json_version_info_8cs" startline="13" endline="13">LittleWeebLibrary.Models.JsonVersionInfo.newversion</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a6ef07d4fd20affb8de244417395e791d" compoundref="_json_version_info_8cs" startline="15" endline="15">LittleWeebLibrary.Models.JsonVersionInfo.release_url</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1aeb4d9fe589655ec2dacff95ffcae154b" compoundref="_json_version_info_8cs" startline="19" endline="19">LittleWeebLibrary.Models.JsonVersionInfo.release_version</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_little_weeb_library_1_1_models_1_1_json_version_info" kindref="compound">JsonVersionInfo</ref></type>
+        <definition>JsonVersionInfo LittleWeebLibrary.Handlers.VersionHandler.GetLocalVersion</definition>
+        <argsstring>()</argsstring>
+        <name>GetLocalVersion</name>
+        <reimplements refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler_1a0358d04d17b2333448008eb793add5ae">GetLocalVersion</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Handlers/VersionHandler.cs" line="211" column="1" bodyfile="Handlers/VersionHandler.cs" bodystart="211" bodyend="245"/>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1adb75e140a3dcc76b8ca6c1dd3c0f060a" compoundref="_json_version_info_8cs" startline="12" endline="12">LittleWeebLibrary.Models.JsonVersionInfo.currentbuild</references>
+        <references refid="class_little_weeb_library_1_1_models_1_1_json_version_info_1a9a74ca950016eb93a1ecb4d9089d9f2c" compoundref="_json_version_info_8cs" startline="11" endline="11">LittleWeebLibrary.Models.JsonVersionInfo.currentversion</references>
+        <references refid="class_little_weeb_library_1_1_handlers_1_1_debug_handler_1afccb37dfd6b2114af72000c2f4fe4607" compoundref="_debug_handler_8cs" startline="118" endline="132">LittleWeebLibrary.Handlers.DebugHandler.TraceMessage</references>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_version_web_socket_service_1af1a64a24e2d1b2299b82ba81b3c4a537" compoundref="_version_web_socket_service_8cs" startline="37" endline="113">LittleWeebLibrary.Services.VersionWebSocketService.CheckVersion</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="229">
+        <label>LittleWeebLibrary.Handlers.VersionHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_version_handler"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>IVersionHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="231">
+        <label>LittleWeebLibrary.Handlers.VersionHandler</label>
+        <link refid="class_little_weeb_library_1_1_handlers_1_1_version_handler"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+        <childnode refid="233" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="233">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="232">
+        <label>IVersionHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Handlers/VersionHandler.cs" line="23" column="1" bodyfile="Handlers/VersionHandler.cs" bodystart="22" bodyend="246"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a9d4e181ca6b1efff96f530dd7981d6e3" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::VersionHandler</scope><name>DebugHandler</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a4021041fcc24a7f9489060c598222891" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::VersionHandler</scope><name>GetLatestVersionAndroid</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::VersionHandler</scope><name>GetLatestVersionDesktop</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ac2510dcad764a9c925d8da152740f095" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::VersionHandler</scope><name>GetLocalVersion</name></member>
+      <member refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1a51b31c85fe764e675c800d75b668f5d4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Handlers::VersionHandler</scope><name>VersionHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

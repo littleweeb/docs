@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Models.JsonVersionInfo.ToJson" name="LittleWeebLibrary.Models.JsonVersionInfo.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_version_web_socket_service.html#af1a64a24e2d1b2299b82ba81b3c4a537" title="LittleWeebLibrary.Services.\lVersionWebSocketService.CheckVersion" alt="" coords="227,13,488,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller.html#aecbfb94508db51693b11ea8dba9cf7e9" title="LittleWeebLibrary.Controllers.\lSubControllers.VersionWebSocketController.\lOnWebSocketEvent" alt="" coords="536,5,819,61"/>
+</map>

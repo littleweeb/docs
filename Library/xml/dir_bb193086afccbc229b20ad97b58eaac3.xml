@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_bb193086afccbc229b20ad97b58eaac3" kind="dir">
+    <compoundname>Controllers/SubControllers</compoundname>
+    <innerfile refid="_data_base_web_socket_controller_8cs">DataBaseWebSocketController.cs</innerfile>
+    <innerfile refid="_directory_web_socket_controller_8cs">DirectoryWebSocketController.cs</innerfile>
+    <innerfile refid="_download_web_socket_controller_8cs">DownloadWebSocketController.cs</innerfile>
+    <innerfile refid="_file_web_socket_controller_8cs">FileWebSocketController.cs</innerfile>
+    <innerfile refid="_info_api_web_socket_controller_8cs">InfoApiWebSocketController.cs</innerfile>
+    <innerfile refid="_irc_web_socket_controller_8cs">IrcWebSocketController.cs</innerfile>
+    <innerfile refid="_settings_web_socket_controller_8cs">SettingsWebSocketController.cs</innerfile>
+    <innerfile refid="_version_web_socket_controller_8cs">VersionWebSocketController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/SubControllers/"/>
+  </compounddef>
+</doxygen>

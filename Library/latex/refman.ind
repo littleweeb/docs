@@ -1,0 +1,3036 @@
+\begin{theindex}
+
+  \item {Abort\+Download}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{170}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{208}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{429}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{449}
+  \item {Add\+Download}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{160}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{207}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{422}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{448}
+  \item {Add\+Downloads}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{171}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{207}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{431}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{448}
+  \item {Add\+File\+To\+File\+History}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}, 
+		\hyperpage{185}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+History\+Handler}, 
+		\hyperpage{212}
+  \item {Add\+Rule}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{454}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{470}
+  \item {Add\+Rules}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{113}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Rule\+Handler}, 
+		\hyperpage{194}
+  \item {anime\+\_\+bot\+\_\+sources}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{370}
+  \item {anime\+\_\+categories}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{370}
+  \item {anime\+\_\+cover}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{327}
+  \item {anime\+\_\+episodes}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{369}
+  \item {anime\+\_\+episodes\+\_\+per\+\_\+page}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{368}
+  \item {anime\+\_\+genres}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{370}
+  \item {anime\+\_\+id}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{331}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{322}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{327}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{367}
+  \item {anime\+\_\+info}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{368}
+  \item {anime\+\_\+latest\+\_\+episode}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{369}
+  \item {anime\+\_\+name}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{331}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{322}
+  \item {anime\+\_\+relations}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{369}
+  \item {anime\+\_\+resolutions}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{369}
+  \item {anime\+\_\+rules}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{370}
+  \item {anime\+\_\+stored}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{371}
+  \item {anime\+\_\+title}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{327}
+  \item {anime\+\_\+total\+\_\+episode\+\_\+pages}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{368}
+  \item {anime\+\_\+total\+\_\+episodes}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{368}
+  \item {Anime\+Latest\+Episode}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{107}
+  \item {Anime\+Profile\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{89}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{476}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{534}
+  \item {Anime\+Rule\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{110}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{112}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{476}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{535}
+
+  \indexspace
+
+  \item {Base\+Path}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{548}
+  \item {Base\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{24}
+  \item {bot}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{332}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{323}
+  \item {Bot\+List\+Per\+Results}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{105}
+
+  \indexspace
+
+  \item {Calculate\+Similarity}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{550}
+  \item {Channel}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}, 
+		\hyperpage{81}
+  \item {channel}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{351}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{355}
+  \item {Channels}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{522}
+  \item {Channels\+And\+Users}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}, 
+		\hyperpage{75}
+  \item {Check\+Operating\+Systems}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{547}
+  \item {Check\+Version}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{499}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{517}
+  \item {Client\+Ids}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{303}
+  \item {Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{106}
+  \item {Connect}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{457}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{480}
+  \item {Connected}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}, 
+		\hyperpage{75}
+  \item {connected}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{355}
+  \item {Controllers/\+Base\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{553}
+  \item {Controllers/\+Interfaces/\+I\+Sub\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{553}
+  \item {Controllers/\+Sub\+Controllers/\+Data\+Base\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{553}
+  \item {Controllers/\+Sub\+Controllers/\+Directory\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{554}
+  \item {Controllers/\+Sub\+Controllers/\+Download\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{554}
+  \item {Controllers/\+Sub\+Controllers/\+File\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{554}
+  \item {Controllers/\+Sub\+Controllers/\+Info\+Api\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{554}
+  \item {Controllers/\+Sub\+Controllers/\+Irc\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{555}
+  \item {Controllers/\+Sub\+Controllers/\+Settings\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{555}
+  \item {Controllers/\+Sub\+Controllers/\+Version\+Web\+Socket\+Controller.\+cs}, 
+		\hyperpage{555}
+  \item {Copy\+To}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{544}
+  \item {Create\+Directory}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{152}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}, 
+		\hyperpage{204}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{411}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{445}
+  \item {Create\+File}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{140}
+  \item {Culture}
+    \subitem {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}, 
+		\hyperpage{398}
+  \item {Current\+Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}, 
+		\hyperpage{75}
+  \item {Current\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{216}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{235}
+  \item {currentbuild}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{391}
+  \item {Currently\+Airing\+Async}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{109}
+  \item {Currently\+Airing\+Bot}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{527}
+  \item {Currently\+Downloading}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{175}
+  \item {currentversion}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{390}
+
+  \indexspace
+
+  \item {Data\+Base\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{110}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{118}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{121}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}, 
+		\hyperpage{190}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{408}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{477}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{535}
+  \item {Data\+Base\+Path}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{133}
+  \item {Data\+Base\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Data\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{45}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{538}
+  \item {Data\+Base\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Data\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{48}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{400}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{537}
+  \item {date}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{392}
+  \item {Debug\+File\+Name}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{143}
+  \item {Debug\+File\+Writer}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{141}
+  \item {Debug\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{27}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{32}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+File\+Web\+Socket\+Controller}, 
+		\hyperpage{36}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Irc\+Web\+Socket\+Controller}, 
+		\hyperpage{42}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Data\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{48}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Directory\+Web\+Socket\+Controller}, 
+		\hyperpage{53}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Info\+Api\+Web\+Socket\+Controller}, 
+		\hyperpage{59}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Settings\+Web\+Socket\+Controller}, 
+		\hyperpage{63}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Version\+Web\+Socket\+Controller}, 
+		\hyperpage{67}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{110}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{118}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{132}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{135}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{156}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{174}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{182}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}, 
+		\hyperpage{190}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{239}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{265}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{275}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{284}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}, 
+		\hyperpage{292}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{302}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{408}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{419}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{433}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{440}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{477}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{493}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{512}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{519}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{535}
+  \item {Debug\+Handler\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{513}
+  \item {Debug\+Level}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{526}
+  \item {Debug\+Message}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}, 
+		\hyperpage{69}
+  \item {Debug\+Path}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{143}
+  \item {Debug\+Source}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}, 
+		\hyperpage{69}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers}, \hyperpage{19}
+  \item {Debug\+Source\+Type}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}, 
+		\hyperpage{70}
+  \item {Debug\+Source\+Types}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{143}
+  \item {Debug\+Type}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}, 
+		\hyperpage{70}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers}, \hyperpage{20}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{526}
+  \item {Debug\+Types}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{143}
+  \item {Debug\+Write\+Able}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{143}
+  \item {debuglevel}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{375}
+  \item {debugtype}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{375}
+  \item {Delete\+Directory}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{151}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}, 
+		\hyperpage{204}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{412}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{445}
+  \item {Delete\+Document}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{401}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{443}
+  \item {Delete\+File}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{180}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+Handler}, 
+		\hyperpage{210}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{437}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+File\+Web\+Socket\+Service}, 
+		\hyperpage{451}
+  \item {direct\+\_\+download\+\_\+url}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{392}
+  \item {directories}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}, 
+		\hyperpage{316}
+  \item {Directory\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{147}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{418}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{433}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{512}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{533}
+  \item {Directory\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Directory\+Web\+Socket\+Controller}, 
+		\hyperpage{50}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{537}
+  \item {Directory\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{31}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Directory\+Web\+Socket\+Controller}, 
+		\hyperpage{53}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{410}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{513}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{535}
+  \item {Directory\+Web\+Socket\+Service\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{514}
+  \item {dirname}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{319}
+  \item {Disable\+Send\+Message}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{458}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{485}
+  \item {Disconnect}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{457}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{486}
+  \item {download\+Directory}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{335}
+  \item {Download\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{159}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{433}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{440}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{512}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{534}
+  \item {Download\+Handler\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{514}
+  \item {download\+Historylist}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{327}
+  \item {download\+Index}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{334}
+  \item {download\+Info}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Download\+Update\+Event\+Args}, 
+		\hyperpage{71}
+  \item {Download\+Proces\+On\+Going}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{174}
+  \item {Download\+Progress}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{78}
+  \item {Download\+Queue}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{175}
+  \item {download\+Queue}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}, 
+		\hyperpage{337}
+  \item {Download\+Queue\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{168}
+  \item {Download\+Speed}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{78}
+  \item {Download\+Status}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{78}
+  \item {Download\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{28}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{537}
+  \item {Download\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{31}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{421}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{535}
+
+  \indexspace
+
+  \item {Enable\+Send\+Message}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{458}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{484}
+  \item {episode\+Number}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{332}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{323}
+  \item {errormessage}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{345}
+  \item {errortype}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{345}
+  \item {Event\+Arguments/\+Debug\+Arguments/\+Base\+Debug\+Args.\+cs}, 
+		\hyperpage{555}
+  \item {Event\+Arguments/\+Download\+Update\+Event\+Args.\+cs}, 
+		\hyperpage{556}
+  \item {Event\+Arguments/\+File\+Handler\+Debug\+Event\+Args.\+cs}, 
+		\hyperpage{556}
+  \item {Event\+Arguments/\+Irc\+Client\+Connection\+Status\+Args.\+cs}, 
+		\hyperpage{556}
+  \item {Event\+Arguments/\+Irc\+Client\+Download\+Args.\+cs}, 
+		\hyperpage{556}
+  \item {Event\+Arguments/\+Irc\+Client\+Message\+Event\+Args.\+cs}, 
+		\hyperpage{557}
+  \item {Event\+Arguments/\+Web\+Socket\+Event\+Args.\+cs}, 
+		\hyperpage{557}
+
+  \indexspace
+
+  \item {file\+\_\+name}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{392}
+  \item {File\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{174}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{177}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{433}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{440}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{533}
+  \item {File\+Handler\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{513}
+  \item {File\+History\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{174}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}, 
+		\hyperpage{184}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{433}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{440}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{533}
+  \item {File\+Location}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{77}
+  \item {File\+Name}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{77}
+  \item {File\+Size}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{78}
+  \item {File\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+File\+Web\+Socket\+Controller}, 
+		\hyperpage{33}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{537}
+  \item {File\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+File\+Web\+Socket\+Controller}, 
+		\hyperpage{36}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{436}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{536}
+  \item {filename}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{334}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{324}
+  \item {filesize}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{334}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{324}
+  \item {Filter\+Anime\+Rules}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{114}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Rule\+Handler}, 
+		\hyperpage{194}
+  \item {freespacebytes}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{348}
+  \item {freespacekbytes}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{348}
+  \item {freespacembytes}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{348}
+  \item {fullfilepath}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{334}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{324}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{356}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{523}
+
+  \indexspace
+
+  \item {Generate\+Username}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{542}
+  \item {Get}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{117}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{264}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{274}
+  \item {get}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{344}
+  \item {Get\+All\+Categories}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{220}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{262}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{455}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{473}
+  \item {Get\+All\+Genres}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{220}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{261}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{454}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{471}
+  \item {Get\+Anime}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{219}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{253}
+  \item {Get\+Anime\+Episodes}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{91}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}, 
+		\hyperpage{192}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{454}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{467}
+  \item {Get\+Anime\+Profile}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{89}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}, 
+		\hyperpage{192}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{454}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{461}
+  \item {Get\+Bot\+List}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Nibl\+Handler}, 
+		\hyperpage{222}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{268}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{455}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{474}
+  \item {Get\+Categories}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{220}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{260}
+  \item {Get\+Collection}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{121}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}, 
+		\hyperpage{196}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{403}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{443}
+  \item {Get\+Current\+File\+History}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}, 
+		\hyperpage{189}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+History\+Handler}, 
+		\hyperpage{212}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{426}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{449}
+  \item {Get\+Current\+Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{458}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{496}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{483}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{504}
+  \item {Get\+Current\+Little\+Weeb\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{496}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{505}
+  \item {Get\+Currently\+Airing}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{95}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}, 
+		\hyperpage{193}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{220}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{258}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{453}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{464, 465}
+  \item {Get\+Currently\+Downloading}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{165}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{208}
+  \item {Get\+Directories}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{149}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}, 
+		\hyperpage{204}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{415}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{445}
+  \item {Get\+Document}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{404}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{442}
+  \item {Get\+Drives}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{147}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}, 
+		\hyperpage{204}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{414}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{446}
+  \item {Get\+Episode}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{219}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{260}
+  \item {Get\+Episodes}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{219}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{254}
+  \item {Get\+Episodes\+From\+Kitsu}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{264}
+  \item {Get\+Epoch}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{541}
+  \item {Get\+Files\+For\+Anime}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{454}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{462}
+  \item {Get\+Free\+Space}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{155}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}, 
+		\hyperpage{205}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{416}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{446}
+  \item {Get\+Free\+Space\+Kbits}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{543}
+  \item {Get\+Full\+Anime}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{218}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{255}
+  \item {Get\+Genres}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{220}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{259}
+  \item {Get\+Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Settings\+Handler}, 
+		\hyperpage{243}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{282}
+  \item {Get\+J\+Object}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{123, 124}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}, 
+		\hyperpage{196, 197}
+  \item {Get\+Latest\+Episode}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Nibl\+Handler}, 
+		\hyperpage{222}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{273}
+  \item {Get\+Latest\+Files}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Nibl\+Handler}, 
+		\hyperpage{223}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{269}
+  \item {Get\+Latest\+Version\+Android}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Version\+Handler}, 
+		\hyperpage{245}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}, 
+		\hyperpage{289}
+  \item {Get\+Latest\+Version\+Desktop}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Version\+Handler}, 
+		\hyperpage{245}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}, 
+		\hyperpage{287}
+  \item {Get\+Little\+Weeb\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Settings\+Handler}, 
+		\hyperpage{243}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{281}
+  \item {Get\+Local\+Version}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Version\+Handler}, 
+		\hyperpage{245}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}, 
+		\hyperpage{291}
+  \item {Get\+Previous\+Seasons\+Total\+Episodes}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{98}
+  \item {Get\+Relations}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{219}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{257}
+  \item {Get\+Season\+From\+Anime}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{97}
+  \item {Global\+Interfaces/\+I\+Debug\+Event.\+cs}, \hyperpage{557}
+  \item {Global\+Interfaces/\+I\+Settings\+Interface.\+cs}, 
+		\hyperpage{557}
+  \item {Global\+Rules}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{118}
+
+  \indexspace
+
+  \item {Handlers/\+Anime\+Profile\+Handler.\+cs}, \hyperpage{558}
+  \item {Handlers/\+Anime\+Rule\+Handler.\+cs}, \hyperpage{558}
+  \item {Handlers/\+Data\+Base\+Handler.\+cs}, \hyperpage{558}
+  \item {Handlers/\+Debug\+Handler.\+cs}, \hyperpage{558}
+  \item {Handlers/\+Directory\+Handler.\+cs}, \hyperpage{559}
+  \item {Handlers/\+Download\+Handler.\+cs}, \hyperpage{559}
+  \item {Handlers/\+File\+Handler.\+cs}, \hyperpage{559}
+  \item {Handlers/\+File\+History\+Handler.\+cs}, \hyperpage{560}
+  \item {Handlers/\+Irc\+Client\+Handler.\+cs}, \hyperpage{560}
+  \item {Handlers/\+Kitsu\+Handler.\+cs}, \hyperpage{560}
+  \item {Handlers/\+Nibl\+Handler.\+cs}, \hyperpage{560}
+  \item {Handlers/\+Settings\+Handler.\+cs}, \hyperpage{561}
+  \item {Handlers/\+Version\+Handler.\+cs}, \hyperpage{561}
+  \item {Handlers/\+Web\+Socket\+Handler.\+cs}, \hyperpage{561}
+
+  \indexspace
+
+  \item {id}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{332}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{322}
+  \item {Id\+Generator}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{173}
+  \item {Info\+Api\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Info\+Api\+Web\+Socket\+Controller}, 
+		\hyperpage{55}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{538}
+  \item {Info\+Api\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Info\+Api\+Web\+Socket\+Controller}, 
+		\hyperpage{59}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{460}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{536}
+  \item {Init}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}, 
+		\hyperpage{116}
+  \item {Int\+To\+Roman}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{542}
+  \item {Irc\+Client}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{240}
+  \item {Irc\+Client\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{174}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{226}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{493}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{512}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{533}
+  \item {Irc\+Client\+Handler\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{513}
+  \item {Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{175}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{240}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{419}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{434}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{493}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{514}
+  \item {Irc\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Irc\+Web\+Socket\+Controller}, 
+		\hyperpage{39}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{537}
+  \item {Irc\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Irc\+Web\+Socket\+Controller}, 
+		\hyperpage{42}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{479}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{513}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{536}
+  \item {Irc\+Web\+Socket\+Service\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{514}
+  \item {Is\+Connected}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{216}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{234}
+  \item {Is\+Connected\+Bool}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{240}
+  \item {Is\+Downloading}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{215}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{234}
+  \item {Is\+Irc\+Connected}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{494}
+
+  \indexspace
+
+  \item {Kitsu\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{110}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{251}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{275}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{476}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{534}
+
+  \indexspace
+
+  \item {Last\+Downloaded\+Info}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{434}
+  \item {Levenshtein\+Distance}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{549}
+  \item {Little\+Weeb}
+    \subitem {Little\+Weeb\+Library\+::\+Little\+Weeb}, \hyperpage{304}
+  \item {Little\+Weeb.\+cs}, \hyperpage{561}
+  \item {Little\+Weeb\+Library}, \hyperpage{17}
+  \item {Little\+Weeb\+Library.\+Controllers}, \hyperpage{17}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{23}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{27}
+  \item {Little\+Weeb\+Library.\+Controllers.\+File\+Web\+Socket\+Controller}, 
+		\hyperpage{32}
+  \item {Little\+Weeb\+Library.\+Controllers.\+I\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{37}
+  \item {Little\+Weeb\+Library.\+Controllers.\+I\+Sub\+Web\+Socket\+Controller}, 
+		\hyperpage{43}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Irc\+Web\+Socket\+Controller}, 
+		\hyperpage{38}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers}, 
+		\hyperpage{18}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Data\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{44}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller}, 
+		\hyperpage{49}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Info\+Api\+Web\+Socket\+Controller}, 
+		\hyperpage{54}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Settings\+Web\+Socket\+Controller}, 
+		\hyperpage{59}
+  \item {Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Version\+Web\+Socket\+Controller}, 
+		\hyperpage{64}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments}, \hyperpage{18}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+Base\+Debug\+Args}, 
+		\hyperpage{68}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+Download\+Update\+Event\+Args}, 
+		\hyperpage{70}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+File\+Handler\+Debug\+Event\+Args}, 
+		\hyperpage{72}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Connection\+Status\+Args}, 
+		\hyperpage{73}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{76}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Message\+Event\+Args}, 
+		\hyperpage{79}
+  \item {Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args}, 
+		\hyperpage{81}
+  \item {Little\+Weeb\+Library.\+Global\+Interfaces}, \hyperpage{18}
+  \item {Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Debug\+Event}, 
+		\hyperpage{84}
+  \item {Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}, 
+		\hyperpage{85}
+  \item {Little\+Weeb\+Library.\+Handlers}, \hyperpage{18}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Anime\+Profile\+Handler}, 
+		\hyperpage{87}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Anime\+Rule\+Handler}, 
+		\hyperpage{111}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Data\+Base\+Handler}, 
+		\hyperpage{119}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler}, 
+		\hyperpage{133}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler}, 
+		\hyperpage{145}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Download\+Handler}, 
+		\hyperpage{157}
+  \item {Little\+Weeb\+Library.\+Handlers.\+File\+Handler}, 
+		\hyperpage{176}
+  \item {Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler}, 
+		\hyperpage{183}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Profile\+Handler}, 
+		\hyperpage{191}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Anime\+Rule\+Handler}, 
+		\hyperpage{193}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Data\+Base\+Handler}, 
+		\hyperpage{195}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler}, 
+		\hyperpage{199}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}, 
+		\hyperpage{203}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Download\+Handler}, 
+		\hyperpage{206}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+File\+Handler}, 
+		\hyperpage{209}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+File\+History\+Handler}, 
+		\hyperpage{211}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{213}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Kitsu\+Handler}, 
+		\hyperpage{217}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Nibl\+Handler}, 
+		\hyperpage{221}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Settings\+Handler}, 
+		\hyperpage{242}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Version\+Handler}, 
+		\hyperpage{244}
+  \item {Little\+Weeb\+Library.\+Handlers.\+I\+Web\+Socket\+Handler}, 
+		\hyperpage{246}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler}, 
+		\hyperpage{224}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Kitsu\+Handler}, 
+		\hyperpage{249}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Nibl\+Handler}, 
+		\hyperpage{266}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Settings\+Handler}, 
+		\hyperpage{276}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Version\+Handler}, 
+		\hyperpage{285}
+  \item {Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler}, 
+		\hyperpage{293}
+  \item {Little\+Weeb\+Library.\+Little\+Weeb}, \hyperpage{303}
+  \item {Little\+Weeb\+Library.\+Models}, \hyperpage{20}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Currently\+Airing}, 
+		\hyperpage{306}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{309}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Data\+Base\+Document}, 
+		\hyperpage{312}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Directories}, 
+		\hyperpage{314}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Directory}, 
+		\hyperpage{317}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Download\+Info}, 
+		\hyperpage{328}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Download\+Queue}, 
+		\hyperpage{336}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+Info}, 
+		\hyperpage{320}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Downloaded\+List}, 
+		\hyperpage{325}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Error}, \hyperpage{338}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Free\+Space}, 
+		\hyperpage{346}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{349}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Irc\+Info}, 
+		\hyperpage{352}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Categories}, 
+		\hyperpage{356}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Genres}, 
+		\hyperpage{359}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{362}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{365}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{372}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{376}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{379}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Received\+Response}, 
+		\hyperpage{382}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Success}, 
+		\hyperpage{385}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Version\+Info}, 
+		\hyperpage{388}
+  \item {Little\+Weeb\+Library.\+Models.\+Json\+Welcome}, 
+		\hyperpage{393}
+  \item {Little\+Weeb\+Library.\+Properties}, \hyperpage{21}
+  \item {Little\+Weeb\+Library.\+Properties.\+Resources}, 
+		\hyperpage{396}
+  \item {Little\+Weeb\+Library.\+Services}, \hyperpage{21}
+  \item {Little\+Weeb\+Library.\+Services.\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{399}
+  \item {Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{409}
+  \item {Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{420}
+  \item {Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service}, 
+		\hyperpage{435}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{441}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{444}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{447}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+File\+Web\+Socket\+Service}, 
+		\hyperpage{450}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{452}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{456}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{495}
+  \item {Little\+Weeb\+Library.\+Services.\+I\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{498}
+  \item {Little\+Weeb\+Library.\+Services.\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{459}
+  \item {Little\+Weeb\+Library.\+Services.\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{478}
+  \item {Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{500}
+  \item {Little\+Weeb\+Library.\+Services.\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{515}
+  \item {Little\+Weeb\+Library.\+Settings}, \hyperpage{21}
+  \item {Little\+Weeb\+Library.\+Settings.\+Irc\+Settings}, 
+		\hyperpage{520}
+  \item {Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings}, 
+		\hyperpage{524}
+  \item {Little\+Weeb\+Library.\+Start\+Up}, \hyperpage{527}
+  \item {Little\+Weeb\+Library.\+Static\+Classes}, \hyperpage{21}
+  \item {Little\+Weeb\+Library.\+Static\+Classes.\+Enumerators}, 
+		\hyperpage{539}
+  \item {Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods}, 
+		\hyperpage{539}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}
+    \subitem {Base\+Web\+Socket\+Controller}, \hyperpage{24}
+    \subitem {Debug\+Handler}, \hyperpage{27}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{26}
+    \subitem {Set\+Sub\+Controllers}, \hyperpage{25}
+    \subitem {Sub\+Controllers}, \hyperpage{27}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{26}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{32}
+    \subitem {Directory\+Web\+Socket\+Service}, \hyperpage{31}
+    \subitem {Download\+Web\+Socket\+Controller}, \hyperpage{28}
+    \subitem {Download\+Web\+Socket\+Service}, \hyperpage{31}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{29}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{31}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+File\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{36}
+    \subitem {File\+Web\+Socket\+Controller}, \hyperpage{33}
+    \subitem {File\+Web\+Socket\+Service}, \hyperpage{36}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{34}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{36}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+I\+Base\+Web\+Socket\+Controller}
+    \subitem {Set\+Sub\+Controllers}, \hyperpage{38}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+I\+Sub\+Web\+Socket\+Controller}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{43}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Irc\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{42}
+    \subitem {Irc\+Web\+Socket\+Controller}, \hyperpage{39}
+    \subitem {Irc\+Web\+Socket\+Service}, \hyperpage{42}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{40}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{42}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Data\+Base\+Web\+Socket\+Controller}
+    \subitem {Data\+Base\+Web\+Socket\+Controller}, \hyperpage{45}
+    \subitem {Data\+Base\+Web\+Socket\+Service}, \hyperpage{48}
+    \subitem {Debug\+Handler}, \hyperpage{48}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{46}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{48}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Directory\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{53}
+    \subitem {Directory\+Web\+Socket\+Controller}, \hyperpage{50}
+    \subitem {Directory\+Web\+Socket\+Service}, \hyperpage{53}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{51}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{53}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Info\+Api\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{59}
+    \subitem {Info\+Api\+Web\+Socket\+Controller}, \hyperpage{55}
+    \subitem {Info\+Api\+Web\+Socket\+Service}, \hyperpage{59}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{56}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{58}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Settings\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{63}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{61}
+    \subitem {Settings\+Web\+Socket\+Controller}, \hyperpage{60}
+    \subitem {Settings\+Web\+Socket\+Service}, \hyperpage{63}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{63}
+  \item {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Version\+Web\+Socket\+Controller}
+    \subitem {Debug\+Handler}, \hyperpage{67}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{66}
+    \subitem {Version\+Web\+Socket\+Controller}, \hyperpage{65}
+    \subitem {Version\+Web\+Socket\+Service}, \hyperpage{67}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{67}
+  \item {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}
+    \subitem {Debug\+Message}, \hyperpage{69}
+    \subitem {Debug\+Source}, \hyperpage{69}
+    \subitem {Debug\+Source\+Type}, \hyperpage{70}
+    \subitem {Debug\+Type}, \hyperpage{70}
+    \subitem {To\+String}, \hyperpage{69}
+  \item {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Download\+Update\+Event\+Args}
+    \subitem {download\+Info}, \hyperpage{71}
+    \subitem {To\+String}, \hyperpage{71}
+  \item {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}
+    \subitem {Channels\+And\+Users}, \hyperpage{75}
+    \subitem {Connected}, \hyperpage{75}
+    \subitem {Current\+Irc\+Settings}, \hyperpage{75}
+    \subitem {To\+String}, \hyperpage{74}
+  \item {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}
+    \subitem {Download\+Progress}, \hyperpage{78}
+    \subitem {Download\+Speed}, \hyperpage{78}
+    \subitem {Download\+Status}, \hyperpage{78}
+    \subitem {File\+Location}, \hyperpage{77}
+    \subitem {File\+Name}, \hyperpage{77}
+    \subitem {File\+Size}, \hyperpage{78}
+    \subitem {To\+String}, \hyperpage{76}
+  \item {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}
+    \subitem {Channel}, \hyperpage{81}
+    \subitem {Message}, \hyperpage{80}
+    \subitem {To\+String}, \hyperpage{80}
+    \subitem {User}, \hyperpage{80}
+  \item {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}
+    \subitem {Message}, \hyperpage{83}
+    \subitem {To\+String}, \hyperpage{82}
+  \item {Little\+Weeb\+Library\+::\+Global\+Interfaces\+::\+I\+Debug\+Event}
+    \subitem {On\+Debug\+Event}, \hyperpage{84}
+  \item {Little\+Weeb\+Library\+::\+Global\+Interfaces\+::\+I\+Settings\+Interface}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{85}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{86}
+  \item {Little\+Weeb\+Library\+::\+Handlers}
+    \subitem {Debug\+Source}, \hyperpage{19}
+    \subitem {Debug\+Type}, \hyperpage{20}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}
+    \subitem {Anime\+Latest\+Episode}, \hyperpage{107}
+    \subitem {Anime\+Profile\+Handler}, \hyperpage{89}
+    \subitem {Anime\+Rule\+Handler}, \hyperpage{110}
+    \subitem {Bot\+List\+Per\+Results}, \hyperpage{105}
+    \subitem {Combine\+Anime\+Episodes\+Parsed\+Nibl\+Results}, 
+		\hyperpage{106}
+    \subitem {Currently\+Airing\+Async}, \hyperpage{109}
+    \subitem {Data\+Base\+Handler}, \hyperpage{110}
+    \subitem {Debug\+Handler}, \hyperpage{110}
+    \subitem {Get\+Anime\+Episodes}, \hyperpage{91}
+    \subitem {Get\+Anime\+Profile}, \hyperpage{89}
+    \subitem {Get\+Currently\+Airing}, \hyperpage{95}
+    \subitem {Get\+Previous\+Seasons\+Total\+Episodes}, \hyperpage{98}
+    \subitem {Get\+Season\+From\+Anime}, \hyperpage{97}
+    \subitem {Kitsu\+Handler}, \hyperpage{110}
+    \subitem {Nibl\+Handler}, \hyperpage{110}
+    \subitem {Parse\+Nibl\+Search\+Results}, \hyperpage{103}
+    \subitem {Parse\+Titles}, \hyperpage{100}
+    \subitem {Weeb\+File\+Name\+Parser}, \hyperpage{111}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Rule\+Handler}
+    \subitem {Add\+Rules}, \hyperpage{113}
+    \subitem {Anime\+Rule\+Handler}, \hyperpage{112}
+    \subitem {Data\+Base\+Handler}, \hyperpage{118}
+    \subitem {Debug\+Handler}, \hyperpage{118}
+    \subitem {Filter\+Anime\+Rules}, \hyperpage{114}
+    \subitem {Get}, \hyperpage{117}
+    \subitem {Global\+Rules}, \hyperpage{118}
+    \subitem {Init}, \hyperpage{116}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}
+    \subitem {Data\+Base\+Handler}, \hyperpage{121}
+    \subitem {Data\+Base\+Path}, \hyperpage{133}
+    \subitem {Debug\+Handler}, \hyperpage{132}
+    \subitem {Get\+Collection}, \hyperpage{121}
+    \subitem {Get\+J\+Object}, \hyperpage{123, 124}
+    \subitem {Remove\+J\+Object}, \hyperpage{126, 127}
+    \subitem {Store\+J\+Object}, \hyperpage{128}
+    \subitem {Update\+J\+Object}, \hyperpage{130, 131}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}
+    \subitem {Create\+File}, \hyperpage{140}
+    \subitem {Debug\+File\+Name}, \hyperpage{143}
+    \subitem {Debug\+File\+Writer}, \hyperpage{141}
+    \subitem {Debug\+Handler}, \hyperpage{135}
+    \subitem {Debug\+Path}, \hyperpage{143}
+    \subitem {Debug\+Source\+Types}, \hyperpage{143}
+    \subitem {Debug\+Types}, \hyperpage{143}
+    \subitem {Debug\+Write\+Able}, \hyperpage{143}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{144}
+    \subitem {Message\+Queue}, \hyperpage{144}
+    \subitem {Set\+Settings}, \hyperpage{136}
+    \subitem {Settings\+Handler}, \hyperpage{144}
+    \subitem {stop}, \hyperpage{144}
+    \subitem {Stop\+Debugger}, \hyperpage{142}
+    \subitem {Trace\+Message}, \hyperpage{137}
+    \subitem {Trace\+Writer}, \hyperpage{136}
+    \subitem {Write\+Trace}, \hyperpage{142}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}
+    \subitem {Create\+Directory}, \hyperpage{152}
+    \subitem {Debug\+Handler}, \hyperpage{156}
+    \subitem {Delete\+Directory}, \hyperpage{151}
+    \subitem {Directory\+Handler}, \hyperpage{147}
+    \subitem {Get\+Directories}, \hyperpage{149}
+    \subitem {Get\+Drives}, \hyperpage{147}
+    \subitem {Get\+Free\+Space}, \hyperpage{155}
+    \subitem {Open\+Directory}, \hyperpage{154}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}
+    \subitem {Abort\+Download}, \hyperpage{170}
+    \subitem {Add\+Download}, \hyperpage{160}
+    \subitem {Add\+Downloads}, \hyperpage{171}
+    \subitem {Currently\+Downloading}, \hyperpage{175}
+    \subitem {Debug\+Handler}, \hyperpage{174}
+    \subitem {Download\+Handler}, \hyperpage{159}
+    \subitem {Download\+Proces\+On\+Going}, \hyperpage{174}
+    \subitem {Download\+Queue}, \hyperpage{175}
+    \subitem {Download\+Queue\+Handler}, \hyperpage{168}
+    \subitem {File\+Handler}, \hyperpage{174}
+    \subitem {File\+History\+Handler}, \hyperpage{174}
+    \subitem {Get\+Currently\+Downloading}, \hyperpage{165}
+    \subitem {Id\+Generator}, \hyperpage{173}
+    \subitem {Irc\+Client\+Handler}, \hyperpage{174}
+    \subitem {Irc\+Settings}, \hyperpage{175}
+    \subitem {On\+Download\+Update\+Event}, \hyperpage{175}
+    \subitem {On\+Irc\+Client\+Download\+Event}, \hyperpage{165}
+    \subitem {Remove\+Download}, \hyperpage{162}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{168}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{169}
+    \subitem {Stop}, \hyperpage{174}
+    \subitem {Stop\+Queue}, \hyperpage{164}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}
+    \subitem {Debug\+Handler}, \hyperpage{182}
+    \subitem {Delete\+File}, \hyperpage{180}
+    \subitem {File\+Handler}, \hyperpage{177}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{183}
+    \subitem {Open\+File}, \hyperpage{177}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{181}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{182}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}
+    \subitem {Add\+File\+To\+File\+History}, \hyperpage{185}
+    \subitem {Data\+Base\+Handler}, \hyperpage{190}
+    \subitem {Debug\+Handler}, \hyperpage{190}
+    \subitem {File\+History\+Handler}, \hyperpage{184}
+    \subitem {Get\+Current\+File\+History}, \hyperpage{189}
+    \subitem {Remove\+File\+From\+File\+History}, \hyperpage{187}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Profile\+Handler}
+    \subitem {Get\+Anime\+Episodes}, \hyperpage{192}
+    \subitem {Get\+Anime\+Profile}, \hyperpage{192}
+    \subitem {Get\+Currently\+Airing}, \hyperpage{193}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Anime\+Rule\+Handler}
+    \subitem {Add\+Rules}, \hyperpage{194}
+    \subitem {Filter\+Anime\+Rules}, \hyperpage{194}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}
+    \subitem {Get\+Collection}, \hyperpage{196}
+    \subitem {Get\+J\+Object}, \hyperpage{196, 197}
+    \subitem {Remove\+J\+Object}, \hyperpage{197, 198}
+    \subitem {Store\+J\+Object}, \hyperpage{197}
+    \subitem {Update\+J\+Object}, \hyperpage{197}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Debug\+Handler}
+    \subitem {Set\+Settings}, \hyperpage{200}
+    \subitem {Stop\+Debugger}, \hyperpage{200}
+    \subitem {Trace\+Message}, \hyperpage{200}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}
+    \subitem {Create\+Directory}, \hyperpage{204}
+    \subitem {Delete\+Directory}, \hyperpage{204}
+    \subitem {Get\+Directories}, \hyperpage{204}
+    \subitem {Get\+Drives}, \hyperpage{204}
+    \subitem {Get\+Free\+Space}, \hyperpage{205}
+    \subitem {Open\+Directory}, \hyperpage{205}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}
+    \subitem {Abort\+Download}, \hyperpage{208}
+    \subitem {Add\+Download}, \hyperpage{207}
+    \subitem {Add\+Downloads}, \hyperpage{207}
+    \subitem {Get\+Currently\+Downloading}, \hyperpage{208}
+    \subitem {On\+Download\+Update\+Event}, \hyperpage{208}
+    \subitem {Remove\+Download}, \hyperpage{208}
+    \subitem {Stop\+Queue}, \hyperpage{208}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+Handler}
+    \subitem {Delete\+File}, \hyperpage{210}
+    \subitem {Open\+File}, \hyperpage{210}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+History\+Handler}
+    \subitem {Add\+File\+To\+File\+History}, \hyperpage{212}
+    \subitem {Get\+Current\+File\+History}, \hyperpage{212}
+    \subitem {Remove\+File\+From\+File\+History}, \hyperpage{212}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}
+    \subitem {Current\+Settings}, \hyperpage{216}
+    \subitem {Is\+Connected}, \hyperpage{216}
+    \subitem {Is\+Downloading}, \hyperpage{215}
+    \subitem {On\+Irc\+Client\+Connection\+Status\+Event}, 
+		\hyperpage{216}
+    \subitem {On\+Irc\+Client\+Download\+Event}, \hyperpage{216}
+    \subitem {On\+Irc\+Client\+Message\+Event}, \hyperpage{216}
+    \subitem {Send\+Message}, \hyperpage{214}
+    \subitem {Setfullfilepath}, \hyperpage{215}
+    \subitem {Start\+Connection}, \hyperpage{215}
+    \subitem {Start\+Download}, \hyperpage{215}
+    \subitem {Stop\+Connection}, \hyperpage{215}
+    \subitem {Stop\+Download}, \hyperpage{215}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}
+    \subitem {Get\+All\+Categories}, \hyperpage{220}
+    \subitem {Get\+All\+Genres}, \hyperpage{220}
+    \subitem {Get\+Anime}, \hyperpage{219}
+    \subitem {Get\+Categories}, \hyperpage{220}
+    \subitem {Get\+Currently\+Airing}, \hyperpage{220}
+    \subitem {Get\+Episode}, \hyperpage{219}
+    \subitem {Get\+Episodes}, \hyperpage{219}
+    \subitem {Get\+Full\+Anime}, \hyperpage{218}
+    \subitem {Get\+Genres}, \hyperpage{220}
+    \subitem {Get\+Relations}, \hyperpage{219}
+    \subitem {Search\+Anime}, \hyperpage{219}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Nibl\+Handler}
+    \subitem {Get\+Bot\+List}, \hyperpage{222}
+    \subitem {Get\+Latest\+Episode}, \hyperpage{222}
+    \subitem {Get\+Latest\+Files}, \hyperpage{223}
+    \subitem {Search\+Nibl}, \hyperpage{222}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Settings\+Handler}
+    \subitem {Get\+Irc\+Settings}, \hyperpage{243}
+    \subitem {Get\+Little\+Weeb\+Settings}, \hyperpage{243}
+    \subitem {Write\+Irc\+Settings}, \hyperpage{243}
+    \subitem {Write\+Little\+Weeb\+Settings}, \hyperpage{244}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Version\+Handler}
+    \subitem {Get\+Latest\+Version\+Android}, \hyperpage{245}
+    \subitem {Get\+Latest\+Version\+Desktop}, \hyperpage{245}
+    \subitem {Get\+Local\+Version}, \hyperpage{245}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Web\+Socket\+Handler}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{248}
+    \subitem {Send\+Message}, \hyperpage{247}
+    \subitem {Start\+Server}, \hyperpage{247}
+    \subitem {Stop\+Server}, \hyperpage{248}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}
+    \subitem {Current\+Settings}, \hyperpage{235}
+    \subitem {Debug\+Handler}, \hyperpage{239}
+    \subitem {Irc\+Client}, \hyperpage{240}
+    \subitem {Irc\+Client\+Handler}, \hyperpage{226}
+    \subitem {Irc\+Settings}, \hyperpage{240}
+    \subitem {Is\+Connected}, \hyperpage{234}
+    \subitem {Is\+Connected\+Bool}, \hyperpage{240}
+    \subitem {Is\+Downloading}, \hyperpage{234}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{240}
+    \subitem {On\+Download\+Update}, \hyperpage{238}
+    \subitem {On\+Download\+Update\+Debug}, \hyperpage{239}
+    \subitem {On\+Irc\+Client\+Connection\+Status\+Event}, 
+		\hyperpage{241}
+    \subitem {On\+Irc\+Client\+Download\+Event}, \hyperpage{241}
+    \subitem {On\+Irc\+Client\+Message\+Event}, \hyperpage{240}
+    \subitem {On\+Message}, \hyperpage{236}
+    \subitem {On\+Message\+Debug}, \hyperpage{236}
+    \subitem {On\+User\+List\+Update}, \hyperpage{237}
+    \subitem {Send\+Message}, \hyperpage{228}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{227}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{227}
+    \subitem {Setfullfilepath}, \hyperpage{228}
+    \subitem {Settings\+Handler}, \hyperpage{239}
+    \subitem {Start\+Connection}, \hyperpage{230}
+    \subitem {Start\+Download}, \hyperpage{229}
+    \subitem {Stop\+Connection}, \hyperpage{232}
+    \subitem {Stop\+Download}, \hyperpage{233}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}
+    \subitem {Debug\+Handler}, \hyperpage{265}
+    \subitem {Get}, \hyperpage{264}
+    \subitem {Get\+All\+Categories}, \hyperpage{262}
+    \subitem {Get\+All\+Genres}, \hyperpage{261}
+    \subitem {Get\+Anime}, \hyperpage{253}
+    \subitem {Get\+Categories}, \hyperpage{260}
+    \subitem {Get\+Currently\+Airing}, \hyperpage{258}
+    \subitem {Get\+Episode}, \hyperpage{260}
+    \subitem {Get\+Episodes}, \hyperpage{254}
+    \subitem {Get\+Episodes\+From\+Kitsu}, \hyperpage{264}
+    \subitem {Get\+Full\+Anime}, \hyperpage{255}
+    \subitem {Get\+Genres}, \hyperpage{259}
+    \subitem {Get\+Relations}, \hyperpage{257}
+    \subitem {Kitsu\+Handler}, \hyperpage{251}
+    \subitem {Search\+Anime}, \hyperpage{252}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}
+    \subitem {Debug\+Handler}, \hyperpage{275}
+    \subitem {Get}, \hyperpage{274}
+    \subitem {Get\+Bot\+List}, \hyperpage{268}
+    \subitem {Get\+Latest\+Episode}, \hyperpage{273}
+    \subitem {Get\+Latest\+Files}, \hyperpage{269}
+    \subitem {Kitsu\+Handler}, \hyperpage{275}
+    \subitem {Nibl\+Handler}, \hyperpage{268}
+    \subitem {Search\+Nibl}, \hyperpage{270}, \hyperpage{272}
+    \subitem {Weeb\+File\+Name\+Parser}, \hyperpage{275}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}
+    \subitem {Debug\+Handler}, \hyperpage{284}
+    \subitem {Get\+Irc\+Settings}, \hyperpage{282}
+    \subitem {Get\+Little\+Weeb\+Settings}, \hyperpage{281}
+    \subitem {Settings\+Handler}, \hyperpage{277}
+    \subitem {Settings\+Path}, \hyperpage{284}
+    \subitem {Write\+Irc\+Settings}, \hyperpage{278}
+    \subitem {Write\+Little\+Weeb\+Settings}, \hyperpage{280}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}
+    \subitem {Debug\+Handler}, \hyperpage{292}
+    \subitem {Get\+Latest\+Version\+Android}, \hyperpage{289}
+    \subitem {Get\+Latest\+Version\+Desktop}, \hyperpage{287}
+    \subitem {Get\+Local\+Version}, \hyperpage{291}
+    \subitem {Version\+Handler}, \hyperpage{286}
+  \item {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}
+    \subitem {Client\+Ids}, \hyperpage{303}
+    \subitem {Debug\+Handler}, \hyperpage{302}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{302}
+    \subitem {On\+Web\+Socket\+Event}, \hyperpage{303}
+    \subitem {On\+Web\+Socket\+Server\+Event}, \hyperpage{300}
+    \subitem {Send\+Message}, \hyperpage{296}
+    \subitem {Server}, \hyperpage{302}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{302}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{295}
+    \subitem {Start\+Server}, \hyperpage{295}
+    \subitem {Stop\+Server}, \hyperpage{299}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{294}
+  \item {Little\+Weeb\+Library\+::\+Little\+Weeb}
+    \subitem {Little\+Weeb}, \hyperpage{304}
+    \subitem {start\+Up}, \hyperpage{305}
+    \subitem {Stop}, \hyperpage{304}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}
+    \subitem {result}, \hyperpage{308}
+    \subitem {To\+J\+Object}, \hyperpage{307}
+    \subitem {To\+Json}, \hyperpage{306}
+    \subitem {To\+String}, \hyperpage{307}
+    \subitem {type}, \hyperpage{308}
+    \subitem {updated}, \hyperpage{308}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}
+    \subitem {result}, \hyperpage{311}
+    \subitem {To\+J\+Object}, \hyperpage{310}
+    \subitem {To\+Json}, \hyperpage{309}
+    \subitem {To\+String}, \hyperpage{310}
+    \subitem {type}, \hyperpage{311}
+    \subitem {updated}, \hyperpage{311}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}
+    \subitem {result}, \hyperpage{313}
+    \subitem {To\+J\+Object}, \hyperpage{313}
+    \subitem {To\+Json}, \hyperpage{312}
+    \subitem {To\+String}, \hyperpage{312}
+    \subitem {type}, \hyperpage{313}
+    \subitem {updated}, \hyperpage{314}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}
+    \subitem {directories}, \hyperpage{316}
+    \subitem {To\+J\+Object}, \hyperpage{315}
+    \subitem {To\+Json}, \hyperpage{315}
+    \subitem {To\+String}, \hyperpage{315}
+    \subitem {type}, \hyperpage{316}
+    \subitem {updated}, \hyperpage{316}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}
+    \subitem {dirname}, \hyperpage{319}
+    \subitem {path}, \hyperpage{319}
+    \subitem {To\+J\+Object}, \hyperpage{318}
+    \subitem {To\+Json}, \hyperpage{317}
+    \subitem {To\+String}, \hyperpage{318}
+    \subitem {type}, \hyperpage{319}
+    \subitem {updated}, \hyperpage{319}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}
+    \subitem {anime\+\_\+id}, \hyperpage{331}
+    \subitem {anime\+\_\+name}, \hyperpage{331}
+    \subitem {bot}, \hyperpage{332}
+    \subitem {download\+Directory}, \hyperpage{335}
+    \subitem {download\+Index}, \hyperpage{334}
+    \subitem {episode\+Number}, \hyperpage{332}
+    \subitem {filename}, \hyperpage{334}
+    \subitem {filesize}, \hyperpage{334}
+    \subitem {fullfilepath}, \hyperpage{334}
+    \subitem {id}, \hyperpage{332}
+    \subitem {pack}, \hyperpage{333}
+    \subitem {progress}, \hyperpage{333}
+    \subitem {season}, \hyperpage{332}
+    \subitem {speed}, \hyperpage{333}
+    \subitem {status}, \hyperpage{333}
+    \subitem {To\+J\+Object}, \hyperpage{330}
+    \subitem {To\+Json}, \hyperpage{329}
+    \subitem {To\+String}, \hyperpage{330}
+    \subitem {type}, \hyperpage{331}
+    \subitem {updated}, \hyperpage{335}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}
+    \subitem {download\+Queue}, \hyperpage{337}
+    \subitem {To\+J\+Object}, \hyperpage{337}
+    \subitem {To\+Json}, \hyperpage{336}
+    \subitem {To\+String}, \hyperpage{336}
+    \subitem {type}, \hyperpage{337}
+    \subitem {updated}, \hyperpage{338}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}
+    \subitem {anime\+\_\+id}, \hyperpage{322}
+    \subitem {anime\+\_\+name}, \hyperpage{322}
+    \subitem {bot}, \hyperpage{323}
+    \subitem {episode\+Number}, \hyperpage{323}
+    \subitem {filename}, \hyperpage{324}
+    \subitem {filesize}, \hyperpage{324}
+    \subitem {fullfilepath}, \hyperpage{324}
+    \subitem {id}, \hyperpage{322}
+    \subitem {pack}, \hyperpage{323}
+    \subitem {season}, \hyperpage{323}
+    \subitem {To\+J\+Object}, \hyperpage{321}
+    \subitem {To\+Json}, \hyperpage{321}
+    \subitem {To\+String}, \hyperpage{321}
+    \subitem {type}, \hyperpage{322}
+    \subitem {updated}, \hyperpage{324}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}
+    \subitem {anime\+\_\+cover}, \hyperpage{327}
+    \subitem {anime\+\_\+id}, \hyperpage{327}
+    \subitem {anime\+\_\+title}, \hyperpage{327}
+    \subitem {download\+Historylist}, \hyperpage{327}
+    \subitem {To\+J\+Object}, \hyperpage{326}
+    \subitem {To\+Json}, \hyperpage{326}
+    \subitem {To\+String}, \hyperpage{326}
+    \subitem {type}, \hyperpage{327}
+    \subitem {updated}, \hyperpage{328}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}
+    \subitem {errormessage}, \hyperpage{345}
+    \subitem {errortype}, \hyperpage{345}
+    \subitem {get}, \hyperpage{344}
+    \subitem {set}, \hyperpage{344}
+    \subitem {To\+J\+Object}, \hyperpage{343}
+    \subitem {To\+Json}, \hyperpage{339}
+    \subitem {To\+String}, \hyperpage{341}
+    \subitem {type}, \hyperpage{344}
+    \subitem {updated}, \hyperpage{345}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}
+    \subitem {freespacebytes}, \hyperpage{348}
+    \subitem {freespacekbytes}, \hyperpage{348}
+    \subitem {freespacembytes}, \hyperpage{348}
+    \subitem {To\+J\+Object}, \hyperpage{347}
+    \subitem {To\+Json}, \hyperpage{346}
+    \subitem {To\+String}, \hyperpage{347}
+    \subitem {type}, \hyperpage{347}
+    \subitem {updated}, \hyperpage{348}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}
+    \subitem {channel}, \hyperpage{351}
+    \subitem {message}, \hyperpage{351}
+    \subitem {To\+J\+Object}, \hyperpage{350}
+    \subitem {To\+Json}, \hyperpage{350}
+    \subitem {To\+String}, \hyperpage{350}
+    \subitem {type}, \hyperpage{351}
+    \subitem {updated}, \hyperpage{352}
+    \subitem {user}, \hyperpage{351}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}
+    \subitem {channel}, \hyperpage{355}
+    \subitem {connected}, \hyperpage{355}
+    \subitem {fullfilepath}, \hyperpage{356}
+    \subitem {server}, \hyperpage{355}
+    \subitem {To\+J\+Object}, \hyperpage{354}
+    \subitem {To\+Json}, \hyperpage{353}
+    \subitem {To\+String}, \hyperpage{354}
+    \subitem {type}, \hyperpage{354}
+    \subitem {updated}, \hyperpage{356}
+    \subitem {user}, \hyperpage{355}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}
+    \subitem {result}, \hyperpage{358}
+    \subitem {To\+J\+Object}, \hyperpage{358}
+    \subitem {To\+Json}, \hyperpage{357}
+    \subitem {To\+String}, \hyperpage{357}
+    \subitem {type}, \hyperpage{358}
+    \subitem {updated}, \hyperpage{359}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}
+    \subitem {result}, \hyperpage{361}
+    \subitem {To\+J\+Object}, \hyperpage{361}
+    \subitem {To\+Json}, \hyperpage{360}
+    \subitem {To\+String}, \hyperpage{360}
+    \subitem {type}, \hyperpage{361}
+    \subitem {updated}, \hyperpage{362}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}
+    \subitem {result}, \hyperpage{364}
+    \subitem {To\+J\+Object}, \hyperpage{364}
+    \subitem {To\+Json}, \hyperpage{363}
+    \subitem {To\+String}, \hyperpage{363}
+    \subitem {type}, \hyperpage{364}
+    \subitem {updated}, \hyperpage{364}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}
+    \subitem {anime\+\_\+bot\+\_\+sources}, \hyperpage{370}
+    \subitem {anime\+\_\+categories}, \hyperpage{370}
+    \subitem {anime\+\_\+episodes}, \hyperpage{369}
+    \subitem {anime\+\_\+episodes\+\_\+per\+\_\+page}, \hyperpage{368}
+    \subitem {anime\+\_\+genres}, \hyperpage{370}
+    \subitem {anime\+\_\+id}, \hyperpage{367}
+    \subitem {anime\+\_\+info}, \hyperpage{368}
+    \subitem {anime\+\_\+latest\+\_\+episode}, \hyperpage{369}
+    \subitem {anime\+\_\+relations}, \hyperpage{369}
+    \subitem {anime\+\_\+resolutions}, \hyperpage{369}
+    \subitem {anime\+\_\+rules}, \hyperpage{370}
+    \subitem {anime\+\_\+stored}, \hyperpage{371}
+    \subitem {anime\+\_\+total\+\_\+episode\+\_\+pages}, 
+		\hyperpage{368}
+    \subitem {anime\+\_\+total\+\_\+episodes}, \hyperpage{368}
+    \subitem {To\+J\+Object}, \hyperpage{367}
+    \subitem {To\+Json}, \hyperpage{366}
+    \subitem {To\+String}, \hyperpage{366}
+    \subitem {type}, \hyperpage{367}
+    \subitem {updated}, \hyperpage{371}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}
+    \subitem {debuglevel}, \hyperpage{375}
+    \subitem {debugtype}, \hyperpage{375}
+    \subitem {local}, \hyperpage{374}
+    \subitem {maxdebuglogsize}, \hyperpage{375}
+    \subitem {port}, \hyperpage{374}
+    \subitem {randomusernamelength}, \hyperpage{374}
+    \subitem {To\+J\+Object}, \hyperpage{373}
+    \subitem {To\+Json}, \hyperpage{373}
+    \subitem {To\+String}, \hyperpage{373}
+    \subitem {type}, \hyperpage{374}
+    \subitem {updated}, \hyperpage{375}
+    \subitem {version}, \hyperpage{374}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}
+    \subitem {result}, \hyperpage{378}
+    \subitem {To\+J\+Object}, \hyperpage{377}
+    \subitem {To\+Json}, \hyperpage{377}
+    \subitem {To\+String}, \hyperpage{377}
+    \subitem {type}, \hyperpage{378}
+    \subitem {updated}, \hyperpage{378}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}
+    \subitem {result}, \hyperpage{381}
+    \subitem {To\+J\+Object}, \hyperpage{380}
+    \subitem {To\+Json}, \hyperpage{380}
+    \subitem {To\+String}, \hyperpage{380}
+    \subitem {type}, \hyperpage{381}
+    \subitem {updated}, \hyperpage{381}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}
+    \subitem {received}, \hyperpage{384}
+    \subitem {To\+J\+Object}, \hyperpage{383}
+    \subitem {To\+Json}, \hyperpage{382}
+    \subitem {To\+String}, \hyperpage{383}
+    \subitem {type}, \hyperpage{384}
+    \subitem {updated}, \hyperpage{384}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}
+    \subitem {message}, \hyperpage{387}
+    \subitem {To\+J\+Object}, \hyperpage{386}
+    \subitem {To\+Json}, \hyperpage{385}
+    \subitem {To\+String}, \hyperpage{386}
+    \subitem {type}, \hyperpage{387}
+    \subitem {updated}, \hyperpage{387}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}
+    \subitem {currentbuild}, \hyperpage{391}
+    \subitem {currentversion}, \hyperpage{390}
+    \subitem {date}, \hyperpage{392}
+    \subitem {direct\+\_\+download\+\_\+url}, \hyperpage{392}
+    \subitem {file\+\_\+name}, \hyperpage{392}
+    \subitem {newbuild}, \hyperpage{391}
+    \subitem {newversion}, \hyperpage{391}
+    \subitem {release\+\_\+url}, \hyperpage{391}
+    \subitem {release\+\_\+version}, \hyperpage{392}
+    \subitem {To\+J\+Object}, \hyperpage{390}
+    \subitem {To\+Json}, \hyperpage{389}
+    \subitem {To\+String}, \hyperpage{389}
+    \subitem {type}, \hyperpage{390}
+    \subitem {update\+\_\+available}, \hyperpage{390}
+    \subitem {updated}, \hyperpage{393}
+  \item {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}
+    \subitem {local}, \hyperpage{395}
+    \subitem {To\+J\+Object}, \hyperpage{394}
+    \subitem {To\+Json}, \hyperpage{394}
+    \subitem {To\+String}, \hyperpage{394}
+    \subitem {type}, \hyperpage{395}
+    \subitem {updated}, \hyperpage{395}
+    \subitem {welcome}, \hyperpage{395}
+  \item {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}
+    \subitem {Culture}, \hyperpage{398}
+    \subitem {resource\+Culture}, \hyperpage{397}
+    \subitem {resource\+Man}, \hyperpage{397}
+    \subitem {Resource\+Manager}, \hyperpage{398}
+    \subitem {Resources}, \hyperpage{397}
+    \subitem {Version}, \hyperpage{398}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}
+    \subitem {Data\+Base\+Handler}, \hyperpage{408}
+    \subitem {Data\+Base\+Web\+Socket\+Service}, \hyperpage{400}
+    \subitem {Debug\+Handler}, \hyperpage{408}
+    \subitem {Delete\+Document}, \hyperpage{401}
+    \subitem {Get\+Collection}, \hyperpage{403}
+    \subitem {Get\+Document}, \hyperpage{404}
+    \subitem {Store\+Document}, \hyperpage{405}
+    \subitem {Update\+Document}, \hyperpage{407}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{408}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}
+    \subitem {Create\+Directory}, \hyperpage{411}
+    \subitem {Debug\+Handler}, \hyperpage{419}
+    \subitem {Delete\+Directory}, \hyperpage{412}
+    \subitem {Directory\+Handler}, \hyperpage{418}
+    \subitem {Directory\+Web\+Socket\+Service}, \hyperpage{410}
+    \subitem {Get\+Directories}, \hyperpage{415}
+    \subitem {Get\+Drives}, \hyperpage{414}
+    \subitem {Get\+Free\+Space}, \hyperpage{416}
+    \subitem {Irc\+Settings}, \hyperpage{419}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{419}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{417}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{418}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{418}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}
+    \subitem {Abort\+Download}, \hyperpage{429}
+    \subitem {Add\+Download}, \hyperpage{422}
+    \subitem {Add\+Downloads}, \hyperpage{431}
+    \subitem {Debug\+Handler}, \hyperpage{433}
+    \subitem {Directory\+Handler}, \hyperpage{433}
+    \subitem {Download\+Handler}, \hyperpage{433}
+    \subitem {Download\+Web\+Socket\+Service}, \hyperpage{421}
+    \subitem {File\+Handler}, \hyperpage{433}
+    \subitem {File\+History\+Handler}, \hyperpage{433}
+    \subitem {Get\+Current\+File\+History}, \hyperpage{426}
+    \subitem {Irc\+Settings}, \hyperpage{434}
+    \subitem {Last\+Downloaded\+Info}, \hyperpage{434}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{434}
+    \subitem {On\+Download\+Update\+Event}, \hyperpage{427}
+    \subitem {Openfullfilepath}, \hyperpage{426}
+    \subitem {Remove\+Download}, \hyperpage{424}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{428}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{429}
+    \subitem {Settings\+Handler}, \hyperpage{433}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{432}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}
+    \subitem {Debug\+Handler}, \hyperpage{440}
+    \subitem {Delete\+File}, \hyperpage{437}
+    \subitem {Download\+Handler}, \hyperpage{440}
+    \subitem {File\+Handler}, \hyperpage{440}
+    \subitem {File\+History\+Handler}, \hyperpage{440}
+    \subitem {File\+Web\+Socket\+Service}, \hyperpage{436}
+    \subitem {Open\+File}, \hyperpage{438}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{440}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Data\+Base\+Web\+Socket\+Service}
+    \subitem {Delete\+Document}, \hyperpage{443}
+    \subitem {Get\+Collection}, \hyperpage{443}
+    \subitem {Get\+Document}, \hyperpage{442}
+    \subitem {Store\+Document}, \hyperpage{442}
+    \subitem {Update\+Document}, \hyperpage{442}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Directory\+Web\+Socket\+Service}
+    \subitem {Create\+Directory}, \hyperpage{445}
+    \subitem {Delete\+Directory}, \hyperpage{445}
+    \subitem {Get\+Directories}, \hyperpage{445}
+    \subitem {Get\+Drives}, \hyperpage{446}
+    \subitem {Get\+Free\+Space}, \hyperpage{446}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}
+    \subitem {Abort\+Download}, \hyperpage{449}
+    \subitem {Add\+Download}, \hyperpage{448}
+    \subitem {Add\+Downloads}, \hyperpage{448}
+    \subitem {Get\+Current\+File\+History}, \hyperpage{449}
+    \subitem {Openfullfilepath}, \hyperpage{449}
+    \subitem {Remove\+Download}, \hyperpage{449}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+File\+Web\+Socket\+Service}
+    \subitem {Delete\+File}, \hyperpage{451}
+    \subitem {Open\+File}, \hyperpage{451}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}
+    \subitem {Add\+Rule}, \hyperpage{454}
+    \subitem {Get\+All\+Categories}, \hyperpage{455}
+    \subitem {Get\+All\+Genres}, \hyperpage{454}
+    \subitem {Get\+Anime\+Episodes}, \hyperpage{454}
+    \subitem {Get\+Anime\+Profile}, \hyperpage{454}
+    \subitem {Get\+Bot\+List}, \hyperpage{455}
+    \subitem {Get\+Currently\+Airing}, \hyperpage{453}
+    \subitem {Get\+Files\+For\+Anime}, \hyperpage{454}
+    \subitem {Search\+Kitsu}, \hyperpage{454}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}
+    \subitem {Connect}, \hyperpage{457}
+    \subitem {Disable\+Send\+Message}, \hyperpage{458}
+    \subitem {Disconnect}, \hyperpage{457}
+    \subitem {Enable\+Send\+Message}, \hyperpage{458}
+    \subitem {Get\+Current\+Irc\+Settings}, \hyperpage{458}
+    \subitem {Send\+Message}, \hyperpage{458}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}
+    \subitem {Get\+Current\+Irc\+Settings}, \hyperpage{496}
+    \subitem {Get\+Current\+Little\+Weeb\+Settings}, \hyperpage{496}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{497}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{497}
+    \subitem {Set\+Settings\+Classes}, \hyperpage{497}
+    \subitem {Setfullfilepath}, \hyperpage{497}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+I\+Version\+Web\+Socket\+Service}
+    \subitem {Check\+Version}, \hyperpage{499}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}
+    \subitem {Add\+Rule}, \hyperpage{470}
+    \subitem {Anime\+Profile\+Handler}, \hyperpage{476}
+    \subitem {Anime\+Rule\+Handler}, \hyperpage{476}
+    \subitem {Data\+Base\+Handler}, \hyperpage{477}
+    \subitem {Debug\+Handler}, \hyperpage{477}
+    \subitem {Get\+All\+Categories}, \hyperpage{473}
+    \subitem {Get\+All\+Genres}, \hyperpage{471}
+    \subitem {Get\+Anime\+Episodes}, \hyperpage{467}
+    \subitem {Get\+Anime\+Profile}, \hyperpage{461}
+    \subitem {Get\+Bot\+List}, \hyperpage{474}
+    \subitem {Get\+Currently\+Airing}, \hyperpage{464, 465}
+    \subitem {Get\+Files\+For\+Anime}, \hyperpage{462}
+    \subitem {Info\+Api\+Web\+Socket\+Service}, \hyperpage{460}
+    \subitem {Kitsu\+Handler}, \hyperpage{476}
+    \subitem {Nibl\+Handler}, \hyperpage{476}
+    \subitem {Search\+Kitsu}, \hyperpage{468}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{476}
+    \subitem {Weeb\+File\+Name\+Parser}, \hyperpage{477}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}
+    \subitem {Connect}, \hyperpage{480}
+    \subitem {Debug\+Handler}, \hyperpage{493}
+    \subitem {Disable\+Send\+Message}, \hyperpage{485}
+    \subitem {Disconnect}, \hyperpage{486}
+    \subitem {Enable\+Send\+Message}, \hyperpage{484}
+    \subitem {Get\+Current\+Irc\+Settings}, \hyperpage{483}
+    \subitem {Irc\+Client\+Handler}, \hyperpage{493}
+    \subitem {Irc\+Settings}, \hyperpage{493}
+    \subitem {Irc\+Web\+Socket\+Service}, \hyperpage{479}
+    \subitem {Is\+Irc\+Connected}, \hyperpage{494}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{493}
+    \subitem {On\+Irc\+Client\+Connection\+Status\+Event}, 
+		\hyperpage{490}
+    \subitem {On\+Irc\+Client\+Message\+Event}, \hyperpage{489}
+    \subitem {Send\+Message}, \hyperpage{487}
+    \subitem {Send\+Message\+To\+Web\+Socket\+Client}, \hyperpage{493}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{491}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{492}
+    \subitem {Settings\+Handler}, \hyperpage{493}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{492}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}
+    \subitem {Debug\+Handler}, \hyperpage{512}
+    \subitem {Debug\+Handler\+Settings}, \hyperpage{513}
+    \subitem {Directory\+Handler}, \hyperpage{512}
+    \subitem {Directory\+Web\+Socket\+Service}, \hyperpage{513}
+    \subitem {Directory\+Web\+Socket\+Service\+Settings}, 
+		\hyperpage{514}
+    \subitem {Download\+Handler}, \hyperpage{512}
+    \subitem {Download\+Handler\+Settings}, \hyperpage{514}
+    \subitem {File\+Handler\+Settings}, \hyperpage{513}
+    \subitem {Get\+Current\+Irc\+Settings}, \hyperpage{504}
+    \subitem {Get\+Current\+Little\+Weeb\+Settings}, \hyperpage{505}
+    \subitem {Irc\+Client\+Handler}, \hyperpage{512}
+    \subitem {Irc\+Client\+Handler\+Settings}, \hyperpage{513}
+    \subitem {Irc\+Settings}, \hyperpage{514}
+    \subitem {Irc\+Web\+Socket\+Service}, \hyperpage{513}
+    \subitem {Irc\+Web\+Socket\+Service\+Settings}, \hyperpage{514}
+    \subitem {Little\+Weeb\+Settings}, \hyperpage{514}
+    \subitem {Set\+All\+Irc\+Settings}, \hyperpage{511}
+    \subitem {Set\+All\+Little\+Weeb\+Settings}, \hyperpage{510}
+    \subitem {Set\+Irc\+Settings}, \hyperpage{506}
+    \subitem {Set\+Little\+Weeb\+Settings}, \hyperpage{507}
+    \subitem {Set\+Settings\+Classes}, \hyperpage{502}
+    \subitem {Setfullfilepath}, \hyperpage{509}
+    \subitem {Settings\+Handler}, \hyperpage{512}
+    \subitem {Settings\+Web\+Socket\+Service}, \hyperpage{502}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{512}
+    \subitem {Web\+Socket\+Handler\+Settings}, \hyperpage{513}
+  \item {Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}
+    \subitem {Check\+Version}, \hyperpage{517}
+    \subitem {Debug\+Handler}, \hyperpage{519}
+    \subitem {Version\+Handler}, \hyperpage{519}
+    \subitem {Version\+Web\+Socket\+Service}, \hyperpage{516}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{519}
+  \item {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}
+    \subitem {Channels}, \hyperpage{522}
+    \subitem {fullfilepath}, \hyperpage{523}
+    \subitem {Port}, \hyperpage{521}
+    \subitem {Secure}, \hyperpage{522}
+    \subitem {Server\+Address}, \hyperpage{521}
+    \subitem {To\+String}, \hyperpage{520}
+    \subitem {User\+Name}, \hyperpage{522}
+  \item {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}
+    \subitem {Currently\+Airing\+Bot}, \hyperpage{527}
+    \subitem {Debug\+Level}, \hyperpage{526}
+    \subitem {Debug\+Type}, \hyperpage{526}
+    \subitem {Local}, \hyperpage{526}
+    \subitem {Max\+Debug\+Log\+Size}, \hyperpage{527}
+    \subitem {Port}, \hyperpage{525}
+    \subitem {Random\+Username\+Length}, \hyperpage{526}
+    \subitem {To\+String}, \hyperpage{524}
+  \item {Little\+Weeb\+Library\+::\+Start\+Up}
+    \subitem {Anime\+Profile\+Handler}, \hyperpage{534}
+    \subitem {Anime\+Rule\+Handler}, \hyperpage{535}
+    \subitem {Data\+Base\+Handler}, \hyperpage{535}
+    \subitem {Data\+Base\+Web\+Socket\+Controller}, \hyperpage{538}
+    \subitem {Data\+Base\+Web\+Socket\+Service}, \hyperpage{537}
+    \subitem {Debug\+Handler}, \hyperpage{535}
+    \subitem {Directory\+Handler}, \hyperpage{533}
+    \subitem {Directory\+Web\+Socket\+Controller}, \hyperpage{537}
+    \subitem {Directory\+Web\+Socket\+Service}, \hyperpage{535}
+    \subitem {Download\+Handler}, \hyperpage{534}
+    \subitem {Download\+Web\+Socket\+Controller}, \hyperpage{537}
+    \subitem {Download\+Web\+Socket\+Service}, \hyperpage{535}
+    \subitem {File\+Handler}, \hyperpage{533}
+    \subitem {File\+History\+Handler}, \hyperpage{533}
+    \subitem {File\+Web\+Socket\+Controller}, \hyperpage{537}
+    \subitem {File\+Web\+Socket\+Service}, \hyperpage{536}
+    \subitem {Info\+Api\+Web\+Socket\+Controller}, \hyperpage{538}
+    \subitem {Info\+Api\+Web\+Socket\+Service}, \hyperpage{536}
+    \subitem {Irc\+Client\+Handler}, \hyperpage{533}
+    \subitem {Irc\+Web\+Socket\+Controller}, \hyperpage{537}
+    \subitem {Irc\+Web\+Socket\+Service}, \hyperpage{536}
+    \subitem {Kitsu\+Handler}, \hyperpage{534}
+    \subitem {Nibl\+Handler}, \hyperpage{534}
+    \subitem {Settings\+Handler}, \hyperpage{532}
+    \subitem {Settings\+Web\+Socket\+Controller}, \hyperpage{538}
+    \subitem {Settings\+Web\+Socket\+Service}, \hyperpage{536}
+    \subitem {Start}, \hyperpage{531}
+    \subitem {Start\+Up}, \hyperpage{528}
+    \subitem {Stop}, \hyperpage{531}
+    \subitem {Version\+Handler}, \hyperpage{534}
+    \subitem {Version\+Web\+Socket\+Controller}, \hyperpage{538}
+    \subitem {Version\+Web\+Socket\+Service}, \hyperpage{536}
+    \subitem {Web\+Socket\+Handler}, \hyperpage{533}
+  \item {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}
+    \subitem {Base\+Path}, \hyperpage{548}
+    \subitem {Calculate\+Similarity}, \hyperpage{550}
+    \subitem {Check\+Operating\+Systems}, \hyperpage{547}
+    \subitem {Copy\+To}, \hyperpage{544}
+    \subitem {Generate\+Username}, \hyperpage{542}
+    \subitem {Get\+Epoch}, \hyperpage{541}
+    \subitem {Get\+Free\+Space\+Kbits}, \hyperpage{543}
+    \subitem {Int\+To\+Roman}, \hyperpage{542}
+    \subitem {Levenshtein\+Distance}, \hyperpage{549}
+    \subitem {Operating\+Systems}, \hyperpage{540}
+    \subitem {Read\+Binary\+File}, \hyperpage{547}
+    \subitem {Remove\+Special\+Characters}, \hyperpage{541}
+    \subitem {Unzip}, \hyperpage{545}
+    \subitem {Write\+Binary\+File}, \hyperpage{546}
+    \subitem {Zip}, \hyperpage{544}
+  \item {Little\+Weeb\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{144}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{183}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{240}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{302}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{419}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{434}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{493}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{514}
+  \item {Local}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{526}
+  \item {local}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{374}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{395}
+
+  \indexspace
+
+  \item {Max\+Debug\+Log\+Size}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{527}
+  \item {maxdebuglogsize}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{375}
+  \item {Message}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}, 
+		\hyperpage{80}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}, 
+		\hyperpage{83}
+  \item {message}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{351}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}, 
+		\hyperpage{387}
+  \item {Message\+Queue}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{144}
+  \item {Models/\+Json\+Currently\+Airing.\+cs}, \hyperpage{562}
+  \item {Models/\+Json\+Data\+Base\+Collection.\+cs}, \hyperpage{562}
+  \item {Models/\+Json\+Data\+Base\+Document.\+cs}, \hyperpage{562}
+  \item {Models/\+Json\+Directories.\+cs}, \hyperpage{562}
+  \item {Models/\+Json\+Directory.\+cs}, \hyperpage{563}
+  \item {Models/\+Json\+Download\+Info.\+cs}, \hyperpage{563}
+  \item {Models/\+Json\+Download\+Queue.\+cs}, \hyperpage{564}
+  \item {Models/\+Json\+Downloaded\+Info.\+cs}, \hyperpage{563}
+  \item {Models/\+Json\+Downloaded\+List.\+cs}, \hyperpage{563}
+  \item {Models/\+Json\+Error.\+cs}, \hyperpage{564}
+  \item {Models/\+Json\+Free\+Space.\+cs}, \hyperpage{564}
+  \item {Models/\+Json\+Irc\+Chat\+Message.\+cs}, \hyperpage{564}
+  \item {Models/\+Json\+Irc\+Info.\+cs}, \hyperpage{565}
+  \item {Models/\+Json\+Kistu\+Search\+Result.\+cs}, \hyperpage{565}
+  \item {Models/\+Json\+Kitsu\+Anime\+Info.\+cs}, \hyperpage{565}
+  \item {Models/\+Json\+Kitsu\+Categories.\+cs}, \hyperpage{565}
+  \item {Models/\+Json\+Kitsu\+Genres.\+cs}, \hyperpage{566}
+  \item {Models/\+Json\+Little\+Weeb\+Settings.\+cs}, \hyperpage{566}
+  \item {Models/\+Json\+Nibl\+Bot\+List.\+cs}, \hyperpage{566}
+  \item {Models/\+Json\+Nibl\+Search\+Result.\+cs}, \hyperpage{566}
+  \item {Models/\+Json\+Received\+Response.\+cs}, \hyperpage{567}
+  \item {Models/\+Json\+Success.\+cs}, \hyperpage{567}
+  \item {Models/\+Json\+Version\+Info.\+cs}, \hyperpage{567}
+  \item {Models/\+Json\+Welcome.\+cs}, \hyperpage{567}
+
+  \indexspace
+
+  \item {newbuild}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{391}
+  \item {newversion}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{391}
+  \item {Nibl\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{110}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{268}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{476}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{534}
+
+  \indexspace
+
+  \item {obj/\+Debug Android/netstandard2.\+0/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug Android\+\_\+/netstandard2.\+0/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net45/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net45/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net45/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/net45/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/net46/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net46/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net46/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/net46/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/net47/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net47/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/net47/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/net47/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/netcoreapp2.\+0/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/netcoreapp2.\+1/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/netcoreapp2.\+1/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Debug/netcoreapp2.\+1/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/netcoreapp2.\+1/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{569}
+  \item {obj/\+Debug/netstandard2.\+0/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Release Android/netstandard2.\+0/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {obj/\+Release/netstandard2.\+0/\+Little\+Weeb\+Library.\+Assembly\+Info.\+cs}, 
+		\hyperpage{568}
+  \item {On\+Debug\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Global\+Interfaces\+::\+I\+Debug\+Event}, 
+		\hyperpage{84}
+  \item {On\+Download\+Update}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{238}
+  \item {On\+Download\+Update\+Debug}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{239}
+  \item {On\+Download\+Update\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{175}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{208}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{427}
+  \item {On\+Irc\+Client\+Connection\+Status\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{216}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{241}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{490}
+  \item {On\+Irc\+Client\+Download\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{165}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{216}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{241}
+  \item {On\+Irc\+Client\+Message\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{216}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{240}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{489}
+  \item {On\+Message}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{236}
+  \item {On\+Message\+Debug}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{236}
+  \item {On\+User\+List\+Update}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{237}
+  \item {On\+Web\+Socket\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{26}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{29}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+File\+Web\+Socket\+Controller}, 
+		\hyperpage{34}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+I\+Sub\+Web\+Socket\+Controller}, 
+		\hyperpage{43}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Irc\+Web\+Socket\+Controller}, 
+		\hyperpage{40}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Data\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{46}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Directory\+Web\+Socket\+Controller}, 
+		\hyperpage{51}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Info\+Api\+Web\+Socket\+Controller}, 
+		\hyperpage{56}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Settings\+Web\+Socket\+Controller}, 
+		\hyperpage{61}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Version\+Web\+Socket\+Controller}, 
+		\hyperpage{66}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Web\+Socket\+Handler}, 
+		\hyperpage{248}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{303}
+  \item {On\+Web\+Socket\+Server\+Event}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{300}
+  \item {Open\+Directory}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}, 
+		\hyperpage{154}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Directory\+Handler}, 
+		\hyperpage{205}
+  \item {Open\+File}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{177}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+Handler}, 
+		\hyperpage{210}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{438}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+File\+Web\+Socket\+Service}, 
+		\hyperpage{451}
+  \item {Openfullfilepath}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{426}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{449}
+  \item {Operating\+Systems}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{540}
+
+  \indexspace
+
+  \item {pack}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{333}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{323}
+  \item {Parse\+Nibl\+Search\+Results}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{103}
+  \item {Parse\+Titles}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{100}
+  \item {path}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{319}
+  \item {Port}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{521}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{525}
+  \item {port}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{374}
+  \item {progress}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{333}
+  \item {Properties/\+Resources.\+Designer.\+cs}, \hyperpage{569}
+
+  \indexspace
+
+  \item {R\+E\+A\+D\+M\+E.\+md}, \hyperpage{570}
+  \item {Random\+Username\+Length}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{526}
+  \item {randomusernamelength}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{374}
+  \item {Read\+Binary\+File}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{547}
+  \item {received}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}, 
+		\hyperpage{384}
+  \item {release\+\_\+url}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{391}
+  \item {release\+\_\+version}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{392}
+  \item {Remove\+Download}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{162}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{208}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{424}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{449}
+  \item {Remove\+File\+From\+File\+History}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+History\+Handler}, 
+		\hyperpage{187}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+File\+History\+Handler}, 
+		\hyperpage{212}
+  \item {Remove\+J\+Object}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{126, 127}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}, 
+		\hyperpage{197, 198}
+  \item {Remove\+Special\+Characters}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{541}
+  \item {resource\+Culture}
+    \subitem {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}, 
+		\hyperpage{397}
+  \item {resource\+Man}
+    \subitem {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}, 
+		\hyperpage{397}
+  \item {Resource\+Manager}
+    \subitem {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}, 
+		\hyperpage{398}
+  \item {Resources}
+    \subitem {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}, 
+		\hyperpage{397}
+  \item {result}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}, 
+		\hyperpage{308}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{311}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}, 
+		\hyperpage{313}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}, 
+		\hyperpage{358}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}, 
+		\hyperpage{361}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{364}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{378}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{381}
+
+  \indexspace
+
+  \item {Search\+Anime}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Kitsu\+Handler}, 
+		\hyperpage{219}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Kitsu\+Handler}, 
+		\hyperpage{252}
+  \item {Search\+Kitsu}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{454}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{468}
+  \item {Search\+Nibl}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Nibl\+Handler}, 
+		\hyperpage{222}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{270}, \hyperpage{272}
+  \item {season}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{332}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{323}
+  \item {Secure}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{522}
+  \item {Send\+Message}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{214}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Web\+Socket\+Handler}, 
+		\hyperpage{247}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{228}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{296}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{458}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{487}
+  \item {Send\+Message\+To\+Web\+Socket\+Client}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{493}
+  \item {Server}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{302}
+  \item {server}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{355}
+  \item {Server\+Address}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{521}
+  \item {Services/\+Data\+Base\+Web\+Socket\+Service.\+cs}, 
+		\hyperpage{570}
+  \item {Services/\+Directory\+Web\+Socket\+Service.\+cs}, 
+		\hyperpage{570}
+  \item {Services/\+Download\+Web\+Socket\+Service.\+cs}, 
+		\hyperpage{570}
+  \item {Services/\+File\+Web\+Socket\+Service.\+cs}, \hyperpage{570}
+  \item {Services/\+Info\+Api\+Web\+Socket\+Service.\+cs}, 
+		\hyperpage{571}
+  \item {Services/\+Irc\+Web\+Socket\+Service.\+cs}, \hyperpage{571}
+  \item {Services/\+Settings\+Web\+Socket\+Service.\+cs}, 
+		\hyperpage{571}
+  \item {Services/\+Version\+Web\+Socket\+Service.\+cs}, 
+		\hyperpage{571}
+  \item {set}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{344}
+  \item {Set\+All\+Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{511}
+  \item {Set\+All\+Little\+Weeb\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{510}
+  \item {Set\+Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Global\+Interfaces\+::\+I\+Settings\+Interface}, 
+		\hyperpage{85}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{168}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{181}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{227}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{302}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{417}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{428}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{497}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{491}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{506}
+  \item {Set\+Little\+Weeb\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Global\+Interfaces\+::\+I\+Settings\+Interface}, 
+		\hyperpage{86}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{169}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+File\+Handler}, 
+		\hyperpage{182}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{227}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{295}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{418}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{429}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{497}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{492}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{507}
+  \item {Set\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{136}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Debug\+Handler}, 
+		\hyperpage{200}
+  \item {Set\+Settings\+Classes}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{497}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{502}
+  \item {Set\+Sub\+Controllers}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{25}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+I\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{38}
+  \item {Setfullfilepath}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{215}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{228}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{497}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{509}
+  \item {Settings/\+Irc\+Settings.\+cs}, \hyperpage{572}
+  \item {Settings/\+Little\+Weeb\+Settings.\+cs}, \hyperpage{572}
+  \item {Settings\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{144}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{239}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{277}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{433}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{493}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{512}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{532}
+  \item {Settings\+Path}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{284}
+  \item {Settings\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Settings\+Web\+Socket\+Controller}, 
+		\hyperpage{60}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{538}
+  \item {Settings\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Settings\+Web\+Socket\+Controller}, 
+		\hyperpage{63}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{502}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{536}
+  \item {speed}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{333}
+  \item {Start}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{531}
+  \item {Start\+Connection}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{215}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{230}
+  \item {Start\+Download}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{215}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{229}
+  \item {Start\+Server}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Web\+Socket\+Handler}, 
+		\hyperpage{247}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{295}
+  \item {Start\+Up}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{528}
+  \item {start\+Up}
+    \subitem {Little\+Weeb\+Library\+::\+Little\+Weeb}, \hyperpage{305}
+  \item {Start\+Up.\+cs}, \hyperpage{572}
+  \item {Static\+Classes/\+Enumerators.\+cs}, \hyperpage{572}
+  \item {Static\+Classes/\+Utility\+Methods.\+cs}, \hyperpage{572}
+  \item {status}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{333}
+  \item {Stop}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{174}
+    \subitem {Little\+Weeb\+Library\+::\+Little\+Weeb}, \hyperpage{304}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{531}
+  \item {stop}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{144}
+  \item {Stop\+Connection}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{215}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{232}
+  \item {Stop\+Debugger}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{142}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Debug\+Handler}, 
+		\hyperpage{200}
+  \item {Stop\+Download}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Irc\+Client\+Handler}, 
+		\hyperpage{215}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Irc\+Client\+Handler}, 
+		\hyperpage{233}
+  \item {Stop\+Queue}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Download\+Handler}, 
+		\hyperpage{164}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Download\+Handler}, 
+		\hyperpage{208}
+  \item {Stop\+Server}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Web\+Socket\+Handler}, 
+		\hyperpage{248}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{299}
+  \item {Store\+Document}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{405}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{442}
+  \item {Store\+J\+Object}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{128}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}, 
+		\hyperpage{197}
+  \item {Sub\+Controllers}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {To\+J\+Object}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}, 
+		\hyperpage{307}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{310}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}, 
+		\hyperpage{313}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}, 
+		\hyperpage{315}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{318}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{330}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}, 
+		\hyperpage{337}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{321}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{326}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{343}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{347}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{350}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{354}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}, 
+		\hyperpage{358}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}, 
+		\hyperpage{361}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{364}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{367}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{373}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{377}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{380}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}, 
+		\hyperpage{383}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}, 
+		\hyperpage{386}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{390}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{394}
+  \item {To\+Json}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}, 
+		\hyperpage{306}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{309}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}, 
+		\hyperpage{312}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}, 
+		\hyperpage{315}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{317}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{329}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}, 
+		\hyperpage{336}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{321}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{326}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{339}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{346}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{350}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{353}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}, 
+		\hyperpage{357}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}, 
+		\hyperpage{360}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{363}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{366}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{373}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{377}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{380}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}, 
+		\hyperpage{382}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}, 
+		\hyperpage{385}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{389}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{394}
+  \item {To\+String}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Base\+Debug\+Args}, 
+		\hyperpage{69}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Download\+Update\+Event\+Args}, 
+		\hyperpage{71}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Connection\+Status\+Args}, 
+		\hyperpage{74}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}, 
+		\hyperpage{76}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}, 
+		\hyperpage{80}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}, 
+		\hyperpage{82}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}, 
+		\hyperpage{307}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{310}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}, 
+		\hyperpage{312}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}, 
+		\hyperpage{315}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{318}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{330}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}, 
+		\hyperpage{336}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{321}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{326}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{341}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{347}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{350}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{354}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}, 
+		\hyperpage{357}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}, 
+		\hyperpage{360}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{363}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{366}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{373}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{377}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{380}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}, 
+		\hyperpage{383}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}, 
+		\hyperpage{386}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{389}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{394}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{520}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Little\+Weeb\+Settings}, 
+		\hyperpage{524}
+  \item {Trace\+Message}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{137}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Debug\+Handler}, 
+		\hyperpage{200}
+  \item {Trace\+Writer}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{136}
+  \item {type}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}, 
+		\hyperpage{308}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{311}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}, 
+		\hyperpage{313}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}, 
+		\hyperpage{316}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{319}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{331}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}, 
+		\hyperpage{337}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{322}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{327}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{344}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{347}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{351}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{354}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}, 
+		\hyperpage{358}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}, 
+		\hyperpage{361}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{364}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{367}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{374}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{378}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{381}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}, 
+		\hyperpage{384}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}, 
+		\hyperpage{387}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{390}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{395}
+
+  \indexspace
+
+  \item {Unzip}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{545}
+  \item {update\+\_\+available}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{390}
+  \item {Update\+Document}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{407}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+I\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{442}
+  \item {Update\+J\+Object}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Data\+Base\+Handler}, 
+		\hyperpage{130, 131}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Data\+Base\+Handler}, 
+		\hyperpage{197}
+  \item {updated}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Currently\+Airing}, 
+		\hyperpage{308}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Collection}, 
+		\hyperpage{311}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Data\+Base\+Document}, 
+		\hyperpage{314}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directories}, 
+		\hyperpage{316}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Directory}, 
+		\hyperpage{319}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Info}, 
+		\hyperpage{335}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Download\+Queue}, 
+		\hyperpage{338}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+Info}, 
+		\hyperpage{324}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Downloaded\+List}, 
+		\hyperpage{328}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Error}, 
+		\hyperpage{345}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Free\+Space}, 
+		\hyperpage{348}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{352}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{356}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Categories}, 
+		\hyperpage{359}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Genres}, 
+		\hyperpage{362}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kistu\+Search\+Result}, 
+		\hyperpage{364}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Kitsu\+Anime\+Info}, 
+		\hyperpage{371}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{375}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Bot\+List}, 
+		\hyperpage{378}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Nibl\+Search\+Result}, 
+		\hyperpage{381}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Received\+Response}, 
+		\hyperpage{384}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Success}, 
+		\hyperpage{387}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Version\+Info}, 
+		\hyperpage{393}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{395}
+  \item {User}
+    \subitem {Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Message\+Event\+Args}, 
+		\hyperpage{80}
+  \item {user}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Chat\+Message}, 
+		\hyperpage{351}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Irc\+Info}, 
+		\hyperpage{355}
+  \item {User\+Name}
+    \subitem {Little\+Weeb\+Library\+::\+Settings\+::\+Irc\+Settings}, 
+		\hyperpage{522}
+
+  \indexspace
+
+  \item {Version}
+    \subitem {Little\+Weeb\+Library\+::\+Properties\+::\+Resources}, 
+		\hyperpage{398}
+  \item {version}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Little\+Weeb\+Settings}, 
+		\hyperpage{374}
+  \item {Version\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Version\+Handler}, 
+		\hyperpage{286}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{519}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{534}
+  \item {Version\+Web\+Socket\+Controller}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Version\+Web\+Socket\+Controller}, 
+		\hyperpage{65}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{538}
+  \item {Version\+Web\+Socket\+Service}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Version\+Web\+Socket\+Controller}, 
+		\hyperpage{67}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{516}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{536}
+
+  \indexspace
+
+  \item {Web\+Socket\+Handler}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{26}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Download\+Web\+Socket\+Controller}, 
+		\hyperpage{31}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+File\+Web\+Socket\+Controller}, 
+		\hyperpage{36}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Irc\+Web\+Socket\+Controller}, 
+		\hyperpage{42}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Data\+Base\+Web\+Socket\+Controller}, 
+		\hyperpage{48}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Directory\+Web\+Socket\+Controller}, 
+		\hyperpage{53}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Info\+Api\+Web\+Socket\+Controller}, 
+		\hyperpage{58}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Settings\+Web\+Socket\+Controller}, 
+		\hyperpage{63}
+    \subitem {Little\+Weeb\+Library\+::\+Controllers\+::\+Sub\+Controllers\+::\+Version\+Web\+Socket\+Controller}, 
+		\hyperpage{67}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Web\+Socket\+Handler}, 
+		\hyperpage{294}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Data\+Base\+Web\+Socket\+Service}, 
+		\hyperpage{408}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}, 
+		\hyperpage{418}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Download\+Web\+Socket\+Service}, 
+		\hyperpage{432}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}, 
+		\hyperpage{440}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{476}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Irc\+Web\+Socket\+Service}, 
+		\hyperpage{492}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{512}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Version\+Web\+Socket\+Service}, 
+		\hyperpage{519}
+    \subitem {Little\+Weeb\+Library\+::\+Start\+Up}, \hyperpage{533}
+  \item {Web\+Socket\+Handler\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Settings\+Web\+Socket\+Service}, 
+		\hyperpage{513}
+  \item {Weeb\+File\+Name\+Parser}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Anime\+Profile\+Handler}, 
+		\hyperpage{111}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Nibl\+Handler}, 
+		\hyperpage{275}
+    \subitem {Little\+Weeb\+Library\+::\+Services\+::\+Info\+Api\+Web\+Socket\+Service}, 
+		\hyperpage{477}
+  \item {welcome}
+    \subitem {Little\+Weeb\+Library\+::\+Models\+::\+Json\+Welcome}, 
+		\hyperpage{395}
+  \item {Write\+Binary\+File}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{546}
+  \item {Write\+Irc\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Settings\+Handler}, 
+		\hyperpage{243}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{278}
+  \item {Write\+Little\+Weeb\+Settings}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+I\+Settings\+Handler}, 
+		\hyperpage{244}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Settings\+Handler}, 
+		\hyperpage{280}
+  \item {Write\+Trace}
+    \subitem {Little\+Weeb\+Library\+::\+Handlers\+::\+Debug\+Handler}, 
+		\hyperpage{142}
+
+  \indexspace
+
+  \item {Zip}
+    \subitem {Little\+Weeb\+Library\+::\+Static\+Classes\+::\+Utility\+Methods}, 
+		\hyperpage{544}
+
+\end{theindex}

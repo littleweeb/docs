@@ -1,0 +1,8 @@
+<map id="LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent" name="LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_web_socket_handler.html#a1de289d54d665a32c93478c68d3e6ad0" title="LittleWeebLibrary.Handlers.\lWebSocketHandler.SendMessage" alt="" coords="274,5,495,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="549,35,741,76"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#a0e3e7dd2e2990404b7f0461742b23440" title="LittleWeebLibrary.Models.\lJsonError.ToJson" alt="" coords="298,123,471,164"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_models_1_1_json_irc_chat_message.html#acbac803fd5e8ecffab5335a4069fc4b4" title="LittleWeebLibrary.Models.\lJsonIrcChatMessage.ToJson" alt="" coords="291,188,479,229"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args.html#a0b8df2a044d27dec2dd963e978311be4" title="LittleWeebLibrary.EventArguments.\lIrcClientMessageEventArgs.ToString" alt="" coords="268,253,501,295"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_models_1_1_json_error.html#ad7d5522c90119111d2e929f39e7f6d3c" title="LittleWeebLibrary.Models.\lJsonError.ToString" alt="" coords="298,319,471,360"/>
+</map>

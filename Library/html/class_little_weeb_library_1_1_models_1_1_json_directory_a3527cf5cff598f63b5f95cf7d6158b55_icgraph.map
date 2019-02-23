@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Models.JsonDirectory.ToJson" name="LittleWeebLibrary.Models.JsonDirectory.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_directory_handler.html#aa9d1414a83cadcf99da2cad30f39b2e3" title="LittleWeebLibrary.Handlers.\lDirectoryHandler.GetDirectories" alt="" coords="227,5,432,47"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_handlers_1_1_directory_handler.html#a6ab9fa9b838eeca3f918429af0a3564d" title="LittleWeebLibrary.Handlers.\lDirectoryHandler.GetDrives" alt="" coords="238,71,421,112"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#a1fee74b9f658b29f4c2bb643a48425e0" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.GetDirectories" alt="" coords="480,5,751,47"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller.html#a2db42c05c620f5658a5b6e473581f84c" title="LittleWeebLibrary.Controllers.\lSubControllers.DirectoryWebSocket\lController.OnWebSocketEvent" alt="" coords="799,31,1029,87"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#a368f502e063381bccfed714d8350dc69" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.GetDrives" alt="" coords="493,71,737,112"/>
+</map>

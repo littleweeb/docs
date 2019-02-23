@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_935d9c363659c2dd11bf5025103efd1b" kind="dir">
+    <compoundname>EventArguments</compoundname>
+    <innerdir refid="dir_b5da7871358c9a881567e6cdb75bf6a2">EventArguments/DebugArguments</innerdir>
+    <innerfile refid="_download_update_event_args_8cs">DownloadUpdateEventArgs.cs</innerfile>
+    <innerfile refid="_file_handler_debug_event_args_8cs">FileHandlerDebugEventArgs.cs</innerfile>
+    <innerfile refid="_irc_client_connection_status_args_8cs">IrcClientConnectionStatusArgs.cs</innerfile>
+    <innerfile refid="_irc_client_download_args_8cs">IrcClientDownloadArgs.cs</innerfile>
+    <innerfile refid="_irc_client_message_event_args_8cs">IrcClientMessageEventArgs.cs</innerfile>
+    <innerfile refid="_web_socket_event_args_8cs">WebSocketEventArgs.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="EventArguments/"/>
+  </compounddef>
+</doxygen>

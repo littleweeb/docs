@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace" name="LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_static_classes_1_1_utility_methods.html#a76fa2aea99ce4b1ad4130cc18b1d5969" title="LittleWeebLibrary.Static\lClasses.UtilityMethods.GetFree\lSpaceKbits" alt="" coords="260,5,467,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_models_1_1_json_free_space.html#a3ab3c947402838a29e33684edaf16a54" title="LittleWeebLibrary.Models.\lJsonFreeSpace.ToJson" alt="" coords="277,86,450,127"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_handlers_1_1_debug_handler.html#afccb37dfd6b2114af72000c2f4fe4607" title="LittleWeebLibrary.Handlers.\lDebugHandler.TraceMessage" alt="" coords="267,151,459,193"/>
+</map>

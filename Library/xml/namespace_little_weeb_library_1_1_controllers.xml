@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_little_weeb_library_1_1_controllers" kind="namespace" language="C#">
+    <compoundname>LittleWeebLibrary::Controllers</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_controllers_1_1_base_web_socket_controller" prot="public">LittleWeebLibrary::Controllers::BaseWebSocketController</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller" prot="public">LittleWeebLibrary::Controllers::DownloadWebSocketController</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller" prot="public">LittleWeebLibrary::Controllers::FileWebSocketController</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_controllers_1_1_i_base_web_socket_controller" prot="public">LittleWeebLibrary::Controllers::IBaseWebSocketController</innerclass>
+    <innerclass refid="class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller" prot="public">LittleWeebLibrary::Controllers::IrcWebSocketController</innerclass>
+    <innerclass refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller" prot="public">LittleWeebLibrary::Controllers::ISubWebSocketController</innerclass>
+    <innernamespace refid="namespace_little_weeb_library_1_1_controllers_1_1_sub_controllers">LittleWeebLibrary::Controllers::SubControllers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/BaseWebSocketController.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

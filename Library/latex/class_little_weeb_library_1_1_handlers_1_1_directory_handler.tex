@@ -1,0 +1,662 @@
+\hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{}\section{Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler Class Reference}
+\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler}\index{Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler@{Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a347ba4ee0182625434973769c90d06e1}{Directory\+Handler}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6be1b158ee280e8a74a49917a90484e2}{Create\+Directory}} (string path, string name)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aeae514c438e071fe95c42ff74e0fef9d}{Delete\+Directory}} (string path)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3}{Get\+Directories}} (string path)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6ab9fa9b838eeca3f918429af0a3564d}{Get\+Drives}} ()
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa439a303572de6bf09438d38a7fa4698}{Get\+Free\+Space}} (string path)
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a4f3f5841ead561873cc5130efc6294aa}{Open\+Directory}} (string directory\+Path)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{Debug\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 22 of file Directory\+Handler.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a347ba4ee0182625434973769c90d06e1}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a347ba4ee0182625434973769c90d06e1}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Directory\+Handler@{Directory\+Handler}}
+\index{Directory\+Handler@{Directory\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Directory\+Handler()}{DirectoryHandler()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Directory\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 28 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+29         \{
+30             debugHandler.TraceMessage(\textcolor{stringliteral}{"Constructor Called"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+31             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}} = debugHandler;
+32         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a347ba4ee0182625434973769c90d06e1_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6ab9fa9b838eeca3f918429af0a3564d}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6ab9fa9b838eeca3f918429af0a3564d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Get\+Drives@{Get\+Drives}}
+\index{Get\+Drives@{Get\+Drives}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Drives()}{GetDrives()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Drives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_ac0cc258a8bef2c9956638e14ad7d1e63}{Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}}.
+
+
+
+Definition at line 34 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Directories.\+directories, Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+dirname, Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+path, Little\+Weeb\+Library.\+Models.\+Json\+Directories.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Drives().
+
+
+\begin{DoxyCode}
+35         \{
+36 
+37             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetDrives Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+38             \textcolor{keywordflow}{try}
+39             \{
+40                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories}{JsonDirectories}} directories = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories}{JsonDirectories}}();
+41 
+42 \textcolor{preprocessor}{#if \_\_ANDROID\_\_}
+43 
+44 \textcolor{preprocessor}{#if DEBUG}
+45 \textcolor{preprocessor}{#warning Compiling android code! }
+46 \textcolor{preprocessor}{#endif}
+47                 
+48                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Running Android Code!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+49                 
+50 
+51                 \textcolor{keywordtype}{string} onlyAvailablePath = \textcolor{stringliteral}{"/storage/"};
+52                 \textcolor{keywordflow}{if} (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.M) \{
+53                     \textcolor{keywordtype}{string}[] dirs = Directory.GetDirectories(\textcolor{stringliteral}{"/storage/"});
+54 
+55                     \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} dir \textcolor{keywordflow}{in} dirs)
+56                     \{
+57                         \textcolor{keywordflow}{if} (dir.Contains(\textcolor{stringliteral}{"-"}))
+58                         \{
+59                             onlyAvailablePath = Path.Combine(dir, \textcolor{stringliteral}{"
+      /Android/data/LittleWeeb.LittleWeeb/files"});
+60                             \textcolor{keywordflow}{break};
+61                         \}
+62                     \}
+63                 \}
+64               
+65 
+66                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}} directory = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}}();
+67                 directory.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a7bd33103cb444da0436a3369edcffa19}{path}} = onlyAvailablePath;
+68                 directory.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a85ca592b7c664bc94b3d1619e6c6beef}{dirname}} = \textcolor{stringliteral}{"External Storage if Present."};
+69 
+70                 directories.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a370ad019604c1b719b921ea34f8b4f69}{directories}}.Add(directory);            
+71 
+72                 directory = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}}();
+73                 directory.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a7bd33103cb444da0436a3369edcffa19}{path}} = Android.OS.Environment.RootDirectory.AbsolutePath;
+74                 directory.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory_a85ca592b7c664bc94b3d1619e6c6beef}{dirname}} = \textcolor{stringliteral}{"Internal Root Directory"};
+75 
+76                 directories.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a370ad019604c1b719b921ea34f8b4f69}{directories}}.Add(directory); 
+77 
+78 
+79                 \textcolor{keywordflow}{return} directories.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a06826e97f8dd170ecad5574cf8ef816a}{ToJson}}();
+80 \textcolor{preprocessor}{#else}
+81 
+82                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Running Windows Code!"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.INFO);
+83                 DriveInfo[] allDrives = DriveInfo.GetDrives();
+84                 \textcolor{keywordflow}{foreach} (DriveInfo drive \textcolor{keywordflow}{in} allDrives)
+85                 \{
+86                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}} directorywithpath = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}}
+87                     \{
+88                         dirname = drive.Name,
+89                         path = drive.Name
+90                     \};
+91                     directories.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a370ad019604c1b719b921ea34f8b4f69}{directories}}.Add(directorywithpath);
+92                 \}
+93                 \textcolor{keywordflow}{return} directories.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a06826e97f8dd170ecad5574cf8ef816a}{ToJson}}();
+94 \textcolor{preprocessor}{#endif}
+95             \}
+96             \textcolor{keywordflow}{catch} (Exception e)
+97             \{
+98 
+99                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed to get drives: "} + e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+100 
+101                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+102                 \{
+103                     type = \textcolor{stringliteral}{"get\_drives\_error"},
+104                     errortype = \textcolor{stringliteral}{"exception"},
+105                     errormessage = \textcolor{stringliteral}{"Could not get drives, see log."},
+106                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+107                 \};
+108 
+109                 \textcolor{keywordflow}{return} error.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+110             \}
+111             
+112         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6ab9fa9b838eeca3f918429af0a3564d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6ab9fa9b838eeca3f918429af0a3564d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Get\+Directories@{Get\+Directories}}
+\index{Get\+Directories@{Get\+Directories}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Directories()}{GetDirectories()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Directories (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_a4db23041b31d9b7e46c0be7acb27b0a8}{Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}}.
+
+
+
+Definition at line 114 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Directory.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Directories().
+
+
+\begin{DoxyCode}
+115         \{
+116 
+117 
+118             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetDirectories Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+119             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Directory Path: "} + path, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+120            
+121             
+122             \textcolor{keywordflow}{try}
+123             \{
+124                 \textcolor{keywordtype}{string}[] dirs = Directory.GetDirectories(path);
+125                 
+126                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories}{JsonDirectories}} tosendover = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories}{JsonDirectories}}();
+127                 List<JsonDirectory> directorieswithpath = \textcolor{keyword}{new} List<JsonDirectory>();
+128                 \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} directory \textcolor{keywordflow}{in} dirs)
+129                 \{
+130                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}} directorywithpath = \textcolor{keyword}{new} 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directory}{JsonDirectory}}
+131                     \{
+132                         dirname = directory.Replace(Path.GetDirectoryName(directory) + Path.
+      DirectorySeparatorChar, \textcolor{stringliteral}{""}),
+133                         path = directory
+134                     \};
+135                     tosendover.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a370ad019604c1b719b921ea34f8b4f69}{directories}}.Add(directorywithpath);
+136                 \}
+137                 \textcolor{keywordflow}{return} tosendover.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_directories_a06826e97f8dd170ecad5574cf8ef816a}{ToJson}}();
+138 
+139 
+140             \}
+141             \textcolor{keywordflow}{catch} (Exception e)
+142             \{
+143                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Failed getting directories: "} + e.
+      ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+144 
+145                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+146                 \{
+147                     type = \textcolor{stringliteral}{"get\_drives\_error"},
+148                     errortype = \textcolor{stringliteral}{"exception"},
+149                     errormessage = \textcolor{stringliteral}{"Could not get drives, see log."},
+150                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+151                 \};
+152 
+153                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+154             \}
+155         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aeae514c438e071fe95c42ff74e0fef9d}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aeae514c438e071fe95c42ff74e0fef9d}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Delete\+Directory@{Delete\+Directory}}
+\index{Delete\+Directory@{Delete\+Directory}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Delete\+Directory()}{DeleteDirectory()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Delete\+Directory (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_a7fcae4cc311e09d32b84327b74d80828}{Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}}.
+
+
+
+Definition at line 157 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Success.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Delete\+Directory().
+
+
+\begin{DoxyCode}
+158         \{
+159 
+160             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"DeleteDirectory Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+161             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Directory Path: "} + path, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+162             \textcolor{keywordflow}{try}
+163             \{
+164                 DirectoryInfo info = \textcolor{keyword}{new} DirectoryInfo(path);
+165                 \textcolor{keywordtype}{int} amountOfFiles = info.GetFiles().Length;
+166                 \textcolor{keywordflow}{if} (amountOfFiles == 0)
+167                 \{
+168                     \textcolor{keywordflow}{if} (Directory.Exists(path))
+169                     \{
+170 
+171                         Directory.Delete(path);
+172 
+173                         \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+174                         \{
+175                             message = \textcolor{stringliteral}{"Succesfully deleted folder with path: "} + path
+176                         \};
+177 
+178                         \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+179 
+180                     \}
+181                     \textcolor{keywordflow}{else}
+182                     \{
+183 
+184                         \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+185                         \{
+186                             message = \textcolor{stringliteral}{"Directory with path : "} + path + \textcolor{stringliteral}{" already removed."}
+187                         \};
+188 
+189                         \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+190 
+191                     \}
+192                 \}
+193                 \textcolor{keywordflow}{else}
+194                 \{
+195                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not delete directory: "} + path
+       + \textcolor{stringliteral}{" because there are still files and/or other directories inside!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+196 
+197 
+198                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+199                     \{
+200                         type = \textcolor{stringliteral}{"delete\_directory\_warning"},
+201                         errortype = \textcolor{stringliteral}{"warning"},
+202                         errormessage = \textcolor{stringliteral}{"Could not delete directory: "} + path + \textcolor{stringliteral}{" because there are still
+       files and/or other directories inside!"}
+203                     \};
+204 
+205                     \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+206                 \}
+207             \}
+208             \textcolor{keywordflow}{catch} (Exception e)
+209             \{
+210 
+211                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not delete directory: "} + e.
+      ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+212 
+213                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+214                 \{
+215                     type = \textcolor{stringliteral}{"delete\_directory\_error"},
+216                     errortype = \textcolor{stringliteral}{"exception"},
+217                     errormessage = \textcolor{stringliteral}{"Could not get drives, see log."}
+218                 \};
+219 
+220                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+221             \}
+222         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aeae514c438e071fe95c42ff74e0fef9d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aeae514c438e071fe95c42ff74e0fef9d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6be1b158ee280e8a74a49917a90484e2}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6be1b158ee280e8a74a49917a90484e2}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Create\+Directory@{Create\+Directory}}
+\index{Create\+Directory@{Create\+Directory}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Create\+Directory()}{CreateDirectory()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Create\+Directory (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_aa2298db37f9e9a6050d01be4d3150889}{Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}}.
+
+
+
+Definition at line 224 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Create\+Directory(), and Little\+Weeb\+Library.\+Services.\+Settings\+Web\+Socket\+Service.\+Setfullfilepath().
+
+
+\begin{DoxyCode}
+225         \{
+226 
+227             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"CreateDirectory Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+228             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Directory Path: "} + path + \textcolor{stringliteral}{", Directory
+       name: "} + name, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+229         
+230 
+231             \textcolor{keywordflow}{try}
+232             \{
+233                 \textcolor{keywordflow}{if} (!Directory.Exists(path))
+234                 \{
+235                     Directory.CreateDirectory(path);
+236 
+237                     \textcolor{keywordflow}{return} \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3}{GetDirectories}}(path);
+238                 \}
+239                 \textcolor{keywordflow}{else}
+240                 \{
+241                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not create directory:
+       Directory already exists!"}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+242 
+243                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+244                     \{
+245                         type = \textcolor{stringliteral}{"directory\_already\_exists"},
+246                         errortype = \textcolor{stringliteral}{"warning"},
+247                         errormessage = \textcolor{stringliteral}{"Directory already exist."}
+248                     \};
+249 
+250                     \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+251                 \}
+252             \}
+253             \textcolor{keywordflow}{catch} (Exception e)
+254             \{
+255                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not create directory: "} + e.
+      ToString(), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+256 
+257                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+258                 \{
+259                     type = \textcolor{stringliteral}{"create\_directory\_error"},
+260                     errortype = \textcolor{stringliteral}{"exception"},
+261                     errormessage = \textcolor{stringliteral}{"Could not  create directory, see log."}
+262                 \};
+263 
+264                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+265 
+266             \}
+267         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6be1b158ee280e8a74a49917a90484e2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6be1b158ee280e8a74a49917a90484e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a4f3f5841ead561873cc5130efc6294aa}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a4f3f5841ead561873cc5130efc6294aa}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Open\+Directory@{Open\+Directory}}
+\index{Open\+Directory@{Open\+Directory}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Open\+Directory()}{OpenDirectory()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Open\+Directory (\begin{DoxyParamCaption}\item[{string}]{directory\+Path }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_a43ca9f14498ef3b9cfbdf960b877ac19}{Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}}.
+
+
+
+Definition at line 270 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Check\+Operating\+Systems(), Little\+Weeb\+Library.\+Models.\+Json\+Success.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Download\+Web\+Socket\+Service.\+Openfullfilepath().
+
+
+\begin{DoxyCode}
+271         \{
+272 
+273 
+274             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"OpenDirectory Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+275             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Directory Path: "} + directoryPath, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+276 
+277             \textcolor{keywordflow}{try}
+278             \{
+279 
+280 \textcolor{preprocessor}{#if \_\_ANDROID\_\_}
+281                 Android.Net.Uri uri = Android.Net.Uri.Parse(directoryPath);
+282                 Android.Content.Intent intent = \textcolor{keyword}{new} Android.Content.Intent(Android.Content.Intent.
+      ActionView);
+283                 intent.SetDataAndType(uri, \textcolor{stringliteral}{"*/*"});
+284                 intent.SetFlags(Android.Content.ActivityFlags.ClearWhenTaskReset | Android.Content.
+      ActivityFlags.NewTask);
+285                 Android.App.Application.Context.StartActivity(Android.Content.Intent.CreateChooser(intent, \textcolor{stringliteral}{
+      "Choose File Explorer"}));
+286 \textcolor{preprocessor}{#else}
+287                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}{CheckOperatingSystems}}() == 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.Linux)
+288                 \{
+289                     Process.Start(\textcolor{stringliteral}{"xdg-open"}, directoryPath);
+290                 \}
+291                 \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_afc8c716f32bc35d59afdb287be06c3ca}{CheckOperatingSystems}}() == 
+      \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_aad4a2807f22b8cb65b8db3cdc981a0b1}{OperatingSystems}}.OsX)
+292                 \{
+293                     Process.Start(\textcolor{stringliteral}{"open"}, directoryPath);
+294                 \}
+295                 \textcolor{keywordflow}{else}
+296                 \{
+297                     Process.Start(\textcolor{stringliteral}{"explorer.exe"}, directoryPath);
+298                 \}
+299 \textcolor{preprocessor}{#endif}
+300                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}} report = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success}{JsonSuccess}}()
+301                 \{
+302                     message = \textcolor{stringliteral}{"Succesfully opened folder with path: "} + directoryPath
+303                 \};
+304 
+305                 \textcolor{keywordflow}{return} report.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_success_a407103dc37a77aaf47a782296bab7518}{ToJson}}();
+306             \}
+307             \textcolor{keywordflow}{catch} (Exception e)
+308             \{
+309 
+310                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Could not open directory: "} + e.ToString
+      (), \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+311 
+312                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} jsonError = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}
+313                 \{
+314                     type = \textcolor{stringliteral}{"open\_directory\_failed"},
+315                     errormessage = \textcolor{stringliteral}{"Could not open directory."},
+316                     errortype = \textcolor{stringliteral}{"exception"}
+317                 \};
+318 
+319                 \textcolor{keywordflow}{return} jsonError.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}();
+320 
+321             \}
+322         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a4f3f5841ead561873cc5130efc6294aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a4f3f5841ead561873cc5130efc6294aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa439a303572de6bf09438d38a7fa4698}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa439a303572de6bf09438d38a7fa4698}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Get\+Free\+Space@{Get\+Free\+Space}}
+\index{Get\+Free\+Space@{Get\+Free\+Space}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Free\+Space()}{GetFreeSpace()}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Free\+Space (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler_aa969b0771c2482aa5b3fed0d5b9fae65}{Little\+Weeb\+Library.\+Handlers.\+I\+Directory\+Handler}}.
+
+
+
+Definition at line 324 of file Directory\+Handler.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Models.\+Json\+Free\+Space.\+freespacebytes, Little\+Weeb\+Library.\+Models.\+Json\+Free\+Space.\+freespacekbytes, Little\+Weeb\+Library.\+Models.\+Json\+Free\+Space.\+freespacembytes, Little\+Weeb\+Library.\+Static\+Classes.\+Utility\+Methods.\+Get\+Free\+Space\+Kbits(), Little\+Weeb\+Library.\+Models.\+Json\+Free\+Space.\+To\+Json(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Free\+Space().
+
+
+\begin{DoxyCode}
+325         \{
+326 
+327 
+328             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"GetFreeSpace Called"}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+329             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}{DebugHandler}}.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Directory Path: "} + path, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+330 
+331             \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space}{JsonFreeSpace}} space = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space}{JsonFreeSpace}}
+332             \{
+333                 freespacebytes = \mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods}{UtilityMethods}}.\mbox{\hyperlink{class_little_weeb_library_1_1_static_classes_1_1_utility_methods_a76fa2aea99ce4b1ad4130cc18b1d5969}{GetFreeSpaceKbits}}(path) * 
+      128,
+334             \};
+335             space.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space_a835bd50126595d47780104725423d991}{freespacekbytes}} = space.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space_a411fcb0402a7b696adfee7cb2a3efad0}{freespacebytes}} * 128 / 1024;
+336             space.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space_ac331b31dba1337829ebc86ef88164e57}{freespacembytes}} = space.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space_a835bd50126595d47780104725423d991}{freespacekbytes}} * 128 / 1024;
+337 
+338             \textcolor{keywordflow}{return} space.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_free_space_a3ab3c947402838a29e33684edaf16a54}{ToJson}}();
+339         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa439a303572de6bf09438d38a7fa4698_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa439a303572de6bf09438d38a7fa4698_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}\label{class_little_weeb_library_1_1_handlers_1_1_directory_handler_adb882b8ec72046e2b95b6d11228f6927}} 
+\index{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler@{Little\+Weeb\+Library\+::\+Handlers\+::\+Directory\+Handler}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 26 of file Directory\+Handler.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Handlers/\mbox{\hyperlink{_directory_handler_8cs}{Directory\+Handler.\+cs}}\end{DoxyCompactItemize}

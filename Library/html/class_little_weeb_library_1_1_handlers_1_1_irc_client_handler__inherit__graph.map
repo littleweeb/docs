@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.IrcClientHandler" name="LittleWeebLibrary.Handlers.IrcClientHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler.html" title="{IIrcClientHandler\n||+ CurrentSettings()\l+ IsConnected()\l+ IsDownloading()\l+ SendMessage()\l+ Setfullfilepath()\l+ StartConnection()\l+ StartDownload()\l+ StopConnection()\l+ StopDownload()\l}" alt="" coords="5,5,140,200"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="164,57,336,149"/>
+</map>

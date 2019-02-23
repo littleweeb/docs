@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_little_weeb_8cs" kind="file" language="C#">
+    <compoundname>LittleWeeb.cs</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_little_weeb" prot="public">LittleWeebLibrary::LittleWeeb</innerclass>
+    <innernamespace refid="namespace_little_weeb_library">LittleWeebLibrary</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Diagnostics;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_little_weeb_library" kindref="compound">LittleWeebLibrary</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_little_weeb_library_1_1_little_weeb" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_little_weeb_library_1_1_little_weeb" kindref="compound">LittleWeeb</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_little_weeb_library_1_1_start_up" kindref="compound">StartUp</ref><sp/><ref refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" kindref="member">startUp</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_little_weeb_library_1_1_little_weeb_1a15e3c466b1eccd90f03c3d2661dfbfd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_little_weeb_library_1_1_little_weeb_1a15e3c466b1eccd90f03c3d2661dfbfd7" kindref="member">LittleWeeb</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" kindref="member">startUp</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_little_weeb_library_1_1_start_up" kindref="compound">StartUp</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.WriteLine(</highlight><highlight class="stringliteral">&quot;Starting<sp/>littleweeb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" kindref="member">startUp</ref>.<ref refid="class_little_weeb_library_1_1_start_up_1a2ea98092dfdb92bfc6decfdc373d6e78" kindref="member">Start</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_little_weeb_library_1_1_little_weeb_1abdb53c29265dddd9fa0a27c8bf4d50f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_little_weeb_library_1_1_little_weeb_1abdb53c29265dddd9fa0a27c8bf4d50f2" kindref="member">Stop</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" kindref="member">startUp</ref>.<ref refid="class_little_weeb_library_1_1_start_up_1aaa6147f0dd162c1962e575689dcb22c5" kindref="member">Stop</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LittleWeeb.cs"/>
+  </compounddef>
+</doxygen>

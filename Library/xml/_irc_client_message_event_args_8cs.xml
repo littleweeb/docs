@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_irc_client_message_event_args_8cs" kind="file" language="C#">
+    <compoundname>IrcClientMessageEventArgs.cs</compoundname>
+    <innerclass refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" prot="public">LittleWeebLibrary::EventArguments::IrcClientMessageEventArgs</innerclass>
+    <innernamespace refid="namespace_little_weeb_library_1_1_event_arguments">LittleWeebLibrary::EventArguments</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_little_weeb_library" kindref="compound">LittleWeebLibrary</ref>.EventArguments</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args" kindref="compound">IrcClientMessageEventArgs</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a00af672ceae9da43c1bcff12049fd78d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Message<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8" refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a93a50eb157a99b2b315ecb2439cc64db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>User<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="9" refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a89968e57254aa26cf1d41fa7a967ec61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Channel<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10" refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a0b8df2a044d27dec2dd963e978311be4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_little_weeb_library_1_1_event_arguments_1_1_irc_client_message_event_args_1a0b8df2a044d27dec2dd963e978311be4" kindref="member">ToString</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>toReturn<sp/>=<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.Empty;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toReturn<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Message:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Message<sp/>+<sp/>Environment.NewLine;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toReturn<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;User:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>User<sp/>+<sp/>Environment.NewLine;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>toReturn<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Channel:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Channel<sp/>+<sp/>Environment.NewLine;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>toReturn;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="EventArguments/IrcClientMessageEventArgs.cs"/>
+  </compounddef>
+</doxygen>

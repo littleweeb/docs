@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_little_weeb" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::LittleWeeb</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_little_weeb_library_1_1_start_up" kindref="compound">StartUp</ref></type>
+        <definition>readonly StartUp LittleWeebLibrary.LittleWeeb.startUp</definition>
+        <argsstring></argsstring>
+        <name>startUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LittleWeeb.cs" line="7" column="1" bodyfile="LittleWeeb.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_little_weeb_library_1_1_little_weeb_1a15e3c466b1eccd90f03c3d2661dfbfd7" compoundref="_little_weeb_8cs" startline="8" endline="13">LittleWeebLibrary.LittleWeeb.LittleWeeb</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_little_weeb_1abdb53c29265dddd9fa0a27c8bf4d50f2" compoundref="_little_weeb_8cs" startline="15" endline="18">LittleWeebLibrary.LittleWeeb.Stop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_little_weeb_1a15e3c466b1eccd90f03c3d2661dfbfd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LittleWeebLibrary.LittleWeeb.LittleWeeb</definition>
+        <argsstring>()</argsstring>
+        <name>LittleWeeb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LittleWeeb.cs" line="8" column="1" bodyfile="LittleWeeb.cs" bodystart="8" bodyend="13"/>
+        <references refid="class_little_weeb_library_1_1_start_up_1a2ea98092dfdb92bfc6decfdc373d6e78" compoundref="_start_up_8cs" startline="123" endline="126">LittleWeebLibrary.StartUp.Start</references>
+        <references refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" compoundref="_little_weeb_8cs" startline="7">LittleWeebLibrary.LittleWeeb.startUp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_little_weeb_1abdb53c29265dddd9fa0a27c8bf4d50f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LittleWeebLibrary.LittleWeeb.Stop</definition>
+        <argsstring>()</argsstring>
+        <name>Stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LittleWeeb.cs" line="15" column="1" bodyfile="LittleWeeb.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" compoundref="_little_weeb_8cs" startline="7">LittleWeebLibrary.LittleWeeb.startUp</references>
+        <references refid="class_little_weeb_library_1_1_start_up_1aaa6147f0dd162c1962e575689dcb22c5" compoundref="_start_up_8cs" startline="128" endline="134">LittleWeebLibrary.StartUp.Stop</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="258">
+        <label>LittleWeebLibrary.Handlers.IDataBaseHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_data_base_handler"/>
+      </node>
+      <node id="255">
+        <label>LittleWeebLibrary.Services.IVersionWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_version_web_socket_service"/>
+      </node>
+      <node id="250">
+        <label>LittleWeebLibrary.Handlers.IKitsuHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_kitsu_handler"/>
+      </node>
+      <node id="265">
+        <label>LittleWeebLibrary.Services.IDataBaseWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_data_base_web_socket_service"/>
+      </node>
+      <node id="257">
+        <label>LittleWeebLibrary.Handlers.ISettingsHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler"/>
+      </node>
+      <node id="254">
+        <label>LittleWeebLibrary.Handlers.IVersionHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_version_handler"/>
+      </node>
+      <node id="261">
+        <label>LittleWeebLibrary.Services.IIrcWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_irc_web_socket_service"/>
+      </node>
+      <node id="262">
+        <label>LittleWeebLibrary.Controllers.ISubWebSocketController</label>
+        <link refid="interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller"/>
+      </node>
+      <node id="260">
+        <label>LittleWeebLibrary.Handlers.IFileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_handler"/>
+      </node>
+      <node id="267">
+        <label>LittleWeebLibrary.Handlers.IAnimeRuleHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_rule_handler"/>
+      </node>
+      <node id="264">
+        <label>LittleWeebLibrary.Services.IInfoApiWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service"/>
+      </node>
+      <node id="243">
+        <label>LittleWeebLibrary.LittleWeeb</label>
+        <link refid="class_little_weeb_library_1_1_little_weeb"/>
+        <childnode refid="244" relation="usage">
+          <edgelabel>-startUp</edgelabel>
+        </childnode>
+      </node>
+      <node id="259">
+        <label>LittleWeebLibrary.Handlers.IDirectoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler"/>
+      </node>
+      <node id="266">
+        <label>LittleWeebLibrary.Handlers.IAnimeProfileHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_anime_profile_handler"/>
+      </node>
+      <node id="251">
+        <label>LittleWeebLibrary.Handlers.IWebSocketHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler"/>
+      </node>
+      <node id="247">
+        <label>LittleWeebLibrary.Handlers.IDebugHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler"/>
+      </node>
+      <node id="244">
+        <label>LittleWeebLibrary.StartUp</label>
+        <link refid="class_little_weeb_library_1_1_start_up"/>
+        <childnode refid="245" relation="usage">
+          <edgelabel>-FileWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="246" relation="usage">
+          <edgelabel>-DownloadWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="247" relation="usage">
+          <edgelabel>-DebugHandler</edgelabel>
+        </childnode>
+        <childnode refid="248" relation="usage">
+          <edgelabel>-NiblHandler</edgelabel>
+        </childnode>
+        <childnode refid="249" relation="usage">
+          <edgelabel>-IrcClientHandler</edgelabel>
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>-KitsuHandler</edgelabel>
+        </childnode>
+        <childnode refid="251" relation="usage">
+          <edgelabel>-WebSocketHandler</edgelabel>
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>-DownloadHandler</edgelabel>
+        </childnode>
+        <childnode refid="253" relation="usage">
+          <edgelabel>-FileHistoryHandler</edgelabel>
+        </childnode>
+        <childnode refid="254" relation="usage">
+          <edgelabel>-VersionHandler</edgelabel>
+        </childnode>
+        <childnode refid="255" relation="usage">
+          <edgelabel>-VersionWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>-DirectoryWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="257" relation="usage">
+          <edgelabel>-SettingsHandler</edgelabel>
+        </childnode>
+        <childnode refid="258" relation="usage">
+          <edgelabel>-DataBaseHandler</edgelabel>
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>-DirectoryHandler</edgelabel>
+        </childnode>
+        <childnode refid="260" relation="usage">
+          <edgelabel>-FileHandler</edgelabel>
+        </childnode>
+        <childnode refid="261" relation="usage">
+          <edgelabel>-IrcWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>-DirectoryWebSocketController</edgelabel>
+          <edgelabel>-VersionWebSocketController</edgelabel>
+          <edgelabel>-InfoApiWebSocketController</edgelabel>
+          <edgelabel>-SettingsWebSocketController</edgelabel>
+          <edgelabel>-DataBaseWebSocketController</edgelabel>
+          <edgelabel>-FileWebSocketController</edgelabel>
+          <edgelabel>-IrcWebSocketController</edgelabel>
+          <edgelabel>-DownloadWebSocketController</edgelabel>
+        </childnode>
+        <childnode refid="263" relation="usage">
+          <edgelabel>-SettingsWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="264" relation="usage">
+          <edgelabel>-InfoApiWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="265" relation="usage">
+          <edgelabel>-DataBaseWebSocketService</edgelabel>
+        </childnode>
+        <childnode refid="266" relation="usage">
+          <edgelabel>-AnimeProfileHandler</edgelabel>
+        </childnode>
+        <childnode refid="267" relation="usage">
+          <edgelabel>-AnimeRuleHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="256">
+        <label>LittleWeebLibrary.Services.IDirectoryWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service"/>
+      </node>
+      <node id="263">
+        <label>LittleWeebLibrary.Services.ISettingsWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_settings_web_socket_service"/>
+      </node>
+      <node id="246">
+        <label>LittleWeebLibrary.Services.IDownloadWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_download_web_socket_service"/>
+      </node>
+      <node id="248">
+        <label>LittleWeebLibrary.Handlers.INiblHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_nibl_handler"/>
+      </node>
+      <node id="253">
+        <label>LittleWeebLibrary.Handlers.IFileHistoryHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler"/>
+      </node>
+      <node id="252">
+        <label>LittleWeebLibrary.Handlers.IDownloadHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_download_handler"/>
+      </node>
+      <node id="245">
+        <label>LittleWeebLibrary.Services.IFileWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service"/>
+      </node>
+      <node id="249">
+        <label>LittleWeebLibrary.Handlers.IIrcClientHandler</label>
+        <link refid="interface_little_weeb_library_1_1_handlers_1_1_i_irc_client_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="LittleWeeb.cs" line="6" column="1" bodyfile="LittleWeeb.cs" bodystart="5" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_little_weeb_1a15e3c466b1eccd90f03c3d2661dfbfd7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::LittleWeeb</scope><name>LittleWeeb</name></member>
+      <member refid="class_little_weeb_library_1_1_little_weeb_1ad4c016487a2b4f445d12bd8dc0414675" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::LittleWeeb</scope><name>startUp</name></member>
+      <member refid="class_little_weeb_library_1_1_little_weeb_1abdb53c29265dddd9fa0a27c8bf4d50f2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::LittleWeeb</scope><name>Stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

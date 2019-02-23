@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.KitsuHandler.SearchAnime" name="LittleWeebLibrary.Handlers.KitsuHandler.SearchAnime">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler.html#a11b3560a1e2fe0e3ac5d481efb46d7a6" title="LittleWeebLibrary.Handlers.\lAnimeProfileHandler.CurrentlyAiringAsync" alt="" coords="236,5,501,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#af6678c62bfe074bc5ce399ff21641d6e" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.SearchKitsu" alt="" coords="245,71,492,112"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="549,63,827,119"/>
+</map>

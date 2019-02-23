@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Models.JsonKistuCategories.ToJson" name="LittleWeebLibrary.Models.JsonKistuCategories.ToJson">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a310f91aba5d17d8202aea81442da2545" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetAllCategories" alt="" coords="240,13,513,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="561,5,839,61"/>
+</map>

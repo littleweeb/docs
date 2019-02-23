@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonIrcChatMessage</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a871a6538c19850731715e25c8e29cfef" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcChatMessage.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;chat_message&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="9" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a04341cbf5d66d4b35a6374bb84a80390" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcChatMessage.channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="10" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a64ad5623d43a7389182f2b008cf8dcaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcChatMessage.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="12" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1aada65302045984832d2073e16bb0b05e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcChatMessage.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1ae54b09f8720f6ade5ed128496a4da690" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="13" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1afb6ca99e5b064d8beb30ea29c21110fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcChatMessage.user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="11" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a1f96ba6c751985a71f547d1e0dee171d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonIrcChatMessage.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="31" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1acbac803fd5e8ecffab5335a4069fc4b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonIrcChatMessage.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="15" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="15" bodyend="18"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ab8023cd1161bcff9bebf2614764614fe" compoundref="_irc_web_socket_service_8cs" startline="268" endline="305">LittleWeebLibrary.Services.IrcWebSocketService.OnIrcClientMessageEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1ae54b09f8720f6ade5ed128496a4da690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonIrcChatMessage.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonIrcChatMessage.cs" line="20" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="291">
+        <label>LittleWeebLibrary.Models.JsonIrcChatMessage</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonIrcChatMessage.cs" line="8" column="1" bodyfile="Models/JsonIrcChatMessage.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a04341cbf5d66d4b35a6374bb84a80390" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>channel</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a64ad5623d43a7389182f2b008cf8dcaa" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>message</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a1f96ba6c751985a71f547d1e0dee171d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1acbac803fd5e8ecffab5335a4069fc4b4" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1ae54b09f8720f6ade5ed128496a4da690" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1a871a6538c19850731715e25c8e29cfef" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1aada65302045984832d2073e16bb0b05e" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>updated</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_irc_chat_message_1afb6ca99e5b064d8beb30ea29c21110fb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonIrcChatMessage</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

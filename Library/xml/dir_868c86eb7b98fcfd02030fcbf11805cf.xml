@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_868c86eb7b98fcfd02030fcbf11805cf" kind="dir">
+    <compoundname>StaticClasses</compoundname>
+    <innerfile refid="_enumerators_8cs">Enumerators.cs</innerfile>
+    <innerfile refid="_utility_methods_8cs">UtilityMethods.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="StaticClasses/"/>
+  </compounddef>
+</doxygen>

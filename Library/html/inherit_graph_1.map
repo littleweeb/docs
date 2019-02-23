@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interface_little_weeb_library_1_1_controllers_1_1_i_sub_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lISubWebSocketController" alt="" coords="5,249,199,291"/>
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController" alt="" coords="285,5,487,47"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_file_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lFileWebSocketController" alt="" coords="289,71,483,112"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_controllers_1_1_irc_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lIrcWebSocketController" alt="" coords="289,136,483,177"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_data_base_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lSubControllers.DataBaseWebSocket\lController" alt="" coords="268,202,504,258"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lSubControllers.DirectoryWebSocket\lController" alt="" coords="271,282,501,338"/>
+<area shape="rect" id="node7" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController" alt="" coords="249,363,523,404"/>
+<area shape="rect" id="node8" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_settings_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lSubControllers.SettingsWebSocket\lController" alt="" coords="273,429,499,485"/>
+<area shape="rect" id="node9" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_version_web_socket_controller.html" title="LittleWeebLibrary.Controllers.\lSubControllers.VersionWebSocketController" alt="" coords="247,509,525,551"/>
+</map>

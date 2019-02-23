@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.DownloadHandler" name="LittleWeebLibrary.Handlers.DownloadHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_download_handler.html" title="{IDownloadHandler\n||+ AbortDownload()\l+ AddDownload()\l+ AddDownloads()\l+ GetCurrentlyDownloading()\l+ RemoveDownload()\l+ StopQueue()\l}" alt="" coords="5,5,193,156"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="217,35,389,127"/>
+</map>

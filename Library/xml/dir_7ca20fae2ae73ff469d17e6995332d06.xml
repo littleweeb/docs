@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_7ca20fae2ae73ff469d17e6995332d06" kind="dir">
+    <compoundname>GlobalInterfaces</compoundname>
+    <innerfile refid="_i_debug_event_8cs">IDebugEvent.cs</innerfile>
+    <innerfile refid="_i_settings_interface_8cs">ISettingsInterface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="GlobalInterfaces/"/>
+  </compounddef>
+</doxygen>

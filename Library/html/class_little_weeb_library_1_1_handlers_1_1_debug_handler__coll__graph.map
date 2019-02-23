@@ -1,0 +1,5 @@
+<map id="LittleWeebLibrary.Handlers.DebugHandler" name="LittleWeebLibrary.Handlers.DebugHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{IDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="5,42,132,149"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_settings_1_1_little_weeb_settings.html" title="{LittleWeebLibrary.Settings.\lLittleWeebSettings\n|+ CurrentlyAiringBot\l+ DebugLevel\l+ DebugType\l+ Local\l+ MaxDebugLogSize\l+ Port\l+ RandomUsernameLength\l|+ ToString()\l}" alt="" coords="156,5,336,185"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_settings_handler.html" title="{LittleWeebLibrary.Handlers.\lISettingsHandler\n||+ GetIrcSettings()\l+ GetLittleWeebSettings()\l+ WriteIrcSettings()\l+ WriteLittleWeebSettings()\l}" alt="" coords="360,27,543,163"/>
+</map>

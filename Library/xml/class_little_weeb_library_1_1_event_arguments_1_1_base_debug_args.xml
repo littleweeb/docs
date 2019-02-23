@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::EventArguments::BaseDebugArgs</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_event_arguments_1_1_file_handler_debug_event_args" prot="public" virt="non-virtual">LittleWeebLibrary.EventArguments.FileHandlerDebugEventArgs</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1ab2d00faa48751515043b173742b84857" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.EventArguments.BaseDebugArgs.DebugMessage</definition>
+        <argsstring></argsstring>
+        <name>DebugMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="7" column="1" bodyfile="EventArguments/DebugArguments/BaseDebugArgs.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1a13caf826c18316458f6cc474853dc774" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.EventArguments.BaseDebugArgs.DebugSource</definition>
+        <argsstring></argsstring>
+        <name>DebugSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="8" column="1" bodyfile="EventArguments/DebugArguments/BaseDebugArgs.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1a95613b85e457ccb3bc214489b5cdcb01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.EventArguments.BaseDebugArgs.DebugSourceType</definition>
+        <argsstring></argsstring>
+        <name>DebugSourceType</name>
+        <initializer>= 99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="9" column="1" bodyfile="EventArguments/DebugArguments/BaseDebugArgs.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1aa2822d085deabfeb175824f22a114f1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LittleWeebLibrary.EventArguments.BaseDebugArgs.DebugType</definition>
+        <argsstring></argsstring>
+        <name>DebugType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="14" column="1" bodyfile="EventArguments/DebugArguments/BaseDebugArgs.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1abd45b6cc151692d7c3878ea3c2c61d88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.EventArguments.BaseDebugArgs.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="16" column="1" bodyfile="EventArguments/DebugArguments/BaseDebugArgs.cs" bodystart="16" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>LittleWeebLibrary.EventArguments.FileHandlerDebugEventArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_file_handler_debug_event_args"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>LittleWeebLibrary.EventArguments.BaseDebugArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>LittleWeebLibrary.EventArguments.BaseDebugArgs</label>
+        <link refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args"/>
+      </node>
+    </collaborationgraph>
+    <location file="EventArguments/DebugArguments/BaseDebugArgs.cs" line="6" column="1" bodyfile="EventArguments/DebugArguments/BaseDebugArgs.cs" bodystart="5" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1ab2d00faa48751515043b173742b84857" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::BaseDebugArgs</scope><name>DebugMessage</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1a13caf826c18316458f6cc474853dc774" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::BaseDebugArgs</scope><name>DebugSource</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1a95613b85e457ccb3bc214489b5cdcb01" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::BaseDebugArgs</scope><name>DebugSourceType</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1aa2822d085deabfeb175824f22a114f1f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::BaseDebugArgs</scope><name>DebugType</name></member>
+      <member refid="class_little_weeb_library_1_1_event_arguments_1_1_base_debug_args_1abd45b6cc151692d7c3878ea3c2c61d88" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::EventArguments::BaseDebugArgs</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

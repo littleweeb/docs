@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service" kind="interface" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Services::IInfoApiWebSocketService</compoundname>
+    <derivedcompoundref refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service" prot="public" virt="non-virtual">LittleWeebLibrary.Services.InfoApiWebSocketService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a93dc6813e6d9fbda4710075dc9963a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.AddRule</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>AddRule</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a0ed7b2a1d1fe30b43d06232719570435">AddRule</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a9c96d562783b36df84843e6dfe36d049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetAllCategories</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetAllCategories</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a310f91aba5d17d8202aea81442da2545">GetAllCategories</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ab5db362889793db2a4371db323876cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetAllGenres</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetAllGenres</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a2882975741be27c69b461509d48e2636">GetAllGenres</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1aa6af79ecbc2f3f3747416adfa54f1c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetAnimeEpisodes</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetAnimeEpisodes</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a754f738fba586cc927d64251329c736a">GetAnimeEpisodes</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a6aef5d33af6000db81bd9467fd88220f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetAnimeProfile</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetAnimeProfile</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a12f4d83332b28988ce0e2bc5ff3ed369">GetAnimeProfile</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1acee715ffd1c39bcef083983a15ebe782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetBotList</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetBotList</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143">GetBotList</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a1791a3e776fadbc8a72ce23b4d4274b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetCurrentlyAiring</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentlyAiring</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1aec42147d67551cb17c458453ef40f3bc">GetCurrentlyAiring</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1af0c98888bc126df1f8b3c1904c766dc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetCurrentlyAiring</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetCurrentlyAiring</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a71d24528e1dd2c138abed9778e9cc761">GetCurrentlyAiring</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ae8d7dda1099fcb5af57dc702da33024b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.GetFilesForAnime</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>GetFilesForAnime</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a299be5b400f1368ab169599395a3e56d">GetFilesForAnime</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ac75ad408fb83a3e0a2d2dc1272dfa355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task LittleWeebLibrary.Services.IInfoApiWebSocketService.SearchKitsu</definition>
+        <argsstring>(JObject query)</argsstring>
+        <name>SearchKitsu</name>
+        <reimplementedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1af6678c62bfe074bc5ce399ff21641d6e">SearchKitsu</reimplementedby>
+        <param>
+          <type>JObject</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/InfoApiWebSocketService.cs" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="374">
+        <label>LittleWeebLibrary.Services.IInfoApiWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service"/>
+      </node>
+      <node id="375">
+        <label>LittleWeebLibrary.Services.InfoApiWebSocketService</label>
+        <link refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="376">
+        <label>LittleWeebLibrary.Services.IInfoApiWebSocketService</label>
+        <link refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="Services/InfoApiWebSocketService.cs" line="16" column="1" bodyfile="Services/InfoApiWebSocketService.cs" bodystart="15" bodyend="27"/>
+    <listofallmembers>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a93dc6813e6d9fbda4710075dc9963a89" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>AddRule</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a9c96d562783b36df84843e6dfe36d049" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetAllCategories</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ab5db362889793db2a4371db323876cec" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetAllGenres</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1aa6af79ecbc2f3f3747416adfa54f1c4a" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetAnimeEpisodes</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a6aef5d33af6000db81bd9467fd88220f" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetAnimeProfile</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1acee715ffd1c39bcef083983a15ebe782" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetBotList</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1a1791a3e776fadbc8a72ce23b4d4274b2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetCurrentlyAiring</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1af0c98888bc126df1f8b3c1904c766dc9" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetCurrentlyAiring</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ae8d7dda1099fcb5af57dc702da33024b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>GetFilesForAnime</name></member>
+      <member refid="interface_little_weeb_library_1_1_services_1_1_i_info_api_web_socket_service_1ac75ad408fb83a3e0a2d2dc1272dfa355" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Services::IInfoApiWebSocketService</scope><name>SearchKitsu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

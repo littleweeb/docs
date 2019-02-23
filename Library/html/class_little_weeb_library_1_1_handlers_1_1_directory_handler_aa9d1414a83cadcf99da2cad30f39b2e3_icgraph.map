@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories" name="LittleWeebLibrary.Handlers.DirectoryHandler.GetDirectories">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#a1fee74b9f658b29f4c2bb643a48425e0" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.GetDirectories" alt="" coords="259,13,529,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller.html#a2db42c05c620f5658a5b6e473581f84c" title="LittleWeebLibrary.Controllers.\lSubControllers.DirectoryWebSocket\lController.OnWebSocketEvent" alt="" coords="577,5,808,61"/>
+</map>

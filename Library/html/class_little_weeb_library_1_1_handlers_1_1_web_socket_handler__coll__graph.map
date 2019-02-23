@@ -1,0 +1,6 @@
+<map id="LittleWeebLibrary.Handlers.WebSocketHandler" name="LittleWeebLibrary.Handlers.WebSocketHandler">
+<area shape="rect" id="node2" href="$interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler.html" title="{IWebSocketHandler\n||+ SendMessage()\l+ StartServer()\l+ StopServer()\l}" alt="" coords="5,42,143,149"/>
+<area shape="rect" id="node3" href="$interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface.html" title="{ISettingsInterface\n||+ SetIrcSettings()\l+ SetLittleWeebSettings()\l}" alt="" coords="167,49,339,141"/>
+<area shape="rect" id="node4" href="$interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler.html" title="{LittleWeebLibrary.Handlers.\lIDebugHandler\n||+ SetSettings()\l+ StopDebugger()\l+ TraceMessage()\l}" alt="" coords="363,35,545,156"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_settings_1_1_little_weeb_settings.html" title="{LittleWeebLibrary.Settings.\lLittleWeebSettings\n|+ CurrentlyAiringBot\l+ DebugLevel\l+ DebugType\l+ Local\l+ MaxDebugLogSize\l+ Port\l+ RandomUsernameLength\l|+ ToString()\l}" alt="" coords="569,5,749,185"/>
+</map>

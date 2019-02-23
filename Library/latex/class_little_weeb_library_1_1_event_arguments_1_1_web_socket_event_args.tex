@@ -1,0 +1,86 @@
+\hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args}{}\section{Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args Class Reference}
+\label{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args}\index{Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args@{Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_acf402c2f7fd4ddbf175fea7f921ea879}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_ac7aee4603c5f55b11dd59de007b3a8b3}{Message}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file Web\+Socket\+Event\+Args.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_acf402c2f7fd4ddbf175fea7f921ea879}\label{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_acf402c2f7fd4ddbf175fea7f921ea879}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 8 of file Web\+Socket\+Event\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Data\+Base\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Irc\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Info\+Api\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Settings\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+File\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Version\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), and Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+9         \{
+10             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+11             toReturn += \textcolor{stringliteral}{"Message: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_ac7aee4603c5f55b11dd59de007b3a8b3}{Message}} + Environment.NewLine;
+12             \textcolor{keywordflow}{return} toReturn;
+13         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_acf402c2f7fd4ddbf175fea7f921ea879_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_ac7aee4603c5f55b11dd59de007b3a8b3}\label{class_little_weeb_library_1_1_event_arguments_1_1_web_socket_event_args_ac7aee4603c5f55b11dd59de007b3a8b3}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}!Message@{Message}}
+\index{Message@{Message}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Web\+Socket\+Event\+Args}}
+\subsubsection{\texorpdfstring{Message}{Message}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Web\+Socket\+Event\+Args.\+Message\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 7 of file Web\+Socket\+Event\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Data\+Base\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Irc\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Info\+Api\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Settings\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+File\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Version\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event(), and Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+7 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Arguments/\mbox{\hyperlink{_web_socket_event_args_8cs}{Web\+Socket\+Event\+Args.\+cs}}\end{DoxyCompactItemize}

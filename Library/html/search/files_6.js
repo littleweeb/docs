@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['jsoncurrentlyairing_2ecs',['JsonCurrentlyAiring.cs',['../_json_currently_airing_8cs.html',1,'']]],
+  ['jsondatabasecollection_2ecs',['JsonDataBaseCollection.cs',['../_json_data_base_collection_8cs.html',1,'']]],
+  ['jsondatabasedocument_2ecs',['JsonDataBaseDocument.cs',['../_json_data_base_document_8cs.html',1,'']]],
+  ['jsondirectories_2ecs',['JsonDirectories.cs',['../_json_directories_8cs.html',1,'']]],
+  ['jsondirectory_2ecs',['JsonDirectory.cs',['../_json_directory_8cs.html',1,'']]],
+  ['jsondownloadedinfo_2ecs',['JsonDownloadedInfo.cs',['../_json_downloaded_info_8cs.html',1,'']]],
+  ['jsondownloadedlist_2ecs',['JsonDownloadedList.cs',['../_json_downloaded_list_8cs.html',1,'']]],
+  ['jsondownloadinfo_2ecs',['JsonDownloadInfo.cs',['../_json_download_info_8cs.html',1,'']]],
+  ['jsondownloadqueue_2ecs',['JsonDownloadQueue.cs',['../_json_download_queue_8cs.html',1,'']]],
+  ['jsonerror_2ecs',['JsonError.cs',['../_json_error_8cs.html',1,'']]],
+  ['jsonfreespace_2ecs',['JsonFreeSpace.cs',['../_json_free_space_8cs.html',1,'']]],
+  ['jsonircchatmessage_2ecs',['JsonIrcChatMessage.cs',['../_json_irc_chat_message_8cs.html',1,'']]],
+  ['jsonircinfo_2ecs',['JsonIrcInfo.cs',['../_json_irc_info_8cs.html',1,'']]],
+  ['jsonkistusearchresult_2ecs',['JsonKistuSearchResult.cs',['../_json_kistu_search_result_8cs.html',1,'']]],
+  ['jsonkitsuanimeinfo_2ecs',['JsonKitsuAnimeInfo.cs',['../_json_kitsu_anime_info_8cs.html',1,'']]],
+  ['jsonkitsucategories_2ecs',['JsonKitsuCategories.cs',['../_json_kitsu_categories_8cs.html',1,'']]],
+  ['jsonkitsugenres_2ecs',['JsonKitsuGenres.cs',['../_json_kitsu_genres_8cs.html',1,'']]],
+  ['jsonlittleweebsettings_2ecs',['JsonLittleWeebSettings.cs',['../_json_little_weeb_settings_8cs.html',1,'']]],
+  ['jsonniblbotlist_2ecs',['JsonNiblBotList.cs',['../_json_nibl_bot_list_8cs.html',1,'']]],
+  ['jsonniblsearchresult_2ecs',['JsonNiblSearchResult.cs',['../_json_nibl_search_result_8cs.html',1,'']]],
+  ['jsonreceivedresponse_2ecs',['JsonReceivedResponse.cs',['../_json_received_response_8cs.html',1,'']]],
+  ['jsonsuccess_2ecs',['JsonSuccess.cs',['../_json_success_8cs.html',1,'']]],
+  ['jsonversioninfo_2ecs',['JsonVersionInfo.cs',['../_json_version_info_8cs.html',1,'']]],
+  ['jsonwelcome_2ecs',['JsonWelcome.cs',['../_json_welcome_8cs.html',1,'']]]
+];

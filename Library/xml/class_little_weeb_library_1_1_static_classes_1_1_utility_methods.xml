@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::StaticClasses::UtilityMethods</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>OperatingSystems</name>
+        <enumvalue id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1aaea23489ce3aa9b6406ebb28e0cda430" prot="public">
+          <name>Windows</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1af0db3bf534c8f5fb180a104e63d8088c" prot="public">
+          <name>OsX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1aedc9f0a5a5d57797bf68e37364743831" prot="public">
+          <name>Linux</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="16" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9fe4cf5d219f0453436fe9c85ad261bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string LittleWeebLibrary.StaticClasses.UtilityMethods.BasePath</definition>
+        <argsstring>()</argsstring>
+        <name>BasePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="214" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="214" bodyend="240"/>
+        <references refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" compoundref="_utility_methods_8cs" startline="192" endline="211">LittleWeebLibrary.StaticClasses.UtilityMethods.CheckOperatingSystems</references>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1af3623e6075f8aaf6f5082994cd1448df" compoundref="_data_base_handler_8cs" startline="30" endline="49">LittleWeebLibrary.Handlers.DataBaseHandler.DataBaseHandler</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_settings_handler_1a6b11494ae34a6ff54b825941ef06cdb2" compoundref="_settings_handler_8cs" startline="29" endline="65">LittleWeebLibrary.Handlers.SettingsHandler.SettingsHandler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a376120497e647e8c20d6a68c288db292" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LittleWeebLibrary.StaticClasses.UtilityMethods.CalculateSimilarity</definition>
+        <argsstring>(string source, string target)</argsstring>
+        <name>CalculateSimilarity</name>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+<para>Calculate percentage similarity of two strings <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source String to Compare with</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Targeted String to Compare</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return Similarity between two strings from 0 to 1.0</para></simplesect>
+</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="294" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="294" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1" kindref="member">OperatingSystems</ref></type>
+        <definition>static OperatingSystems LittleWeebLibrary.StaticClasses.UtilityMethods.CheckOperatingSystems</definition>
+        <argsstring>()</argsstring>
+        <name>CheckOperatingSystems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="192" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="192" bodyend="211"/>
+        <referencedby refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9fe4cf5d219f0453436fe9c85ad261bf" compoundref="_utility_methods_8cs" startline="214" endline="240">LittleWeebLibrary.StaticClasses.UtilityMethods.BasePath</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_version_handler_1ad4dc752be10a1b3cc2d546dc1d4d6bff" compoundref="_version_handler_8cs" startline="34" endline="124">LittleWeebLibrary.Handlers.VersionHandler.GetLatestVersionDesktop</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1a4f3f5841ead561873cc5130efc6294aa" compoundref="_directory_handler_8cs" startline="270" endline="322">LittleWeebLibrary.Handlers.DirectoryHandler.OpenDirectory</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_file_handler_1a08cbef4974d973035a7ddeedb9f8ff4a" compoundref="_file_handler_8cs" startline="36" endline="123">LittleWeebLibrary.Handlers.FileHandler.OpenFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a4a514b7e55cf2285f4f16d778164695d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LittleWeebLibrary.StaticClasses.UtilityMethods.CopyTo</definition>
+        <argsstring>(Stream src, Stream dest)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type>Stream</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>Stream</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="93" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="93" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9304b6462a585dd9afa13818452638a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string LittleWeebLibrary.StaticClasses.UtilityMethods.GenerateUsername</definition>
+        <argsstring>(int requestedLength)</argsstring>
+        <name>GenerateUsername</name>
+        <param>
+          <type>int</type>
+          <declname>requestedLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="51" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="51" bodyend="76"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_irc_web_socket_service_1ad5592055f57beed1a26d76ee1a518af5" compoundref="_irc_web_socket_service_8cs" startline="56" endline="151">LittleWeebLibrary.Services.IrcWebSocketService.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long LittleWeebLibrary.StaticClasses.UtilityMethods.GetEpoch</definition>
+        <argsstring>()</argsstring>
+        <name>GetEpoch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="29" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="29" bodyend="34"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a5b163eb7e68b1e40904fa55454d8ba54" compoundref="_anime_profile_handler_8cs" startline="125" endline="299">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeEpisodes</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1aaa89fba506cfcdad18a5aa3f9b860061" compoundref="_anime_profile_handler_8cs" startline="54" endline="123">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetAnimeProfile</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a7469a40799e1067d871ba87679f54c37" compoundref="_anime_profile_handler_8cs" startline="301" endline="421">LittleWeebLibrary.Handlers.AnimeProfileHandler.GetCurrentlyAiring</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a76fa2aea99ce4b1ad4130cc18b1d5969" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long LittleWeebLibrary.StaticClasses.UtilityMethods.GetFreeSpaceKbits</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetFreeSpaceKbits</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="78" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="78" bodyend="91"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ad28cb47c19cac5e761ceff86ea021a02" compoundref="_download_handler_8cs" startline="67" endline="141">LittleWeebLibrary.Handlers.DownloadHandler.AddDownload</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_download_handler_1ac03f2dc024c0884bb7bd1c68ee03142e" compoundref="_download_handler_8cs" startline="422" endline="481">LittleWeebLibrary.Handlers.DownloadHandler.AddDownloads</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_directory_handler_1aa439a303572de6bf09438d38a7fa4698" compoundref="_directory_handler_8cs" startline="324" endline="339">LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1ab54bc5e0856652f4554fda497af655b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string LittleWeebLibrary.StaticClasses.UtilityMethods.IntToRoman</definition>
+        <argsstring>(int num)</argsstring>
+        <name>IntToRoman</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="36" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="36" bodyend="49"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4796da2a058bbc1efe2ee8f31b6a9b4d" compoundref="_anime_profile_handler_8cs" startline="514" endline="676">LittleWeebLibrary.Handlers.AnimeProfileHandler.ParseTitles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; byte[]&gt;</type>
+        <definition>static async Task&lt;byte[]&gt; LittleWeebLibrary.StaticClasses.UtilityMethods.ReadBinaryFile</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ReadBinaryFile</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="170" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="170" bodyend="189"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" compoundref="_data_base_handler_8cs" startline="51" endline="78">LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ac9938b8d47b353d15c8e77e94849896e" compoundref="_data_base_handler_8cs" startline="235" endline="285">LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aa04235b1cf84b6741c496d8ecaea0eeb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string LittleWeebLibrary.StaticClasses.UtilityMethods.RemoveSpecialCharacters</definition>
+        <argsstring>(string str)</argsstring>
+        <name>RemoveSpecialCharacters</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="23" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="23" bodyend="26"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler_1a4796da2a058bbc1efe2ee8f31b6a9b4d" compoundref="_anime_profile_handler_8cs" startline="514" endline="676">LittleWeebLibrary.Handlers.AnimeProfileHandler.ParseTitles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>static async Task&lt;string&gt; LittleWeebLibrary.StaticClasses.UtilityMethods.Unzip</definition>
+        <argsstring>(byte[] bytes)</argsstring>
+        <name>Unzip</name>
+        <param>
+          <type>byte []</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="127" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="127" bodyend="146"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ae04312874502a18b241c1123ef963b90" compoundref="_data_base_handler_8cs" startline="51" endline="78">LittleWeebLibrary.Handlers.DataBaseHandler.GetCollection</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a7f61583807f99b7838a33d2db0f7ca68" compoundref="_data_base_handler_8cs" startline="80" endline="132">LittleWeebLibrary.Handlers.DataBaseHandler.GetJObject</referencedby>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1ac9938b8d47b353d15c8e77e94849896e" compoundref="_data_base_handler_8cs" startline="235" endline="285">LittleWeebLibrary.Handlers.DataBaseHandler.RemoveJObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a6542a3a6ea0aed6b4d78bb44a4a7d9d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>static async Task&lt;bool&gt; LittleWeebLibrary.StaticClasses.UtilityMethods.WriteBinaryFile</definition>
+        <argsstring>(string path, byte[] value)</argsstring>
+        <name>WriteBinaryFile</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte []</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="149" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="149" bodyend="168"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" compoundref="_data_base_handler_8cs" startline="287" endline="330">LittleWeebLibrary.Handlers.DataBaseHandler.StoreJObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a16933213071d531063b29979e7b55fe8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; byte[]&gt;</type>
+        <definition>static async Task&lt;byte[]&gt; LittleWeebLibrary.StaticClasses.UtilityMethods.Zip</definition>
+        <argsstring>(string str)</argsstring>
+        <name>Zip</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="105" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="105" bodyend="125"/>
+        <referencedby refid="class_little_weeb_library_1_1_handlers_1_1_data_base_handler_1a5e6a70ef81b049da46b6ae3a15b09cd3" compoundref="_data_base_handler_8cs" startline="287" endline="330">LittleWeebLibrary.Handlers.DataBaseHandler.StoreJObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aaa6b7e7b9ba5429a7c91ef95bb408653" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int LittleWeebLibrary.StaticClasses.UtilityMethods.LevenshteinDistance</definition>
+        <argsstring>(string source, string target)</argsstring>
+        <name>LevenshteinDistance</name>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+<para><ulink url="https://stackoverflow.com/a/40775015/4564466">https://stackoverflow.com/a/40775015/4564466</ulink> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticClasses/UtilityMethods.cs" line="248" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="248" bodyend="286"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="463">
+        <label>LittleWeebLibrary.StaticClasses.UtilityMethods</label>
+        <link refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods"/>
+      </node>
+    </collaborationgraph>
+    <location file="StaticClasses/UtilityMethods.cs" line="13" column="1" bodyfile="StaticClasses/UtilityMethods.cs" bodystart="12" bodyend="306"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9fe4cf5d219f0453436fe9c85ad261bf" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>BasePath</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a376120497e647e8c20d6a68c288db292" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>CalculateSimilarity</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1afc8c716f32bc35d59afdb287be06c3ca" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>CheckOperatingSystems</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a4a514b7e55cf2285f4f16d778164695d" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>CopyTo</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a9304b6462a585dd9afa13818452638a7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>GenerateUsername</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>GetEpoch</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a76fa2aea99ce4b1ad4130cc18b1d5969" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>GetFreeSpaceKbits</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1ab54bc5e0856652f4554fda497af655b8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>IntToRoman</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aaa6b7e7b9ba5429a7c91ef95bb408653" prot="private" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>LevenshteinDistance</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aad4a2807f22b8cb65b8db3cdc981a0b1" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>OperatingSystems</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a7b5de7a3ecc749b655fc3ed2af55360b" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>ReadBinaryFile</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1aa04235b1cf84b6741c496d8ecaea0eeb" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>RemoveSpecialCharacters</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a0a86ee01a3bf201bd9cc9b2552e54976" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>Unzip</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a6542a3a6ea0aed6b4d78bb44a4a7d9d7" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>WriteBinaryFile</name></member>
+      <member refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a16933213071d531063b29979e7b55fe8" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::StaticClasses::UtilityMethods</scope><name>Zip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

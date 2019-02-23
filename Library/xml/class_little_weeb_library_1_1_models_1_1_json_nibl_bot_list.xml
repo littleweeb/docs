@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list" kind="class" language="C#" prot="public">
+    <compoundname>LittleWeebLibrary::Models::JsonNiblBotList</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1adbd5920212e2cb6bbf3f43fff328af92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonNiblBotList.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>= new JObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblBotList.cs" line="11" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1af742b935697bf89647242479744af6e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonNiblBotList.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= &quot;nibl_botlist&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblBotList.cs" line="10" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a847e10383522c3a7e8de785080690b07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonNiblBotList.updated</definition>
+        <argsstring></argsstring>
+        <name>updated</name>
+        <initializer>= <ref refid="class_little_weeb_library_1_1_static_classes_1_1_utility_methods_1a12336d9e64983ddabaad8950486fafb2" kindref="member">StaticClasses.UtilityMethods.GetEpoch</ref>().<ref refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1aff76def0d8bf7b2d2f3b985a0507d6a0" kindref="member">ToString</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblBotList.cs" line="12" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a6c959577c5cc2851d1a2c830fd6f4961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject LittleWeebLibrary.Models.JsonNiblBotList.ToJObject</definition>
+        <argsstring>()</argsstring>
+        <name>ToJObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblBotList.cs" line="30" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="30" bodyend="35"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a852d40e99ff93888a16fdba1d45aee14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string LittleWeebLibrary.Models.JsonNiblBotList.ToJson</definition>
+        <argsstring>()</argsstring>
+        <name>ToJson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblBotList.cs" line="14" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="14" bodyend="17"/>
+        <referencedby refid="class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service_1a5f91364bc403db5d521f15881a385143" compoundref="_info_api_web_socket_service_8cs" startline="410" endline="448">LittleWeebLibrary.Services.InfoApiWebSocketService.GetBotList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1aff76def0d8bf7b2d2f3b985a0507d6a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string LittleWeebLibrary.Models.JsonNiblBotList.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/JsonNiblBotList.cs" line="19" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="19" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="305">
+        <label>LittleWeebLibrary.Models.JsonNiblBotList</label>
+        <link refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list"/>
+      </node>
+    </collaborationgraph>
+    <location file="Models/JsonNiblBotList.cs" line="9" column="1" bodyfile="Models/JsonNiblBotList.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1adbd5920212e2cb6bbf3f43fff328af92" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblBotList</scope><name>result</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a6c959577c5cc2851d1a2c830fd6f4961" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblBotList</scope><name>ToJObject</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a852d40e99ff93888a16fdba1d45aee14" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblBotList</scope><name>ToJson</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1aff76def0d8bf7b2d2f3b985a0507d6a0" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblBotList</scope><name>ToString</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1af742b935697bf89647242479744af6e5" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblBotList</scope><name>type</name></member>
+      <member refid="class_little_weeb_library_1_1_models_1_1_json_nibl_bot_list_1a847e10383522c3a7e8de785080690b07" prot="public" virt="non-virtual"><scope>LittleWeebLibrary::Models::JsonNiblBotList</scope><name>updated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,188 @@
+\hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args}{}\section{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args Class Reference}
+\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args}\index{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args}}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a08055fe777a1585dafab7fbeec58b891}{To\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_aa939c25b51a6fa3ceadd3f22d2f630c4}{Download\+Progress}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a0d1c494e39acae88a865520f60d60ea6}{Download\+Speed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a59c5c002bc9b25fea03c12fd0c8a8769}{Download\+Status}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1f2b2510d2f6c011c709be1610bb0a3a}{File\+Location}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_ae708a4da9c599b02372c55dd08294cd5}{File\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+long \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1d39a926b93644e0d7dd5e0c2e6f6164}{File\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a08055fe777a1585dafab7fbeec58b891}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a08055fe777a1585dafab7fbeec58b891}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 13 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Download\+Update(), and Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+14         \{
+15             \textcolor{keywordtype}{string} toReturn = \textcolor{keywordtype}{string}.Empty;
+16             toReturn += \textcolor{stringliteral}{"FileName: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_ae708a4da9c599b02372c55dd08294cd5}{FileName}} + Environment.NewLine;
+17             toReturn += \textcolor{stringliteral}{"FileLocation: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1f2b2510d2f6c011c709be1610bb0a3a}{FileLocation}} + Environment.NewLine;
+18             toReturn += \textcolor{stringliteral}{"DownloadSpeed: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a0d1c494e39acae88a865520f60d60ea6}{DownloadSpeed}}.ToString() + Environment.NewLine;
+19             toReturn += \textcolor{stringliteral}{"FileSize: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1d39a926b93644e0d7dd5e0c2e6f6164}{FileSize}}.ToString() + Environment.NewLine;
+20             toReturn += \textcolor{stringliteral}{"DownloadProgress: "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_aa939c25b51a6fa3ceadd3f22d2f630c4}{DownloadProgress}}.ToString() + Environment.
+      NewLine;
+21             toReturn += \textcolor{stringliteral}{"DownloadStatus "} + \mbox{\hyperlink{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a59c5c002bc9b25fea03c12fd0c8a8769}{DownloadStatus}}.ToString() + Environment.NewLine;
+22             \textcolor{keywordflow}{return} toReturn;
+23         \}
+\end{DoxyCode}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a08055fe777a1585dafab7fbeec58b891_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_ae708a4da9c599b02372c55dd08294cd5}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_ae708a4da9c599b02372c55dd08294cd5}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!File\+Name@{File\+Name}}
+\index{File\+Name@{File\+Name}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{File\+Name}{FileName}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+File\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 7 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Irc\+Client\+Handler.\+On\+Download\+Update(), and Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+7 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1f2b2510d2f6c011c709be1610bb0a3a}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1f2b2510d2f6c011c709be1610bb0a3a}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!File\+Location@{File\+Location}}
+\index{File\+Location@{File\+Location}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{File\+Location}{FileLocation}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+File\+Location\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 8 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+8 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a0d1c494e39acae88a865520f60d60ea6}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a0d1c494e39acae88a865520f60d60ea6}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!Download\+Speed@{Download\+Speed}}
+\index{Download\+Speed@{Download\+Speed}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{Download\+Speed}{DownloadSpeed}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+Download\+Speed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 9 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+9 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1d39a926b93644e0d7dd5e0c2e6f6164}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a1d39a926b93644e0d7dd5e0c2e6f6164}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!File\+Size@{File\+Size}}
+\index{File\+Size@{File\+Size}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{File\+Size}{FileSize}}
+{\footnotesize\ttfamily long Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+File\+Size\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 10 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+\begin{DoxyCode}
+10 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_aa939c25b51a6fa3ceadd3f22d2f630c4}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_aa939c25b51a6fa3ceadd3f22d2f630c4}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!Download\+Progress@{Download\+Progress}}
+\index{Download\+Progress@{Download\+Progress}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{Download\+Progress}{DownloadProgress}}
+{\footnotesize\ttfamily int Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+Download\+Progress\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 11 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+11 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a59c5c002bc9b25fea03c12fd0c8a8769}\label{class_little_weeb_library_1_1_event_arguments_1_1_irc_client_download_event_args_a59c5c002bc9b25fea03c12fd0c8a8769}} 
+\index{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}!Download\+Status@{Download\+Status}}
+\index{Download\+Status@{Download\+Status}!Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args@{Little\+Weeb\+Library\+::\+Event\+Arguments\+::\+Irc\+Client\+Download\+Event\+Args}}
+\subsubsection{\texorpdfstring{Download\+Status}{DownloadStatus}}
+{\footnotesize\ttfamily string Little\+Weeb\+Library.\+Event\+Arguments.\+Irc\+Client\+Download\+Event\+Args.\+Download\+Status\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 12 of file Irc\+Client\+Download\+Args.\+cs.
+
+
+
+Referenced by Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+On\+Irc\+Client\+Download\+Event().
+
+
+\begin{DoxyCode}
+12 \{ \textcolor{keyword}{get}; \textcolor{keyword}{set}; \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Event\+Arguments/\mbox{\hyperlink{_irc_client_download_args_8cs}{Irc\+Client\+Download\+Args.\+cs}}\end{DoxyCompactItemize}

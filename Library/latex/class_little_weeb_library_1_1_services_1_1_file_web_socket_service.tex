@@ -1,0 +1,325 @@
+\hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service}{}\section{Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service Class Reference}
+\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service}\index{Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a06fb16d6cce4fdc44878a384ad85efc4}{File\+Web\+Socket\+Service}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} web\+Socket\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}} file\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}} file\+History\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}} download\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ab1375e8e82a50dfa06d91bebe988d133}{Delete\+File}} (J\+Object file\+Info\+Json)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ae140d076e6f64585e7b71bb51545e1bb}{Open\+File}} (J\+Object file\+Info\+Json)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a972c8d4e2c4c18fc0692b374a5dc0755}{Debug\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a1454bdaf3155b52f7323760d365a4ba5}{Download\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a8ce883130927cd3c38f2cf82c09f5521}{File\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_aa3e7ce6b984037bf7ff11df859b83361}{File\+History\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a6217e3b7706763f8cc5215a352140402}{Web\+Socket\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 17 of file File\+Web\+Socket\+Service.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a06fb16d6cce4fdc44878a384ad85efc4}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a06fb16d6cce4fdc44878a384ad85efc4}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!File\+Web\+Socket\+Service@{File\+Web\+Socket\+Service}}
+\index{File\+Web\+Socket\+Service@{File\+Web\+Socket\+Service}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{File\+Web\+Socket\+Service()}{FileWebSocketService()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+File\+Web\+Socket\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}}}]{web\+Socket\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}}}]{file\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}}}]{file\+History\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}}}]{download\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 27 of file File\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+28         \{           
+29             debugHandler.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Constructor called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+30 
+31             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}} = webSocketHandler;
+32             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler}{FileHandler}} = fileHandler;
+33             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler}{FileHistoryHandler}} = fileHistoryHandler;
+34             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}} = downloadHandler;
+35             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}} = debugHandler;
+36         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a06fb16d6cce4fdc44878a384ad85efc4_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ab1375e8e82a50dfa06d91bebe988d133}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ab1375e8e82a50dfa06d91bebe988d133}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!Delete\+File@{Delete\+File}}
+\index{Delete\+File@{Delete\+File}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Delete\+File()}{DeleteFile()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Delete\+File (\begin{DoxyParamCaption}\item[{J\+Object}]{file\+Info\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_a1d612036848a98701a908e3054d8001f}{Little\+Weeb\+Library.\+Services.\+I\+File\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 39 of file File\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Delete\+File(), Little\+Weeb\+Library.\+Handlers.\+Download\+Handler.\+Remove\+Download(), Little\+Weeb\+Library.\+Handlers.\+File\+History\+Handler.\+Remove\+File\+From\+File\+History(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+File\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+40         \{
+41             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"DeleteFile called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+42             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(fileInfoJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+43 
+44             \textcolor{keywordflow}{try}
+45             \{
+46                 \textcolor{keywordtype}{string} filePath = fileInfoJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+47 
+48                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"//"}))
+49                 \{
+50                     filePath.Replace(\textcolor{stringliteral}{"//"}, \textcolor{stringliteral}{"/"});
+51                 \}
+52 
+53                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}))
+54                 \{
+55                     filePath.Replace(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}, \textcolor{stringliteral}{"\(\backslash\)\(\backslash\)"});
+56                 \}
+57 
+58                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler}{DownloadHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_download_handler_aac22841386d098daef366cbe05262187}{RemoveDownload}}(filePath);
+59                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler}{FileHistoryHandler}}.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_history_handler_a3b3f0cdedee405d607feff81c2de085d}{RemoveFileFromFileHistory}}(filePath);
+60                 \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler}{FileHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_ae1b342c4d821543a0a3400e4e0c95903}{DeleteFile}}(filePath);
+61                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+62             \}
+63             \textcolor{keywordflow}{catch} (Exception e)
+64             \{
+65 
+66                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+67                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+68                 \{
+69                     type = \textcolor{stringliteral}{"parse\_file\_to\_delete\_error"},
+70                     errormessage = \textcolor{stringliteral}{"Could not parse json containing file to delete information."},
+71                     errortype = \textcolor{stringliteral}{"exception"},
+72                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+73                 \};
+74                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+75             \}
+76         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ab1375e8e82a50dfa06d91bebe988d133_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ab1375e8e82a50dfa06d91bebe988d133_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ae140d076e6f64585e7b71bb51545e1bb}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ae140d076e6f64585e7b71bb51545e1bb}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!Open\+File@{Open\+File}}
+\index{Open\+File@{Open\+File}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Open\+File()}{OpenFile()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Open\+File (\begin{DoxyParamCaption}\item[{J\+Object}]{file\+Info\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_file_web_socket_service_a55cfbde72a70fb90c011438a1c415713}{Little\+Weeb\+Library.\+Services.\+I\+File\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 78 of file File\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+File\+Handler.\+Open\+File(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+File\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+79         \{
+80             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"OpenFile called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+81             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(fileInfoJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);            
+82 
+83             \textcolor{keywordflow}{try}
+84             \{
+85                 \textcolor{keywordtype}{string} filePath = fileInfoJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+86 
+87                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"//"}))
+88                 \{
+89                     filePath.Replace(\textcolor{stringliteral}{"//"}, \textcolor{stringliteral}{"/"});
+90                 \}
+91 
+92                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}))
+93                 \{
+94                     filePath.Replace(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}, \textcolor{stringliteral}{"\(\backslash\)\(\backslash\)"});
+95                 \}
+96 
+97                 \textcolor{keywordflow}{if} (filePath != null)
+98                 \{
+99                     \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler}{FileHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_file_handler_a08cbef4974d973035a7ddeedb9f8ff4a}{OpenFile}}(filePath);
+100                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+101                 \}
+102                 \textcolor{keywordflow}{else}
+103                 \{
+104 
+105                     \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"Request does not contain path
+       parameter to open file."}, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+106                     \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+107                     \{
+108                         type = \textcolor{stringliteral}{"parse\_file\_to\_open\_error"},
+109                         errormessage = \textcolor{stringliteral}{"Request does not contain path parameter to open file."},
+110                         errortype = \textcolor{stringliteral}{"warning"},
+111                         exception = \textcolor{stringliteral}{"none"}
+112                     \};
+113 
+114                     await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+115                 \}
+116             \}
+117             \textcolor{keywordflow}{catch} (Exception e)
+118             \{
+119                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+120                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+121                 \{
+122                     type = \textcolor{stringliteral}{"parse\_file\_to\_open\_error"},
+123                     errormessage = \textcolor{stringliteral}{"Could not parse json containing file to open information."},
+124                     errortype = \textcolor{stringliteral}{"exception"},
+125                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+126                 \};
+127 
+128                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+129             \}        
+130         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ae140d076e6f64585e7b71bb51545e1bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_ae140d076e6f64585e7b71bb51545e1bb_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a6217e3b7706763f8cc5215a352140402}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a6217e3b7706763f8cc5215a352140402}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!Web\+Socket\+Handler@{Web\+Socket\+Handler}}
+\index{Web\+Socket\+Handler@{Web\+Socket\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Web\+Socket\+Handler}{WebSocketHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Web\+Socket\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 21 of file File\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a8ce883130927cd3c38f2cf82c09f5521}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a8ce883130927cd3c38f2cf82c09f5521}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!File\+Handler@{File\+Handler}}
+\index{File\+Handler@{File\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{File\+Handler}{FileHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_handler}{I\+File\+Handler}} Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+File\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 22 of file File\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_aa3e7ce6b984037bf7ff11df859b83361}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_aa3e7ce6b984037bf7ff11df859b83361}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!File\+History\+Handler@{File\+History\+Handler}}
+\index{File\+History\+Handler@{File\+History\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{File\+History\+Handler}{FileHistoryHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_file_history_handler}{I\+File\+History\+Handler}} Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+File\+History\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 23 of file File\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a1454bdaf3155b52f7323760d365a4ba5}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a1454bdaf3155b52f7323760d365a4ba5}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!Download\+Handler@{Download\+Handler}}
+\index{Download\+Handler@{Download\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Download\+Handler}{DownloadHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_download_handler}{I\+Download\+Handler}} Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Download\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 24 of file File\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a972c8d4e2c4c18fc0692b374a5dc0755}\label{class_little_weeb_library_1_1_services_1_1_file_web_socket_service_a972c8d4e2c4c18fc0692b374a5dc0755}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+File\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Services.\+File\+Web\+Socket\+Service.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 25 of file File\+Web\+Socket\+Service.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\mbox{\hyperlink{_file_web_socket_service_8cs}{File\+Web\+Socket\+Service.\+cs}}\end{DoxyCompactItemize}

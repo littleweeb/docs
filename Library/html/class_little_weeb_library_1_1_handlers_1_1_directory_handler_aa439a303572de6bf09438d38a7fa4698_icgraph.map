@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace" name="LittleWeebLibrary.Handlers.DirectoryHandler.GetFreeSpace">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#a37c3c5de12db8083e8e6d22ce1fe6776" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.GetFreeSpace" alt="" coords="260,13,532,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html#a9e5e421ed57b8b2a294e17d93d027c53" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController.OnWeb\lSocketEvent" alt="" coords="580,5,829,61"/>
+</map>

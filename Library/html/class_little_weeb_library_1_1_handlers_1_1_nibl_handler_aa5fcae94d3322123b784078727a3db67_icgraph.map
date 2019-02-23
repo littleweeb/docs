@@ -1,0 +1,7 @@
+<map id="LittleWeebLibrary.Handlers.NiblHandler.SearchNibl" name="LittleWeebLibrary.Handlers.NiblHandler.SearchNibl">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler.html#a2f28ad03d4dfe8d90c0392da8af39651" title="LittleWeebLibrary.Handlers.\lAnimeProfileHandler.AnimeLatest\lEpisode" alt="" coords="255,5,471,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_anime_profile_handler.html#a5b163eb7e68b1e40904fa55454d8ba54" title="LittleWeebLibrary.Handlers.\lAnimeProfileHandler.GetAnimeEpisodes" alt="" coords="236,86,491,127"/>
+<area shape="rect" id="node6" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a299be5b400f1368ab169599395a3e56d" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetFiles\lForAnime" alt="" coords="543,153,767,209"/>
+<area shape="rect" id="node4" href="$class_little_weeb_library_1_1_services_1_1_info_api_web_socket_service.html#a754f738fba586cc927d64251329c736a" title="LittleWeebLibrary.Services.\lInfoApiWebSocketService.GetAnime\lEpisodes" alt="" coords="539,73,772,129"/>
+<area shape="rect" id="node5" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_info_api_web_socket_controller.html#ad620537574b819085ff8eb394add2912" title="LittleWeebLibrary.Controllers.\lSubControllers.InfoApiWebSocketController.\lOnWebSocketEvent" alt="" coords="820,113,1097,169"/>
+</map>

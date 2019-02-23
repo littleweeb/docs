@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory" name="LittleWeebLibrary.Handlers.DirectoryHandler.DeleteDirectory">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_directory_web_socket_service.html#ac0af5740848de2340e4d3e9225eeb0d7" title="LittleWeebLibrary.Services.\lDirectoryWebSocketService.Delete\lDirectory" alt="" coords="264,5,489,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_sub_controllers_1_1_directory_web_socket_controller.html#a2db42c05c620f5658a5b6e473581f84c" title="LittleWeebLibrary.Controllers.\lSubControllers.DirectoryWebSocket\lController.OnWebSocketEvent" alt="" coords="537,5,768,61"/>
+</map>

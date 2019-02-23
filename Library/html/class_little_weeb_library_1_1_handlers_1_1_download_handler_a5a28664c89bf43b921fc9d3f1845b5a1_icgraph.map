@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload" name="LittleWeebLibrary.Handlers.DownloadHandler.AbortDownload">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_download_web_socket_service.html#a0ab2f2e6fcb90cd42dfa0de9d6a58f7e" title="LittleWeebLibrary.Services.\lDownloadWebSocketService.AbortDownload" alt="" coords="267,13,545,54"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_controllers_1_1_download_web_socket_controller.html#a9e5e421ed57b8b2a294e17d93d027c53" title="LittleWeebLibrary.Controllers.\lDownloadWebSocketController.OnWeb\lSocketEvent" alt="" coords="593,5,843,61"/>
+</map>

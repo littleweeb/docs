@@ -1,0 +1,4 @@
+<map id="LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.ToString" name="LittleWeebLibrary.EventArguments.IrcClientConnectionStatusArgs.ToString">
+<area shape="rect" id="node2" href="$class_little_weeb_library_1_1_services_1_1_irc_web_socket_service.html#abd98810f045f0200700d8441a0c14902" title="LittleWeebLibrary.Services.\lIrcWebSocketService.OnIrcClient\lConnectionStatusEvent" alt="" coords="308,5,523,61"/>
+<area shape="rect" id="node3" href="$class_little_weeb_library_1_1_handlers_1_1_irc_client_handler.html#a8ffa9ba31b96d32a4c1fdafc04afaf5e" title="LittleWeebLibrary.Handlers.\lIrcClientHandler.OnUserListUpdate" alt="" coords="304,86,527,127"/>
+</map>

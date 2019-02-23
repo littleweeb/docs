@@ -1,0 +1,549 @@
+\hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service}{}\section{Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service Class Reference}
+\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service}\index{Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service}}
+
+
+Inheritance diagram for Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0842064ce4231990ed07bcbacb7a71f}{Directory\+Web\+Socket\+Service}} (\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} web\+Socket\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}} directory\+Handler, \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} debug\+Handler)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a3ea6566e0d21d73d331adce1ae9c7f07}{Create\+Directory}} (J\+Object directory\+Json)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0af5740848de2340e4d3e9225eeb0d7}{Delete\+Directory}} (J\+Object directory\+Json)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a1fee74b9f658b29f4c2bb643a48425e0}{Get\+Directories}} (J\+Object directory\+Json)
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a368f502e063381bccfed714d8350dc69}{Get\+Drives}} ()
+\item 
+async Task \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a37c3c5de12db8083e8e6d22ce1fe6776}{Get\+Free\+Space}} ()
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a223c62acb36e1ac602552fa1ecf67057}{Set\+Irc\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} settings)
+\item 
+void \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a015a3ae2bb0f275de152ae039fad566e}{Set\+Little\+Weeb\+Settings}} (\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} settings)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a2f5d1d89d38705e969d839baf750deb2}{Debug\+Handler}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_abf56baaa5c2889b119df9fac310ddcec}{Directory\+Handler}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_af787fc8865b07d96d3436b2b688b2019}{Irc\+Settings}}
+\item 
+\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ad1f0f5e0e86404fb3b899821afa8ecdb}{Little\+Weeb\+Settings}}
+\item 
+readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} \mbox{\hyperlink{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a425caa3dbf037fe98843e9941c2dd7c7}{Web\+Socket\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 20 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0842064ce4231990ed07bcbacb7a71f}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0842064ce4231990ed07bcbacb7a71f}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Directory\+Web\+Socket\+Service@{Directory\+Web\+Socket\+Service}}
+\index{Directory\+Web\+Socket\+Service@{Directory\+Web\+Socket\+Service}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Directory\+Web\+Socket\+Service()}{DirectoryWebSocketService()}}
+{\footnotesize\ttfamily Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Directory\+Web\+Socket\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}}}]{web\+Socket\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}}}]{directory\+Handler,  }\item[{\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}}}]{debug\+Handler }\end{DoxyParamCaption})}
+
+
+
+Definition at line 31 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+I\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+32         \{
+33             
+34             debugHandler.\mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler_a2e405bc3492e683cd3702fae125221bc}{TraceMessage}}(\textcolor{stringliteral}{"Constructor Called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.CONSTRUCTOR, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+35             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}} = debugHandler;
+36             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}} = webSocketHandler;
+37             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}} = directoryHandler;
+38         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0842064ce4231990ed07bcbacb7a71f_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a3ea6566e0d21d73d331adce1ae9c7f07}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a3ea6566e0d21d73d331adce1ae9c7f07}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Create\+Directory@{Create\+Directory}}
+\index{Create\+Directory@{Create\+Directory}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Create\+Directory()}{CreateDirectory()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Create\+Directory (\begin{DoxyParamCaption}\item[{J\+Object}]{directory\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_a8c80286719a0fb39034e2ba88e244bbe}{Little\+Weeb\+Library.\+Services.\+I\+Directory\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 40 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Create\+Directory(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+41         \{
+42 
+43             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"CreateDirectory called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+44             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(directoryJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+45             \textcolor{keywordflow}{try}
+46             \{
+47 
+48                 \textcolor{keywordtype}{string} filePath = directoryJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+49                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"//"}))
+50                 \{
+51                     filePath.Replace(\textcolor{stringliteral}{"//"}, \textcolor{stringliteral}{"/"});
+52                 \}
+53 
+54                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}))
+55                 \{
+56                     filePath.Replace(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}, \textcolor{stringliteral}{"\(\backslash\)\(\backslash\)"});
+57                 \}
+58                 \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6be1b158ee280e8a74a49917a90484e2}{CreateDirectory}}(filePath, \textcolor{stringliteral}{"
+      "});
+59                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+60             \}
+61             \textcolor{keywordflow}{catch} (Exception e)
+62             \{
+63                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+64 
+65                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+66                 \{
+67                     type = \textcolor{stringliteral}{"create\_directory\_error"},
+68                     errormessage = \textcolor{stringliteral}{"Could not create directory."},
+69                     errortype = \textcolor{stringliteral}{"exception"},
+70                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+71                 \};
+72 
+73                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+74             \}
+75         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a3ea6566e0d21d73d331adce1ae9c7f07_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a3ea6566e0d21d73d331adce1ae9c7f07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0af5740848de2340e4d3e9225eeb0d7}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0af5740848de2340e4d3e9225eeb0d7}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Delete\+Directory@{Delete\+Directory}}
+\index{Delete\+Directory@{Delete\+Directory}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Delete\+Directory()}{DeleteDirectory()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Delete\+Directory (\begin{DoxyParamCaption}\item[{J\+Object}]{directory\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_a7247bbfce026cc39dc8721536c8ba6a8}{Little\+Weeb\+Library.\+Services.\+I\+Directory\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 77 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Delete\+Directory(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+78         \{
+79             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"DeleteDirectory called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+80             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(directoryJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+81             \textcolor{keywordflow}{try}
+82             \{
+83                 \textcolor{keywordtype}{string} filePath = directoryJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+84                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"//"}))
+85                 \{
+86                     filePath.Replace(\textcolor{stringliteral}{"//"}, \textcolor{stringliteral}{"/"});
+87                 \}
+88 
+89                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}))
+90                 \{
+91                     filePath.Replace(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}, \textcolor{stringliteral}{"\(\backslash\)\(\backslash\)"});
+92                 \}
+93                 \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aeae514c438e071fe95c42ff74e0fef9d}{DeleteDirectory}}(filePath);
+94                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+95             \} 
+96             \textcolor{keywordflow}{catch} (Exception e)
+97             \{
+98                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+99               
+100                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+101                 \{
+102                     type = \textcolor{stringliteral}{"create\_directory\_error"},
+103                     errormessage = \textcolor{stringliteral}{"Could not create directory."},
+104                     errortype = \textcolor{stringliteral}{"exception"},
+105                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}()
+106                 \};
+107 
+108                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+109             \}
+110         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0af5740848de2340e4d3e9225eeb0d7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ac0af5740848de2340e4d3e9225eeb0d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a368f502e063381bccfed714d8350dc69}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a368f502e063381bccfed714d8350dc69}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Get\+Drives@{Get\+Drives}}
+\index{Get\+Drives@{Get\+Drives}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Get\+Drives()}{GetDrives()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Drives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_a079ed5bda7dd1c9fa497bf3a1effacaa}{Little\+Weeb\+Library.\+Services.\+I\+Directory\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 112 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Drives(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+113         \{
+114             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"GetDrives called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+115             \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_a6ab9fa9b838eeca3f918429af0a3564d}{GetDrives}}();
+116             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+117         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a368f502e063381bccfed714d8350dc69_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a368f502e063381bccfed714d8350dc69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a1fee74b9f658b29f4c2bb643a48425e0}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a1fee74b9f658b29f4c2bb643a48425e0}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Get\+Directories@{Get\+Directories}}
+\index{Get\+Directories@{Get\+Directories}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Get\+Directories()}{GetDirectories()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Directories (\begin{DoxyParamCaption}\item[{J\+Object}]{directory\+Json }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_a6062c7a41f8cbbe4b78295e4073c5225}{Little\+Weeb\+Library.\+Services.\+I\+Directory\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 119 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Directories(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+Json(), Little\+Weeb\+Library.\+Models.\+Json\+Error.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Sub\+Controllers.\+Directory\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+120         \{
+121             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"GetDirectories called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+122             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(directoryJson.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+123 
+124             \textcolor{keywordflow}{try}
+125             \{
+126 
+127                 \textcolor{keywordtype}{string} filePath = directoryJson.Value<\textcolor{keywordtype}{string}>(\textcolor{stringliteral}{"path"});
+128                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"//"}))
+129                 \{
+130                     filePath.Replace(\textcolor{stringliteral}{"//"}, \textcolor{stringliteral}{"/"});
+131                 \}
+132 
+133                 \textcolor{keywordflow}{if} (filePath.Contains(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}))
+134                 \{
+135                     filePath.Replace(\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)"}, \textcolor{stringliteral}{"\(\backslash\)\(\backslash\)"});
+136                 \}
+137                 \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa9d1414a83cadcf99da2cad30f39b2e3}{GetDirectories}}(filePath);
+138                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+139             \}
+140             \textcolor{keywordflow}{catch} (Exception e)
+141             \{
+142                 \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(e.ToString(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.WARNING);
+143 
+144                 \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}} error = \textcolor{keyword}{new} \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error}{JsonError}}()
+145                 \{
+146                     type = \textcolor{stringliteral}{"create\_directory\_error"},
+147                     errormessage = \textcolor{stringliteral}{"Could not create directory."},
+148                     errortype = \textcolor{stringliteral}{"exception"},
+149                     exception = e.\mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_ad7d5522c90119111d2e929f39e7f6d3c}{ToString}}(),
+150                 \};
+151 
+152                 await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(error.
+      \mbox{\hyperlink{class_little_weeb_library_1_1_models_1_1_json_error_a0e3e7dd2e2990404b7f0461742b23440}{ToJson}}());
+153             \}
+154         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a1fee74b9f658b29f4c2bb643a48425e0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a1fee74b9f658b29f4c2bb643a48425e0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a37c3c5de12db8083e8e6d22ce1fe6776}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a37c3c5de12db8083e8e6d22ce1fe6776}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Get\+Free\+Space@{Get\+Free\+Space}}
+\index{Get\+Free\+Space@{Get\+Free\+Space}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Get\+Free\+Space()}{GetFreeSpace()}}
+{\footnotesize\ttfamily async Task Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Get\+Free\+Space (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_services_1_1_i_directory_web_socket_service_a0a28e43d70bf2d5904bb4e59d1cd6cd7}{Little\+Weeb\+Library.\+Services.\+I\+Directory\+Web\+Socket\+Service}}.
+
+
+
+Definition at line 156 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+fullfilepath, Little\+Weeb\+Library.\+Handlers.\+Directory\+Handler.\+Get\+Free\+Space(), Little\+Weeb\+Library.\+Handlers.\+Web\+Socket\+Handler.\+Send\+Message(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+
+Referenced by Little\+Weeb\+Library.\+Controllers.\+Download\+Web\+Socket\+Controller.\+On\+Web\+Socket\+Event().
+
+
+\begin{DoxyCode}
+157         \{
+158             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"GetFreeSpace called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+159             \textcolor{keywordtype}{string} result = \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler}{DirectoryHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_directory_handler_aa439a303572de6bf09438d38a7fa4698}{GetFreeSpace}}(
+      \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}}.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_ad1f67b09e16ba2b5fed2dcdefeac8e1a}{fullfilepath}});
+160             await \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler}{WebSocketHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_web_socket_handler_a1de289d54d665a32c93478c68d3e6ad0}{SendMessage}}(result);
+161         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a37c3c5de12db8083e8e6d22ce1fe6776_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a37c3c5de12db8083e8e6d22ce1fe6776_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a223c62acb36e1ac602552fa1ecf67057}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a223c62acb36e1ac602552fa1ecf67057}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Set\+Irc\+Settings@{Set\+Irc\+Settings}}
+\index{Set\+Irc\+Settings@{Set\+Irc\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Set\+Irc\+Settings()}{SetIrcSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Set\+Irc\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a9ddf06e247a96d757482b37ddb070e3d}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 163 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Irc\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+164         \{
+165             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"SetIrcSettings called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+166             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings_a2e1d7f26d7d3083d19c3a9e6c6c2d0b2}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+167             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{IrcSettings}} = settings;
+168         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a223c62acb36e1ac602552fa1ecf67057_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a015a3ae2bb0f275de152ae039fad566e}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a015a3ae2bb0f275de152ae039fad566e}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}}
+\index{Set\+Little\+Weeb\+Settings@{Set\+Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Set\+Little\+Weeb\+Settings()}{SetLittleWeebSettings()}}
+{\footnotesize\ttfamily void Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Set\+Little\+Weeb\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}}}]{settings }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_little_weeb_library_1_1_global_interfaces_1_1_i_settings_interface_a5c53e44105f1f4c7f8c3e546d29939d7}{Little\+Weeb\+Library.\+Global\+Interfaces.\+I\+Settings\+Interface}}.
+
+
+
+Definition at line 170 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+References Little\+Weeb\+Library.\+Settings.\+Little\+Weeb\+Settings.\+To\+String(), and Little\+Weeb\+Library.\+Handlers.\+Debug\+Handler.\+Trace\+Message().
+
+
+\begin{DoxyCode}
+171         \{
+172             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(\textcolor{stringliteral}{"SetIrcSettings called."}, 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.ENTRY\_EXIT);
+173             \mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler}{DebugHandler}}.\mbox{\hyperlink{class_little_weeb_library_1_1_handlers_1_1_debug_handler_afccb37dfd6b2114af72000c2f4fe4607}{TraceMessage}}(settings.\mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings_a5a5b722dd8e117be810022882795b6ae}{ToString}}(), 
+      \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_a2a6ca0775121c9c503d58aa254d292be}{DebugSource}}.TASK, \mbox{\hyperlink{namespace_little_weeb_library_1_1_handlers_ab66019ed40462876ec4e61bb3ccb0a62}{DebugType}}.PARAMETERS);
+174             \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{LittleWeebSettings}} = settings;
+175         \}
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a015a3ae2bb0f275de152ae039fad566e_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_abf56baaa5c2889b119df9fac310ddcec}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_abf56baaa5c2889b119df9fac310ddcec}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Directory\+Handler@{Directory\+Handler}}
+\index{Directory\+Handler@{Directory\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Directory\+Handler}{DirectoryHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_directory_handler}{I\+Directory\+Handler}} Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Directory\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 24 of file Directory\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a425caa3dbf037fe98843e9941c2dd7c7}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a425caa3dbf037fe98843e9941c2dd7c7}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Web\+Socket\+Handler@{Web\+Socket\+Handler}}
+\index{Web\+Socket\+Handler@{Web\+Socket\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Web\+Socket\+Handler}{WebSocketHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_web_socket_handler}{I\+Web\+Socket\+Handler}} Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Web\+Socket\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 25 of file Directory\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a2f5d1d89d38705e969d839baf750deb2}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_a2f5d1d89d38705e969d839baf750deb2}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Debug\+Handler@{Debug\+Handler}}
+\index{Debug\+Handler@{Debug\+Handler}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Debug\+Handler}{DebugHandler}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{interface_little_weeb_library_1_1_handlers_1_1_i_debug_handler}{I\+Debug\+Handler}} Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Debug\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 26 of file Directory\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ad1f0f5e0e86404fb3b899821afa8ecdb}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_ad1f0f5e0e86404fb3b899821afa8ecdb}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Little\+Weeb\+Settings@{Little\+Weeb\+Settings}}
+\index{Little\+Weeb\+Settings@{Little\+Weeb\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Little\+Weeb\+Settings}{LittleWeebSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_little_weeb_settings}{Little\+Weeb\+Settings}} Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Little\+Weeb\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 28 of file Directory\+Web\+Socket\+Service.\+cs.
+
+\mbox{\Hypertarget{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_af787fc8865b07d96d3436b2b688b2019}\label{class_little_weeb_library_1_1_services_1_1_directory_web_socket_service_af787fc8865b07d96d3436b2b688b2019}} 
+\index{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}!Irc\+Settings@{Irc\+Settings}}
+\index{Irc\+Settings@{Irc\+Settings}!Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service@{Little\+Weeb\+Library\+::\+Services\+::\+Directory\+Web\+Socket\+Service}}
+\subsubsection{\texorpdfstring{Irc\+Settings}{IrcSettings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_little_weeb_library_1_1_settings_1_1_irc_settings}{Irc\+Settings}} Little\+Weeb\+Library.\+Services.\+Directory\+Web\+Socket\+Service.\+Irc\+Settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 29 of file Directory\+Web\+Socket\+Service.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Services/\mbox{\hyperlink{_directory_web_socket_service_8cs}{Directory\+Web\+Socket\+Service.\+cs}}\end{DoxyCompactItemize}
